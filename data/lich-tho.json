@@ -1,0 +1,25 @@
+[
+  {
+    "ma_khu_pho": [
+      "TN-TB-11",
+      "TN-TB-06",
+      "TN-TB-03",
+      "TN-TB-00"
+    ],
+    "ten_khu_pho": [
+      "Lộc An",
+      "Hòa Bình",
+      "An Quới",
+      "An Hội"
+    ],
+    "chi_so_bit": [
+      11,
+      6,
+      3,
+      0
+    ],
+    "khu_vuc_nguyen_van": "Khu phố Lộc An, Hòa Bình, An Quới, An Hội phường Trảng Bàng",
+    "thoi_gian_nguyen_van": "THỜI GIAN: Từ 07:00:00 ngày 14/08/2026 đến 18:00:00 ngày 14/08/2026",
+    "ly_do": "LÝ DO NGỪNG CUNG CẤP ĐIỆN:\n                                Bảo trì, sửa chữa lưới điện"
+  }
+]

@@ -1,4 +1,4 @@
-# Mái Cúp Điện
+# Mai Cúp Điện
 
 PWA thông báo lịch cúp điện trước 1 ngày cho phường Trảng Bàng, Tây Ninh.
 Không cần đăng nhập, không cần cài đặt qua store — chỉ cần mở web, chọn khu phố, bật thông báo.

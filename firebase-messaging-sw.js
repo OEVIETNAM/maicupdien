@@ -13,12 +13,13 @@ importScripts("https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging-com
 // nen phai khai bao lai cau hinh o day (copy tay tu src/cau-hinh-firebase.js
 // moi khi thay doi — day la han che ky thuat cua Firebase, khong phai loi thiet ke).
 firebase.initializeApp({
-  apiKey: "DIEN_API_KEY_CUA_BAN",
-  authDomain: "TEN_DU_AN.firebaseapp.com",
-  projectId: "TEN_DU_AN",
-  storageBucket: "TEN_DU_AN.appspot.com",
-  messagingSenderId: "SO_DIEN_THOAI_GUI_TIN",
-  appId: "APP_ID_CUA_BAN",
+  apiKey: "AIzaSyCnSnNnqsvDNQNhMnESIvhRkVipqM2-PT4",
+  authDomain: "maicupdien.firebaseapp.com",
+  projectId: "maicupdien",
+  storageBucket: "maicupdien.firebasestorage.app",
+  messagingSenderId: "240311333784",
+  appId: "1:240311333784:web:7919ee058342b5b0ce31ed",
+  measurementId: "G-BRYKE1BZ76"
 });
 
 const messaging = firebase.messaging();

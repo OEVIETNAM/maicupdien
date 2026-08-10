@@ -7,13 +7,14 @@
 // cac gia tri nay.
 
 export const CAU_HINH_FIREBASE = {
-  apiKey: "DIEN_API_KEY_CUA_BAN",
-  authDomain: "TEN_DU_AN.firebaseapp.com",
-  projectId: "TEN_DU_AN",
-  storageBucket: "TEN_DU_AN.appspot.com",
-  messagingSenderId: "SO_DIEN_THOAI_GUI_TIN",
-  appId: "APP_ID_CUA_BAN",
+  apiKey: "AIzaSyCnSnNnqsvDNQNhMnESIvhRkVipqM2-PT4",
+  authDomain: "maicupdien.firebaseapp.com",
+  projectId: "maicupdien",
+  storageBucket: "maicupdien.firebasestorage.app",
+  messagingSenderId: "240311333784",
+  appId: "1:240311333784:web:7919ee058342b5b0ce31ed",
+  measurementId: "G-BRYKE1BZ76"
 };
 
 // Lay tai: Firebase Console > Project settings > Cloud Messaging > Web configuration > Web Push certificates
-export const VAPID_KEY_CONG_KHAI = "DIEN_VAPID_KEY_CUA_BAN";
+export const VAPID_KEY_CONG_KHAI = "BPmPesiidF8TCtKe7xc0P-n9hNQuIMid5se3tGNmE0y51vRV80k7KUopIHsLP09jNfq_Ouk6HulCFmGux4nG2xo";
