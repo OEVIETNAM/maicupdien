@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Mai Cúp Điện — Cảnh báo lịch cúp điện theo khu phố</title>
+<meta name="description" content="Đăng ký nhận thông báo lịch cúp điện trước 1 ngày, theo đúng khu phố bạn sống. Không cần cài app, không cần đăng nhập." />
+
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#0B1220" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<link rel="icon" href="icons/icon-192.png" />
+<link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+<div class="khung-trang">
+
+  <header class="tieu-de">
+    <span class="nhan">Cảnh báo cúp điện · Trảng Bàng, Tây Ninh</span>
+    <h1>Mai Cúp Điện</h1>
+    <p>Chọn đúng khu phố bạn sống. Có lịch cúp điện mới, bạn sẽ nhận thông báo trước — không cần cài đặt, không cần tài khoản.</p>
+  </header>
+
+  <div class="duong-day-dien" aria-hidden="true">
+    <svg viewBox="0 0 400 28" preserveAspectRatio="none">
+      <path class="day" d="M0,20 Q100,4 200,20 T400,20" />
+      <circle class="diem-xung" r="4">
+        <animateMotion dur="3.2s" repeatCount="indefinite"
+          path="M0,20 Q100,4 200,20 T400,20" />
+      </circle>
+    </svg>
+  </div>
+
+  <form id="form-dang-ky">
+
+    <div class="the">
+      <span class="nhan-truong">Khu vực</span>
+      <div class="gia-tri-co-dinh">
+        Phường Trảng Bàng <span class="mo">— Tây Ninh</span>
+      </div>
+    </div>
+
+    <div class="the">
+      <span class="nhan-truong">Chọn (các) khu phố bạn muốn theo dõi</span>
+      <div id="danh-sach-khu-pho" class="danh-sach-khu-pho">
+        <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js -->
+      </div>
+    </div>
+
+    <button type="submit" id="nut-dang-ky" class="nut-chinh">
+      Bật thông báo cho khu vực đã chọn
+    </button>
+
+    <div id="thong-diep-trang-thai" class="thong-diep-trang-thai" role="status"></div>
+  </form>
+
+  <p class="ghi-chu-ios">
+    <b>Dùng iPhone?</b> Bấm biểu tượng chia sẻ ở Safari → chọn
+    <b>"Thêm vào MH chính"</b> → mở lại app từ màn hình chính rồi mới bấm nút
+    bật thông báo ở trên. Mở trực tiếp qua trình duyệt Safari thì thông báo
+    sẽ không hoạt động được.
+  </p>
+
+  <footer class="chan-trang">
+    Dữ liệu tổng hợp từ Điện lực Trảng Bàng (EVNSPC). Tự động xoá sau khi hết thời gian cúp điện.
+  </footer>
+
+</div>
+
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

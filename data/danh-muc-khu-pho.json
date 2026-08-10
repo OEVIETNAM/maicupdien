@@ -1,0 +1,19 @@
+{
+  "_ghi_chu": "chi_so_bit la vi tri bit trong bitmask (BigInt), KHONG BAO GIO tai su dung so cu du sau nay xoa khu pho nao. Muon them tinh/phuong/khu pho moi: chi them dong moi voi chi_so_bit = so lon nhat hien co + 1.",
+  "_chi_so_bit_lon_nhat_da_dung": 13,
+
+  "TN-TB-00": { "chi_so_bit": 0,  "ten_khu_pho": "An Hội",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-01": { "chi_so_bit": 1,  "ten_khu_pho": "An Lợi",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-02": { "chi_so_bit": 2,  "ten_khu_pho": "An Phú",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-03": { "chi_so_bit": 3,  "ten_khu_pho": "An Quới",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-04": { "chi_so_bit": 4,  "ten_khu_pho": "An Thới",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-05": { "chi_so_bit": 5,  "ten_khu_pho": "Gia Huỳnh", "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-06": { "chi_so_bit": 6,  "ten_khu_pho": "Hòa Bình",  "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-07": { "chi_so_bit": 7,  "ten_khu_pho": "Hòa Hội",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-08": { "chi_so_bit": 8,  "ten_khu_pho": "Hòa Hưng",  "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-09": { "chi_so_bit": 9,  "ten_khu_pho": "Hòa Lợi",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-10": { "chi_so_bit": 10, "ten_khu_pho": "Hòa Phú",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-11": { "chi_so_bit": 11, "ten_khu_pho": "Lộc An",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-12": { "chi_so_bit": 12, "ten_khu_pho": "Lộc Du",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
+  "TN-TB-13": { "chi_so_bit": 13, "ten_khu_pho": "Lộc Thành", "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" }
+}

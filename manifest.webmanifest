@@ -1,0 +1,17 @@
+{
+  "name": "Mái Cúp Điện — Cảnh báo lịch cúp điện",
+  "short_name": "Mái Cúp Điện",
+  "description": "Nhận thông báo lịch cúp điện trước 1 ngày theo đúng khu phố bạn sống.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B1220",
+  "theme_color": "#0B1220",
+  "orientation": "portrait",
+  "lang": "vi",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

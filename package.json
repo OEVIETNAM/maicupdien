@@ -1,0 +1,16 @@
+{
+  "name": "maicupdien-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Cac script chay tu dong (GitHub Actions): lay lich cup dien EVNSPC, dong bo Firestore, gui push FCM, don dep du lieu het han.",
+  "scripts": {
+    "lay-du-lieu": "node scripts/lay-du-lieu.mjs",
+    "dong-bo": "node scripts/dong-bo-va-gui-thong-bao.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "firebase-admin": "^12.3.0",
+    "node-fetch": "^3.3.2"
+  }
+}
