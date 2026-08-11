@@ -39,6 +39,33 @@ function co_giao_nhau(a, b) {
   return (a & b) !== 0n;
 }
 
+/** Tach 1 bitmask thanh danh sach chi_so_bit dang bat (dung de biet CHINH XAC
+ *  nhung khu pho nao giao nhau giua nguoi dang ky va ban ghi, thay vi hien
+ *  thi toan bo danh sach khu pho cua ban ghi). */
+function bitmask_sang_danh_sach_chi_so(bitmask) {
+  const ket_qua = [];
+  let con_lai = bitmask;
+  let chi_so = 0;
+  while (con_lai > 0n) {
+    if (con_lai & 1n) ket_qua.push(chi_so);
+    con_lai >>= 1n;
+    chi_so += 1;
+  }
+  return ket_qua;
+}
+
+/** Doc danh muc khu pho, tra ve map nguoc: chi_so_bit -> ten_khu_pho. */
+function doc_map_chi_so_sang_ten() {
+  const duong_dan = path.join(THU_MUC_GOC, "data", "danh-muc-khu-pho.json");
+  const du_lieu_tho = JSON.parse(readFileSync(duong_dan, "utf-8"));
+  const map_ket_qua = {};
+  for (const [ma, thong_tin] of Object.entries(du_lieu_tho)) {
+    if (ma.startsWith("_")) continue;
+    map_ket_qua[thong_tin.chi_so_bit] = thong_tin.ten_khu_pho;
+  }
+  return map_ket_qua;
+}
+
 /** Sinh ma tai lieu on dinh tu noi dung, de chay lai nhieu lan khong bi trung. */
 function tao_ma_tai_lieu(ban_ghi) {
   const chuoi_goc = `${ban_ghi.khu_vuc_nguyen_van}|${ban_ghi.thoi_gian_nguyen_van}|${ban_ghi.ly_do}`;
@@ -98,6 +125,8 @@ async function gui_thong_bao_cho_ban_ghi_moi(co_so_du_lieu, nhan_tin, cac_ban_gh
     return;
   }
 
+  const chi_so_sang_ten = doc_map_chi_so_sang_ten();
+
   const snapshot_dang_ky = await co_so_du_lieu.collection("dang_ky_thong_bao").get();
   const nguoi_dang_ky = snapshot_dang_ky.docs.map((d) => ({
     token: d.id,
@@ -107,30 +136,43 @@ async function gui_thong_bao_cho_ban_ghi_moi(co_so_du_lieu, nhan_tin, cac_ban_gh
   console.log(`Tong so nguoi da dang ky: ${nguoi_dang_ky.length}`);
 
   for (const ban_ghi of cac_ban_ghi_moi) {
-    const cac_token_phu_hop = nguoi_dang_ky
-      .filter((nd) => co_giao_nhau(nd.bitmask, ban_ghi.bitmask))
-      .map((nd) => nd.token);
+    // Voi TUNG nguoi dang ky, tinh rieng phan GIAO NHAU giua bitmask cua ho
+    // va bitmask cua ban ghi — de chi nhac dung khu pho ho quan tam, khong
+    // liet ke thua nhung khu pho khac trong cung ban ghi ma ho khong dang ky.
+    const danh_sach_tin_can_gui = [];
 
-    if (cac_token_phu_hop.length === 0) continue;
+    for (const nd of nguoi_dang_ky) {
+      const bitmask_giao_nhau = nd.bitmask & ban_ghi.bitmask;
+      if (bitmask_giao_nhau === 0n) continue; // khong lien quan gi den nguoi nay
 
-    const noi_dung_thong_bao = {
-      notification: {
-        title: "Sắp cúp điện",
-        body: `Khu phố ${ban_ghi.ten_khu_pho.join(", ")}: ${ban_ghi.thoi_gian_nguyen_van.replace(/\s+/g, " ")}. Lý do: ${ban_ghi.ly_do}`,
-      },
-      tokens: cac_token_phu_hop,
-    };
+      const ten_khu_pho_rieng_cua_ho = bitmask_sang_danh_sach_chi_so(bitmask_giao_nhau)
+        .map((chi_so) => chi_so_sang_ten[chi_so])
+        .filter(Boolean);
 
-    const ket_qua_gui = await nhan_tin.sendEachForMulticast(noi_dung_thong_bao);
+      danh_sach_tin_can_gui.push({
+        token: nd.token,
+        notification: {
+          title: "Sắp cúp điện",
+          body: `Khu phố ${ten_khu_pho_rieng_cua_ho.join(", ")}: ${ban_ghi.thoi_gian_nguyen_van.replace(/\s+/g, " ")}. Lý do: ${ban_ghi.ly_do}`,
+        },
+      });
+    }
+
+    if (danh_sach_tin_can_gui.length === 0) continue;
+
+    // sendEach cho phep moi tin nhan co noi dung khac nhau (khac voi
+    // sendEachForMulticast — tin giong het nhau cho tat ca token)
+    const ket_qua_gui = await nhan_tin.sendEach(danh_sach_tin_can_gui);
     console.log(
-      `Da gui cho ${cac_token_phu_hop.length} thiet bi (thanh cong: ${ket_qua_gui.successCount}, that bai: ${ket_qua_gui.failureCount}) — ${ban_ghi.ten_khu_pho.join(", ")}`
+      `Da gui cho ${danh_sach_tin_can_gui.length} thiet bi (thanh cong: ${ket_qua_gui.successCount}, that bai: ${ket_qua_gui.failureCount}) — ban ghi: ${ban_ghi.ten_khu_pho.join(", ")}`
     );
 
     // Don sach token khong con hop le (nguoi dung go cai/tat quyen) de bitmask
     // khong bi doi chieu voi thiet bi chet trong cac lan chay sau
     ket_qua_gui.responses.forEach((phan_hoi, chi_so) => {
       if (!phan_hoi.success && phan_hoi.error?.code === "messaging/registration-token-not-registered") {
-        co_so_du_lieu.collection("dang_ky_thong_bao").doc(cac_token_phu_hop[chi_so]).delete().catch(() => {});
+        const token_loi = danh_sach_tin_can_gui[chi_so].token;
+        co_so_du_lieu.collection("dang_ky_thong_bao").doc(token_loi).delete().catch(() => {});
       }
     });
   }

@@ -1,4 +1,4 @@
-# Mai Cúp Điện
+# Mái Cúp Điện
 
 PWA thông báo lịch cúp điện trước 1 ngày cho phường Trảng Bàng, Tây Ninh.
 Không cần đăng nhập, không cần cài đặt qua store — chỉ cần mở web, chọn khu phố, bật thông báo.
@@ -50,11 +50,17 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     // Nguoi dung tu ghi dang ky cua chinh minh (doc id = FCM token cua ho)
+    // Cho phep DOC lai chinh tai lieu cua minh (can de app kiem tra "da dang ky chua"
+    // khi mo lai trang), nhung KHONG cho doc tai lieu cua nguoi khac.
     match /dang_ky_thong_bao/{token} {
-      allow read: if false;       // khong ai doc duoc danh sach dang ky cua nguoi khac
+      allow get: if request.auth == null; // Firestore khong phan biet duoc "chinh minh" khi khong dang nhap,
+                                            // nen o day cho phep doc theo dung token (token nhu 1 "mat khau ngau nhien"
+                                            // ma chi thiet bi cua ho moi biet) — chap nhan duoc voi quy mo MVP.
+      allow list: if false; // KHONG cho liet ke toan bo danh sach dang ky cua moi nguoi
       allow write: if request.resource.data.keys().hasAll(['bitmask', 'ma_khu_pho']);
     }
-    // lich_cup_dien chi GitHub Actions (Admin SDK) moi ghi duoc, ai cung doc duoc de hien thi cong khai neu can
+    // lich_cup_dien: ai cung doc/query duoc (can thiet cho man hinh trang thai
+    // dung array-contains-any), chi Admin SDK (GitHub Actions) moi ghi duoc
     match /lich_cup_dien/{id} {
       allow read: if true;
       allow write: if false; // Admin SDK dung service account, khong bi Rules chan
@@ -62,6 +68,12 @@ service cloud.firestore {
   }
 }
 ```
+
+**Lưu ý bảo mật:** vì không có đăng nhập, "khoá" bảo vệ dữ liệu đăng ký chính là bản thân FCM token (chuỗi ngẫu nhiên dài, khó đoán). Đây là đánh đổi hợp lý cho MVP không cần tài khoản, nhưng không phải bảo mật tuyệt đối — nếu sau này mở rộng và cần chặt chẽ hơn, nên cân nhắc Firebase Anonymous Auth để có `request.auth.uid` thật sự kiểm tra được.
+
+### 3b. Chỉ mục (Index) cho truy vấn array-contains-any
+
+Truy vấn `where("ma_khu_pho", "array-contains-any", ...)` dùng single-field index, Firestore **tự tạo sẵn**, không cần bạn làm gì thêm. Nếu sau này kết hợp thêm `where` hoặc `orderBy` khác cùng lúc, Firestore Console sẽ tự hiện đường link để tạo composite index khi cần (thường báo lỗi kèm link trực tiếp trong log GitHub Actions hoặc console trình duyệt).
 
 ### 4. (Khuyến nghị) Bật Firestore TTL tự động
 
