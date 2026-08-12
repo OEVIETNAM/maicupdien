@@ -13,8 +13,7 @@ permissions:
 jobs:
   cap-nhat:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # can de commit lai data/danh-muc-khu-pho.json khi phat hien Xa/Phuong hoac khu pho moi
+    
     steps:
       - name: Lay ma nguon
         uses: actions/checkout@v4
