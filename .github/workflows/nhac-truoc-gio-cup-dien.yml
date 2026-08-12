@@ -6,6 +6,10 @@ on:
     # luong canh dung thoi diem "con 24h nua la cup" de nhac nguoi dung.
     - cron: "*/15 * * * *"
   workflow_dispatch: {} # cho phep bam chay tay tu tab Actions de test
+# Thêm cấu hình quyền trực tiếp tại đây
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   nhac-nho:
