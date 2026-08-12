@@ -1,0 +1,35 @@
+{
+  "_ghi_chu": [
+    "Day la DANH SACH DUYET (driver) - noi cac ma don vi dien luc (madvi) cap",
+    "huyen/thi xa cua EVNSPC ma scripts/lay-du-lieu.mjs se lap qua de goi API.",
+    "",
+    "KHAC VOI data/danh-muc-khu-pho.json: file do la du lieu Xa/Phuong + khu",
+    "pho/ap duoc TU DONG KHAM PHA tu du lieu that cua EVNSPC khi crawl, khong",
+    "phai go tay. File nay chi can go tay 1 lan khi them 1 huyen/thi xa moi."
+  ],
+  "don_vi": [
+    { "ma_dien_luc": "PB0501", "ten_don_vi": "Điện lực Tân Ninh" },
+    { "ma_dien_luc": "PB0502", "ten_don_vi": "Điện lực Gò Dầu" },
+    { "ma_dien_luc": "PB0503", "ten_don_vi": "Điện lực Trảng Bàng" },
+    { "ma_dien_luc": "PB0504", "ten_don_vi": "Điện lực Tân Châu" },
+    { "ma_dien_luc": "PB0505", "ten_don_vi": "Điện lực Thái Bình" },
+    { "ma_dien_luc": "PB0506", "ten_don_vi": "Điện lực Dương Minh Châu" },
+    { "ma_dien_luc": "PB0507", "ten_don_vi": "Điện lực Tân Biên" },
+    { "ma_dien_luc": "PB0508", "ten_don_vi": "Điện lực Hòa Thành" },
+    { "ma_dien_luc": "PB0509", "ten_don_vi": "Điện lực Bến Cầu" },
+    { "ma_dien_luc": "PB0601", "ten_don_vi": "Điện lực Tân An" },
+    { "ma_dien_luc": "PB0602", "ten_don_vi": "Điện lực Thủ Thừa" },
+    { "ma_dien_luc": "PB0603", "ten_don_vi": "Điện lực Đức Hòa" },
+    { "ma_dien_luc": "PB0604", "ten_don_vi": "Điện lực Cần Giuộc" },
+    { "ma_dien_luc": "PB0605", "ten_don_vi": "Điện lực Kiến Tường" },
+    { "ma_dien_luc": "PB0606", "ten_don_vi": "Điện lực Bến Lức" },
+    { "ma_dien_luc": "PB0607", "ten_don_vi": "Điện lực Cần Đước" },
+    { "ma_dien_luc": "PB0608", "ten_don_vi": "Điện lực Tân Thạnh" },
+    { "ma_dien_luc": "PB0609", "ten_don_vi": "Điện lực Tân Trụ" },
+    { "ma_dien_luc": "PB0610", "ten_don_vi": "Điện lực Đức Huệ" },
+    { "ma_dien_luc": "PB0611", "ten_don_vi": "Điện lực Thạnh Hóa" },
+    { "ma_dien_luc": "PB0612", "ten_don_vi": "Điện lực Vĩnh Hưng" },
+    { "ma_dien_luc": "PB0613", "ten_don_vi": "Điện lực Tân Hưng" },
+    { "ma_dien_luc": "PB0614", "ten_don_vi": "Điện lực Tầm Vu" }
+  ]
+}

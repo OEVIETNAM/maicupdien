@@ -1,9 +1,14 @@
 // Doc data/lich-tho.json (do scripts/lay-du-lieu.mjs tao ra), lam 3 viec:
 //   1) Ghi vao Firestore collection "lich_cup_dien" (idempotent — chay lai
 //      nhieu lan khong tao trung du lieu, nho ma tai lieu la hash noi dung)
-//   2) Voi NHUNG BAN GHI MOI (chua tung thay), doi chieu bitmask voi
-//      collection "dang_ky_thong_bao" va gui push FCM cho dung nguoi
+//   2) Voi NHUNG BAN GHI MOI (chua tung thay), doi chieu bitmask voi NGUOI
+//      DANG KY CUNG XA/PHUONG (query rieng theo ma_phuong — khong doc het
+//      toan bo nguoi dang ky trong tinh, de van chay nhanh khi mo rong ca
+//      tinh Tay Ninh) va gui push FCM "Lich cup dien moi" ngay lap tuc
 //   3) Xoa cac ban ghi lich_cup_dien da qua thoi gian ket thuc (don dep)
+//
+// Nhac truoc gio cup dien (24h) la 1 luong RIENG, xem
+// scripts/nhac-truoc-gio-cup-dien.mjs — chay theo lich rieng, thuong xuyen hon.
 //
 // Can bien moi truong FIREBASE_SERVICE_ACCOUNT_KEY_JSON (JSON service account,
 // luu trong GitHub Actions Secrets — xem README.md).
@@ -35,13 +40,6 @@ function tao_bitmask(danh_sach_chi_so) {
   for (const chi_so of danh_sach_chi_so) ket_qua |= (1n << BigInt(chi_so));
   return ket_qua;
 }
-function co_giao_nhau(a, b) {
-  return (a & b) !== 0n;
-}
-
-/** Tach 1 bitmask thanh danh sach chi_so_bit dang bat (dung de biet CHINH XAC
- *  nhung khu pho nao giao nhau giua nguoi dang ky va ban ghi, thay vi hien
- *  thi toan bo danh sach khu pho cua ban ghi). */
 function bitmask_sang_danh_sach_chi_so(bitmask) {
   const ket_qua = [];
   let con_lai = bitmask;
@@ -54,21 +52,10 @@ function bitmask_sang_danh_sach_chi_so(bitmask) {
   return ket_qua;
 }
 
-/** Doc danh muc khu pho, tra ve map nguoc: chi_so_bit -> ten_khu_pho. */
-function doc_map_chi_so_sang_ten() {
-  const duong_dan = path.join(THU_MUC_GOC, "data", "danh-muc-khu-pho.json");
-  const du_lieu_tho = JSON.parse(readFileSync(duong_dan, "utf-8"));
-  const map_ket_qua = {};
-  for (const [ma, thong_tin] of Object.entries(du_lieu_tho)) {
-    if (ma.startsWith("_")) continue;
-    map_ket_qua[thong_tin.chi_so_bit] = thong_tin.ten_khu_pho;
-  }
-  return map_ket_qua;
-}
-
-/** Sinh ma tai lieu on dinh tu noi dung, de chay lai nhieu lan khong bi trung. */
+/** Sinh ma tai lieu on dinh tu noi dung (bao gom ma_phuong de tranh trung giua
+ *  cac Xa/Phuong khac nhau), de chay lai nhieu lan khong bi trung. */
 function tao_ma_tai_lieu(ban_ghi) {
-  const chuoi_goc = `${ban_ghi.khu_vuc_nguyen_van}|${ban_ghi.thoi_gian_nguyen_van}|${ban_ghi.ly_do}`;
+  const chuoi_goc = `${ban_ghi.ma_phuong}|${ban_ghi.khu_vuc_nguyen_van}|${ban_ghi.thoi_gian_nguyen_van}|${ban_ghi.ly_do}`;
   return createHash("sha256").update(chuoi_goc, "utf-8").digest("hex").slice(0, 24);
 }
 
@@ -99,7 +86,8 @@ async function dong_bo_va_tra_ve_ban_ghi_moi(co_so_du_lieu, danh_sach_ban_ghi) {
     const bitmask = tao_bitmask(ban_ghi.chi_so_bit);
 
     await tham_chieu.set({
-      ma_khu_pho: ban_ghi.ma_khu_pho,
+      ma_phuong: ban_ghi.ma_phuong,
+      ten_phuong: ban_ghi.ten_phuong,
       ten_khu_pho: ban_ghi.ten_khu_pho,
       bitmask: bitmask.toString(),
       khu_vuc_nguyen_van: ban_ghi.khu_vuc_nguyen_van,
@@ -107,16 +95,31 @@ async function dong_bo_va_tra_ve_ban_ghi_moi(co_so_du_lieu, danh_sach_ban_ghi) {
       ly_do: ban_ghi.ly_do,
       tu_luc: tu_luc ? admin.firestore.Timestamp.fromDate(tu_luc) : null,
       den_luc: den_luc ? admin.firestore.Timestamp.fromDate(den_luc) : null,
+      da_gui_nhac: false, // dung boi scripts/nhac-truoc-gio-cup-dien.mjs, khong dong vao day
       cap_nhat_luc: admin.firestore.FieldValue.serverTimestamp(),
     }, { merge: true });
 
     if (!da_ton_tai) {
       cac_ban_ghi_moi.push({ ...ban_ghi, bitmask, ma_tai_lieu });
-      console.log(`[MOI] ${ban_ghi.ten_khu_pho.join(", ")} — ${ban_ghi.thoi_gian_nguyen_van.replace(/\s+/g, " ")}`);
+      console.log(`[MOI] ${ban_ghi.ten_phuong} — ${ban_ghi.ten_khu_pho.join(", ")} — ${ban_ghi.thoi_gian_nguyen_van.replace(/\s+/g, " ")}`);
     }
   }
 
   return cac_ban_ghi_moi;
+}
+
+/** Lay danh sach nguoi dang ky CUNG 1 Xa/Phuong (query truc tiep, khong doc
+ *  het toan bo collection — quan trong de van nhanh khi so nguoi dang ky
+ *  tang len sau khi mo rong ca tinh). */
+async function lay_nguoi_dang_ky_theo_phuong(co_so_du_lieu, ma_phuong) {
+  const snapshot = await co_so_du_lieu
+    .collection("dang_ky_thong_bao")
+    .where("ma_phuong", "==", ma_phuong)
+    .get();
+  return snapshot.docs.map((d) => ({
+    token: d.id,
+    bitmask: BigInt(d.data().bitmask || "0"),
+  }));
 }
 
 async function gui_thong_bao_cho_ban_ghi_moi(co_so_du_lieu, nhan_tin, cac_ban_ghi_moi) {
@@ -125,50 +128,45 @@ async function gui_thong_bao_cho_ban_ghi_moi(co_so_du_lieu, nhan_tin, cac_ban_gh
     return;
   }
 
-  const chi_so_sang_ten = doc_map_chi_so_sang_ten();
-
-  const snapshot_dang_ky = await co_so_du_lieu.collection("dang_ky_thong_bao").get();
-  const nguoi_dang_ky = snapshot_dang_ky.docs.map((d) => ({
-    token: d.id,
-    bitmask: BigInt(d.data().bitmask || "0"),
-  }));
-
-  console.log(`Tong so nguoi da dang ky: ${nguoi_dang_ky.length}`);
+  // Gom nhom theo ma_phuong de chi query nguoi dang ky 1 lan cho moi phuong
+  // (du 1 phuong co nhieu ban ghi moi trong cung 1 lan chay).
+  const cache_nguoi_dang_ky_theo_phuong = new Map();
 
   for (const ban_ghi of cac_ban_ghi_moi) {
-    // Voi TUNG nguoi dang ky, tinh rieng phan GIAO NHAU giua bitmask cua ho
-    // va bitmask cua ban ghi — de chi nhac dung khu pho ho quan tam, khong
-    // liet ke thua nhung khu pho khac trong cung ban ghi ma ho khong dang ky.
+    if (!cache_nguoi_dang_ky_theo_phuong.has(ban_ghi.ma_phuong)) {
+      const nguoi_dang_ky = await lay_nguoi_dang_ky_theo_phuong(co_so_du_lieu, ban_ghi.ma_phuong);
+      cache_nguoi_dang_ky_theo_phuong.set(ban_ghi.ma_phuong, nguoi_dang_ky);
+      console.log(`[${ban_ghi.ten_phuong}] So nguoi da dang ky: ${nguoi_dang_ky.length}`);
+    }
+
+    const nguoi_dang_ky = cache_nguoi_dang_ky_theo_phuong.get(ban_ghi.ma_phuong);
     const danh_sach_tin_can_gui = [];
 
     for (const nd of nguoi_dang_ky) {
       const bitmask_giao_nhau = nd.bitmask & ban_ghi.bitmask;
       if (bitmask_giao_nhau === 0n) continue; // khong lien quan gi den nguoi nay
 
-      const ten_khu_pho_rieng_cua_ho = bitmask_sang_danh_sach_chi_so(bitmask_giao_nhau)
-        .map((chi_so) => chi_so_sang_ten[chi_so])
-        .filter(Boolean);
+      const chi_so_giao_nhau = bitmask_sang_danh_sach_chi_so(bitmask_giao_nhau);
+      const ten_khu_pho_rieng_cua_ho = ban_ghi.ten_khu_pho.filter((_, i) =>
+        chi_so_giao_nhau.includes(ban_ghi.chi_so_bit[i])
+      );
 
       danh_sach_tin_can_gui.push({
         token: nd.token,
         notification: {
           title: "Sắp cúp điện",
-          body: `Khu phố ${ten_khu_pho_rieng_cua_ho.join(", ")}: ${ban_ghi.thoi_gian_nguyen_van.replace(/\s+/g, " ")}. Lý do: ${ban_ghi.ly_do}`,
+          body: `${ban_ghi.ten_phuong} — khu phố ${ten_khu_pho_rieng_cua_ho.join(", ")}: ${ban_ghi.thoi_gian_nguyen_van.replace(/\s+/g, " ")}. Lý do: ${ban_ghi.ly_do}`,
         },
       });
     }
 
     if (danh_sach_tin_can_gui.length === 0) continue;
 
-    // sendEach cho phep moi tin nhan co noi dung khac nhau (khac voi
-    // sendEachForMulticast — tin giong het nhau cho tat ca token)
     const ket_qua_gui = await nhan_tin.sendEach(danh_sach_tin_can_gui);
     console.log(
-      `Da gui cho ${danh_sach_tin_can_gui.length} thiet bi (thanh cong: ${ket_qua_gui.successCount}, that bai: ${ket_qua_gui.failureCount}) — ban ghi: ${ban_ghi.ten_khu_pho.join(", ")}`
+      `Da gui cho ${danh_sach_tin_can_gui.length} thiet bi (thanh cong: ${ket_qua_gui.successCount}, that bai: ${ket_qua_gui.failureCount}) — ban ghi: ${ban_ghi.ten_phuong} — ${ban_ghi.ten_khu_pho.join(", ")}`
     );
 
-    // Don sach token khong con hop le (nguoi dung go cai/tat quyen) de bitmask
-    // khong bi doi chieu voi thiet bi chet trong cac lan chay sau
     ket_qua_gui.responses.forEach((phan_hoi, chi_so) => {
       if (!phan_hoi.success && phan_hoi.error?.code === "messaging/registration-token-not-registered") {
         const token_loi = danh_sach_tin_can_gui[chi_so].token;

@@ -16,9 +16,9 @@
 <div class="khung-trang">
 
   <header class="tieu-de">
-    <span class="nhan">Cảnh báo cúp điện · Trảng Bàng, Tây Ninh</span>
+    <span class="nhan">Cảnh báo cúp điện · Tỉnh Tây Ninh</span>
     <h1>Mái Cúp Điện</h1>
-    <p>Chọn đúng khu phố bạn sống. Có lịch cúp điện mới, bạn sẽ nhận thông báo trước — không cần cài đặt, không cần tài khoản.</p>
+    <p>Chọn đúng xã/phường và khu phố bạn sống. Có lịch cúp điện mới, bạn sẽ nhận thông báo — kèm nhắc lại trước giờ cúp khoảng 1 ngày.</p>
   </header>
 
   <div class="duong-day-dien" aria-hidden="true">
@@ -34,17 +34,20 @@
   <form id="form-dang-ky">
 
     <div class="the">
-      <span class="nhan-truong">Khu vực</span>
-      <div class="gia-tri-co-dinh">
-        Phường Trảng Bàng <span class="mo">— Tây Ninh</span>
-      </div>
+      <span class="nhan-truong">Chọn xã/phường bạn sống</span>
+      <select id="chon-phuong" class="chon-phuong">
+        <option value="">— Chọn xã/phường —</option>
+        <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js -->
+      </select>
+      <p class="ghi-chu-chon-phuong">Mỗi tài khoản chỉ theo dõi được 1 xã/phường. Muốn đổi sang xã/phường khác, chọn lại ở đây rồi bật thông báo lại.</p>
     </div>
 
-    <div class="the">
+    <div class="the" id="the-chon-khu-pho">
       <span class="nhan-truong">Chọn (các) khu phố bạn muốn theo dõi</span>
       <div id="danh-sach-khu-pho" class="danh-sach-khu-pho">
-        <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js -->
+        <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js, sau khi chon phuong -->
       </div>
+      <p id="thong-diep-chua-chon-phuong" class="ghi-chu-chon-phuong">Hãy chọn xã/phường ở trên trước.</p>
     </div>
 
     <button type="submit" id="nut-dang-ky" class="nut-chinh">
@@ -57,6 +60,7 @@
   <section id="man-hinh-trang-thai" class="an" aria-live="polite">
     <div class="the">
       <span class="nhan-truong">Khu vực bạn đang theo dõi</span>
+      <div id="ten-phuong-dang-theo-doi" class="gia-tri-co-dinh"></div>
     </div>
     <div id="danh-sach-the-trang-thai" class="danh-sach-the-trang-thai"></div>
     <button type="button" id="nut-sua-dang-ky" class="nut-phu">
@@ -72,7 +76,7 @@
   </p>
 
   <footer class="chan-trang">
-    Dữ liệu tổng hợp từ Điện lực Trảng Bàng (EVNSPC). Tự động xoá sau khi hết thời gian cúp điện.
+    Dữ liệu tổng hợp từ các Điện lực trực thuộc EVNSPC tại tỉnh Tây Ninh. Tự động xoá sau khi hết thời gian cúp điện.
   </footer>
 
 </div>

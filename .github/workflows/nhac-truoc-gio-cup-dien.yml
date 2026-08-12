@@ -1,0 +1,29 @@
+name: Nhac truoc gio cup dien
+
+on:
+  schedule:
+    # Chay moi 15 phut - can tan suat day hon workflow crawl chinh, vi day la
+    # luong canh dung thoi diem "con 24h nua la cup" de nhac nguoi dung.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {} # cho phep bam chay tay tu tab Actions de test
+
+jobs:
+  nhac-nho:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lay ma nguon
+        uses: actions/checkout@v4
+
+      - name: Cai dat Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Cai dat dependencies
+        run: npm install
+
+      - name: Gui nhac cho cac ban ghi sap den gio (trong 24h toi)
+        env:
+          FIREBASE_SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY_JSON }}
+        run: node scripts/nhac-truoc-gio-cup-dien.mjs

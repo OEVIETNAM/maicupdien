@@ -1,8 +1,23 @@
-// Lay lich cup dien phuong Trang Bang tu API that cua EVNSPC.
+// Lay lich cup dien cho TAT CA don vi dien luc (cap huyen/thi xa) liet ke
+// trong data/danh-muc-dien-luc.json, tu API that cua EVNSPC.
 // Chay boi GitHub Actions (xem .github/workflows/cap-nhat-lich-cup-dien.yml)
 //
-// Dau ra: ghi file data/lich-tho.json — danh sach ban ghi da loc theo
-// dung 14 khu pho phuong Trang Bang, kem theo chi_so_bit tuong ung.
+// CHE DO TU KHAM PHA (auto-discovery): script se TU DONG nhan dien ten
+// Xa/Phuong va ten khu pho/ap ngay trong du lieu that tra ve tu EVNSPC, roi
+// TU BO SUNG vao data/danh-muc-khu-pho.json neu chua co - khong can go tay
+// truoc danh sach nay cho tung Xa/Phuong. Ly do: du lieu chinh xac nhat luon
+// la du lieu goc cua EVNSPC, khong phai danh sach tong hop tu nguon khac co
+// the sai lech (vd ghi gop nhieu xa dung chung 1 danh sach ap).
+//
+// QUY TAC AN TOAN duy nhat khi tu dong ghi: CHI DUOC THEM vao CUOI mang
+// khu_pho cua 1 Xa/Phuong da ton tai — khong bao gio xoa/doi vi tri phan tu
+// cu, de khong lam sai bitmask cua nguoi da dang ky truoc do.
+//
+// Dau ra:
+//   - data/lich-tho.json           danh sach ban ghi lich cup dien da loc
+//   - data/danh-muc-khu-pho.json   CO THE duoc cap nhat (them Xa/Phuong hoac
+//                                   khu pho/ap moi phat hien) — workflow se
+//                                   tu dong commit lai file nay neu co thay doi
 
 import fetch from "node-fetch";
 import * as cheerio from "cheerio";
@@ -12,7 +27,6 @@ import path from "node:path";
 
 const THU_MUC_GOC = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
-const MA_DIEN_LUC_TRANG_BANG = "PB0503";
 const URL_API = "https://www.cskh.evnspc.vn/TraCuu/GetThongTinLichNgungGiamCungCapDien";
 const URL_TRANG_GOC = "https://www.cskh.evnspc.vn/TraCuu/LichNgungGiamCungCapDien";
 
@@ -23,34 +37,79 @@ const TIEU_DE_GIA_LAP_TRINH_DUYET = {
   Referer: URL_TRANG_GOC,
 };
 
-function doc_danh_muc_khu_pho() {
-  const duong_dan = path.join(THU_MUC_GOC, "data", "danh-muc-khu-pho.json");
-  const du_lieu_tho = JSON.parse(readFileSync(duong_dan, "utf-8"));
-  return Object.fromEntries(
-    Object.entries(du_lieu_tho).filter(([ma]) => !ma.startsWith("_"))
-  );
+const DUONG_DAN_DANH_MUC_DIEN_LUC = path.join(THU_MUC_GOC, "data", "danh-muc-dien-luc.json");
+const DUONG_DAN_DANH_MUC_KHU_PHO = path.join(THU_MUC_GOC, "data", "danh-muc-khu-pho.json");
+const DUONG_DAN_LICH_THO = path.join(THU_MUC_GOC, "data", "lich-tho.json");
+
+function doc_danh_sach_don_vi() {
+  const du_lieu = JSON.parse(readFileSync(DUONG_DAN_DANH_MUC_DIEN_LUC, "utf-8"));
+  return du_lieu.don_vi;
 }
 
-function tach_khu_pho_tu_van_ban(van_ban_khu_vuc, danh_sach_ten_khu_pho) {
-  const ket_qua = [];
-  const cac_cum_theo_phuong = van_ban_khu_vuc.split(";");
+function doc_danh_muc_khu_pho() {
+  return JSON.parse(readFileSync(DUONG_DAN_DANH_MUC_KHU_PHO, "utf-8"));
+}
 
-  for (const cum of cac_cum_theo_phuong) {
-    if (!cum.includes("Trảng Bàng")) continue;
+function ghi_danh_muc_khu_pho(danh_muc) {
+  writeFileSync(DUONG_DAN_DANH_MUC_KHU_PHO, JSON.stringify(danh_muc, null, 2) + "\n", "utf-8");
+}
 
-    const phan_truoc_phuong = cum.split(/[Pp]hường\s*Trảng\s*Bàng/)[0];
-    const bo_tien_to = phan_truoc_phuong.replace(/khu\s*phố/gi, "");
-    const cac_ten_tho = bo_tien_to.split(",").map((t) => t.trim().replace(/[.\s]+$/, ""));
+/** Bo dau tieng Viet + chuan hoa thanh khoa dinh danh vd "TN-TRANGBANG". */
+function tao_khoa_phuong(ten_phuong) {
+  const khong_dau = ten_phuong
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/gi, (k) => (k === "đ" ? "d" : "D"));
+  const slug = khong_dau.toUpperCase().replace(/[^A-Z0-9]/g, "");
+  return `TN-${slug}`;
+}
 
-    for (const ten_tho of cac_ten_tho) {
-      for (const ten_chuan of danh_sach_ten_khu_pho) {
-        if (ten_chuan.toLowerCase() === ten_tho.toLowerCase()) {
-          ket_qua.push(ten_chuan);
-        }
-      }
-    }
+/** Tim hoac tao 1 Xa/Phuong trong danh_muc (mutate truc tiep). Tra ve khoa. */
+function tim_hoac_tao_phuong(danh_muc, ten_phuong, ma_dien_luc, ten_don_vi) {
+  const khoa = tao_khoa_phuong(ten_phuong);
+  if (!danh_muc[khoa]) {
+    danh_muc[khoa] = {
+      ten_phuong,
+      ten_huyen: ten_don_vi.replace(/^Điện lực\s*/i, ""),
+      ma_dien_luc,
+      khu_pho: [],
+    };
+    console.log(`  [MOI] Phat hien Xa/Phuong moi: "${ten_phuong}" (${khoa})`);
+  } else if (!danh_muc[khoa].ma_dien_luc) {
+    danh_muc[khoa].ma_dien_luc = ma_dien_luc;
   }
-  return [...new Set(ket_qua)];
+  return khoa;
+}
+
+/** Them ten_khu_pho vao mang khu_pho cua 1 phuong NEU CHUA CO (chi them vao
+ *  cuoi). Tra ve chi_so_bit (vi tri) cua ten do trong mang, du la moi hay cu. */
+function tim_hoac_them_khu_pho(danh_muc, khoa_phuong, ten_khu_pho) {
+  const phuong = danh_muc[khoa_phuong];
+  const chi_so_co_san = phuong.khu_pho.findIndex((t) => t.toLowerCase() === ten_khu_pho.toLowerCase());
+  if (chi_so_co_san !== -1) return chi_so_co_san;
+
+  phuong.khu_pho.push(ten_khu_pho);
+  const chi_so_moi = phuong.khu_pho.length - 1;
+  console.log(`  [MOI] "${phuong.ten_phuong}": them khu pho/ap moi "${ten_khu_pho}" (bit ${chi_so_moi})`);
+  return chi_so_moi;
+}
+
+/** Tach 1 cum van ban KHU VUC (da split theo ";") thanh {ten_phuong, ten_khu_pho_tho[]}.
+ *  Vi du cum: "khu phố An Hòa, An Phú. Phường Trảng Bàng"
+ *  Tong quat, khong gioi han vao 1 ten phuong cu the — nhan dien "Phường X" / "Xã X" bat ky. */
+function tach_1_cum(cum_van_ban) {
+  const khop = cum_van_ban.match(/(?:[Pp]hường|[Xx]ã)\s+([^,;.]+?)(?:[,.]|$)/);
+  if (!khop) return null;
+
+  const ten_phuong = khop[1].trim();
+  const phan_truoc_phuong = cum_van_ban.slice(0, khop.index);
+  const bo_tien_to = phan_truoc_phuong.replace(/khu\s*phố|ấp/gi, "");
+  const ten_khu_pho_tho = bo_tien_to
+    .split(",")
+    .map((t) => t.trim().replace(/[.\s]+$/, ""))
+    .filter(Boolean);
+
+  return { ten_phuong, ten_khu_pho_tho };
 }
 
 async function lay_cookie_tu_trang_goc() {
@@ -66,9 +125,9 @@ function dinh_dang_ngay(doi_tuong_ngay) {
   return `${ngay}-${thang}-${nam}`;
 }
 
-async function lay_html_lich_cup_dien(tu_ngay, den_ngay, chuoi_cookie) {
+async function lay_html_lich_cup_dien(ma_dien_luc, tu_ngay, den_ngay, chuoi_cookie) {
   const tham_so = new URLSearchParams({
-    madvi: MA_DIEN_LUC_TRANG_BANG,
+    madvi: ma_dien_luc,
     tuNgay: dinh_dang_ngay(tu_ngay),
     denNgay: dinh_dang_ngay(den_ngay),
     ChucNang: "MaDonVi",
@@ -77,18 +136,15 @@ async function lay_html_lich_cup_dien(tu_ngay, den_ngay, chuoi_cookie) {
   const phan_hoi = await fetch(`${URL_API}?${tham_so}`, {
     headers: { ...TIEU_DE_GIA_LAP_TRINH_DUYET, Cookie: chuoi_cookie },
   });
-  if (!phan_hoi.ok) throw new Error(`API tra ve loi HTTP ${phan_hoi.status}`);
+  if (!phan_hoi.ok) throw new Error(`API tra ve loi HTTP ${phan_hoi.status} (ma_dien_luc=${ma_dien_luc})`);
   return phan_hoi.text();
 }
 
-function phan_tich_html(html_tho, danh_muc_khu_pho) {
+/** Phan tich 1 trang HTML cua 1 don vi dien luc (co the chua NHIEU Xa/Phuong
+ *  khac nhau trong cac ban ghi). Vua tra ve ban ghi, vua CAP NHAT danh_muc
+ *  (mutate truc tiep) voi Xa/Phuong / khu pho moi phat hien. */
+function phan_tich_html(html_tho, ma_dien_luc, ten_don_vi, danh_muc) {
   const $ = cheerio.load(html_tho);
-  const danh_sach_ten_khu_pho = Object.values(danh_muc_khu_pho).map((t) => t.ten_khu_pho);
-  // map nguoc: ten khu pho -> ma_khu_pho (de tra chi_so_bit)
-  const ten_sang_ma = Object.fromEntries(
-    Object.entries(danh_muc_khu_pho).map(([ma, tt]) => [tt.ten_khu_pho, ma])
-  );
-
   const ket_qua = [];
 
   $("div.entry").each((_, phan_tu) => {
@@ -96,43 +152,56 @@ function phan_tich_html(html_tho, danh_muc_khu_pho) {
     const van_ban_thoi_gian = $(phan_tu).find("span.time").text().replace(/^THỜI GIAN:\s*/, "").replace(/\s+/g, " ").trim();
     const van_ban_ly_do = $(phan_tu).find("span.cause").text().replace(/^LÝ DO NGỪNG CUNG CẤP ĐIỆN:\s*/, "").trim();
 
-    const ten_khu_pho_phu_hop = tach_khu_pho_tu_van_ban(van_ban_khu_vuc, danh_sach_ten_khu_pho);
-    if (ten_khu_pho_phu_hop.length === 0) return; // khong lien quan phuong Trang Bang
+    for (const cum of van_ban_khu_vuc.split(";")) {
+      const da_tach = tach_1_cum(cum);
+      if (!da_tach || da_tach.ten_khu_pho_tho.length === 0) continue;
 
-    const ma_khu_pho_phu_hop = ten_khu_pho_phu_hop.map((ten) => ten_sang_ma[ten]);
-    const chi_so_bit_phu_hop = ma_khu_pho_phu_hop.map((ma) => danh_muc_khu_pho[ma].chi_so_bit);
+      const khoa_phuong = tim_hoac_tao_phuong(danh_muc, da_tach.ten_phuong, ma_dien_luc, ten_don_vi);
+      const chi_so_bit = da_tach.ten_khu_pho_tho.map((ten) => tim_hoac_them_khu_pho(danh_muc, khoa_phuong, ten));
 
-    ket_qua.push({
-      ma_khu_pho: ma_khu_pho_phu_hop,
-      ten_khu_pho: ten_khu_pho_phu_hop,
-      chi_so_bit: chi_so_bit_phu_hop,
-      khu_vuc_nguyen_van: van_ban_khu_vuc,
-      thoi_gian_nguyen_van: van_ban_thoi_gian,
-      ly_do: van_ban_ly_do,
-    });
+      ket_qua.push({
+        ma_phuong: khoa_phuong,
+        ten_phuong: danh_muc[khoa_phuong].ten_phuong,
+        ten_khu_pho: da_tach.ten_khu_pho_tho.map((_, i) => danh_muc[khoa_phuong].khu_pho[chi_so_bit[i]]),
+        chi_so_bit,
+        khu_vuc_nguyen_van: van_ban_khu_vuc,
+        thoi_gian_nguyen_van: van_ban_thoi_gian,
+        ly_do: van_ban_ly_do,
+      });
+    }
   });
 
   return ket_qua;
 }
 
 async function chay() {
-  const danh_muc_khu_pho = doc_danh_muc_khu_pho();
+  const danh_sach_don_vi = doc_danh_sach_don_vi();
+  const danh_muc = doc_danh_muc_khu_pho();
 
   const hom_nay = new Date();
   const ngay_ket_thuc = new Date(hom_nay);
   ngay_ket_thuc.setDate(hom_nay.getDate() + 4);
 
-  console.log(`Dang lay lich cup dien tu ${dinh_dang_ngay(hom_nay)} den ${dinh_dang_ngay(ngay_ket_thuc)}...`);
+  console.log(`Se crawl ${danh_sach_don_vi.length} don vi dien luc, tu ${dinh_dang_ngay(hom_nay)} den ${dinh_dang_ngay(ngay_ket_thuc)}...`);
 
   const chuoi_cookie = await lay_cookie_tu_trang_goc();
-  const html_tho = await lay_html_lich_cup_dien(hom_nay, ngay_ket_thuc, chuoi_cookie);
-  const ket_qua = phan_tich_html(html_tho, danh_muc_khu_pho);
+  const tat_ca_ban_ghi = [];
 
-  console.log(`Tim thay ${ket_qua.length} ban ghi lien quan phuong Trang Bang.`);
+  for (const don_vi of danh_sach_don_vi) {
+    try {
+      const html_tho = await lay_html_lich_cup_dien(don_vi.ma_dien_luc, hom_nay, ngay_ket_thuc, chuoi_cookie);
+      const ket_qua = phan_tich_html(html_tho, don_vi.ma_dien_luc, don_vi.ten_don_vi, danh_muc);
+      tat_ca_ban_ghi.push(...ket_qua);
+      console.log(`[${don_vi.ten_don_vi}] tim thay ${ket_qua.length} ban ghi.`);
+    } catch (loi) {
+      console.error(`[${don_vi.ten_don_vi}] Loi khi crawl (ma_dien_luc=${don_vi.ma_dien_luc}):`, loi.message);
+      // Khong dung toan bo script chi vi 1 don vi loi - tiep tuc cac don vi con lai
+    }
+  }
 
-  const duong_dan_ra = path.join(THU_MUC_GOC, "data", "lich-tho.json");
-  writeFileSync(duong_dan_ra, JSON.stringify(ket_qua, null, 2), "utf-8");
-  console.log(`Da ghi ket qua vao ${duong_dan_ra}`);
+  ghi_danh_muc_khu_pho(danh_muc); // co the khong doi gi ca - workflow se tu kiem tra git diff
+  writeFileSync(DUONG_DAN_LICH_THO, JSON.stringify(tat_ca_ban_ghi, null, 2), "utf-8");
+  console.log(`\nDa ghi ${tat_ca_ban_ghi.length} ban ghi (tat ca don vi) vao ${DUONG_DAN_LICH_THO}`);
 }
 
 chay().catch((loi) => {

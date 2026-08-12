@@ -9,6 +9,8 @@ on:
 jobs:
   cap-nhat:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # can de commit lai data/danh-muc-khu-pho.json khi phat hien Xa/Phuong hoac khu pho moi
     steps:
       - name: Lay ma nguon
         uses: actions/checkout@v4
@@ -22,10 +24,22 @@ jobs:
       - name: Cai dat dependencies
         run: npm install
 
-      - name: Lay du lieu lich cup dien tu EVNSPC
+      - name: Lay du lieu lich cup dien tu EVNSPC (co the tu phat hien Xa/Phuong hoac khu pho moi)
         run: node scripts/lay-du-lieu.mjs
 
       - name: Dong bo Firestore va gui thong bao
         env:
           FIREBASE_SERVICE_ACCOUNT_KEY_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY_JSON }}
         run: node scripts/dong-bo-va-gui-thong-bao.mjs
+
+      - name: Tu dong commit neu danh muc khu pho co thay doi
+        run: |
+          if ! git diff --quiet -- data/danh-muc-khu-pho.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/danh-muc-khu-pho.json
+            git commit -m "Tu dong cap nhat danh muc khu pho (phat hien Xa/Phuong hoac khu pho/ap moi)"
+            git push
+          else
+            echo "Danh muc khu pho khong doi, khong can commit."
+          fi

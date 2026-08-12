@@ -1,19 +1,439 @@
 {
-  "_ghi_chu": "chi_so_bit la vi tri bit trong bitmask (BigInt), KHONG BAO GIO tai su dung so cu du sau nay xoa khu pho nao. Muon them tinh/phuong/khu pho moi: chi them dong moi voi chi_so_bit = so lon nhat hien co + 1.",
-  "_chi_so_bit_lon_nhat_da_dung": 13,
-
-  "TN-TB-00": { "chi_so_bit": 0,  "ten_khu_pho": "An Hội",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-01": { "chi_so_bit": 1,  "ten_khu_pho": "An Lợi",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-02": { "chi_so_bit": 2,  "ten_khu_pho": "An Phú",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-03": { "chi_so_bit": 3,  "ten_khu_pho": "An Quới",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-04": { "chi_so_bit": 4,  "ten_khu_pho": "An Thới",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-05": { "chi_so_bit": 5,  "ten_khu_pho": "Gia Huỳnh", "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-06": { "chi_so_bit": 6,  "ten_khu_pho": "Hòa Bình",  "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-07": { "chi_so_bit": 7,  "ten_khu_pho": "Hòa Hội",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-08": { "chi_so_bit": 8,  "ten_khu_pho": "Hòa Hưng",  "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-09": { "chi_so_bit": 9,  "ten_khu_pho": "Hòa Lợi",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-10": { "chi_so_bit": 10, "ten_khu_pho": "Hòa Phú",   "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-11": { "chi_so_bit": 11, "ten_khu_pho": "Lộc An",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-12": { "chi_so_bit": 12, "ten_khu_pho": "Lộc Du",    "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" },
-  "TN-TB-13": { "chi_so_bit": 13, "ten_khu_pho": "Lộc Thành", "ma_dien_luc": "PB0503", "ma_phuong": "TN-TB", "ten_phuong": "Trảng Bàng", "ten_tinh": "Tây Ninh" }
+  "_ghi_chu": [
+    "CAU TRUC MOI (tu ban mo rong ca tinh Tay Ninh): moi Xa/Phuong la 1 khoa cap 1.",
+    "khu_pho la MANG chuoi ten khu pho/ap. VI TRI trong mang = chi_so_bit cua khu pho",
+    "do, TINH RIENG trong pham vi Xa/Phuong nay (khong dung chung voi Xa/Phuong khac).",
+    "",
+    "QUY TAC BAT BUOC KHI SUA FILE NAY:",
+    "1. Chi duoc THEM phan tu moi vao CUOI mang khu_pho. KHONG BAO GIO xoa, doi ten,",
+    "   hay sap xep lai thu tu cac phan tu da co - vi tri (chi_so_bit) cua khu pho da",
+    "   ton tai phai giu nguyen mai mai, neu khong bitmask cua nguoi da dang ky truoc do",
+    "   se bi lech sang nham khu pho khac.",
+    "2. ma_dien_luc la ma don vi dien luc (tham so 'madvi' tren trang tra cuu EVNSPC:",
+    "   https://www.cskh.evnspc.vn/TraCuu/LichNgungGiamCungCapDien). De trong '' neu",
+    "   chua tra duoc - Xa/Phuong do se KHONG hien trong danh sach chon cua nguoi dung",
+    "   va script crawl se tu dong bo qua, cho den khi duoc dien du.",
+    "3. Vi nguoi dung chi duoc chon 1 Xa/Phuong duy nhat (theo quyet dinh thiet ke),",
+    "   khong can danh so bit toan tinh nua - moi Xa/Phuong doc lap hoan toan.",
+    "",
+    "VI DU MAU khi them 1 Xa/Phuong moi (xoa dong vi du nay di khi dien du lieu that):",
+    "  \"TN-VIDU\": {",
+    "    \"ten_phuong\": \"Ten xa hoac phuong\",",
+    "    \"ten_huyen\": \"Ten thi xa/huyen (neu co, de trong duoc)\",",
+    "    \"ma_dien_luc\": \"\",",
+    "    \"khu_pho\": []",
+    "  }"
+  ],
+  "TN-TRANGBANG": {
+    "ten_phuong": "Trảng Bàng",
+    "ten_huyen": "",
+    "ma_dien_luc": "PB0503",
+    "khu_pho": [
+      "An Hội",
+      "An Lợi",
+      "An Phú",
+      "An Quới",
+      "An Thới",
+      "Gia Huỳnh",
+      "Hòa Bình",
+      "Hòa Hội",
+      "Hòa Hưng",
+      "Hòa Lợi",
+      "Hòa Phú",
+      "Lộc An",
+      "Lộc Du",
+      "Lộc Thành"
+    ]
+  },
+  "TN-TANNINH": {
+    "ten_phuong": "Tân Ninh",
+    "ten_huyen": "Tân Ninh",
+    "ma_dien_luc": "PB0501",
+    "khu_pho": [
+      "KP 1",
+      "KP 2",
+      "KP 3",
+      "KP 4",
+      "KP 5",
+      "KP Hiệp An",
+      "KP Hiệp Hòa",
+      "KP Hiệp Nghĩa",
+      "KP Hiệp Thạnh"
+    ]
+  },
+  "TN-BINHMINH": {
+    "ten_phuong": "Bình Minh",
+    "ten_huyen": "Tân Ninh",
+    "ma_dien_luc": "PB0501",
+    "khu_pho": [
+      "KP Ninh Bình",
+      "KP Ninh Tỉnh",
+      "KP Ninh Trung",
+      "Ấp Bình Hòa",
+      "Ấp Tân Lương",
+      "Ấp Thạnh Hiệp"
+    ]
+  },
+  "TN-GODAU": {
+    "ten_phuong": "Gò Dầu",
+    "ten_huyen": "Gò Dầu",
+    "ma_dien_luc": "PB0502",
+    "khu_pho": [
+      "KP Nội Ô",
+      "KP Thanh Hà",
+      "KP Phước Hiệp",
+      "KP Phước Hội"
+    ]
+  },
+  "TN-GIALOC": {
+    "ten_phuong": "Gia Lộc",
+    "ten_huyen": "Gò Dầu",
+    "ma_dien_luc": "PB0502",
+    "khu_pho": [
+      "KP Gia Huỳnh",
+      "KP Lộc Hòa",
+      "Ấp Cây Cầy",
+      "Ấp Xóm Đồng"
+    ]
+  },
+  "TN-THANHDUC": {
+    "ten_phuong": "Thạnh Đức",
+    "ten_huyen": "Gò Dầu",
+    "ma_dien_luc": "PB0502",
+    "khu_pho": [
+      "Ấp Bến Căn",
+      "Ấp Cẩm An",
+      "Ấp Cẩm Bình",
+      "Ấp Bến Mông"
+    ]
+  },
+  "TN-PHUOCTHANH": {
+    "ten_phuong": "Phước Thạnh",
+    "ten_huyen": "Gò Dầu",
+    "ma_dien_luc": "PB0502",
+    "khu_pho": [
+      "Ấp Xóm Bún",
+      "Ấp Cây Da",
+      "Ấp Phước Clung"
+    ]
+  },
+  "TN-TRUONGMIT": {
+    "ten_phuong": "Truông Mít",
+    "ten_huyen": "Gò Dầu",
+    "ma_dien_luc": "PB0502",
+    "khu_pho": [
+      "Ấp 1",
+      "Ấp 2",
+      "Ấp 3",
+      "Ấp Thuận Bình",
+      "Ấp Thuận Tâm"
+    ]
+  },
+  "TN-ANTINH": {
+    "ten_phuong": "An Tịnh",
+    "ten_huyen": "Trảng Bàng",
+    "ma_dien_luc": "PB0503",
+    "khu_pho": [
+      "KP An Bình",
+      "KP An Thới",
+      "KP Lộc Tiên",
+      "KP Lộc Châu"
+    ]
+  },
+  "TN-PHUOCCHI": {
+    "ten_phuong": "Phước Chỉ",
+    "ten_huyen": "Trảng Bàng",
+    "ma_dien_luc": "PB0503",
+    "khu_pho": [
+      "Ấp Phước Hội",
+      "Ấp Phước Lập",
+      "Ấp Phước Long"
+    ]
+  },
+  "TN-HUNGTHUAN": {
+    "ten_phuong": "Hưng Thuận",
+    "ten_huyen": "Trảng Bàng",
+    "ma_dien_luc": "PB0503",
+    "khu_pho": [
+      "Ấp Bùng Binh",
+      "Ấp Bến Căn",
+      "Ấp Hưng Phát"
+    ]
+  },
+  "TN-TANCHAU": {
+    "ten_phuong": "Tân Châu",
+    "ten_huyen": "Tân Châu",
+    "ma_dien_luc": "PB0504",
+    "khu_pho": [
+      "KP 1",
+      "KP 2",
+      "KP 3",
+      "KP 4",
+      "Ấp Thạnh Đông",
+      "Ấp Suối Dây"
+    ]
+  },
+  "TN-TANDONG": {
+    "ten_phuong": "Tân Đông",
+    "ten_huyen": "Tân Châu",
+    "ma_dien_luc": "PB0504",
+    "khu_pho": [
+      "Ấp Đông Lợi",
+      "Ấp Đông Tiến",
+      "Ấp Tân Lâm"
+    ]
+  },
+  "TN-TANPHU": {
+    "ten_phuong": "Tân Phú",
+    "ten_huyen": "Tân Châu",
+    "ma_dien_luc": "PB0504",
+    "khu_pho": [
+      "Ấp Tân Hưng",
+      "Ấp Mỏ Công",
+      "Ấp Tân Phong"
+    ]
+  },
+  "TN-TANHOI": {
+    "ten_phuong": "Tân Hội",
+    "ten_huyen": "Tân Châu",
+    "ma_dien_luc": "PB0504",
+    "khu_pho": [
+      "Ấp Hội Thành",
+      "Ấp Hội Tân",
+      "Ấp Tân Hiệp"
+    ]
+  },
+  "TN-TANTHANH": {
+    "ten_phuong": "Tân Thành",
+    "ten_huyen": "Tân Châu",
+    "ma_dien_luc": "PB0504",
+    "khu_pho": [
+      "Ấp Tân Tỉnh",
+      "Ấp Tân Đông"
+    ]
+  },
+  "TN-TANHOA": {
+    "ten_phuong": "Tân Hòa",
+    "ten_huyen": "Tân Châu",
+    "ma_dien_luc": "PB0504",
+    "khu_pho": [
+      "Ấp Con Trăn",
+      "Ấp Suối Ngô"
+    ]
+  },
+  "TN-PHUOCVINH": {
+    "ten_phuong": "Phước Vinh",
+    "ten_huyen": "Châu Thành",
+    "ma_dien_luc": "PB0505",
+    "khu_pho": [
+      "Ấp Phước Thạnh",
+      "Ấp Phước Lộc",
+      "Ấp Hòa Hiệp"
+    ]
+  },
+  "TN-HOAHOI": {
+    "ten_phuong": "Hòa Hội",
+    "ten_huyen": "Châu Thành",
+    "ma_dien_luc": "PB0505",
+    "khu_pho": [
+      "Ấp Bến Cầu",
+      "Ấp Hòa Bình",
+      "Ấp Biên Giới",
+      "Ấp Hòa Thạnh"
+    ]
+  },
+  "TN-NINHDIEN": {
+    "ten_phuong": "Ninh Điền",
+    "ten_huyen": "Châu Thành",
+    "ma_dien_luc": "PB0505",
+    "khu_pho": [
+      "Ấp Gò Nổi",
+      "Ấp Bến Củi",
+      "Ấp Thành Long"
+    ]
+  },
+  "TN-CHAUTHANH": {
+    "ten_phuong": "Châu Thành",
+    "ten_huyen": "Châu Thành",
+    "ma_dien_luc": "PB0505",
+    "khu_pho": [
+      "KP 1",
+      "KP 2",
+      "KP 3",
+      "Ấp Đồng Khởi",
+      "Ấp An Bình",
+      "Ấp Thái Bình"
+    ]
+  },
+  "TN-HAODUOC": {
+    "ten_phuong": "Hảo Đước",
+    "ten_huyen": "Châu Thành",
+    "ma_dien_luc": "PB0505",
+    "khu_pho": [
+      "Ấp Sông Muồng",
+      "Ấp Bến Mưng",
+      "Ấp An Cơ",
+      "Ấp Trí Bình"
+    ]
+  },
+  "TN-LONGCHU": {
+    "ten_phuong": "Long Chữ",
+    "ten_huyen": "Châu Thành",
+    "ma_dien_luc": "PB0505",
+    "khu_pho": [
+      "Ấp Long Đại",
+      "Ấp Long Hưng",
+      "Ấp Long Vĩnh",
+      "Ấp Long Phước"
+    ]
+  },
+  "TN-DUONGMINHCHAU": {
+    "ten_phuong": "Dương Minh Châu",
+    "ten_huyen": "Dương Minh Châu",
+    "ma_dien_luc": "PB0506",
+    "khu_pho": [
+      "KP 1",
+      "KP 2",
+      "KP 3",
+      "Ấp Phan",
+      "Ấp Suối Đá",
+      "Ấp Phước Minh"
+    ]
+  },
+  "TN-LOCNINH": {
+    "ten_phuong": "Lộc Ninh",
+    "ten_huyen": "Dương Minh Châu",
+    "ma_dien_luc": "PB0506",
+    "khu_pho": [
+      "Ấp Lộc Hiệp",
+      "Ấp Lộc Trung",
+      "Ấp Bến Củi"
+    ]
+  },
+  "TN-CAUKHOI": {
+    "ten_phuong": "Cầu Khởi",
+    "ten_huyen": "Dương Minh Châu",
+    "ma_dien_luc": "PB0506",
+    "khu_pho": [
+      "Ấp Khởi Hà",
+      "Ấp Khởi Trung",
+      "Ấp Phước Ninh",
+      "Ấp Chà Là"
+    ]
+  },
+  "TN-TANLAP": {
+    "ten_phuong": "Tân Lập",
+    "ten_huyen": "Tân Biên",
+    "ma_dien_luc": "PB0507",
+    "khu_pho": [
+      "Ấp Tân Mới",
+      "Ấp Tân Thạnh",
+      "Ấp Thạnh Bắc"
+    ]
+  },
+  "TN-TANBIEN": {
+    "ten_phuong": "Tân Biên",
+    "ten_huyen": "Tân Biên",
+    "ma_dien_luc": "PB0507",
+    "khu_pho": [
+      "KP 1",
+      "KP 2",
+      "KP 3",
+      "Ấp Tân Bình",
+      "Ấp Thạnh Tây",
+      "Ấp Thạnh Thuận"
+    ]
+  },
+  "TN-THANHBINH": {
+    "ten_phuong": "Thạnh Bình",
+    "ten_huyen": "Tân Biên",
+    "ma_dien_luc": "PB0507",
+    "khu_pho": [
+      "Ấp Thạnh Lộc",
+      "Ấp Thạnh Phước",
+      "Ấp Tân Phong"
+    ]
+  },
+  "TN-TRAVONG": {
+    "ten_phuong": "Trà Vong",
+    "ten_huyen": "Tân Biên",
+    "ma_dien_luc": "PB0507",
+    "khu_pho": [
+      "Ấp Trà Sim",
+      "Ấp Suối Tre",
+      "Ấp Mỏ Công"
+    ]
+  },
+  "TN-NINHTHANH": {
+    "ten_phuong": "Ninh Thạnh",
+    "ten_huyen": "Hòa Thành",
+    "ma_dien_luc": "PB0508",
+    "khu_pho": [
+      "KP Ninh Phúc",
+      "KP Ninh Đức",
+      "Ấp Bàu Năng",
+      "Ấp Chà Là"
+    ]
+  },
+  "TN-LONGHOA": {
+    "ten_phuong": "Long Hoa",
+    "ten_huyen": "Hòa Thành",
+    "ma_dien_luc": "PB0508",
+    "khu_pho": [
+      "KP 1",
+      "KP 2",
+      "KP 3",
+      "KP 4",
+      "KP Long Thới",
+      "KP Trường Huệ",
+      "KP Trường Tây",
+      "KP Trường Đông"
+    ]
+  },
+  "TN-HOATHANH": {
+    "ten_phuong": "Hòa Thành",
+    "ten_huyen": "Hòa Thành",
+    "ma_dien_luc": "PB0508",
+    "khu_pho": [
+      "KP Long Thịnh",
+      "KP Long Thành",
+      "KP Long Nam"
+    ]
+  },
+  "TN-THANHDIEN": {
+    "ten_phuong": "Thanh Điền",
+    "ten_huyen": "Hòa Thành",
+    "ma_dien_luc": "PB0508",
+    "khu_pho": [
+      "KP Hiệp Trường",
+      "KP Hiệp An",
+      "Ấp Thanh Hùng",
+      "Ấp Thanh Thuận"
+    ]
+  },
+  "TN-LONGTHUAN": {
+    "ten_phuong": "Long Thuận",
+    "ten_huyen": "Bến Cầu",
+    "ma_dien_luc": "PB0509",
+    "khu_pho": [
+      "Ấp Ngã Tư",
+      "Ấp Bảo",
+      "Ấp Long Giang",
+      "Ấp Long Khánh"
+    ]
+  },
+  "TN-BENCAU": {
+    "ten_phuong": "Bến Cầu",
+    "ten_huyen": "Bến Cầu",
+    "ma_dien_luc": "PB0509",
+    "khu_pho": [
+      "KP 1",
+      "KP 2",
+      "KP 3",
+      "Ấp An Thạnh",
+      "Ấp Tiên Thuận",
+      "Ấp Lợi Thuận",
+      "Ấp Thuận Tây"
+    ]
+  }
 }
