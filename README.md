@@ -194,6 +194,7 @@ Ngoài việc `scripts/dong-bo-va-gui-thong-bao.mjs` tự xoá bản ghi hết h
 ### 6. Chạy thử thủ công lần đầu
 
 Vào tab **Actions** của repo → có 2 workflow:
+
 - "Cap nhat lich cup dien va gui thong bao" (crawl + thông báo lịch mới)
 - "Nhac truoc gio cup dien" (nhắc riêng trước 24h)
 
