@@ -127,7 +127,9 @@
       "Đá Hàng",
       "Xóm Bố",
       "Cây Da",
-      "Xóm Mía"
+      "Xóm Mía",
+      "Cây Nính",
+      "Giữa"
     ]
   },
   "TN-TRUONGMIT": {
@@ -306,7 +308,8 @@
       "Ấp Thái Bình",
       "Tam Hạp",
       "Suối Muồn",
-      "Chòm Dừa"
+      "Chòm Dừa",
+      "Cầy Xiêng"
     ]
   },
   "TN-HAODUOC": {
@@ -373,7 +376,9 @@
       "Ấp Khởi Trung",
       "Ấp Phước Ninh",
       "Ấp Chà Là",
-      "Khởi Trung"
+      "Khởi Trung",
+      "Phước Tân",
+      "Khởi Nghĩa"
     ]
   },
   "TN-TANLAP": {
@@ -464,7 +469,9 @@
       "1",
       "2",
       "Long Mỹ",
-      "Trường Huệ"
+      "Trường Huệ",
+      "Trường Cửu",
+      "Trường Lưu"
     ]
   },
   "TN-HOATHANH": {
@@ -551,7 +558,8 @@
       "đường Nguyễn Văn Tịch",
       "đường Đỗ Văn Giàu",
       "đường Trần Văn Ngà",
-      "Một phần đường Đinh Viết Cừu"
+      "Một phần đường Đinh Viết Cừu",
+      "Một phần  Nhơn Trị"
     ]
   },
   "TN-KHANHHAU": {
@@ -560,7 +568,8 @@
     "ma_dien_luc": "PB0601",
     "khu_pho": [
       "Một phần đường Phạm Văn Thành",
-      "Một phần  Ngãi Lợi A"
+      "Một phần  Ngãi Lợi A",
+      "Một phần đường Vành Đai"
     ]
   },
   "TN-MYTHANH": {
@@ -581,7 +590,9 @@
     "ma_dien_luc": "PB0602",
     "khu_pho": [
       "Một phần  Nhị Thành 1",
-      "Thủ Khoa Thừa 5"
+      "Thủ Khoa Thừa 5",
+      "Toàn bộ Công ty TNHH Hoàng Gia Nhựt Quang",
+      "Bình Thạnh 3"
     ]
   },
   "TN-TANLONG": {
@@ -837,7 +848,8 @@
       "Công ty Cổ Phần Tập đoàn SVN  5",
       "Công ty TNHH Thuận Nhiên An  5",
       "Công ty TNHH INSULATION Thanh Cảnh  5",
-      "Công ty Cổ Phần Bê Tông IBS  5"
+      "Công ty Cổ Phần Bê Tông IBS  5",
+      "Công ty TNHH Thương Mại Vận Tải Nam Trí  3"
     ]
   },
   "TN-BENLUC": {
@@ -851,7 +863,8 @@
       "HKD Phạm Văn Hai  Thanh Hiêp",
       "Cơ sở nước đá Lý Gia  Thanh Phú",
       "Công ty CP SAVINA  Bến Lức 9",
-      "Công ty TNHH HUI FENG  Bến Lức 9"
+      "Công ty TNHH HUI FENG  Bến Lức 9",
+      "Doanh Nghiệp Tư Nhân Quang Thịnh  2 An Thạnh"
     ]
   },
   "TN-MYYEN": {
@@ -869,7 +882,11 @@
       "Cty TNHH Zahonero VN KCN Phúc Long",
       "Công ty TNHH Din Sen Việt Nam (Long An) Enterprise  Voi Lá",
       "Một phần  2",
-      "3A Phước Lợi"
+      "3A Phước Lợi",
+      "Một phần  5",
+      "6",
+      "7",
+      "Cty TNHH SX và TM Tam Sao  4"
     ]
   },
   "TN-THANHLOI": {
@@ -890,7 +907,9 @@
       "3",
       "4",
       "Một phần  7",
-      "8"
+      "8",
+      "Hộ sản xuất Trương Thanh Trường  5",
+      "Trại Giam Long Hòa  9"
     ]
   },
   "TN-CANDUOC": {
@@ -933,7 +952,9 @@
     "ten_huyen": "Cần Đước",
     "ma_dien_luc": "PB0607",
     "khu_pho": [
-      "Một phần  Bình Hòa"
+      "Một phần  Bình Hòa",
+      "Một phần  Rạch Bộng",
+      "Một phần  Nhà Trường"
     ]
   },
   "TN-LONGCANGDOCDT835C": {
@@ -997,7 +1018,8 @@
       "Một phần  Bình Tây",
       "Một phần  Bình Trinh Đông",
       "Bình Tây",
-      "một phần  Tân Bình"
+      "một phần  Tân Bình",
+      "Một phần  Bình An"
     ]
   },
   "TN-NHUTTAO": {
@@ -1008,7 +1030,9 @@
       "Một phần  Bình Nghị",
       "Bình Đông",
       "một phần  Bình Quê",
-      "một phần  Quê Mỹ Thạnh"
+      "một phần  Quê Mỹ Thạnh",
+      "Toàn bộ DNTN Công Thành",
+      "Một phần  Lạc Tấn"
     ]
   },
   "TN-TANTRUTINHTAYNINH": {
@@ -1079,7 +1103,10 @@
     "ten_huyen": "Vĩnh Hưng",
     "ma_dien_luc": "PB0612",
     "khu_pho": [
-      "Một phần  Láng Lớn -"
+      "Một phần  Láng Lớn -",
+      "Một phần  Bến Phố -",
+      "Một phần  Hưng Điền -",
+      "Một phần  Hưng Điền A -"
     ]
   },
   "TN-TUYENBINH": {
@@ -1091,7 +1118,8 @@
       "Một phần  Rạch Mây -",
       "Một phần  Cả Cóc -",
       "Một phần  Rạch Đình -",
-      "Một phần  Tuyên Bình Tây -"
+      "Một phần  Tuyên Bình Tây -",
+      "Một phần  Cả Rưng -"
     ]
   },
   "TN-VINHHUNG": {
@@ -1102,7 +1130,9 @@
       "Một phần  Bàu Sậy -",
       "Một phần  Vĩnh Trị -",
       "Một phần  Măng Đa",
-      "Vĩnh Hưng -"
+      "Vĩnh Hưng -",
+      "Một phần  Ông Lẹt -",
+      "Một phần  Lò Gạch -"
     ]
   },
   "TN-HUNGDIEN": {
@@ -1136,7 +1166,8 @@
       "Một phần  Trường Xuân",
       "Bình Lục",
       "Tân Nho",
-      "Một phần  Bình Phước"
+      "Một phần  Bình Phước",
+      "Một phần  Gia Thạnh"
     ]
   },
   "TN-VINHCONG": {
@@ -1145,7 +1176,8 @@
     "ma_dien_luc": "PB0614",
     "khu_pho": [
       "Hộ thắp sáng thanh long Nguyễn Thành Chống",
-      "Hòa Phú"
+      "Hòa Phú",
+      "Một phần  Đa Phú"
     ]
   },
   "TN-ANLUCLONG": {
@@ -1171,6 +1203,63 @@
       "Vĩnh Thới",
       "Một phần  Xuân Hòa",
       "Thanh Vĩnh Đông"
+    ]
+  },
+  "TN-LONGAN": {
+    "ten_phuong": "Long An",
+    "ten_huyen": "Tân An",
+    "ma_dien_luc": "PB0601",
+    "khu_pho": [
+      "Một phần KP Xuân Hòa 2"
+    ]
+  },
+  "TN-BINHDUCVAMOTPHANAP1": {
+    "ten_phuong": "Bình Đức và một phần ấp 1",
+    "ten_huyen": "Bến Lức",
+    "ma_dien_luc": "PB0606",
+    "khu_pho": [
+      "Một phần  1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8 Nhựt Chánh"
+    ]
+  },
+  "TN-LONGCANG": {
+    "ten_phuong": "Long Cang",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "Một phần  11",
+      "12"
+    ]
+  },
+  "TN-HIEPHOA": {
+    "ten_phuong": "Hiệp Hoà",
+    "ten_huyen": "Đức Huệ",
+    "ma_dien_luc": "PB0610",
+    "khu_pho": [
+      "Đường vô Công ty Thuận Phúc Hảo",
+      "một phần  Tân Qui Thượng",
+      "Đường đi Thổ Định",
+      "Đường đi Hốc Thơm",
+      "một phần  Bình Thuỷ",
+      "Đường đi  Chánh Tân Phú",
+      "một phần  Chánh",
+      "một phần  Bàu Trai Thượng"
+    ]
+  },
+  "TN-VINHCHAU": {
+    "ten_phuong": "Vĩnh Châu",
+    "ten_huyen": "Tân Hưng",
+    "ma_dien_luc": "PB0613",
+    "khu_pho": [
+      "Cập kênh Ngang",
+      "một phần  Vĩnh Ân",
+      "Đại"
     ]
   }
 }
