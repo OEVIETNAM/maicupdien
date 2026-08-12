@@ -754,7 +754,13 @@
       "Tân Kim",
       "Khu vục từ đầu đường  3 Long Hậu đến Cầu Rạch Dừa",
       "Long Hậu",
-      "Phước Thới"
+      "Phước Thới",
+      "Khu vực đường D3",
+      "D4 KDC Tân Phú Thịnh",
+      "một phần  Phước Thuận",
+      "Nhánh rẽ Siêu Thị COOP MART",
+      "Khu vực đường D1",
+      "D2 KDC Tân Phú Thịnh"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1260,6 +1266,17 @@
       "Cập kênh Ngang",
       "một phần  Vĩnh Ân",
       "Đại"
+    ]
+  },
+  "TN-TANCHAUXATANPHU": {
+    "ten_phuong": "Tân Châu xã Tân Phú",
+    "ten_huyen": "Tân Châu",
+    "ma_dien_luc": "PB0504",
+    "khu_pho": [
+      "Thạnh Nghĩa",
+      "Thạnh Hiệp",
+      "Tân Thạnh",
+      "Tha la"
     ]
   }
 }
