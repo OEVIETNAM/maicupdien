@@ -1,4 +1,4 @@
-# Mái Cúp Điện
+# Mai Cúp Điện
 
 PWA thông báo lịch cúp điện cho tỉnh Tây Ninh. Mỗi người chỉ theo dõi 1 xã/phường
 duy nhất (chọn xã/phường trước, rồi chọn khu phố trong xã/phường đó). Không cần
