@@ -134,6 +134,11 @@ header.tieu-de p {
   outline-offset: 2px;
 }
 
+.chon-phuong:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .ghi-chu-chon-phuong {
   margin: 10px 2px 0;
   font-size: 12.5px;

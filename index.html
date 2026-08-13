@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Mai Cúp Điện — Cảnh báo lịch cúp điện theo khu phố</title>
+<title>Mái Cúp Điện — Cảnh báo lịch cúp điện theo khu phố</title>
 <meta name="description" content="Đăng ký nhận thông báo lịch cúp điện trước 1 ngày, theo đúng khu phố bạn sống. Không cần cài app, không cần đăng nhập." />
 
 <link rel="manifest" href="manifest.webmanifest" />
@@ -17,8 +17,8 @@
 
   <header class="tieu-de">
     <span class="nhan">Cảnh báo cúp điện · Tỉnh Tây Ninh</span>
-    <h1>Mai Cúp Điện</h1>
-    <p>Đăng ký đúng nơi bạn sống để nhận thông báo trước giờ cúp 1 ngày.</p>
+    <h1>Mái Cúp Điện</h1>
+    <p>Chọn đúng xã/phường và khu phố bạn sống. Có lịch cúp điện mới, bạn sẽ nhận thông báo — kèm nhắc lại trước giờ cúp khoảng 1 ngày.</p>
   </header>
 
   <div class="duong-day-dien" aria-hidden="true">
@@ -34,20 +34,28 @@
   <form id="form-dang-ky">
 
     <div class="the">
-      <span class="nhan-truong">Chọn xã/phường bạn sống</span>
-      <select id="chon-phuong" class="chon-phuong">
-        <option value="">— Chọn xã/phường —</option>
+      <span class="nhan-truong">1. Chọn đơn vị điện lực quản lý</span>
+      <select id="chon-don-vi" class="chon-phuong">
+        <option value="">— Chọn huyện/thị xã —</option>
         <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js -->
+      </select>
+    </div>
+
+    <div class="the">
+      <span class="nhan-truong">2. Chọn xã/phường bạn sống</span>
+      <select id="chon-phuong" class="chon-phuong" disabled>
+        <option value="">— Chọn huyện/thị xã ở trên trước —</option>
+        <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js, sau khi chon don vi -->
       </select>
       <p class="ghi-chu-chon-phuong">Mỗi tài khoản chỉ theo dõi được 1 xã/phường. Muốn đổi sang xã/phường khác, chọn lại ở đây rồi bật thông báo lại.</p>
     </div>
 
     <div class="the" id="the-chon-khu-pho">
-      <span class="nhan-truong">Chọn (các) khu phố bạn muốn theo dõi</span>
+      <span class="nhan-truong">3. Chọn (các) khu phố bạn muốn theo dõi</span>
       <div id="danh-sach-khu-pho" class="danh-sach-khu-pho">
         <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js, sau khi chon phuong -->
       </div>
-      <p id="thong-diep-chua-chon-phuong" class="ghi-chu-chon-phuong">Hãy chọn xã/phường ở trên trước.</p>
+      <p id="thong-diep-chua-chon-phuong" class="ghi-chu-chon-phuong">Hãy chọn đơn vị điện lực rồi xã/phường ở trên trước.</p>
     </div>
 
     <button type="submit" id="nut-dang-ky" class="nut-chinh">

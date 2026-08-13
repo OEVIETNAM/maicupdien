@@ -14,6 +14,7 @@ import {
 const the_ung_dung_firebase = initializeApp(CAU_HINH_FIREBASE);
 const co_so_du_lieu = getFirestore(the_ung_dung_firebase);
 
+const chon_don_vi_el = document.getElementById("chon-don-vi");
 const chon_phuong_el = document.getElementById("chon-phuong");
 const the_chon_khu_pho_el = document.getElementById("the-chon-khu-pho");
 const phan_tu_danh_sach_khu_pho = document.getElementById("danh-sach-khu-pho");
@@ -27,7 +28,8 @@ const ten_phuong_dang_theo_doi_el = document.getElementById("ten-phuong-dang-the
 const danh_sach_the_trang_thai = document.getElementById("danh-sach-the-trang-thai");
 const nut_sua_dang_ky = document.getElementById("nut-sua-dang-ky");
 
-let danh_muc_theo_phuong = {}; // { ma_phuong: { ten_phuong, khu_pho: [...], ... } } - chi cac phuong da san sang
+let danh_muc_theo_phuong = {}; // { ma_phuong: { ten_phuong, ten_huyen, ma_dien_luc, khu_pho: [...] } }
+let danh_muc_theo_don_vi = {}; // { ma_dien_luc: { ten_don_vi, cac_ma_phuong: [ma_phuong, ...] } }
 let huy_lang_nghe_realtime = null;
 let bo_dem_gio_cap_nhat = null;
 let dang_ky_hien_tai = { ma_phuong: "", ten_khu_pho: [] }; // dung khi bam "Sua dang ky"
@@ -50,14 +52,49 @@ async function nap_danh_muc_khu_pho() {
       .filter(([, tt]) => tt.ma_dien_luc && tt.ma_dien_luc.trim() !== "" && tt.khu_pho?.length > 0)
   );
 
-  const danh_sach_sap_xep = Object.entries(danh_muc_theo_phuong)
+  // Gom nhom Xa/Phuong theo don vi dien luc (ten_huyen) de lam tang loc dau
+  // tien - giup danh sach do rieng mat hon khi so Xa/Phuong ngay cang nhieu.
+  danh_muc_theo_don_vi = {};
+  for (const [ma_phuong, tt] of Object.entries(danh_muc_theo_phuong)) {
+    if (!danh_muc_theo_don_vi[tt.ma_dien_luc]) {
+      danh_muc_theo_don_vi[tt.ma_dien_luc] = {
+        ten_don_vi: tt.ten_huyen || tt.ma_dien_luc,
+        cac_ma_phuong: [],
+      };
+    }
+    danh_muc_theo_don_vi[tt.ma_dien_luc].cac_ma_phuong.push(ma_phuong);
+  }
+
+  const danh_sach_don_vi_sap_xep = Object.entries(danh_muc_theo_don_vi)
+    .sort((a, b) => a[1].ten_don_vi.localeCompare(b[1].ten_don_vi, "vi"));
+
+  chon_don_vi_el.innerHTML =
+    `<option value="">— Chọn huyện/thị xã —</option>` +
+    danh_sach_don_vi_sap_xep
+      .map(([ma_dien_luc, tt]) => `<option value="${ma_dien_luc}">${tt.ten_don_vi}</option>`)
+      .join("");
+}
+
+/** Ve lai <select> xa/phuong dua theo 1 don vi dien luc da chon. Neu chua
+ *  chon don vi nao, khoa select lai va hien placeholder. */
+function ve_lai_danh_sach_phuong(ma_dien_luc) {
+  const don_vi = danh_muc_theo_don_vi[ma_dien_luc];
+  if (!don_vi) {
+    chon_phuong_el.innerHTML = `<option value="">— Chọn huyện/thị xã ở trên trước —</option>`;
+    chon_phuong_el.disabled = true;
+    return;
+  }
+
+  const danh_sach_phuong_sap_xep = don_vi.cac_ma_phuong
+    .map((ma_phuong) => [ma_phuong, danh_muc_theo_phuong[ma_phuong]])
     .sort((a, b) => a[1].ten_phuong.localeCompare(b[1].ten_phuong, "vi"));
 
   chon_phuong_el.innerHTML =
     `<option value="">— Chọn xã/phường —</option>` +
-    danh_sach_sap_xep
-      .map(([ma_phuong, tt]) => `<option value="${ma_phuong}">${tt.ten_phuong}${tt.ten_huyen ? " — " + tt.ten_huyen : ""}</option>`)
+    danh_sach_phuong_sap_xep
+      .map(([ma_phuong, tt]) => `<option value="${ma_phuong}">${tt.ten_phuong}</option>`)
       .join("");
+  chon_phuong_el.disabled = false;
 }
 
 /** Ve lai luoi checkbox khu pho cho 1 Xa/Phuong cu the. Value cua moi checkbox
@@ -218,13 +255,17 @@ function hien_thi_man_hinh_chon_khu_vuc() {
   if (huy_lang_nghe_realtime) { huy_lang_nghe_realtime(); huy_lang_nghe_realtime = null; }
   if (bo_dem_gio_cap_nhat) { clearInterval(bo_dem_gio_cap_nhat); bo_dem_gio_cap_nhat = null; }
 
-  // Tick san dung phuong + khu pho da dang ky truoc do, de nguoi dung khong
-  // phai chon lai tu dau khi chi muon them/bot 1 khu pho trong cung phuong.
+  // Tick san dung don vi + phuong + khu pho da dang ky truoc do, de nguoi
+  // dung khong phai chon lai tu dau khi chi muon them/bot 1 khu pho.
   if (dang_ky_hien_tai.ma_phuong) {
+    const thong_tin_phuong = danh_muc_theo_phuong[dang_ky_hien_tai.ma_phuong];
+    chon_don_vi_el.value = thong_tin_phuong?.ma_dien_luc || "";
+    ve_lai_danh_sach_phuong(chon_don_vi_el.value);
     chon_phuong_el.value = dang_ky_hien_tai.ma_phuong;
     ve_lai_luoi_khu_pho(dang_ky_hien_tai.ma_phuong, dang_ky_hien_tai.ten_khu_pho);
   } else {
-    chon_phuong_el.value = "";
+    chon_don_vi_el.value = "";
+    ve_lai_danh_sach_phuong("");
     ve_lai_luoi_khu_pho("");
   }
 }
@@ -234,7 +275,7 @@ async function xu_ly_gui_dang_ky(su_kien) {
 
   const ma_phuong = chon_phuong_el.value;
   if (!ma_phuong) {
-    hien_thong_diep("Bạn cần chọn xã/phường trước khi bật thông báo.", "loi");
+    hien_thong_diep("Bạn cần chọn đơn vị điện lực và xã/phường trước khi bật thông báo.", "loi");
     return;
   }
 
@@ -296,6 +337,10 @@ async function xu_ly_gui_dang_ky(su_kien) {
 async function khoi_dong() {
   await nap_danh_muc_khu_pho();
 
+  chon_don_vi_el.addEventListener("change", () => {
+    ve_lai_danh_sach_phuong(chon_don_vi_el.value);
+    ve_lai_luoi_khu_pho(""); // doi don vi thi bo trong luoi khu pho, cho chon lai phuong
+  });
   chon_phuong_el.addEventListener("change", () => ve_lai_luoi_khu_pho(chon_phuong_el.value));
   phan_tu_form.addEventListener("submit", xu_ly_gui_dang_ky);
   nut_sua_dang_ky.addEventListener("click", hien_thi_man_hinh_chon_khu_vuc);
@@ -304,6 +349,7 @@ async function khoi_dong() {
   if (dang_ky_hien_co?.ten_khu_pho?.length) {
     hien_thi_man_hinh_trang_thai(dang_ky_hien_co.ma_phuong, dang_ky_hien_co.ten_khu_pho);
   } else {
+    ve_lai_danh_sach_phuong("");
     ve_lai_luoi_khu_pho("");
     hien_thi_man_hinh_chon_khu_vuc();
   }
