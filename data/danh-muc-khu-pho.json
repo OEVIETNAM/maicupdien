@@ -87,9 +87,10 @@
       "Khu phố Nội Ô",
       "Khu phố Thanh Hà",
       "Khu phố Phước Hiệp",
-      "Khu phố Phước Hội"
+      "Khu phố Phước Hội",
+      "Khu phố Xóm Đồng"
     ],
-    "loai_don_vi": ""
+    "loai_don_vi": "Phường"
   },
   "TN-GIALOC": {
     "ten_phuong": "Gia Lộc",
@@ -99,9 +100,13 @@
       "Khu phố Gia Huỳnh",
       "Khu phố Lộc Hòa",
       "Ấp Cây Cầy",
-      "Ấp Xóm Đồng"
+      "Ấp Xóm Đồng",
+      "Khu phố Suối Cao A",
+      "Khu phố Suối Cao B",
+      "Khu phố Cây Trắc",
+      "Khu phố Lộc Khê"
     ],
-    "loai_don_vi": ""
+    "loai_don_vi": "Phường"
   },
   "TN-THANHDUC": {
     "ten_phuong": "Thạnh Đức",
@@ -112,7 +117,10 @@
       "Ấp Cẩm An",
       "Ấp Cẩm Bình",
       "Ấp Bến Mông",
-      "Ấp Cầu Sắt"
+      "Ấp Cầu Sắt",
+      "Ấp Bông Trang",
+      "Ấp Bến Chò",
+      "Ấp Bến Rộng"
     ],
     "loai_don_vi": "Xã"
   },
@@ -141,7 +149,9 @@
       "Ấp 3",
       "Ấp Thuận Bình",
       "Ấp Thuận Tâm",
-      "Ấp Thuận Tân"
+      "Ấp Thuận Tân",
+      "Ấp Thuận An",
+      "Ấp Thuận Hòa"
     ],
     "loai_don_vi": "Xã"
   },
@@ -262,9 +272,11 @@
     "ma_dien_luc": "PB0504",
     "khu_pho": [
       "Ấp Con Trăn",
-      "Ấp Suối Ngô"
+      "Ấp Suối Ngô",
+      "Ấp Cây Cầy",
+      "Ấp Sóc Con Trăn"
     ],
-    "loai_don_vi": ""
+    "loai_don_vi": "Xã"
   },
   "TN-PHUOCVINH": {
     "ten_phuong": "Phước Vinh",
@@ -294,7 +306,8 @@
       "Ấp Cây Ổi",
       "Ấp Hiệp Bình",
       "Ấp Hiệp Phước",
-      "Ấp Hiệp Thành"
+      "Ấp Hiệp Thành",
+      "Ấp Bưng Rò"
     ],
     "loai_don_vi": "Xã"
   },
@@ -305,9 +318,10 @@
     "khu_pho": [
       "Ấp Gò Nổi",
       "Ấp Bến Củi",
-      "Ấp Thành Long"
+      "Ấp Thành Long",
+      "Ấp Bến Sỏi"
     ],
-    "loai_don_vi": ""
+    "loai_don_vi": "Xã"
   },
   "TN-CHAUTHANH": {
     "ten_phuong": "Châu Thành",
@@ -339,7 +353,8 @@
       "Ấp Sa Nghe",
       "Ấp An Thọ",
       "Ấp Vịnh",
-      "Ấp Xóm Ruộng"
+      "Ấp Xóm Ruộng",
+      "Ấp Bàu Sen"
     ],
     "loai_don_vi": "Xã"
   },
@@ -420,7 +435,8 @@
       "Ấp Tân Bình",
       "Ấp Thạnh Tây",
       "Ấp Thạnh Thuận",
-      "Ấp Thạnh Tân"
+      "Ấp Thạnh Tân",
+      "Ấp Thạnh Sơn"
     ],
     "loai_don_vi": "Xã"
   },
@@ -433,7 +449,8 @@
       "Ấp Thạnh Phước",
       "Ấp Tân Phong",
       "Ấp Cầu",
-      "Ấp Thạnh Lợi"
+      "Ấp Thạnh Lợi",
+      "Ấp Thạnh An"
     ],
     "loai_don_vi": "Xã"
   },
@@ -462,7 +479,8 @@
       "Khu phố Ninh Hưng",
       "Khu phố Ninh Bình",
       "Khu phố Bàu Năng",
-      "Khu phố Chà Là"
+      "Khu phố Chà Là",
+      "Khu phố Ninh Phước"
     ],
     "loai_don_vi": "Phường"
   },
@@ -592,7 +610,8 @@
       "Ấp đường Đỗ Văn Giàu",
       "Ấp đường Trần Văn Ngà",
       "Một phần đường Đinh Viết Cừu",
-      "Khu phố Một phần  Nhơn Trị"
+      "Khu phố Một phần  Nhơn Trị",
+      "Ấp Bình Nam"
     ]
   },
   "TN-LONGAN": {
@@ -614,7 +633,9 @@
       "Ấp Toàn bộ Trường THPT Mỹ Lạc",
       "Ấp Bà Mía",
       "Ấp Một phần  Ninh Thạnh ( 1)",
-      "Ấp Tân Thành"
+      "Ấp Tân Thành",
+      "Ấp một phần  An Hoà",
+      "Ấp Toàn bộ  Mỹ Lạc"
     ]
   },
   "TN-THUTHUA": {
@@ -625,7 +646,9 @@
     "khu_pho": [
       "Ấp Một phần  Nhị Thành 1",
       "Ấp Thủ Khoa Thừa 5",
-      "Ấp Bình Thạnh 3"
+      "Ấp Bình Thạnh 3",
+      "Ấp Toàn bộ  Thủ Khoa Thừa 4",
+      "Ấp Thủ Khoa Thừa 4"
     ]
   },
   "TN-TANLONG": {
@@ -730,7 +753,9 @@
       "Ấp Long Khánh",
       "Ấp Long Thạnh",
       "Ấp Long Thới",
-      "Ấp Tân Điền"
+      "Ấp Tân Điền",
+      "Một phần",
+      "Ấp Khu vực đường Trần Thị Tám đến Cầu Long Khê-Phước Lý: Một phần  Phú Ân"
     ]
   },
   "TN-CANGIUOC": {
@@ -835,7 +860,8 @@
       "Ấp Long Thanh",
       "Ấp Phước Vĩnh",
       "Ấp Cầu Xây",
-      "Ấp Cầu Tràm"
+      "Ấp Cầu Tràm",
+      "Ấp Một phần  4"
     ]
   },
   "TN-BINHHIEP": {
@@ -869,7 +895,8 @@
     "ma_dien_luc": "PB0605",
     "khu_pho": [
       "Ấp Cụm DCVL Bình Hòa Đông",
-      "Ấp Bình Hòa Đông 2"
+      "Ấp Bình Hòa Đông 2",
+      "Ấp Đường 817"
     ]
   },
   "TN-MOCHOA": {
@@ -1060,7 +1087,11 @@
       "Ấp Một phần  Bình Trinh Đông",
       "Ấp Bình Tây",
       "Ấp một phần  Tân Bình",
-      "Ấp Một phần  Bình An"
+      "Ấp Một phần  Bình An",
+      "Ấp Một phần  Thanh Phong",
+      "Ấp Một phần  Bình Tịnh",
+      "Ấp Một phần  Bình Lãng",
+      "Ấp Một phần  Bình Hòa"
     ]
   },
   "TN-NHUTTAO": {
@@ -1118,7 +1149,13 @@
       "Ấp một phần  Bình Thuỷ",
       "Ấp Đường đi  Chánh Tân Phú",
       "Ấp một phần  Chánh",
-      "Ấp một phần  Bàu Trai Thượng"
+      "Ấp một phần  Bàu Trai Thượng",
+      "Ấp Gần ngã 4 Đường Hồ Chí Minh",
+      "Ấp một phần  Hòa Bình 1",
+      "Ấp Gần Đường Hồ Chí Minh",
+      "Ấp một phần  Hòa Thuận 2",
+      "Ấp Gần nhà Ông Quốc Huy",
+      "Ấp Từ đường Hồ Chí Minh đi dến gần quán 8 Ben"
     ]
   },
   "TN-TANTAYVAMOTPHANAPTUYENNHONXATHANHHOA": {
@@ -1163,7 +1200,10 @@
       "Ấp Một phần  Cả Cóc -",
       "Ấp Một phần  Rạch Đình -",
       "Ấp Một phần  Tuyên Bình Tây -",
-      "Ấp Một phần  Cả Rưng -"
+      "Ấp Một phần  Cả Rưng -",
+      "Ấp Một phần  Thái Bình Trung -",
+      "Ấp Một phần  Vĩnh Bình -",
+      "Ấp Một phần  Cả Có -"
     ]
   },
   "TN-VINHHUNG": {
@@ -1258,7 +1298,10 @@
       "Ấp Bình Thới",
       "Ấp Vĩnh Thới",
       "Ấp Một phần  Xuân Hòa",
-      "Ấp Thanh Vĩnh Đông"
+      "Ấp Thanh Vĩnh Đông",
+      "Ấp Một phần  Thanh Tân",
+      "Ấp Hộ thắp sáng thanh long Nguyễn Ngọc Luân",
+      "Ấp Tân Long"
     ]
   },
   "TN-VINHCONG": {
@@ -1268,6 +1311,38 @@
     "ma_dien_luc": "PB0614",
     "khu_pho": [
       "Ấp Một phần  Đa Phú"
+    ]
+  },
+  "TN-TANLANKHUVUCDOCDUONGTRANHTHITRANCANDUOC": {
+    "ten_phuong": "Tân Lân (Khu vực dọc đường tránh thị trấn Cần Đước)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "Ấp Một phần  Bà Chủ",
+      "Ấp Một phần  1"
+    ]
+  },
+  "TN-ANNINH": {
+    "ten_phuong": "An Ninh",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Đức Huệ",
+    "ma_dien_luc": "PB0610",
+    "khu_pho": [
+      "Ấp Đường đi đến quán Bến Gió",
+      "Ấp Một phần  An Thạnh",
+      "Ấp Gần đường đi Chùa đất Một phần  Sơn Lợi"
+    ]
+  },
+  "TN-CHAU": {
+    "ten_phuong": "Châu",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Tân Hưng",
+    "ma_dien_luc": "PB0613",
+    "khu_pho": [
+      "Ấp Một phần : Vĩnh Bửu",
+      "Ấp Võ Văn Be",
+      "Ấp Vàm Gừa"
     ]
   }
 }
