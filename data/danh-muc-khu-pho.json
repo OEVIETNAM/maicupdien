@@ -282,7 +282,15 @@
       "Ấp Bến Cầu",
       "Ấp Hòa Bình",
       "Ấp Biên Giới",
-      "Ấp Hòa Thạnh"
+      "Ấp Hòa Thạnh",
+      "-  Bến Cầu",
+      "Rạch Tre",
+      "Tân Định",
+      "Tân Long",
+      "Cây Ổi",
+      "Hiệp Bình",
+      "Hiệp Phước",
+      "Hiệp Thành"
     ]
   },
   "TN-NINHDIEN": {
@@ -324,7 +332,8 @@
       "Sa Nghe",
       "An Thọ",
       "Vịnh",
-      "Xóm Ruộng"
+      "Xóm Ruộng",
+      "Tầm Long"
     ]
   },
   "TN-LONGCHU": {
@@ -645,7 +654,8 @@
       "1B",
       "Bình Tiền 1",
       "2",
-      "Bình Tả"
+      "Bình Tả",
+      "1p"
     ]
   },
   "TN-MYHANH": {
