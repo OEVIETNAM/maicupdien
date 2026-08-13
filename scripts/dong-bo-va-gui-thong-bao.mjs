@@ -1,14 +1,15 @@
 // Doc data/lich-tho.json (do scripts/lay-du-lieu.mjs tao ra), lam 3 viec:
 //   1) Ghi vao Firestore collection "lich_cup_dien" (idempotent — chay lai
-//      nhieu lan khong tao trung du lieu, nho ma tai lieu la hash noi dung)
-//   2) Voi NHUNG BAN GHI MOI (chua tung thay), doi chieu bitmask voi NGUOI
-//      DANG KY CUNG XA/PHUONG (query rieng theo ma_phuong — khong doc het
-//      toan bo nguoi dang ky trong tinh, de van chay nhanh khi mo rong ca
-//      tinh Tay Ninh) va gui push FCM "Lich cup dien moi" ngay lap tuc
+//      nhieu lan khong tao trung du lieu, nho ma tai lieu la hash noi dung).
+//      KHONG gui push khi phat hien ban ghi moi — chi cap nhat len web (man
+//      hinh trang thai realtime), theo dung y muon "khong lam phien nguoi
+//      dung qua nhieu lan, chi bao 1 lan dung luc".
+//   2) Gui thong bao "Mai cúp điện rồi" DUY NHAT 1 LAN cho moi ban ghi, vao
+//      lan chay GAN VOI 24h TRUOC GIO CUP nhat co the. Vi script nay chi
+//      chay 2 lan/ngay (6h sang va 18h toi — xem .github/workflows/), moi
+//      ban ghi con trong khoang (bay_gio, bay_gio + 24h] va CHUA duoc nhac
+//      (da_gui_nhac == false) se duoc gui NGAY trong lan chay nay.
 //   3) Xoa cac ban ghi lich_cup_dien da qua thoi gian ket thuc (don dep)
-//
-// Nhac truoc gio cup dien (24h) la 1 luong RIENG, xem
-// scripts/nhac-truoc-gio-cup-dien.mjs — chay theo lich rieng, thuong xuyen hon.
 //
 // Can bien moi truong FIREBASE_SERVICE_ACCOUNT_KEY_JSON (JSON service account,
 // luu trong GitHub Actions Secrets — xem README.md).
@@ -32,9 +33,6 @@ function khoi_tao_firebase_admin() {
   return { co_so_du_lieu: admin.firestore(), nhan_tin: admin.messaging() };
 }
 
-/** Tao bitmask (BigInt) tu danh sach chi_so_bit — ban sao cua src/bitset.js vi
- *  Node script chay doc lap, khong import truc tiep tu thu muc src de tranh
- *  rang buoc duong dan phuc tap giua ESM trinh duyet va Node. */
 function tao_bitmask(danh_sach_chi_so) {
   let ket_qua = 0n;
   for (const chi_so of danh_sach_chi_so) ket_qua |= (1n << BigInt(chi_so));
@@ -73,9 +71,11 @@ function phan_tich_khoang_thoi_gian(van_ban_tho) {
   return { tu_luc, den_luc };
 }
 
-async function dong_bo_va_tra_ve_ban_ghi_moi(co_so_du_lieu, danh_sach_ban_ghi) {
+/** Ghi/cap nhat toan bo ban ghi vao Firestore. KHONG gui push o day - chi
+ *  tra ve so luong ban ghi moi de log, phuc vu debug. */
+async function dong_bo(co_so_du_lieu, danh_sach_ban_ghi) {
   const bo_suu_tap = co_so_du_lieu.collection("lich_cup_dien");
-  const cac_ban_ghi_moi = [];
+  let so_ban_ghi_moi = 0;
 
   for (const ban_ghi of danh_sach_ban_ghi) {
     const ma_tai_lieu = tao_ma_tai_lieu(ban_ghi);
@@ -95,17 +95,17 @@ async function dong_bo_va_tra_ve_ban_ghi_moi(co_so_du_lieu, danh_sach_ban_ghi) {
       ly_do: ban_ghi.ly_do,
       tu_luc: tu_luc ? admin.firestore.Timestamp.fromDate(tu_luc) : null,
       den_luc: den_luc ? admin.firestore.Timestamp.fromDate(den_luc) : null,
-      da_gui_nhac: false, // dung boi scripts/nhac-truoc-gio-cup-dien.mjs, khong dong vao day
+      da_gui_nhac: false, // se duoc gui_nhac_mot_lan() xu ly va cap nhat lai ben duoi
       cap_nhat_luc: admin.firestore.FieldValue.serverTimestamp(),
     }, { merge: true });
 
     if (!da_ton_tai) {
-      cac_ban_ghi_moi.push({ ...ban_ghi, bitmask, ma_tai_lieu });
+      so_ban_ghi_moi += 1;
       console.log(`[MOI] ${ban_ghi.ten_phuong} — ${ban_ghi.ten_khu_pho.join(", ")} — ${ban_ghi.thoi_gian_nguyen_van.replace(/\s+/g, " ")}`);
     }
   }
 
-  return cac_ban_ghi_moi;
+  console.log(`Dong bo xong: ${danh_sach_ban_ghi.length} ban ghi (${so_ban_ghi_moi} ban ghi moi).`);
 }
 
 /** Lay danh sach nguoi dang ky CUNG 1 Xa/Phuong (query truc tiep, khong doc
@@ -122,57 +122,87 @@ async function lay_nguoi_dang_ky_theo_phuong(co_so_du_lieu, ma_phuong) {
   }));
 }
 
-async function gui_thong_bao_cho_ban_ghi_moi(co_so_du_lieu, nhan_tin, cac_ban_ghi_moi) {
-  if (cac_ban_ghi_moi.length === 0) {
-    console.log("Khong co ban ghi moi, khong can gui thong bao.");
+function dinh_dang_gio_viet_nam(timestamp) {
+  return timestamp.toDate().toLocaleString("vi-VN", {
+    hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit",
+    timeZone: "Asia/Ho_Chi_Minh",
+  });
+}
+
+/** Gui thong bao "Mai cúp điện rồi" 1 LAN DUY NHAT cho moi ban ghi con trong
+ *  khoang (bay_gio, bay_gio + 24h] va CHUA duoc nhac. Vi script nay chi chay
+ *  2 lan/ngay (6h & 18h), cua so 24h dam bao khong bi bo sot lan nao — lan
+ *  chay gan nhat truoc khi cup dien se la lan gui thuc te. */
+async function gui_nhac_mot_lan(co_so_du_lieu, nhan_tin) {
+  const bay_gio = admin.firestore.Timestamp.now();
+  const sau_24h = admin.firestore.Timestamp.fromMillis(bay_gio.toMillis() + 24 * 60 * 60 * 1000);
+
+  const snapshot = await co_so_du_lieu
+    .collection("lich_cup_dien")
+    .where("da_gui_nhac", "==", false)
+    .where("tu_luc", ">", bay_gio)
+    .where("tu_luc", "<=", sau_24h)
+    .get();
+
+  if (snapshot.empty) {
+    console.log("Khong co ban ghi nao can nhac trong lan chay nay.");
     return;
   }
+  console.log(`Tim thay ${snapshot.size} ban ghi can nhac.`);
 
-  // Gom nhom theo ma_phuong de chi query nguoi dang ky 1 lan cho moi phuong
-  // (du 1 phuong co nhieu ban ghi moi trong cung 1 lan chay).
   const cache_nguoi_dang_ky_theo_phuong = new Map();
 
-  for (const ban_ghi of cac_ban_ghi_moi) {
+  for (const tai_lieu of snapshot.docs) {
+    const ban_ghi = tai_lieu.data();
+    const bitmask_ban_ghi = BigInt(ban_ghi.bitmask || "0");
+    const chi_so_bit_ban_ghi = bitmask_sang_danh_sach_chi_so(bitmask_ban_ghi);
+
     if (!cache_nguoi_dang_ky_theo_phuong.has(ban_ghi.ma_phuong)) {
       const nguoi_dang_ky = await lay_nguoi_dang_ky_theo_phuong(co_so_du_lieu, ban_ghi.ma_phuong);
       cache_nguoi_dang_ky_theo_phuong.set(ban_ghi.ma_phuong, nguoi_dang_ky);
-      console.log(`[${ban_ghi.ten_phuong}] So nguoi da dang ky: ${nguoi_dang_ky.length}`);
     }
-
     const nguoi_dang_ky = cache_nguoi_dang_ky_theo_phuong.get(ban_ghi.ma_phuong);
+
+    const gio_bat_dau = dinh_dang_gio_viet_nam(ban_ghi.tu_luc);
     const danh_sach_tin_can_gui = [];
 
     for (const nd of nguoi_dang_ky) {
-      const bitmask_giao_nhau = nd.bitmask & ban_ghi.bitmask;
-      if (bitmask_giao_nhau === 0n) continue; // khong lien quan gi den nguoi nay
+      const bitmask_giao_nhau = nd.bitmask & bitmask_ban_ghi;
+      if (bitmask_giao_nhau === 0n) continue;
 
       const chi_so_giao_nhau = bitmask_sang_danh_sach_chi_so(bitmask_giao_nhau);
-      const ten_khu_pho_rieng_cua_ho = ban_ghi.ten_khu_pho.filter((_, i) =>
-        chi_so_giao_nhau.includes(ban_ghi.chi_so_bit[i])
+      const ten_khu_pho_rieng_cua_ho = (ban_ghi.ten_khu_pho || []).filter((_, i) =>
+        chi_so_giao_nhau.includes(chi_so_bit_ban_ghi[i])
       );
 
       danh_sach_tin_can_gui.push({
         token: nd.token,
         notification: {
-          title: "Sắp cúp điện",
-          body: `${ban_ghi.ten_phuong} — khu phố ${ten_khu_pho_rieng_cua_ho.join(", ")}: ${ban_ghi.thoi_gian_nguyen_van.replace(/\s+/g, " ")}. Lý do: ${ban_ghi.ly_do}`,
+          title: "Mai cúp điện rồi, chuẩn bị trước nha!",
+          body: `${ban_ghi.ten_phuong} — ${ten_khu_pho_rieng_cua_ho.join(", ")}: bắt đầu lúc ${gio_bat_dau}. Lý do: ${ban_ghi.ly_do}`,
         },
       });
     }
 
-    if (danh_sach_tin_can_gui.length === 0) continue;
+    if (danh_sach_tin_can_gui.length > 0) {
+      const ket_qua_gui = await nhan_tin.sendEach(danh_sach_tin_can_gui);
+      console.log(
+        `[NHAC] Da gui cho ${danh_sach_tin_can_gui.length} thiet bi (thanh cong: ${ket_qua_gui.successCount}, that bai: ${ket_qua_gui.failureCount}) — ${ban_ghi.ten_phuong}, bat dau ${gio_bat_dau}`
+      );
 
-    const ket_qua_gui = await nhan_tin.sendEach(danh_sach_tin_can_gui);
-    console.log(
-      `Da gui cho ${danh_sach_tin_can_gui.length} thiet bi (thanh cong: ${ket_qua_gui.successCount}, that bai: ${ket_qua_gui.failureCount}) — ban ghi: ${ban_ghi.ten_phuong} — ${ban_ghi.ten_khu_pho.join(", ")}`
-    );
+      ket_qua_gui.responses.forEach((phan_hoi, chi_so) => {
+        if (!phan_hoi.success && phan_hoi.error?.code === "messaging/registration-token-not-registered") {
+          const token_loi = danh_sach_tin_can_gui[chi_so].token;
+          co_so_du_lieu.collection("dang_ky_thong_bao").doc(token_loi).delete().catch(() => {});
+        }
+      });
+    } else {
+      console.log(`[NHAC] Khong co ai lien quan — ${ban_ghi.ten_phuong}, bat dau ${gio_bat_dau}`);
+    }
 
-    ket_qua_gui.responses.forEach((phan_hoi, chi_so) => {
-      if (!phan_hoi.success && phan_hoi.error?.code === "messaging/registration-token-not-registered") {
-        const token_loi = danh_sach_tin_can_gui[chi_so].token;
-        co_so_du_lieu.collection("dang_ky_thong_bao").doc(token_loi).delete().catch(() => {});
-      }
-    });
+    // Danh dau da nhac DU co gui duoc tin nao hay khong, de khong kiem tra
+    // lai ban ghi nay o lan chay sau.
+    await tai_lieu.ref.update({ da_gui_nhac: true });
   }
 }
 
@@ -200,11 +230,11 @@ async function chay() {
   const duong_dan_du_lieu = path.join(THU_MUC_GOC, "data", "lich-tho.json");
   const danh_sach_ban_ghi = JSON.parse(readFileSync(duong_dan_du_lieu, "utf-8"));
 
-  const cac_ban_ghi_moi = await dong_bo_va_tra_ve_ban_ghi_moi(co_so_du_lieu, danh_sach_ban_ghi);
-  await gui_thong_bao_cho_ban_ghi_moi(co_so_du_lieu, nhan_tin, cac_ban_ghi_moi);
+  await dong_bo(co_so_du_lieu, danh_sach_ban_ghi);
+  await gui_nhac_mot_lan(co_so_du_lieu, nhan_tin);
   await don_dep_ban_ghi_het_han(co_so_du_lieu);
 
-  console.log("Hoan tat dong bo.");
+  console.log("Hoan tat.");
 }
 
 chay().catch((loi) => {

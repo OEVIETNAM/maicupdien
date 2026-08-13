@@ -40,8 +40,20 @@ function hien_thong_diep(noi_dung, loai) {
 }
 
 async function nap_danh_muc_khu_pho() {
-  const phan_hoi = await fetch("data/danh-muc-khu-pho.json");
-  const du_lieu_tho = await phan_hoi.json();
+  const [phan_hoi_khu_pho, phan_hoi_dien_luc] = await Promise.all([
+    fetch("data/danh-muc-khu-pho.json"),
+    fetch("data/danh-muc-dien-luc.json"),
+  ]);
+  const du_lieu_tho = await phan_hoi_khu_pho.json();
+  const du_lieu_dien_luc = await phan_hoi_dien_luc.json();
+
+  // Ten "Dien luc X" chuan lay tu danh-muc-dien-luc.json (nguon 1 tro true
+  // duy nhat cho ten don vi) - khong tu ghep tu ten_huyen cua tung Xa/Phuong
+  // nua, tranh truong hop 1 phuong nao do dien thieu ten_huyen se hien nham
+  // ra ma dien luc (dang so) thay vi ten.
+  const ten_don_vi_theo_ma = Object.fromEntries(
+    du_lieu_dien_luc.don_vi.map((dv) => [dv.ma_dien_luc, dv.ten_don_vi])
+  );
 
   // Chi lay cac Xa/Phuong da duoc dien ma_dien_luc VA co it nhat 1 khu pho -
   // nhung phuong con dang "de trong cho dien du lieu" se khong hien ra de
@@ -52,13 +64,13 @@ async function nap_danh_muc_khu_pho() {
       .filter(([, tt]) => tt.ma_dien_luc && tt.ma_dien_luc.trim() !== "" && tt.khu_pho?.length > 0)
   );
 
-  // Gom nhom Xa/Phuong theo don vi dien luc (ten_huyen) de lam tang loc dau
-  // tien - giup danh sach do rieng mat hon khi so Xa/Phuong ngay cang nhieu.
+  // Gom nhom Xa/Phuong theo don vi dien luc de lam tang loc dau tien - giup
+  // danh sach do rieng mat hon khi so Xa/Phuong ngay cang nhieu.
   danh_muc_theo_don_vi = {};
   for (const [ma_phuong, tt] of Object.entries(danh_muc_theo_phuong)) {
     if (!danh_muc_theo_don_vi[tt.ma_dien_luc]) {
       danh_muc_theo_don_vi[tt.ma_dien_luc] = {
-        ten_don_vi: tt.ten_huyen || tt.ma_dien_luc,
+        ten_don_vi: ten_don_vi_theo_ma[tt.ma_dien_luc] || tt.ma_dien_luc,
         cac_ma_phuong: [],
       };
     }
@@ -92,9 +104,17 @@ function ve_lai_danh_sach_phuong(ma_dien_luc) {
   chon_phuong_el.innerHTML =
     `<option value="">— Chọn xã/phường —</option>` +
     danh_sach_phuong_sap_xep
-      .map(([ma_phuong, tt]) => `<option value="${ma_phuong}">${tt.ten_phuong}</option>`)
+      .map(([ma_phuong, tt]) => `<option value="${ma_phuong}">${ten_hien_thi_phuong(tt)}</option>`)
       .join("");
   chon_phuong_el.disabled = false;
+}
+
+/** "Phường Trảng Bàng" hoac "Xã Phước Chỉ" - neu chua biet loai_don_vi (dang
+ *  cho tu dong kham pha lan crawl toi) thi chi hien ten, khong doan bua. */
+function ten_hien_thi_phuong(thong_tin_phuong) {
+  return thong_tin_phuong.loai_don_vi
+    ? `${thong_tin_phuong.loai_don_vi} ${thong_tin_phuong.ten_phuong}`
+    : thong_tin_phuong.ten_phuong;
 }
 
 /** Ve lai luoi checkbox khu pho cho 1 Xa/Phuong cu the. Value cua moi checkbox
@@ -241,7 +261,7 @@ function hien_thi_man_hinh_trang_thai(ma_phuong, danh_sach_ten_khu_pho) {
   dang_ky_hien_tai = { ma_phuong, ten_khu_pho: danh_sach_ten_khu_pho };
   const thong_tin_phuong = danh_muc_theo_phuong[ma_phuong];
   ten_phuong_dang_theo_doi_el.textContent = thong_tin_phuong
-    ? `${thong_tin_phuong.ten_phuong}${thong_tin_phuong.ten_huyen ? " — " + thong_tin_phuong.ten_huyen : ""}`
+    ? ten_hien_thi_phuong(thong_tin_phuong)
     : ma_phuong;
 
   phan_tu_form.classList.add("an");

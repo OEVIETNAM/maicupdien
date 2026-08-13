@@ -1,80 +1,111 @@
-# Mai Cúp Điện
+# Mái Cúp Điện
 
 PWA thông báo lịch cúp điện cho tỉnh Tây Ninh. Mỗi người chỉ theo dõi 1 xã/phường
-duy nhất (chọn xã/phường trước, rồi chọn khu phố trong xã/phường đó). Không cần
-đăng nhập, không cần cài đặt qua store — chỉ cần mở web, chọn khu vực, bật thông báo.
+duy nhất (chọn đơn vị điện lực → chọn xã/phường → chọn khu phố/ấp trong xã/phường
+đó). Không cần đăng nhập, không cần cài đặt qua store — chỉ cần mở web, chọn khu
+vực, bật thông báo.
 
-Ngoài thông báo ngay khi phát hiện lịch mới, hệ thống còn tự động **nhắc lại
-riêng khoảng 24 giờ trước giờ cúp điện** (ví dụ lịch cúp lúc 7h ngày mai thì
-sáng nay khoảng 7h sẽ có tin nhắc "Mai cúp điện rồi, chuẩn bị trước nha!").
+Chỉ quét dữ liệu **2 lần/ngày** (6h sáng và 18h tối giờ Việt Nam). Có lịch mới thì
+chỉ cập nhật lên web (màn hình trạng thái realtime), **không** đẩy thông báo ngay
+lúc đó. Thông báo đẩy chỉ gửi **đúng 1 lần** cho mỗi lịch cúp điện, vào lần quét
+gần nhất trước giờ cúp trong vòng 24h ("Mai cúp điện rồi, chuẩn bị trước nha!").
 
 ## Kiến trúc
 
 ```
-GitHub Actions #1 (cron, mỗi 6 tiếng)
+GitHub Actions (cron, 2 lần/ngày: 6h sáng + 18h tối giờ VN)
    → scripts/lay-du-lieu.mjs              lặp qua TẤT CẢ đơn vị điện lực cấp
                                             huyện/thị xã trong danh-muc-dien-luc.json,
                                             gọi API EVNSPC — TỰ ĐỘNG nhận diện và bổ
                                             sung Xã/Phường + khu phố/ấp mới vào
-                                            danh-muc-khu-pho.json nếu chưa có
+                                            danh-muc-khu-pho.json nếu chưa có, TỰ
+                                            LỌC bỏ "hộ kinh doanh/công ty..." lẫn
+                                            trong dữ liệu nguồn (xem mục riêng bên dưới)
    → scripts/dong-bo-va-gui-thong-bao.mjs
-        1) ghi vào Firestore (idempotent, không tạo trùng khi chạy lại)
-        2) với bản ghi MỚI: so bitmask với người đăng ký CÙNG xã/phường
-           (query theo ma_phuong, không đọc hết toàn bộ người dùng) → gửi push
-           "Sắp cúp điện" ngay lập tức
+        1) ghi vào Firestore (idempotent, không tạo trùng khi chạy lại) —
+           CHỈ cập nhật dữ liệu, KHÔNG gửi push ở bước này
+        2) gửi push "Mai cúp điện rồi, chuẩn bị trước nha!" ĐÚNG 1 LẦN cho mỗi
+           bản ghi còn ≤24h nữa là tới giờ cúp và CHƯA từng được gửi (so bitmask
+           với người đăng ký CÙNG xã/phường, query theo ma_phuong — không đọc
+           hết toàn bộ người dùng)
         3) xoá các bản ghi lich_cup_dien đã quá thời gian kết thúc
    → Nếu danh-muc-khu-pho.json có thay đổi (phát hiện dữ liệu mới) →
      tự động commit + push lại vào repo
 
-GitHub Actions #2 (cron, mỗi 15 phút) — LUỒNG RIÊNG
-   → scripts/nhac-truoc-gio-cup-dien.mjs   tìm các bản ghi còn ≤24h nữa là tới giờ
-                                            cúp và CHƯA được nhắc (da_gui_nhac == false)
-                                            → gửi "Mai cúp điện rồi, chuẩn bị trước nha!"
-                                            → đánh dấu da_gui_nhac = true
-
 Trình duyệt người dùng (GitHub Pages)
-   → index.html + src/app.js       chọn xã/phường → chọn khu phố → xin quyền
-                                     thông báo → lưu {ma_phuong, bitmask} vào Firestore
+   → index.html + src/app.js       chọn đơn vị điện lực → chọn xã/phường → chọn
+                                     khu phố → xin quyền thông báo → lưu
+                                     {ma_phuong, bitmask} vào Firestore
    → firebase-messaging-sw.js      service worker nhận push khi app không mở
 ```
+
+### Vì sao chỉ quét 2 lần/ngày và chỉ báo 1 lần
+
+Quyết định thiết kế có chủ đích: quét dày (mỗi 6 tiếng hay mỗi 15 phút) và báo
+ngay khi phát hiện lịch mới tạo cảm giác làm phiền không cần thiết — người dùng
+chỉ thực sự cần biết "**ngày mai/hôm nay có cúp điện không**", không cần biết
+*khi nào* EVNSPC công bố lịch đó. Với lịch quét 6h & 18h, cửa sổ nhắc 24h đảm bảo
+không bỏ sót: dù lịch được phát hiện ở lần quét nào, miễn còn ≤24h nữa là tới giờ
+cúp, lần quét đó sẽ gửi thông báo ngay — nếu phát hiện sớm hơn 24h thì đợi đến
+lần quét sau (gần giờ cúp hơn) mới gửi, tránh báo quá sớm khiến người dùng quên.
 
 ### 2 file danh mục — đừng nhầm lẫn
 
 - **`data/danh-muc-dien-luc.json`** — danh sách **đơn vị điện lực cấp huyện/thị
-  xã** (mã `madvi`) mà script sẽ gọi API. File này **cần bạn tự điền tay** khi
-  muốn crawl thêm 1 huyện/thị xã mới — hiện có sẵn 23 đơn vị của tỉnh Tây Ninh
-  (cả vùng Tây Ninh cũ và Long An cũ).
+  xã** (mã `madvi` + tên hiển thị dạng "Điện lực Trảng Bàng") mà script sẽ gọi
+  API. File này **cần bạn tự điền tay** khi muốn crawl thêm 1 huyện/thị xã mới —
+  hiện có sẵn 23 đơn vị của tỉnh Tây Ninh (cả vùng Tây Ninh cũ và Long An cũ).
+  Giao diện dùng đúng field `ten_don_vi` trong file này để hiển thị tên đơn vị ở
+  bước chọn đầu tiên — **không tự suy ra** từ dữ liệu khác, nên luôn hiển thị
+  đúng "Điện lực X" thay vì mã số.
 - **`data/danh-muc-khu-pho.json`** — danh sách **Xã/Phường + khu phố/ấp**,
   dùng cho giao diện chọn khu vực và tính bitmask. File này **được tự động bổ
   sung** bởi `lay-du-lieu.mjs` mỗi khi phát hiện tên Xã/Phường hoặc khu phố/ấp
   mới trong dữ liệu thật từ EVNSPC — bạn không cần (và không nên) tự gõ tay
   toàn bộ danh sách này, vì rất dễ sai lệch so với tên gọi chính thức EVNSPC
-  đang dùng.
+  đang dùng. Mỗi Xã/Phường có thêm field `loai_don_vi` ("Phường" hoặc "Xã") để
+  hiển thị đầy đủ kiểu "Phường Trảng Bàng", "Xã Phước Chỉ" — nếu còn để trống
+  (`""`), nghĩa là script chưa từng thấy Xã/Phường đó xuất hiện trong dữ liệu
+  thật, sẽ tự điền đúng ở lần crawl kế tiếp khi phát hiện.
+
+### Tự động lọc bỏ "hộ kinh doanh / công ty" lẫn trong dữ liệu nguồn
+
+EVNSPC đôi khi liệt kê luôn tên hộ kinh doanh/công ty/trạm biến áp ngay trong
+trường KHU VỰC lẫn với tên khu phố/ấp thật. `lay-du-lieu.mjs` có 1 danh sách từ
+khoá loại bỏ (biến `TU_KHOA_LOAI_BO` — tìm trong file để xem/sửa): `hộ kinh
+doanh`, `hkd`, `công ty`, `cty`, `doanh nghiệp`, `dntn`, `cơ sở sản xuất`, `trạm
+biến áp`, `tba`, `nhà máy`, `xí nghiệp`, `chi nhánh`, `khách hàng`.
+
+Nếu sau này thấy vẫn còn lọt tên lạ không phải khu phố/ấp thật, thêm từ khoá mới
+vào biến `TU_KHOA_LOAI_BO` trong `scripts/lay-du-lieu.mjs` — không cần sửa gì
+thêm ở chỗ khác.
 
 ### Mô hình bitset — bitmask CỤC BỘ theo từng xã/phường
 
-Khác với bản đầu (chỉ 1 phường Trảng Bàng, đánh bit toàn cục), từ khi mở rộng
-cả tỉnh: **mỗi xã/phường có bảng bit riêng, độc lập với xã/phường khác**. Vị
-trí (index) của 1 khu phố trong mảng `khu_pho` của xã/phường đó chính là
-`chi_so_bit` dùng cho bitmask — xem `data/danh-muc-khu-pho.json`.
+**mỗi xã/phường có bảng bit riêng, độc lập với xã/phường khác**. Vị trí (index)
+của 1 khu phố trong mảng `khu_pho` của xã/phường đó chính là `chi_so_bit` dùng
+cho bitmask — xem `data/danh-muc-khu-pho.json`.
 
-Vì mỗi người chỉ đăng ký 1 xã/phường, tài liệu `dang_ky_thong_bao/{token}` giờ
-lưu `{ ma_phuong, bitmask }` thay vì mảng tên khu phố toàn cục. Điều này giải
-quyết đồng thời 2 vấn đề khi mở rộng quy mô lớn:
+Vì mỗi người chỉ đăng ký 1 xã/phường, tài liệu `dang_ky_thong_bao/{token}` lưu
+`{ ma_phuong, bitmask }`. Điều này giải quyết đồng thời 2 vấn đề khi mở rộng quy
+mô lớn:
 
 1. **Trùng tên khu phố giữa các xã/phường khác nhau** (vd "Khu phố 1" xuất
    hiện ở nhiều xã) — không còn là vấn đề vì bitmask không dùng chung không
    gian số giữa các phường.
-2. **Hiệu năng khi gửi thông báo** — thay vì đọc TOÀN BỘ người đăng ký trong
-   cả tỉnh mỗi lần có lịch mới, giờ chỉ query đúng người đăng ký CÙNG xã/phường
+2. **Hiệu năng khi gửi thông báo** — chỉ query đúng người đăng ký CÙNG xã/phường
    (`where("ma_phuong", "==", ...)`), nên vẫn nhanh dù số người dùng tăng lên
    hàng nghìn.
 
-**QUY TẮC BẤT BIẾN của `data/danh-muc-khu-pho.json`:** chỉ được **thêm** tên
-khu phố mới vào **cuối** mảng `khu_pho` của 1 xã/phường (script tự làm đúng
-quy tắc này — nếu bạn sửa tay, phải giữ đúng quy tắc). Không bao giờ xoá, đổi
-tên, hay sắp xếp lại — vì vị trí trong mảng chính là bit đã "cấp phát" cho
-người đã đăng ký trước đó, đổi vị trí sẽ làm bitmask cũ trỏ nhầm sang khu phố khác.
+**QUY TẮC BẤT BIẾN của `data/danh-muc-khu-pho.json`** (áp dụng khi dự án đã ổn
+định, có nhiều người dùng thật): chỉ được **thêm** tên khu phố mới vào **cuối**
+mảng `khu_pho` của 1 xã/phường. Không xoá, đổi tên, hay sắp xếp lại — vì vị trí
+trong mảng chính là bit đã "cấp phát" cho người đã đăng ký trước đó.
+
+*(Ở giai đoạn đang xây dựng/thử nghiệm như hiện tại, việc chuẩn hoá lại tên gọi
+cho rõ ràng — như đổi "KP 1" thành "Khu phố 1" — vẫn ưu tiên hơn giữ nguyên thứ
+tự, miễn còn ít người dùng thật; càng về sau càng nên tuân thủ nghiêm quy tắc
+này để không phá đăng ký của người dùng.)*
 
 ### Cách thêm 1 huyện/thị xã mới
 
@@ -87,31 +118,11 @@ Mở `data/danh-muc-dien-luc.json`, thêm 1 phần tử mới vào mảng `don_v
 - `ma_dien_luc` là tham số `madvi` tra trên trang gốc của EVNSPC:
   https://www.cskh.evnspc.vn/TraCuu/LichNgungGiamCungCapDien (chọn đơn vị
   tương ứng, xem tham số `madvi` gửi lên trong network request).
+- `ten_don_vi` nên viết đầy đủ dạng "Điện lực Tên Huyện" — đây chính là chuỗi
+  hiển thị cho người dùng ở bước chọn đầu tiên trên web.
 - Sau khi thêm, lần chạy `lay-du-lieu.mjs` tiếp theo sẽ tự động crawl đơn vị
   này và tự bổ sung mọi Xã/Phường + khu phố/ấp phát hiện được vào
   `data/danh-muc-khu-pho.json` — không cần làm gì thêm.
-- Vì dữ liệu chỉ xuất hiện khi EVNSPC **thực sự công bố lịch cúp điện** cho
-  khu vực đó, 1 Xã/Phường có thể mất một thời gian mới hiện đủ trong danh sách
-  chọn của người dùng (tuỳ tần suất cúp điện thật của khu vực đó).
-
-### Nếu muốn sửa tay `data/danh-muc-khu-pho.json`
-
-Vẫn làm được (ví dụ bạn có sẵn danh sách chính xác từ nguồn khác, muốn nạp
-trước cho nhanh thay vì chờ tự khám phá) — chỉ cần theo đúng mẫu:
-
-```json
-"TN-VIDU": {
-  "ten_phuong": "Tên xã hoặc phường",
-  "ten_huyen": "Tên thị xã/huyện (có thể để trống)",
-  "ma_dien_luc": "PBxxxx",
-  "khu_pho": ["Khu phố 1", "Khu phố 2", "..."]
-}
-```
-
-**Lưu ý quan trọng:** nếu 1 Xã/Phường đã có người dùng thật đăng ký (đã có
-`ma_phuong` đó trong Firestore), **không được sửa lại thứ tự hoặc xoá bớt**
-các phần tử đã có trong mảng `khu_pho` — chỉ được thêm mới vào cuối, nếu không
-sẽ làm sai bitmask của người đã đăng ký trước đó.
 
 ## Thiết lập lần đầu
 
@@ -138,18 +149,11 @@ Vào Firestore → Rules, dán:
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Nguoi dung tu ghi dang ky cua chinh minh (doc id = FCM token cua ho)
-    // Cho phep DOC lai chinh tai lieu cua minh (can de app kiem tra "da dang ky chua"
-    // khi mo lai trang), nhung KHONG cho doc tai lieu cua nguoi khac.
     match /dang_ky_thong_bao/{token} {
-      allow get: if request.auth == null; // Firestore khong phan biet duoc "chinh minh" khi khong dang nhap,
-                                            // nen o day cho phep doc theo dung token (token nhu 1 "mat khau ngau nhien"
-                                            // ma chi thiet bi cua ho moi biet) — chap nhan duoc voi quy mo MVP.
-      allow list: if false; // KHONG cho liet ke toan bo danh sach dang ky cua moi nguoi
+      allow get: if request.auth == null;
+      allow list: if false;
       allow write: if request.resource.data.keys().hasAll(['bitmask', 'ma_phuong']);
     }
-    // lich_cup_dien: ai cung doc/query duoc (can thiet cho man hinh trang thai),
-    // chi Admin SDK (GitHub Actions) moi ghi duoc
     match /lich_cup_dien/{id} {
       allow read: if true;
       allow write: if false; // Admin SDK dung service account, khong bi Rules chan
@@ -158,31 +162,20 @@ service cloud.firestore {
 }
 ```
 
-**⚠️ Nếu bạn đang nâng cấp từ bản chỉ có Trảng Bàng:** nhớ vào lại Firestore →
-Rules và sửa `hasAll(['bitmask', 'ma_khu_pho'])` thành
-`hasAll(['bitmask', 'ma_phuong'])` như trên — nếu không sửa, đăng ký của người
-dùng sẽ bị Firestore từ chối ghi (lỗi `permission-denied`) vì tài liệu mới
-không còn trường `ma_khu_pho` nữa.
+**Lưu ý bảo mật:** vì không có đăng nhập, "khoá" bảo vệ dữ liệu đăng ký chính là bản thân FCM token (chuỗi ngẫu nhiên dài, khó đoán). Đây là đánh đổi hợp lý cho MVP không cần tài khoản.
 
-**Lưu ý bảo mật:** vì không có đăng nhập, "khoá" bảo vệ dữ liệu đăng ký chính là bản thân FCM token (chuỗi ngẫu nhiên dài, khó đoán). Đây là đánh đổi hợp lý cho MVP không cần tài khoản, nhưng không phải bảo mật tuyệt đối — nếu sau này mở rộng và cần chặt chẽ hơn, nên cân nhắc Firebase Anonymous Auth để có `request.auth.uid` thật sự kiểm tra được.
+### 3b. Composite Index bắt buộc cho việc gửi nhắc
 
-### 3b. Composite Index bắt buộc cho luồng "nhắc trước giờ"
-
-`scripts/nhac-truoc-gio-cup-dien.mjs` chạy 1 truy vấn kết hợp 3 điều kiện
+`scripts/dong-bo-va-gui-thong-bao.mjs` chạy 1 truy vấn kết hợp 3 điều kiện
 (`da_gui_nhac == false` + `tu_luc > ...` + `tu_luc <= ...`) — Firestore **bắt
-buộc phải có composite index** cho kiểu truy vấn này, khác với các truy vấn
-1 điều kiện ở nơi khác trong dự án (những cái đó dùng single-field index, tự
-tạo sẵn).
+buộc phải có composite index** cho kiểu truy vấn này.
 
-Cách tạo index dễ nhất: chạy thử `node scripts/nhac-truoc-gio-cup-dien.mjs`
-1 lần (xem mục "Chạy thử trên máy" bên dưới) — nếu thiếu index, Firestore sẽ
-báo lỗi kèm theo **đường link tạo sẵn**, chỉ cần bấm vào link đó và bấm
-"Create Index" trên Firebase Console, đợi vài phút là xong (không cần tự tạo
-tay từng field).
+Cách tạo index dễ nhất: chạy thử script 1 lần (xem mục "Chạy thử trên máy" bên
+dưới) — nếu thiếu index, Firestore sẽ báo lỗi kèm theo **đường link tạo sẵn**,
+chỉ cần bấm vào link đó và bấm "Create Index" trên Firebase Console, đợi vài
+phút là xong.
 
 ### 4. (Khuyến nghị) Bật Firestore TTL tự động
-
-Ngoài việc `scripts/dong-bo-va-gui-thong-bao.mjs` tự xoá bản ghi hết hạn mỗi lần chạy, bạn nên bật thêm TTL gốc của Firestore để chắc chắn:
 
 1. Vào **Firestore → TTL** (trong Console) → Create policy
 2. Collection: `lich_cup_dien`, Timestamp field: `den_luc`
@@ -193,20 +186,15 @@ Ngoài việc `scripts/dong-bo-va-gui-thong-bao.mjs` tự xoá bản ghi hết h
 
 ### 6. Chạy thử thủ công lần đầu
 
-Vào tab **Actions** của repo → có 2 workflow:
-
-- "Cap nhat lich cup dien va gui thong bao" (crawl + thông báo lịch mới)
-- "Nhac truoc gio cup dien" (nhắc riêng trước 24h)
-
-Bấm **Run workflow** ở từng cái để chạy tay lần đầu (không cần chờ tới lịch cron).
+Vào tab **Actions** của repo → chọn workflow "Cap nhat lich cup dien va gui
+thong bao" → **Run workflow** để chạy tay lần đầu (không cần chờ tới lịch cron).
 
 ## Chạy thử trên máy (không qua GitHub Actions)
 
 ```bash
 npm install
-node scripts/lay-du-lieu.mjs                 # tạo data/lich-tho.json (tất cả xã/phường đã có ma_dien_luc)
+node scripts/lay-du-lieu.mjs                 # tạo data/lich-tho.json (tất cả đơn vị đã có trong danh-muc-dien-luc.json)
 FIREBASE_SERVICE_ACCOUNT_KEY_JSON='{...}' node scripts/dong-bo-va-gui-thong-bao.mjs
-FIREBASE_SERVICE_ACCOUNT_KEY_JSON='{...}' node scripts/nhac-truoc-gio-cup-dien.mjs
 ```
 
 Xem trang bằng server tĩnh bất kỳ (service worker cần chạy qua http/https, không mở trực tiếp file://):
@@ -219,15 +207,12 @@ npx serve .
 
 Web Push chỉ hoạt động trên iOS 16.4+, và bắt buộc người dùng phải **"Thêm vào Màn hình chính"** trước khi bật thông báo — mở qua Safari trình duyệt thường sẽ không nhận được push. Trang đã có ghi chú hướng dẫn việc này ngay trong giao diện.
 
-## Về "nhắc trước giờ cúp điện" — sai số và giới hạn
+## Về việc chỉ báo 1 lần — sai số và giới hạn
 
-- Workflow nhắc chạy mỗi 15 phút, nên thời điểm gửi thực tế có thể lệch tối đa
-  ~15 phút so với đúng "24h trước giờ cúp".
+- Chạy 2 lần/ngày (6h & 18h), nên thời điểm gửi thực tế có thể lệch tối đa
+  ~12 tiếng so với đúng mốc 24h trước giờ cúp — ví dụ lịch cúp 7h sáng thì
+  thông báo có thể tới lúc 18h chiều hôm trước (sớm hơn 24h khoảng 13 tiếng)
+  thay vì đúng 7h sáng hôm trước, tuỳ lần quét nào bắt được lịch đó trước.
 - Nếu 1 lịch cúp điện được **phát hiện lần đầu** khi đã còn CHƯA đến 24h nữa
-  (ví dụ EVNSPC công bố gấp, chỉ trước 10 tiếng), hệ thống vẫn gửi nhắc ngay
-  trong lần chạy gần nhất — trễ còn hơn không, theo đúng lựa chọn thiết kế.
-- Vì luồng "nhắc trước giờ" và luồng "thông báo phát hiện lịch mới" là 2 luồng
-  độc lập, trong trường hợp trên người dùng có thể nhận được **2 thông báo gần
-  sát nhau** (1 lúc phát hiện, 1 lúc nhắc) — đây là đánh đổi có chủ đích để
-  không bỏ sót ai, nếu muốn gộp lại thành 1 thông báo duy nhất trong trường
-  hợp này, cần sửa thêm logic (có thể trao đổi thêm nếu cần).
+  (ví dụ EVNSPC công bố gấp), hệ thống vẫn gửi ngay trong lần quét đó — trễ
+  còn hơn không.

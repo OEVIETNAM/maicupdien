@@ -29,78 +29,77 @@
     "ten_huyen": "",
     "ma_dien_luc": "PB0503",
     "khu_pho": [
-      "An Hội",
-      "An Lợi",
-      "An Phú",
-      "An Quới",
-      "An Thới",
-      "Gia Huỳnh",
-      "Hòa Bình",
-      "Hòa Hội",
-      "Hòa Hưng",
-      "Hòa Lợi",
-      "Hòa Phú",
-      "Lộc An",
-      "Lộc Du",
-      "Lộc Thành"
-    ]
+      "Khu phố An Hội",
+      "Khu phố An Lợi",
+      "Khu phố An Phú",
+      "Khu phố An Quới",
+      "Khu phố An Thới",
+      "Khu phố Gia Huỳnh",
+      "Khu phố Hòa Bình",
+      "Khu phố Hòa Hội",
+      "Khu phố Hòa Hưng",
+      "Khu phố Hòa Lợi",
+      "Khu phố Hòa Phú",
+      "Khu phố Lộc An",
+      "Khu phố Lộc Du",
+      "Khu phố Lộc Thành"
+    ],
+    "loai_don_vi": "Phường"
   },
   "TN-TANNINH": {
     "ten_phuong": "Tân Ninh",
     "ten_huyen": "Tân Ninh",
     "ma_dien_luc": "PB0501",
     "khu_pho": [
-      "KP 1",
-      "KP 2",
-      "KP 3",
-      "KP 4",
-      "KP 5",
-      "KP Hiệp An",
-      "KP Hiệp Hòa",
-      "KP Hiệp Nghĩa",
-      "KP Hiệp Thạnh"
-    ]
+      "Khu phố 1",
+      "Khu phố 2",
+      "Khu phố 3",
+      "Khu phố 4",
+      "Khu phố 5",
+      "Khu phố Hiệp An",
+      "Khu phố Hiệp Hòa",
+      "Khu phố Hiệp Nghĩa",
+      "Khu phố Hiệp Thạnh"
+    ],
+    "loai_don_vi": ""
   },
   "TN-BINHMINH": {
     "ten_phuong": "Bình Minh",
     "ten_huyen": "Tân Ninh",
     "ma_dien_luc": "PB0501",
     "khu_pho": [
-      "KP Ninh Bình",
-      "KP Ninh Tỉnh",
-      "KP Ninh Trung",
+      "Khu phố Ninh Bình",
+      "Khu phố Ninh Tỉnh",
+      "Khu phố Ninh Trung",
       "Ấp Bình Hòa",
       "Ấp Tân Lương",
-      "Ấp Thạnh Hiệp",
-      "Ninh Bình",
-      "Ninh Trung",
-      "Tân Phước",
-      "Tân Hòa",
-      "Ninh Thành",
-      "Giồng Tre"
-    ]
+      "Ấp Thạnh Hiệp"
+    ],
+    "loai_don_vi": ""
   },
   "TN-GODAU": {
     "ten_phuong": "Gò Dầu",
     "ten_huyen": "Gò Dầu",
     "ma_dien_luc": "PB0502",
     "khu_pho": [
-      "KP Nội Ô",
-      "KP Thanh Hà",
-      "KP Phước Hiệp",
-      "KP Phước Hội"
-    ]
+      "Khu phố Nội Ô",
+      "Khu phố Thanh Hà",
+      "Khu phố Phước Hiệp",
+      "Khu phố Phước Hội"
+    ],
+    "loai_don_vi": ""
   },
   "TN-GIALOC": {
     "ten_phuong": "Gia Lộc",
     "ten_huyen": "Gò Dầu",
     "ma_dien_luc": "PB0502",
     "khu_pho": [
-      "KP Gia Huỳnh",
-      "KP Lộc Hòa",
+      "Khu phố Gia Huỳnh",
+      "Khu phố Lộc Hòa",
       "Ấp Cây Cầy",
       "Ấp Xóm Đồng"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-THANHDUC": {
     "ten_phuong": "Thạnh Đức",
@@ -110,11 +109,9 @@
       "Ấp Bến Căn",
       "Ấp Cẩm An",
       "Ấp Cẩm Bình",
-      "Ấp Bến Mông",
-      "Rộc A",
-      "Rộc B",
-      "Cầu Sắt"
-    ]
+      "Ấp Bến Mông"
+    ],
+    "loai_don_vi": ""
   },
   "TN-PHUOCTHANH": {
     "ten_phuong": "Phước Thạnh",
@@ -123,14 +120,9 @@
     "khu_pho": [
       "Ấp Xóm Bún",
       "Ấp Cây Da",
-      "Ấp Phước Clung",
-      "Đá Hàng",
-      "Xóm Bố",
-      "Cây Da",
-      "Xóm Mía",
-      "Cây Nính",
-      "Giữa"
-    ]
+      "Ấp Phước Clung"
+    ],
+    "loai_don_vi": ""
   },
   "TN-TRUONGMIT": {
     "ten_phuong": "Truông Mít",
@@ -141,24 +133,21 @@
       "Ấp 2",
       "Ấp 3",
       "Ấp Thuận Bình",
-      "Ấp Thuận Tâm",
-      "Thuận Hòa",
-      "Thuận Tân"
-    ]
+      "Ấp Thuận Tâm"
+    ],
+    "loai_don_vi": ""
   },
   "TN-ANTINH": {
     "ten_phuong": "An Tịnh",
     "ten_huyen": "Trảng Bàng",
     "ma_dien_luc": "PB0503",
     "khu_pho": [
-      "KP An Bình",
-      "KP An Thới",
-      "KP Lộc Tiên",
-      "KP Lộc Châu",
-      "An Thới",
-      "Lộc Hoà",
-      "Suối Sâu"
-    ]
+      "Khu phố An Bình",
+      "Khu phố An Thới",
+      "Khu phố Lộc Tiên",
+      "Khu phố Lộc Châu"
+    ],
+    "loai_don_vi": ""
   },
   "TN-PHUOCCHI": {
     "ten_phuong": "Phước Chỉ",
@@ -168,7 +157,8 @@
       "Ấp Phước Hội",
       "Ấp Phước Lập",
       "Ấp Phước Long"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-HUNGTHUAN": {
     "ten_phuong": "Hưng Thuận",
@@ -177,26 +167,23 @@
     "khu_pho": [
       "Ấp Bùng Binh",
       "Ấp Bến Căn",
-      "Ấp Hưng Phát",
-      "Bến Kinh",
-      "Sóc Lào"
-    ]
+      "Ấp Hưng Phát"
+    ],
+    "loai_don_vi": ""
   },
   "TN-TANCHAU": {
     "ten_phuong": "Tân Châu",
     "ten_huyen": "Tân Châu",
     "ma_dien_luc": "PB0504",
     "khu_pho": [
-      "KP 1",
-      "KP 2",
-      "KP 3",
-      "KP 4",
+      "Khu phố 1",
+      "Khu phố 2",
+      "Khu phố 3",
+      "Khu phố 4",
       "Ấp Thạnh Đông",
-      "Ấp Suối Dây",
-      "Thạnh Đông",
-      "Thạnh Nghĩa",
-      "Thạnh Hiệp"
-    ]
+      "Ấp Suối Dây"
+    ],
+    "loai_don_vi": ""
   },
   "TN-TANDONG": {
     "ten_phuong": "Tân Đông",
@@ -206,7 +193,8 @@
       "Ấp Đông Lợi",
       "Ấp Đông Tiến",
       "Ấp Tân Lâm"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-TANPHU": {
     "ten_phuong": "Tân Phú",
@@ -216,7 +204,8 @@
       "Ấp Tân Hưng",
       "Ấp Mỏ Công",
       "Ấp Tân Phong"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-TANHOI": {
     "ten_phuong": "Tân Hội",
@@ -226,7 +215,8 @@
       "Ấp Hội Thành",
       "Ấp Hội Tân",
       "Ấp Tân Hiệp"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-TANTHANH": {
     "ten_phuong": "Tân Thành",
@@ -234,25 +224,9 @@
     "ma_dien_luc": "PB0504",
     "khu_pho": [
       "Ấp Tân Tỉnh",
-      "Ấp Tân Đông",
-      "Tân Hòa",
-      "Tân Quý",
-      "Trạm Kinh Ba 1 - Đường liên  tuyến dân cư Kinh 5000 Tân Bình -  Hiệp Thành",
-      "Trạm Kinh Ba 4 - Đường liên  tuyến dân cư Kinh 5000 Tân Bình -  Hiệp Thành",
-      "Trạm Kinh Ba 2 - Đường liên  tuyến dân cư Kinh 5000 Tân Bình -  Hiệp Thành",
-      "Trạm Kinh Ba 5 - Đường liên  tuyến dân cư Kinh 5000 Tân Bình -  Hiệp Thành",
-      "Trạm Kinh Ba 3 - Đường liên  tuyến dân cư Kinh 5000 Tân Bình -  Hiệp Thành",
-      "Cụm dân cư Hiệp Thành -  Tân Thạnh",
-      "Đường Kinh Hiệp Thành -  Tân Thạnh",
-      "Đường Lê Hữu Nghĩa",
-      "Đường Lê Văn Trầm -  Tân Thạnh",
-      "Đường Hùng Vương -  Tân Thạnh",
-      "Đường Cà Nhíp đến Đường tránh Tân Thạnh -  Tân Thạnh",
-      "Đường Hùng Vương",
-      "Lê Văn Trầm -  Tân Thạnh",
-      "Khu vực Bến Tàu  3 -  Kiến Bình",
-      "Khu vực Chợ Mới Tân Thạnh -  Kiến Bình"
-    ]
+      "Ấp Tân Đông"
+    ],
+    "loai_don_vi": ""
   },
   "TN-TANHOA": {
     "ten_phuong": "Tân Hòa",
@@ -261,7 +235,8 @@
     "khu_pho": [
       "Ấp Con Trăn",
       "Ấp Suối Ngô"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-PHUOCVINH": {
     "ten_phuong": "Phước Vinh",
@@ -270,9 +245,9 @@
     "khu_pho": [
       "Ấp Phước Thạnh",
       "Ấp Phước Lộc",
-      "Ấp Hòa Hiệp",
-      "Hòa Đông A"
-    ]
+      "Ấp Hòa Hiệp"
+    ],
+    "loai_don_vi": ""
   },
   "TN-HOAHOI": {
     "ten_phuong": "Hòa Hội",
@@ -283,7 +258,8 @@
       "Ấp Hòa Bình",
       "Ấp Biên Giới",
       "Ấp Hòa Thạnh"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-NINHDIEN": {
     "ten_phuong": "Ninh Điền",
@@ -293,24 +269,22 @@
       "Ấp Gò Nổi",
       "Ấp Bến Củi",
       "Ấp Thành Long"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-CHAUTHANH": {
     "ten_phuong": "Châu Thành",
     "ten_huyen": "Châu Thành",
     "ma_dien_luc": "PB0505",
     "khu_pho": [
-      "KP 1",
-      "KP 2",
-      "KP 3",
+      "Khu phố 1",
+      "Khu phố 2",
+      "Khu phố 3",
       "Ấp Đồng Khởi",
       "Ấp An Bình",
-      "Ấp Thái Bình",
-      "Tam Hạp",
-      "Suối Muồn",
-      "Chòm Dừa",
-      "Cầy Xiêng"
-    ]
+      "Ấp Thái Bình"
+    ],
+    "loai_don_vi": ""
   },
   "TN-HAODUOC": {
     "ten_phuong": "Hảo Đước",
@@ -320,12 +294,9 @@
       "Ấp Sông Muồng",
       "Ấp Bến Mưng",
       "Ấp An Cơ",
-      "Ấp Trí Bình",
-      "Sa Nghe",
-      "An Thọ",
-      "Vịnh",
-      "Xóm Ruộng"
-    ]
+      "Ấp Trí Bình"
+    ],
+    "loai_don_vi": ""
   },
   "TN-LONGCHU": {
     "ten_phuong": "Long Chữ",
@@ -335,25 +306,23 @@
       "Ấp Long Đại",
       "Ấp Long Hưng",
       "Ấp Long Vĩnh",
-      "Ấp Long Phước",
-      "Long Chẩn",
-      "Long Hòa 2"
-    ]
+      "Ấp Long Phước"
+    ],
+    "loai_don_vi": ""
   },
   "TN-DUONGMINHCHAU": {
     "ten_phuong": "Dương Minh Châu",
     "ten_huyen": "Dương Minh Châu",
     "ma_dien_luc": "PB0506",
     "khu_pho": [
-      "KP 1",
-      "KP 2",
-      "KP 3",
+      "Khu phố 1",
+      "Khu phố 2",
+      "Khu phố 3",
       "Ấp Phan",
       "Ấp Suối Đá",
-      "Ấp Phước Minh",
-      "Tân Định",
-      "Phước Hòa"
-    ]
+      "Ấp Phước Minh"
+    ],
+    "loai_don_vi": ""
   },
   "TN-LOCNINH": {
     "ten_phuong": "Lộc Ninh",
@@ -362,10 +331,9 @@
     "khu_pho": [
       "Ấp Lộc Hiệp",
       "Ấp Lộc Trung",
-      "Ấp Bến Củi",
-      "Lộc Trung",
-      "Lộc Tân"
-    ]
+      "Ấp Bến Củi"
+    ],
+    "loai_don_vi": ""
   },
   "TN-CAUKHOI": {
     "ten_phuong": "Cầu Khởi",
@@ -375,11 +343,9 @@
       "Ấp Khởi Hà",
       "Ấp Khởi Trung",
       "Ấp Phước Ninh",
-      "Ấp Chà Là",
-      "Khởi Trung",
-      "Phước Tân",
-      "Khởi Nghĩa"
-    ]
+      "Ấp Chà Là"
+    ],
+    "loai_don_vi": ""
   },
   "TN-TANLAP": {
     "ten_phuong": "Tân Lập",
@@ -389,21 +355,22 @@
       "Ấp Tân Mới",
       "Ấp Tân Thạnh",
       "Ấp Thạnh Bắc"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-TANBIEN": {
     "ten_phuong": "Tân Biên",
     "ten_huyen": "Tân Biên",
     "ma_dien_luc": "PB0507",
     "khu_pho": [
-      "KP 1",
-      "KP 2",
-      "KP 3",
+      "Khu phố 1",
+      "Khu phố 2",
+      "Khu phố 3",
       "Ấp Tân Bình",
       "Ấp Thạnh Tây",
-      "Ấp Thạnh Thuận",
-      "Thạnh Tân"
-    ]
+      "Ấp Thạnh Thuận"
+    ],
+    "loai_don_vi": ""
   },
   "TN-THANHBINH": {
     "ten_phuong": "Thạnh Bình",
@@ -412,12 +379,9 @@
     "khu_pho": [
       "Ấp Thạnh Lộc",
       "Ấp Thạnh Phước",
-      "Ấp Tân Phong",
-      "Thạnh An",
-      "Thạnh Lợi",
-      "Thạnh Thọ",
-      "Cầu"
-    ]
+      "Ấp Tân Phong"
+    ],
+    "loai_don_vi": ""
   },
   "TN-TRAVONG": {
     "ten_phuong": "Trà Vong",
@@ -427,81 +391,59 @@
       "Ấp Trà Sim",
       "Ấp Suối Tre",
       "Ấp Mỏ Công"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-NINHTHANH": {
     "ten_phuong": "Ninh Thạnh",
     "ten_huyen": "Hòa Thành",
     "ma_dien_luc": "PB0508",
     "khu_pho": [
-      "KP Ninh Phúc",
-      "KP Ninh Đức",
+      "Khu phố Ninh Phúc",
+      "Khu phố Ninh Đức",
       "Ấp Bàu Năng",
-      "Ấp Chà Là",
-      "Ninh Phúc",
-      "Ninh Lợi",
-      "Bình Linh",
-      "Ninh Hưng",
-      "Ninh Bình",
-      "Bàu Năng",
-      "Chà Là"
-    ]
+      "Ấp Chà Là"
+    ],
+    "loai_don_vi": ""
   },
   "TN-LONGHOA": {
     "ten_phuong": "Long Hoa",
     "ten_huyen": "Hòa Thành",
     "ma_dien_luc": "PB0508",
     "khu_pho": [
-      "KP 1",
-      "KP 2",
-      "KP 3",
-      "KP 4",
-      "KP Long Thới",
-      "KP Trường Huệ",
-      "KP Trường Tây",
-      "KP Trường Đông",
-      "Trường Xuân",
-      "Long Thời",
-      "Long Tân",
-      "4",
-      "Trường Thiện",
-      "Sân Cu",
-      "1",
-      "2",
-      "Long Mỹ",
-      "Trường Huệ",
-      "Trường Cửu",
-      "Trường Lưu"
-    ]
+      "Khu phố 1",
+      "Khu phố 2",
+      "Khu phố 3",
+      "Khu phố 4",
+      "Khu phố Long Thới",
+      "Khu phố Trường Huệ",
+      "Khu phố Trường Tây",
+      "Khu phố Trường Đông"
+    ],
+    "loai_don_vi": ""
   },
   "TN-HOATHANH": {
     "ten_phuong": "Hòa Thành",
     "ten_huyen": "Hòa Thành",
     "ma_dien_luc": "PB0508",
     "khu_pho": [
-      "KP Long Thịnh",
-      "KP Long Thành",
-      "KP Long Nam",
-      "Long Kim",
-      "Long Thành",
-      "Long Bình",
-      "Long Khương",
-      "Long Yên",
-      "Bến Kéo",
-      "Long Trung",
-      "Giang Tân"
-    ]
+      "Khu phố Long Thịnh",
+      "Khu phố Long Thành",
+      "Khu phố Long Nam"
+    ],
+    "loai_don_vi": ""
   },
   "TN-THANHDIEN": {
     "ten_phuong": "Thanh Điền",
     "ten_huyen": "Hòa Thành",
     "ma_dien_luc": "PB0508",
     "khu_pho": [
-      "KP Hiệp Trường",
-      "KP Hiệp An",
+      "Khu phố Hiệp Trường",
+      "Khu phố Hiệp An",
       "Ấp Thanh Hùng",
       "Ấp Thanh Thuận"
-    ]
+    ],
+    "loai_don_vi": ""
   },
   "TN-LONGTHUAN": {
     "ten_phuong": "Long Thuận",
@@ -511,772 +453,23 @@
       "Ấp Ngã Tư",
       "Ấp Bảo",
       "Ấp Long Giang",
-      "Ấp Long Khánh",
-      "Long An"
-    ]
+      "Ấp Long Khánh"
+    ],
+    "loai_don_vi": ""
   },
   "TN-BENCAU": {
     "ten_phuong": "Bến Cầu",
     "ten_huyen": "Bến Cầu",
     "ma_dien_luc": "PB0509",
     "khu_pho": [
-      "KP 1",
-      "KP 2",
-      "KP 3",
+      "Khu phố 1",
+      "Khu phố 2",
+      "Khu phố 3",
       "Ấp An Thạnh",
       "Ấp Tiên Thuận",
       "Ấp Lợi Thuận",
       "Ấp Thuận Tây"
-    ]
-  },
-  "TN-HIEPTHANH": {
-    "ten_phuong": "Hiệp Thạnh",
-    "ten_huyen": "Gò Dầu",
-    "ma_dien_luc": "PB0502",
-    "khu_pho": [
-      "Đá Hàng"
-    ]
-  },
-  "TN-GIALOCAPBAUVUNGXAPHUOCTHANHAPGIUAXAPHUOCTHANH": {
-    "ten_phuong": "Gia Lộc\nẤp Bàu Vừng xã Phước Thạnh\nẤp Giữa xã Phước Thạnh",
-    "ten_huyen": "Gò Dầu",
-    "ma_dien_luc": "PB0502",
-    "khu_pho": [
-      "Suối Cao B"
-    ]
-  },
-  "TN-TANAN": {
-    "ten_phuong": "Tân An",
-    "ten_huyen": "Tân An",
-    "ma_dien_luc": "PB0601",
-    "khu_pho": [
-      "Một phần đường Châu Thị Kim",
-      "Một phần  Bình Nam",
-      "Một phần  Nhơn Thuận",
-      "Đường cặp Kênh Tư Vĩnh",
-      "Một phần đường TL 827",
-      "đường Nguyễn Văn Tịch",
-      "đường Đỗ Văn Giàu",
-      "đường Trần Văn Ngà",
-      "Một phần đường Đinh Viết Cừu",
-      "Một phần  Nhơn Trị"
-    ]
-  },
-  "TN-KHANHHAU": {
-    "ten_phuong": "Khánh Hậu",
-    "ten_huyen": "Tân An",
-    "ma_dien_luc": "PB0601",
-    "khu_pho": [
-      "Một phần đường Phạm Văn Thành",
-      "Một phần  Ngãi Lợi A",
-      "Một phần đường Vành Đai"
-    ]
-  },
-  "TN-MYTHANH": {
-    "ten_phuong": "Mỹ Thạnh",
-    "ten_huyen": "Thủ Thừa",
-    "ma_dien_luc": "PB0602",
-    "khu_pho": [
-      "Một phần  Mỹ Hoà",
-      "Toàn bộ Trường THPT Mỹ Lạc",
-      "Bà Mía",
-      "Một phần  Ninh Thạnh ( 1)",
-      "Tân Thành"
-    ]
-  },
-  "TN-THUTHUA": {
-    "ten_phuong": "Thủ Thừa",
-    "ten_huyen": "Thủ Thừa",
-    "ma_dien_luc": "PB0602",
-    "khu_pho": [
-      "Một phần  Nhị Thành 1",
-      "Thủ Khoa Thừa 5",
-      "Toàn bộ Công ty TNHH Hoàng Gia Nhựt Quang",
-      "Bình Thạnh 3"
-    ]
-  },
-  "TN-TANLONG": {
-    "ten_phuong": "Tân Long",
-    "ten_huyen": "Thủ Thừa",
-    "ma_dien_luc": "PB0602",
-    "khu_pho": [
-      "Toàn bộ  2",
-      "3",
-      "Toàn bộ  1",
-      "4",
-      "5",
-      "6",
-      "2"
-    ]
-  },
-  "TN-HAUNGHIA": {
-    "ten_phuong": "hậu Nghĩa",
-    "ten_huyen": "Đức Hòa",
-    "ma_dien_luc": "PB0603",
-    "khu_pho": [
-      "Chánh Hội"
-    ]
-  },
-  "TN-DUCLAP": {
-    "ten_phuong": "Đức Lập",
-    "ten_huyen": "Đức Hòa",
-    "ma_dien_luc": "PB0603",
-    "khu_pho": [
-      "Một phần",
-      "Rừng Dầu"
-    ]
-  },
-  "TN-HOAKHANH": {
-    "ten_phuong": "Hòa Khánh",
-    "ten_huyen": "Đức Hòa",
-    "ma_dien_luc": "PB0603",
-    "khu_pho": [
-      "Bình Lợi"
-    ]
-  },
-  "TN-DUCHOA": {
-    "ten_phuong": "Đức Hòa",
-    "ten_huyen": "Đức Hòa",
-    "ma_dien_luc": "PB0603",
-    "khu_pho": [
-      "3",
-      "4",
-      "Bình Tiền 2",
-      "1B",
-      "Bình Tiền 1",
-      "2",
-      "Bình Tả"
-    ]
-  },
-  "TN-MYHANH": {
-    "ten_phuong": "Mỹ Hạnh",
-    "ten_huyen": "Đức Hòa",
-    "ma_dien_luc": "PB0603",
-    "khu_pho": [
-      "5"
-    ]
-  },
-  "TN-MYLOC": {
-    "ten_phuong": "Mỹ Lộc",
-    "ten_huyen": "Cần Giuộc",
-    "ma_dien_luc": "PB0604",
-    "khu_pho": [
-      "Nhánh rẽ Công ty TNHH MTV Lộc Tiền",
-      "Nhánh rẽ CTy TNHH TM SX Ngọc Minh Long",
-      "Khu vực từ trạm 110kV Cần Giuộc (QL50) đến đầu đường Kênh Đại Hội ( phía QL50)",
-      "một  Kế Mỹ",
-      "Thuận Bắc",
-      "Thuận Đông",
-      "một phần  Kế Mỹ",
-      "Thanh Ba",
-      "Lộc Tiền",
-      "Lộc Hậu",
-      "Lộc Trung"
-    ]
-  },
-  "TN-TANTAP": {
-    "ten_phuong": "Tân Tập",
-    "ten_huyen": "Cần Giuộc",
-    "ma_dien_luc": "PB0604",
-    "khu_pho": [
-      "Khu vực từ đầu Chợ Tân Tập phía Cầu Bảy Đảnh đến Cầu Ban Kiệt",
-      "một phần  Tân Chánh",
-      "Tân Đại",
-      "Khu vực từ đầu Chợ Tân Tập đến Cầu Bảy Đảnh"
-    ]
-  },
-  "TN-MYLOCDENNGA3DUONGVEPHUOCHAU": {
-    "ten_phuong": "Mỹ Lộc đến Ngã 3 đường về Phước Hậu",
-    "ten_huyen": "Cần Giuộc",
-    "ma_dien_luc": "PB0604",
-    "khu_pho": [
-      "Khu vực trên đường ĐT.835 đoạn từ UBND"
-    ]
-  },
-  "TN-PHUOCLY": {
-    "ten_phuong": "Phước Lý",
-    "ten_huyen": "Cần Giuộc",
-    "ma_dien_luc": "PB0604",
-    "khu_pho": [
-      "Khu vực từ đường Trần Thị Non đến đường Đ.T14",
-      "một phần  Tân Điền",
-      "Nhánh rẽ Cơ Sở Lê Văn Mão",
-      "Nhánh rẽ Cơ Sở Nguyễn Thanh Phượng",
-      "một phần  Ngoài",
-      "Long Khánh",
-      "Long Thạnh",
-      "Long Thới",
-      "Tân Điền"
-    ]
-  },
-  "TN-CANGIUOC": {
-    "ten_phuong": "Cần Giuộc",
-    "ten_huyen": "Cần Giuộc",
-    "ma_dien_luc": "PB0604",
-    "khu_pho": [
-      "Khu vực từ đầu đường  3 Long Hậu đến Cầu Rạch Dơi",
-      "một phần  Long Hậu",
-      "Long Đức Đông",
-      "Khu vực đầu đường  3 Long Hậu",
-      "Khu vực từ Ngã Tư Gia Bảo(ĐT.835) đến đầu cầu Cần Giuộc Mới ( đường tránh QL50)",
-      "một phần  Thanh Ba",
-      "Khu vực từ KCN Tân Kim đến Vòng Xoay Tân Kim đến Cầu Cần Giuộc (cũ)",
-      "một phần  Tân Kim",
-      "Kim Điền",
-      "Kim Định",
-      "Trị Yên",
-      "Long Phú",
-      "Khu vực từ KCN Tân Kim đến Vòng Xoay Tân Kim",
-      "Khu vực từ trạm 110kV Cần Giuộc (QL50) đến Vòng Xoay Tân Kim ( đường tránh QL50)",
-      "đến Chợ Long Thượng ( Đường Đ.T 835B)",
-      "một phần  Trường Bình",
-      "Thanh Ba",
-      "Khu vực từ trạm 110kV Cần Giuộc (QL50) đến Vòng Xoay Ngã 5 Mũi Tàu đến Cầu Cần Giuộc(cũ)",
-      "đến Ngã tư Gia Bảo",
-      "đến Cầu Cần Giuộc ( mới)",
-      "đến Ngã 3 Tám Chẽo",
-      "một phần  1",
-      "2",
-      "3",
-      "4",
-      "Hòa Thuận 1",
-      "Hòa Thuận 2",
-      "Phước Thuận",
-      "Thanh Hà",
-      "Khu vực từ trạm 110kV Cần Giuộc (QL50) đến Vòng Xoay Ngã 5 Mũi Tàu",
-      "một phần  2",
-      "Khu vực từ Ngã tư Gia Bảo theo đường tuyến tránh QL50 đến Trường Tiểu Học Tân Kim đến KCN Tân Kim Mở Rộng: Một phần  Kim Điền",
-      "toàn bộ KCN Tân Kim Mở Rộng",
-      "Khu vực KCN Tân Kim đến Ngã Tư Tân Kim",
-      "toàn bộ KCN Tân Kim",
-      "Khu vục từ nhà Văn Hòa  Long Hậu 2 đến KCN Tân Kim",
-      "một phần  Long Đức Đông",
-      "Tân Kim",
-      "Khu vục từ đầu đường  3 Long Hậu đến Cầu Rạch Dừa",
-      "Long Hậu",
-      "Phước Thới",
-      "Khu vực đường D3",
-      "D4 KDC Tân Phú Thịnh",
-      "một phần  Phước Thuận",
-      "Nhánh rẽ Siêu Thị COOP MART",
-      "Khu vực đường D1",
-      "D2 KDC Tân Phú Thịnh"
-    ]
-  },
-  "TN-PHUOCVINHTAY": {
-    "ten_phuong": "Phước Vĩnh Tây",
-    "ten_huyen": "Cần Giuộc",
-    "ma_dien_luc": "PB0604",
-    "khu_pho": [
-      "Long An 3",
-      "Long An 4"
-    ]
-  },
-  "TN-RACHKIEN": {
-    "ten_phuong": "Rạch Kiến",
-    "ten_huyen": "Cần Giuộc",
-    "ma_dien_luc": "PB0604",
-    "khu_pho": [
-      "Khu vực đường Ngã Tư Xoài Đôi đến Công Ty May Hữu Nghị",
-      "một phần  Minh Thiện",
-      "và một phần  2",
-      "4",
-      "Đồng Tâm",
-      "- Một phần  Minh Thiện",
-      "Xoài Đôi",
-      "Một phần  1",
-      "6",
-      "Minh Thiện",
-      "Đồng Tâm và toàn bộ  3",
-      "5",
-      "Long Thanh",
-      "Phước Vĩnh",
-      "Cầu Xây",
-      "Cầu Tràm"
-    ]
-  },
-  "TN-BINHHIEP": {
-    "ten_phuong": "Bình Hiệp",
-    "ten_huyen": "Kiến Tường",
-    "ma_dien_luc": "PB0605",
-    "khu_pho": [
-      "Đường Bình Tân",
-      "Gò Tranh",
-      "Cái Đôi Đông và  Cái Đôi Tây",
-      "Đường Quốc Lộ 62   Ông Nhan Tây",
-      "Đường Quốc Lộ 62   Gò Tranh",
-      "Đường Kinh T5",
-      "Bình Tây"
-    ]
-  },
-  "TN-MOCHOADENCAUTHANHNIEN": {
-    "ten_phuong": "Mộc Hóa đến Cầu Thanh Niên",
-    "ten_huyen": "Kiến Tường",
-    "ma_dien_luc": "PB0605",
-    "khu_pho": [
-      "Đường tỉnh 819  từ Cầu 79    Tân Lập 4"
-    ]
-  },
-  "TN-BINHHOA": {
-    "ten_phuong": "Bình Hòa",
-    "ten_huyen": "Kiến Tường",
-    "ma_dien_luc": "PB0605",
-    "khu_pho": [
-      "Cụm DCVL Bình Hòa Đông",
-      "Bình Hòa Đông 2"
-    ]
-  },
-  "TN-MOCHOA": {
-    "ten_phuong": "Mộc Hóa",
-    "ten_huyen": "Kiến Tường",
-    "ma_dien_luc": "PB0605",
-    "khu_pho": [
-      "Cụm DCVL Bình Phong Thạnh",
-      "Bình Phong Thạnh 2"
-    ]
-  },
-  "TN-KIENTUONG": {
-    "ten_phuong": "Kiến Tường",
-    "ten_huyen": "Kiến Tường",
-    "ma_dien_luc": "PB0605",
-    "khu_pho": [
-      "- Từ Cầu Mộc Hóa đến Cầu Cái Cát",
-      "3",
-      "- Từ Quốc Lộ  62 đến Cầu Hùng Vương"
-    ]
-  },
-  "TN-BINHDUC": {
-    "ten_phuong": "Bình Đức",
-    "ten_huyen": "Bến Lức",
-    "ma_dien_luc": "PB0606",
-    "khu_pho": [
-      "một phần  5 Nhựt Chánh",
-      "Công ty Cổ Phần Tập đoàn SVN  5",
-      "Công ty TNHH Thuận Nhiên An  5",
-      "Công ty TNHH INSULATION Thanh Cảnh  5",
-      "Công ty Cổ Phần Bê Tông IBS  5",
-      "Công ty TNHH Thương Mại Vận Tải Nam Trí  3"
-    ]
-  },
-  "TN-BENLUC": {
-    "ten_phuong": "Bến Lức",
-    "ten_huyen": "Bến Lức",
-    "ma_dien_luc": "PB0606",
-    "khu_pho": [
-      "Công ty Cổ Phần Dịch Vụ Quản Lý Khu Đô Thị Phương Nam  Bến Lức 3-",
-      "Công Ty TNHH SXTN  nhựa Nguyên Phát  Thanh Phú",
-      "Công ty TNHH Thủ Công Lê Khôi  Thanh Hiệp",
-      "HKD Phạm Văn Hai  Thanh Hiêp",
-      "Cơ sở nước đá Lý Gia  Thanh Phú",
-      "Công ty CP SAVINA  Bến Lức 9",
-      "Công ty TNHH HUI FENG  Bến Lức 9",
-      "Doanh Nghiệp Tư Nhân Quang Thịnh  2 An Thạnh"
-    ]
-  },
-  "TN-MYYEN": {
-    "ten_phuong": "Mỹ Yên",
-    "ten_huyen": "Bến Lức",
-    "ma_dien_luc": "PB0606",
-    "khu_pho": [
-      "HKD Dũng Nhỏ  Voi lá",
-      "Công Ty TNHH Công Nghệ Môi Trường Bắc Trung Nam  3 An Thạnh",
-      "Công ty TNHH XD - Tư vấn - TM Nguyên Phú  4",
-      "Một phần  1",
-      "2",
-      "3A",
-      "3B Phước Lợi",
-      "Cty TNHH Zahonero VN KCN Phúc Long",
-      "Công ty TNHH Din Sen Việt Nam (Long An) Enterprise  Voi Lá",
-      "Một phần  2",
-      "3A Phước Lợi",
-      "Một phần  5",
-      "6",
-      "7",
-      "Cty TNHH SX và TM Tam Sao  4"
-    ]
-  },
-  "TN-THANHLOI": {
-    "ten_phuong": "Thạnh Lợi",
-    "ten_huyen": "Bến Lức",
-    "ma_dien_luc": "PB0606",
-    "khu_pho": [
-      "Công Ty TNHH DE HEUS - Chi nhánh Long An 2 - Trung Tâm Khuyến Học và Sáng Tạo Gia Cầm",
-      "Công Ty Cổ Phần Đầu Tư Và Phát Triển TSS  4"
-    ]
-  },
-  "TN-LUONGHOA": {
-    "ten_phuong": "Lương Hòa",
-    "ten_huyen": "Bến Lức",
-    "ma_dien_luc": "PB0606",
-    "khu_pho": [
-      "Một phần  1",
-      "3",
-      "4",
-      "Một phần  7",
-      "8",
-      "Hộ sản xuất Trương Thanh Trường  5",
-      "Trại Giam Long Hòa  9"
-    ]
-  },
-  "TN-CANDUOC": {
-    "ten_phuong": "Cần Đước",
-    "ten_huyen": "Cần Đước",
-    "ma_dien_luc": "PB0607",
-    "khu_pho": [
-      "Một phần  18",
-      "Một phần  20"
-    ]
-  },
-  "TN-MYLEDOCDT835C": {
-    "ten_phuong": "Mỹ Lệ (dọc ĐT 835C)",
-    "ten_huyen": "Cần Đước",
-    "ma_dien_luc": "PB0607",
-    "khu_pho": [
-      "Một phần  1",
-      "2",
-      "5"
-    ]
-  },
-  "TN-TANLANDOCDUONGTINH826": {
-    "ten_phuong": "Tân Lân (dọc đường tỉnh 826)",
-    "ten_huyen": "Cần Đước",
-    "ma_dien_luc": "PB0607",
-    "khu_pho": [
-      "Một phần  Nhà Thờ"
-    ]
-  },
-  "TN-TANLANDOCDUONGTRANHTHITRANCANDUOC": {
-    "ten_phuong": "Tân Lân (dọc đường tránh thị trấn Cần Đước)",
-    "ten_huyen": "Cần Đước",
-    "ma_dien_luc": "PB0607",
-    "khu_pho": [
-      "Một phần  Nhà Thờ"
-    ]
-  },
-  "TN-TANLAN": {
-    "ten_phuong": "Tân Lân",
-    "ten_huyen": "Cần Đước",
-    "ma_dien_luc": "PB0607",
-    "khu_pho": [
-      "Một phần  Bình Hòa",
-      "Một phần  Rạch Bộng",
-      "Một phần  Nhà Trường"
-    ]
-  },
-  "TN-LONGCANGDOCDT835C": {
-    "ten_phuong": "Long Cang  (dọc ĐT 835C)",
-    "ten_huyen": "Cần Đước",
-    "ma_dien_luc": "PB0607",
-    "khu_pho": [
-      "Một phần  11"
-    ]
-  },
-  "TN-MYLE": {
-    "ten_phuong": "Mỹ Lệ",
-    "ten_huyen": "Cần Đước",
-    "ma_dien_luc": "PB0607",
-    "khu_pho": [
-      "Một phần"
-    ]
-  },
-  "TN-NHONNINH": {
-    "ten_phuong": "Nhơn Ninh",
-    "ten_huyen": "Tân Thạnh",
-    "ma_dien_luc": "PB0608",
-    "khu_pho": [
-      "Đường Kinh Đường Cắt -  Tân Chánh"
-    ]
-  },
-  "TN-HAUTHANH": {
-    "ten_phuong": "Hậu Thạnh",
-    "ten_huyen": "Tân Thạnh",
-    "ma_dien_luc": "PB0608",
-    "khu_pho": [
-      "Trạm Hậu Thạnh Đông 3 - Đường tỉnh lộ 837 -  Hậu Thạnh Đông",
-      "Trạm Hậu Thạnh Tây 3 - Đường tỉnh lộ 837 -  Huỳnh Việt Thanh",
-      "Trạm Hậu Thạnh Tây 6 - Đường tỉnh lộ 837 -  Huỳnh Việt Thanh",
-      "Trạm Trại nuôi Bắc Hòa 1 -  Bắc Hòa",
-      "Trạm Trại nuôi Tân Lập -  Bắc Hòa"
-    ]
-  },
-  "TN-DOITANTHANHAPKIENBINH": {
-    "ten_phuong": "Đội Tân Thạnh - Ấp Kiến Bình",
-    "ten_huyen": "Tân Thạnh",
-    "ma_dien_luc": "PB0608",
-    "khu_pho": [
-      "Khu vực"
-    ]
-  },
-  "TN-TUYENTHANH": {
-    "ten_phuong": "Tuyên Thạnh",
-    "ten_huyen": "Tân Thạnh",
-    "ma_dien_luc": "PB0608",
-    "khu_pho": [
-      "Đường Kinh 79 Trái -  Thận Cần"
-    ]
-  },
-  "TN-TANTRU": {
-    "ten_phuong": "Tân Trụ",
-    "ten_huyen": "Tân Trụ",
-    "ma_dien_luc": "PB0609",
-    "khu_pho": [
-      "Một phần  Bình Thạnh",
-      "Một phần  Bình Tây",
-      "Một phần  Bình Trinh Đông",
-      "Bình Tây",
-      "một phần  Tân Bình",
-      "Một phần  Bình An"
-    ]
-  },
-  "TN-NHUTTAO": {
-    "ten_phuong": "Nhựt Tảo",
-    "ten_huyen": "Tân Trụ",
-    "ma_dien_luc": "PB0609",
-    "khu_pho": [
-      "Một phần  Bình Nghị",
-      "Bình Đông",
-      "một phần  Bình Quê",
-      "một phần  Quê Mỹ Thạnh",
-      "Toàn bộ DNTN Công Thành",
-      "Một phần  Lạc Tấn"
-    ]
-  },
-  "TN-TANTRUTINHTAYNINH": {
-    "ten_phuong": "Tân Trụ tỉnh Tây Ninh",
-    "ten_huyen": "Tân Trụ",
-    "ma_dien_luc": "PB0609",
-    "khu_pho": [
-      "Một phần  Bình Trinh Đông"
-    ]
-  },
-  "TN-MYQUY": {
-    "ten_phuong": "Mỹ Quý",
-    "ten_huyen": "Đức Huệ",
-    "ma_dien_luc": "PB0610",
-    "khu_pho": [
-      "Từ Khu vực quán cafe Kiều Lũy đến  Chốt biên phòng Voi Đình",
-      "Một phần  3",
-      "Voi Đình"
-    ]
-  },
-  "TN-DUCHUE": {
-    "ten_phuong": "Đức Huệ",
-    "ten_huyen": "Đức Huệ",
-    "ma_dien_luc": "PB0610",
-    "khu_pho": [
-      "Từ ngã 3 Hàng Gòn đến Đường Biên Giới",
-      "Một phần"
-    ]
-  },
-  "TN-THANHPHUOC": {
-    "ten_phuong": "Thạnh Phước",
-    "ten_huyen": "Thạnh Hóa",
-    "ma_dien_luc": "PB0611",
-    "khu_pho": [
-      "1 phần"
-    ]
-  },
-  "TN-TANTAYVAMOTPHANAPTUYENNHONXATHANHHOA": {
-    "ten_phuong": "Tân Tây và một phần ấp Tuyên Nhơn - xã Thạnh Hoá",
-    "ten_huyen": "Thạnh Hóa",
-    "ma_dien_luc": "PB0611",
-    "khu_pho": [
-      "Bến Kè –"
-    ]
-  },
-  "TN-BINHTHANH": {
-    "ten_phuong": "Bình Thành",
-    "ten_huyen": "Thạnh Hóa",
-    "ma_dien_luc": "PB0611",
-    "khu_pho": [
-      "Thuận Bình",
-      "Mỏ Vẹt",
-      "Tân Hiệp",
-      "Thuận Hiệp –"
-    ]
-  },
-  "TN-THANHHOA": {
-    "ten_phuong": "Thạnh Hoá",
-    "ten_huyen": "Thạnh Hóa",
-    "ma_dien_luc": "PB0611",
-    "khu_pho": [
-      "Thạnh An",
-      "và một phần  Thuỷ Tây –"
-    ]
-  },
-  "TN-KHANHHUNG": {
-    "ten_phuong": "Khánh Hưng",
-    "ten_huyen": "Vĩnh Hưng",
-    "ma_dien_luc": "PB0612",
-    "khu_pho": [
-      "Một phần  Láng Lớn -",
-      "Một phần  Bến Phố -",
-      "Một phần  Hưng Điền -",
-      "Một phần  Hưng Điền A -"
-    ]
-  },
-  "TN-TUYENBINH": {
-    "ten_phuong": "Tuyên Bình",
-    "ten_huyen": "Vĩnh Hưng",
-    "ma_dien_luc": "PB0612",
-    "khu_pho": [
-      "Một phần  Bình Châu -",
-      "Một phần  Rạch Mây -",
-      "Một phần  Cả Cóc -",
-      "Một phần  Rạch Đình -",
-      "Một phần  Tuyên Bình Tây -",
-      "Một phần  Cả Rưng -"
-    ]
-  },
-  "TN-VINHHUNG": {
-    "ten_phuong": "Vĩnh Hưng",
-    "ten_huyen": "Vĩnh Hưng",
-    "ma_dien_luc": "PB0612",
-    "khu_pho": [
-      "Một phần  Bàu Sậy -",
-      "Một phần  Vĩnh Trị -",
-      "Một phần  Măng Đa",
-      "Vĩnh Hưng -",
-      "Một phần  Ông Lẹt -",
-      "Một phần  Lò Gạch -"
-    ]
-  },
-  "TN-HUNGDIEN": {
-    "ten_phuong": "Hưng Điền",
-    "ten_huyen": "Tân Hưng",
-    "ma_dien_luc": "PB0613",
-    "khu_pho": [
-      "Cập kênh T9",
-      "môt phần  Hưng Hà",
-      "Cập kênh sông trăng",
-      "Một phần",
-      "Cập kênh Cái Bát",
-      "một phần  Tre 1",
-      "một phần  Hưng Hà"
-    ]
-  },
-  "TN-TANHUNG": {
-    "ten_phuong": "Tân Hưng",
-    "ten_huyen": "Tân Hưng",
-    "ma_dien_luc": "PB0613",
-    "khu_pho": [
-      "Cập kênh 79",
-      "một phần  Cả Sách"
-    ]
-  },
-  "TN-TAMVU": {
-    "ten_phuong": "Tầm Vu",
-    "ten_huyen": "Tầm Vu",
-    "ma_dien_luc": "PB0614",
-    "khu_pho": [
-      "Một phần  Trường Xuân",
-      "Bình Lục",
-      "Tân Nho",
-      "Một phần  Bình Phước",
-      "Một phần  Gia Thạnh"
-    ]
-  },
-  "TN-VINHCONG": {
-    "ten_phuong": "Vĩnh Công",
-    "ten_huyen": "Tầm Vu",
-    "ma_dien_luc": "PB0614",
-    "khu_pho": [
-      "Hộ thắp sáng thanh long Nguyễn Thành Chống",
-      "Hòa Phú",
-      "Một phần  Đa Phú"
-    ]
-  },
-  "TN-ANLUCLONG": {
-    "ten_phuong": "An Lục Long",
-    "ten_huyen": "Tầm Vu",
-    "ma_dien_luc": "PB0614",
-    "khu_pho": [
-      "Hộ thắp sáng thanh long Trần Thị Kim Hoàng",
-      "Bùi Văn Dê  Long An",
-      "Một phần  Nhà Việc",
-      "Cầu Hàng"
-    ]
-  },
-  "TN-THUANMY": {
-    "ten_phuong": "Thuận Mỹ",
-    "ten_huyen": "Tầm Vu",
-    "ma_dien_luc": "PB0614",
-    "khu_pho": [
-      "Một phần  Bình Trị 1",
-      "Bình An",
-      "Bình Khương",
-      "Bình Thới",
-      "Vĩnh Thới",
-      "Một phần  Xuân Hòa",
-      "Thanh Vĩnh Đông"
-    ]
-  },
-  "TN-LONGAN": {
-    "ten_phuong": "Long An",
-    "ten_huyen": "Tân An",
-    "ma_dien_luc": "PB0601",
-    "khu_pho": [
-      "Một phần KP Xuân Hòa 2"
-    ]
-  },
-  "TN-BINHDUCVAMOTPHANAP1": {
-    "ten_phuong": "Bình Đức và một phần ấp 1",
-    "ten_huyen": "Bến Lức",
-    "ma_dien_luc": "PB0606",
-    "khu_pho": [
-      "Một phần  1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "8 Nhựt Chánh"
-    ]
-  },
-  "TN-LONGCANG": {
-    "ten_phuong": "Long Cang",
-    "ten_huyen": "Cần Đước",
-    "ma_dien_luc": "PB0607",
-    "khu_pho": [
-      "Một phần  11",
-      "12"
-    ]
-  },
-  "TN-HIEPHOA": {
-    "ten_phuong": "Hiệp Hoà",
-    "ten_huyen": "Đức Huệ",
-    "ma_dien_luc": "PB0610",
-    "khu_pho": [
-      "Đường vô Công ty Thuận Phúc Hảo",
-      "một phần  Tân Qui Thượng",
-      "Đường đi Thổ Định",
-      "Đường đi Hốc Thơm",
-      "một phần  Bình Thuỷ",
-      "Đường đi  Chánh Tân Phú",
-      "một phần  Chánh",
-      "một phần  Bàu Trai Thượng"
-    ]
-  },
-  "TN-VINHCHAU": {
-    "ten_phuong": "Vĩnh Châu",
-    "ten_huyen": "Tân Hưng",
-    "ma_dien_luc": "PB0613",
-    "khu_pho": [
-      "Cập kênh Ngang",
-      "một phần  Vĩnh Ân",
-      "Đại"
-    ]
-  },
-  "TN-TANCHAUXATANPHU": {
-    "ten_phuong": "Tân Châu xã Tân Phú",
-    "ten_huyen": "Tân Châu",
-    "ma_dien_luc": "PB0504",
-    "khu_pho": [
-      "Thạnh Nghĩa",
-      "Thạnh Hiệp",
-      "Tân Thạnh",
-      "Tha la"
-    ]
+    ],
+    "loai_don_vi": ""
   }
 }

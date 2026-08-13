@@ -64,19 +64,23 @@ function tao_khoa_phuong(ten_phuong) {
   return `TN-${slug}`;
 }
 
-/** Tim hoac tao 1 Xa/Phuong trong danh_muc (mutate truc tiep). Tra ve khoa. */
-function tim_hoac_tao_phuong(danh_muc, ten_phuong, ma_dien_luc, ten_don_vi) {
+/** Tim hoac tao 1 Xa/Phuong trong danh_muc (mutate truc tiep). Tra ve khoa.
+ *  Neu phuong da ton tai nhung con thieu loai_don_vi/ma_dien_luc (vd du lieu
+ *  nhap tay truoc do), tu dong dien bu (tu chua lanh) tu du lieu crawl that. */
+function tim_hoac_tao_phuong(danh_muc, ten_phuong, loai_don_vi, ma_dien_luc, ten_don_vi) {
   const khoa = tao_khoa_phuong(ten_phuong);
   if (!danh_muc[khoa]) {
     danh_muc[khoa] = {
       ten_phuong,
+      loai_don_vi,
       ten_huyen: ten_don_vi.replace(/^Điện lực\s*/i, ""),
       ma_dien_luc,
       khu_pho: [],
     };
-    console.log(`  [MOI] Phat hien Xa/Phuong moi: "${ten_phuong}" (${khoa})`);
-  } else if (!danh_muc[khoa].ma_dien_luc) {
-    danh_muc[khoa].ma_dien_luc = ma_dien_luc;
+    console.log(`  [MOI] Phat hien Xa/Phuong moi: "${loai_don_vi} ${ten_phuong}" (${khoa})`);
+  } else {
+    if (!danh_muc[khoa].loai_don_vi) danh_muc[khoa].loai_don_vi = loai_don_vi;
+    if (!danh_muc[khoa].ma_dien_luc) danh_muc[khoa].ma_dien_luc = ma_dien_luc;
   }
   return khoa;
 }
@@ -94,22 +98,41 @@ function tim_hoac_them_khu_pho(danh_muc, khoa_phuong, ten_khu_pho) {
   return chi_so_moi;
 }
 
-/** Tach 1 cum van ban KHU VUC (da split theo ";") thanh {ten_phuong, ten_khu_pho_tho[]}.
- *  Vi du cum: "khu phố An Hòa, An Phú. Phường Trảng Bàng"
+/** Tu khoa nhan dien cac don vi KHONG PHAI khu pho/ap that (ho kinh doanh, cong
+ *  ty, tram bien ap...) - EVNSPC doi khi liet ke chung vao truong KHU VUC. Neu
+ *  gap ten con lot qua bo loc nay, gui vi du that cho nguoi phat trien de bo
+ *  sung them tu khoa. */
+const TU_KHOA_LOAI_BO = /hộ kinh doanh|\bhkd\b|công ty|\bcty\b|doanh nghiệp|\bdntn\b|cơ sở sản xuất|trạm biến áp|\btba\b|nhà máy|xí nghiệp|chi nhánh|khách hàng/i;
+
+/** Tach 1 cum van ban KHU VUC (da split theo ";") thanh
+ *  {loai_don_vi: "Phường"|"Xã", ten_phuong, ten_khu_pho_tho[]}.
+ *  Vi du cum: " khu phố An Hòa, An Phú. Phường Trảng Bàng"
+ *  -> { loai_don_vi: "Phường", ten_phuong: "Trảng Bàng",
+ *       ten_khu_pho_tho: ["Khu phố An Hòa", "Khu phố An Phú"] }
  *  Tong quat, khong gioi han vao 1 ten phuong cu the — nhan dien "Phường X" / "Xã X" bat ky. */
 function tach_1_cum(cum_van_ban) {
-  const khop = cum_van_ban.match(/(?:[Pp]hường|[Xx]ã)\s+([^,;.]+?)(?:[,.]|$)/);
-  if (!khop) return null;
+  const khop_phuong = cum_van_ban.match(/([Pp]hường|[Xx]ã)\s+([^,;.]+?)(?:[,.]|$)/);
+  if (!khop_phuong) return null;
 
-  const ten_phuong = khop[1].trim();
-  const phan_truoc_phuong = cum_van_ban.slice(0, khop.index);
-  const bo_tien_to = phan_truoc_phuong.replace(/khu\s*phố|ấp/gi, "");
+  const loai_don_vi = khop_phuong[1].toLowerCase() === "phường" ? "Phường" : "Xã";
+  const ten_phuong = khop_phuong[2].trim();
+  const phan_truoc_phuong = cum_van_ban.slice(0, khop_phuong.index);
+
+  // Xac dinh tien to chuan de gan lai cho tung ten (nguon hay chi ghi tien to
+  // 1 lan roi liet ke ten cach nhau bang dau phay, khong lap lai tien to).
+  let tien_to = null;
+  if (/ấp/i.test(phan_truoc_phuong)) tien_to = "Ấp";
+  else if (/khu\s*phố|\bkp\b/i.test(phan_truoc_phuong)) tien_to = "Khu phố";
+
+  const bo_tien_to = phan_truoc_phuong.replace(/khu\s*phố|\bkp\b|ấp/gi, "");
   const ten_khu_pho_tho = bo_tien_to
     .split(",")
     .map((t) => t.trim().replace(/[.\s]+$/, ""))
-    .filter(Boolean);
+    .filter(Boolean)
+    .filter((t) => !TU_KHOA_LOAI_BO.test(t)) // loai bo ho kinh doanh/cong ty...
+    .map((t) => (tien_to ? `${tien_to} ${t}` : t));
 
-  return { ten_phuong, ten_khu_pho_tho };
+  return { loai_don_vi, ten_phuong, ten_khu_pho_tho };
 }
 
 async function lay_cookie_tu_trang_goc() {
@@ -156,7 +179,7 @@ function phan_tich_html(html_tho, ma_dien_luc, ten_don_vi, danh_muc) {
       const da_tach = tach_1_cum(cum);
       if (!da_tach || da_tach.ten_khu_pho_tho.length === 0) continue;
 
-      const khoa_phuong = tim_hoac_tao_phuong(danh_muc, da_tach.ten_phuong, ma_dien_luc, ten_don_vi);
+      const khoa_phuong = tim_hoac_tao_phuong(danh_muc, da_tach.ten_phuong, da_tach.loai_don_vi, ma_dien_luc, ten_don_vi);
       const chi_so_bit = da_tach.ten_khu_pho_tho.map((ten) => tim_hoac_them_khu_pho(danh_muc, khoa_phuong, ten));
 
       ket_qua.push({
