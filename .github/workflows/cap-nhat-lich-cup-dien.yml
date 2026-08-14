@@ -39,6 +39,10 @@ jobs:
           if ! git diff --quiet -- data/danh-muc-khu-pho.json; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
+            # Cau hinh merge driver rieng cho file danh muc khu pho: du lieu
+            # chi-them-vao-cuoi nen xung dot van ban thong thuong la khong can
+            # thiet - chi can hop nhat (union) 2 phia. Xem scripts/hop-nhat-danh-muc.mjs
+            git config merge.danh-muc-hop-nhat.driver "node scripts/hop-nhat-danh-muc.mjs %A %O %B"
             git add -- data/danh-muc-khu-pho.json
             git commit -m "Tu dong cap nhat danh muc khu pho (phat hien Xa/Phuong hoac khu pho/ap moi)"
             # --autostash: tu cat tam moi thay doi CHUA COMMIT khac (vd file trung
