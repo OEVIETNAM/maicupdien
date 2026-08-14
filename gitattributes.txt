@@ -1,0 +1,4 @@
+# Dung merge driver rieng (khai bao/cau hinh trong workflow) cho file danh
+# muc khu pho - vi day la du lieu chi-them-vao-cuoi, xung dot van ban thong
+# thuong khong can thiet, chi can hop nhat (union) 2 phia.
+data/danh-muc-khu-pho.json merge=danh-muc-hop-nhat
