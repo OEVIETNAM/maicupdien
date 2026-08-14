@@ -104,35 +104,84 @@ function tim_hoac_them_khu_pho(danh_muc, khoa_phuong, ten_khu_pho) {
  *  sung them tu khoa. */
 const TU_KHOA_LOAI_BO = /hộ kinh doanh|\bhkd\b|công ty|\bcty\b|doanh nghiệp|\bdntn\b|cơ sở sản xuất|trạm biến áp|\btba\b|nhà máy|xí nghiệp|chi nhánh|khách hàng/i;
 
+/** Tu chi bat dau 1 doan MO TA duong/vi tri/cong trinh - KHONG PHAI ten khu
+ *  pho/ap that, du co the "chua" chu "ap" o dau cau (vd "Đường đi Ấp Chánh
+ *  Tân Phú" - day la TEN DUONG chua chu "Ap", khong phai chinh no la 1 Ap).
+ *  LUU Y: dung (?=\s|$) thay vi \b lam ranh gioi cuoi tu - vi \b trong regex
+ *  JS (khong co co "u") KHONG nhan dien dung sau ky tu co dau tieng Viet
+ *  (vd "Từ" ket thuc bang "ừ" khien \b sau do khong khop, lam ca cum tu khoa
+ *  nay im lang khong bao gio khop duoc). */
+const TU_MO_TA_VI_TRI_LOAI_BO = /^(từ|đường|khu\s*vực|nhánh|cầu|ngã|trạm|cụm|công\s*ty|cty|nhà\s*máy|xí\s*nghiệp|chợ|hộ|dntn|doanh\s*nghiệp)(?=\s|$)/i;
+
+/** Tach 1 doan (da split theo dau phay) thanh ten khu pho/ap CHUAN, hoac null
+ *  neu doan nay khong phai 1 khu pho/ap that (ma la mo ta duong/vi tri, hoac
+ *  tham chieu sang 1 Xa/Phuong khac).
+ *  - "một phần Ấp Chánh"      -> "Ấp Chánh" (bo qualifier "mot phan")
+ *  - "Ấp Voi Đình"            -> "Ấp Voi Đình" (tu no da co tien to)
+ *  - "Đường đi Thổ Định"      -> null (mo ta duong, khong phai ten khu pho)
+ *  - "Một phần Xã Đức Huệ"    -> null (tham chieu Xa khac, qua phuc tap de xu ly)
+ *  - "An Phú" (khong tien to) -> ke thua tien_to_mac_dinh cua ca cum (kieu cu:
+ *                                  1 cum liet ke nhieu ten dung chung 1 tien to
+ *                                  noi 1 lan duy nhat o dau, vd "khu phố A, B")
+ */
+function tach_1_doan_khu_pho(doan_tho, tien_to_mac_dinh) {
+  let s = doan_tho.trim().replace(/[.\s]+$/, "");
+  if (!s) return null;
+
+  // Bo qualifier "mot phan"/"1 phan" o dau neu co
+  s = s.replace(/^(một|1)\s*phần\s+/i, "").trim();
+  if (!s) return null;
+
+  // Tham chieu sang 1 Xa/Phuong khac (vd "Một phần Xã Đức Huệ") - qua phuc
+  // tap de gan vao 1 xa duy nhat, bo qua doan nay (khong pha vo ca ban ghi).
+  if (/^(xã|phường)\s+/i.test(s)) return null;
+
+  // Doan TU NO co tien to ro rang -> dung dung tien to rieng cua no
+  const khop_ap = s.match(/^ấp\s+(.+)$/i);
+  if (khop_ap) return `Ấp ${khop_ap[1].trim()}`;
+  const khop_kp = s.match(/^(khu\s*phố|kp)\.?\s+(.+)$/i);
+  if (khop_kp) return `Khu phố ${khop_kp[2].trim()}`;
+
+  // Khong co tien to rieng VA bat dau bang tu mo ta duong/vi tri/cong trinh
+  // -> chac chan khong phai khu pho/ap that -> bo qua
+  if (TU_MO_TA_VI_TRI_LOAI_BO.test(s)) return null;
+  if (TU_KHOA_LOAI_BO.test(s)) return null;
+
+  // Con lai: ten ngan, khong co dau hieu la mo ta duong -> gia dinh no ke
+  // thua tien to chung cua ca cum (dung cho kieu cu: "khu phố A, B" - B
+  // khong lap lai tien to). Neu ca cum khong co tien to chung nao -> bo qua.
+  return tien_to_mac_dinh ? `${tien_to_mac_dinh} ${s}` : null;
+}
+
 /** Tach 1 cum van ban KHU VUC (da split theo ";") thanh
  *  {loai_don_vi: "Phường"|"Xã", ten_phuong, ten_khu_pho_tho[]}.
- *  Vi du cum: " khu phố An Hòa, An Phú. Phường Trảng Bàng"
- *  -> { loai_don_vi: "Phường", ten_phuong: "Trảng Bàng",
- *       ten_khu_pho_tho: ["Khu phố An Hòa", "Khu phố An Phú"] }
- *  Tong quat, khong gioi han vao 1 ten phuong cu the — nhan dien "Phường X" / "Xã X" bat ky. */
+ *  QUAN TRONG: lay Xa/Phuong o cuoi cung xuat hien trong cum (khong phai dau
+ *  tien) - vi EVNSPC doi khi nhac truoc 1 Xa/Phuong khac giua cau (kieu "Một
+ *  phần Xã Đức Huệ") truoc khi neu ten Xa/Phuong that su cua ca ban ghi o
+ *  cuoi cung. Cung tu dong bo hau to " tỉnh Tây Ninh" neu bi dinh lien khong
+ *  co dau phay ngan cach. */
 function tach_1_cum(cum_van_ban) {
-  const khop_phuong = cum_van_ban.match(/([Pp]hường|[Xx]ã)\s+([^,;.]+?)(?:[,.]|$)/);
-  if (!khop_phuong) return null;
+  const bieu_thuc_phuong_toan_cuc = /([Pp]hường|[Xx]ã)\s+([^,;.]+?)(?=[,;.]|$)/g;
+  const tat_ca_khop = [...cum_van_ban.matchAll(bieu_thuc_phuong_toan_cuc)];
+  if (tat_ca_khop.length === 0) return null;
 
-  const loai_don_vi = khop_phuong[1].toLowerCase() === "phường" ? "Phường" : "Xã";
-  const ten_phuong = khop_phuong[2].trim();
-  const phan_truoc_phuong = cum_van_ban.slice(0, khop_phuong.index);
+  const khop_cuoi = tat_ca_khop[tat_ca_khop.length - 1];
+  const loai_don_vi = khop_cuoi[1].toLowerCase() === "phường" ? "Phường" : "Xã";
+  const ten_phuong = khop_cuoi[2].trim().replace(/\s+tỉnh\s+Tây\s+Ninh\s*$/i, "").trim();
+  const phan_truoc_phuong = cum_van_ban.slice(0, khop_cuoi.index);
 
-  // Xac dinh tien to chuan de gan lai cho tung ten (nguon hay chi ghi tien to
-  // 1 lan roi liet ke ten cach nhau bang dau phay, khong lap lai tien to).
-  let tien_to = null;
-  if (/ấp/i.test(phan_truoc_phuong)) tien_to = "Ấp";
-  else if (/khu\s*phố|\bkp\b/i.test(phan_truoc_phuong)) tien_to = "Khu phố";
+  // Xac dinh tien to CHUNG (dung cho fallback kieu cu, khi 1 doan khong co
+  // tien to rieng va cung khong giong mo ta duong).
+  let tien_to_chung = null;
+  if (/ấp/i.test(phan_truoc_phuong)) tien_to_chung = "Ấp";
+  else if (/khu\s*phố|\bkp\b/i.test(phan_truoc_phuong)) tien_to_chung = "Khu phố";
 
-  const bo_tien_to = phan_truoc_phuong.replace(/khu\s*phố|\bkp\b|ấp/gi, "");
-  const ten_khu_pho_tho = bo_tien_to
+  const ten_khu_pho_tho = phan_truoc_phuong
     .split(",")
-    .map((t) => t.trim().replace(/[.\s]+$/, ""))
-    .filter(Boolean)
-    .filter((t) => !TU_KHOA_LOAI_BO.test(t)) // loai bo ho kinh doanh/cong ty...
-    .map((t) => (tien_to ? `${tien_to} ${t}` : t));
+    .map((doan) => tach_1_doan_khu_pho(doan, tien_to_chung))
+    .filter(Boolean);
 
-  return { loai_don_vi, ten_phuong, ten_khu_pho_tho };
+  return { loai_don_vi, ten_phuong, ten_khu_pho_tho: [...new Set(ten_khu_pho_tho)] };
 }
 
 async function lay_cookie_tu_trang_goc() {
