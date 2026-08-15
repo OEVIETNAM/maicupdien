@@ -60,7 +60,8 @@
       "Khu phố Hiệp Hòa",
       "Khu phố Hiệp Nghĩa",
       "Khu phố Hiệp Thạnh",
-      "Khu phố 22"
+      "Khu phố 22",
+      "Khu phố 18"
     ],
     "loai_don_vi": "Phường"
   },
@@ -1164,7 +1165,8 @@
     "ten_huyen": "Đức Hòa",
     "ma_dien_luc": "PB0603",
     "khu_pho": [
-      "Ấp rừng sến"
+      "Ấp rừng sến",
+      "Ấp Tràm Lạc"
     ]
   },
   "TN-MYQUY": {
@@ -1187,6 +1189,15 @@
     "ma_dien_luc": "PB0613",
     "khu_pho": [
       "Ấp Hưng Thạnh"
+    ]
+  },
+  "TN-MYTHANHKHUDANCUBAMIA": {
+    "ten_phuong": "Mỹ Thạnh (Khu dân cư Bà Mía)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp Bà Mía"
     ]
   }
 }
