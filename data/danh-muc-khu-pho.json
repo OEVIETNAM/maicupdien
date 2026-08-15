@@ -76,7 +76,8 @@
       "Ấp Bình Hòa",
       "Ấp Tân Lương",
       "Ấp Thạnh Hiệp",
-      "Khu phố Giồng Tre"
+      "Khu phố Giồng Tre",
+      "Khu phố Tân Trung"
     ],
     "loai_don_vi": "Phường"
   },
@@ -91,7 +92,8 @@
       "Khu phố Phước Hội",
       "Khu phố Xóm Đồng",
       "Khu phố Trâm Vàng 3",
-      "Khu phố Xóm Mới 1"
+      "Khu phố Xóm Mới 1",
+      "Khu phố Rỗng Tượng"
     ],
     "loai_don_vi": "Phường"
   },
@@ -107,7 +109,8 @@
       "Khu phố Suối Cao A",
       "Khu phố Suối Cao B",
       "Khu phố Cây Trắc",
-      "Khu phố Lộc Khê"
+      "Khu phố Lộc Khê",
+      "Khu phố Phước Đức B"
     ],
     "loai_don_vi": "Phường"
   },
@@ -180,7 +183,13 @@
       "Ấp Phước Lập",
       "Ấp Phước Long",
       "Ấp Phước Bình",
-      "Ấp Phước Đông"
+      "Ấp Phước Đông",
+      "Ấp - Ấp Voi xã Bến Cầu.\n- Ấp Bình Quới",
+      "Ấp Phước Thành",
+      "Ấp Phước Tân",
+      "Ấp Phước Giang",
+      "Ấp Phước Hưng",
+      "Ấp Bình Hòa"
     ],
     "loai_don_vi": "Xã"
   },
@@ -289,7 +298,8 @@
       "Ấp Hòa Bình",
       "Ấp Biên Giới",
       "Ấp Hòa Thạnh",
-      "Ấp Bưng Rò"
+      "Ấp Bưng Rò",
+      "Ấp Hiệp Phước"
     ],
     "loai_don_vi": "Xã"
   },
@@ -302,7 +312,8 @@
       "Ấp Bến Củi",
       "Ấp Thành Long",
       "Ấp Bến Sỏi",
-      "Ấp Bến Cừ"
+      "Ấp Bến Cừ",
+      "Ấp Trà Sim"
     ],
     "loai_don_vi": "Xã"
   },
@@ -350,7 +361,8 @@
       "Ấp Long Vĩnh",
       "Ấp Long Phước",
       "Ấp Long Hòa 2",
-      "Ấp Long Châu"
+      "Ấp Long Châu",
+      "Ấp Long Thạnh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -418,7 +430,9 @@
       "Ấp Tân Bình",
       "Ấp Thạnh Tây",
       "Ấp Thạnh Thuận",
-      "Ấp Thạnh Sơn"
+      "Ấp Thạnh Sơn",
+      "Ấp Thạnh Trung",
+      "Ấp Cần Đăng"
     ],
     "loai_don_vi": "Xã"
   },
@@ -462,7 +476,8 @@
       "Khu phố Ninh Hưng",
       "Khu phố Ninh Bình",
       "Khu phố Bàu Năng",
-      "Khu phố Chà Là"
+      "Khu phố Chà Là",
+      "Khu phố Ninh Hưng 1"
     ],
     "loai_don_vi": "Phường"
   },
@@ -481,7 +496,9 @@
       "Khu phố Trường Đông",
       "Khu phố Long Mỹ",
       "Khu phố Trường Cửu",
-      "Khu phố Trường Lưu"
+      "Khu phố Trường Lưu",
+      "Khu phố Trường Thọ",
+      "Khu phố Năm Trại"
     ],
     "loai_don_vi": "Phường"
   },
@@ -539,9 +556,10 @@
       "Ấp An Thạnh",
       "Ấp Tiên Thuận",
       "Ấp Lợi Thuận",
-      "Ấp Thuận Tây"
+      "Ấp Thuận Tây",
+      "Ấp Rừng Dầu"
     ],
-    "loai_don_vi": ""
+    "loai_don_vi": "Xã"
   },
   "TN-GIALOCAPBAUVUNGXAPHUOCTHANHAPGIUAXAPHUOCTHANH": {
     "ten_phuong": "Gia Lộc\nẤp Bàu Vừng xã Phước Thạnh\nẤp Giữa xã Phước Thạnh",
@@ -591,7 +609,11 @@
       "Ấp Mỹ Hoà",
       "Ấp Tân Thành",
       "Ấp An Hoà",
-      "Ấp Toàn bộ ấp Mỹ Lạc"
+      "Ấp Toàn bộ ấp Mỹ Lạc",
+      "Ấp Cầu Lớn",
+      "Ấp Ninh Thạnh",
+      "Ấp Bà Miều",
+      "Ấp Mỹ Lạc"
     ]
   },
   "TN-THUTHUA": {
@@ -607,7 +629,8 @@
       "Ấp Thủ Khoa Thừa 4",
       "Ấp Bình Thạnh 2",
       "Ấp Nhị Thành 3",
-      "Ấp Thủ Khoa Thừa 2"
+      "Ấp Thủ Khoa Thừa 2",
+      "Ấp Toàn bộ ấp Bình Thạnh 1"
     ]
   },
   "TN-TANLONG": {
@@ -624,7 +647,8 @@
       "Ấp 6",
       "Ấp 2",
       "Ấp Toàn bộ Văn Phòng Tư Vấn",
-      "Ấp Môi giới BĐS Phương Đông"
+      "Ấp Môi giới BĐS Phương Đông",
+      "Ấp 1"
     ]
   },
   "TN-MYHANH": {
@@ -855,7 +879,10 @@
       "Ấp 7",
       "Ấp 8 Nhựt Chánh xã Bình Đức và một phần ấp 1",
       "Ấp 6 Thạnh Đức",
-      "Ấp 2 Thạnh Đức"
+      "Ấp 2 Thạnh Đức",
+      "Ấp Tân Bình",
+      "Ấp An Nhựt Tân",
+      "Ấp 7 Nhựt Chánh"
     ]
   },
   "TN-TANLANDOCDUONGTINH826": {
@@ -904,7 +931,8 @@
       "Ấp Đồng Tâm và toàn bộ ấp 3",
       "Ấp 5",
       "Ấp Long Thanh",
-      "Ấp Phước Vĩnh"
+      "Ấp Phước Vĩnh",
+      "Ấp cầu Xây"
     ]
   },
   "TN-LONGCANGDOCDT835C": {
@@ -975,7 +1003,9 @@
       "Ấp Bình Quê",
       "Ấp Quê Mỹ Thạnh",
       "Ấp Lạc Tấn",
-      "Ấp Tấn Đức"
+      "Ấp Tấn Đức",
+      "Ấp Tân Bình",
+      "Ấp An Nhựt Tân"
     ]
   },
   "TN-HIEPHOA": {
@@ -992,7 +1022,9 @@
       "Ấp Hòa Bình 1",
       "Ấp Gần Đường Hồ Chí Minh",
       "Ấp Hòa Thuận 2",
-      "Ấp Gần nhà Ông Quốc Huy"
+      "Ấp Gần nhà Ông Quốc Huy",
+      "Ấp bên trái Bà Vọng",
+      "Ấp Bàu Trai Hạ"
     ]
   },
   "TN-ANNINH": {
@@ -1049,7 +1081,8 @@
       "Ấp Cả Rưng -",
       "Ấp Thái Bình Trung -",
       "Ấp Vĩnh Bình -",
-      "Ấp Cả Có -"
+      "Ấp Cả Có -",
+      "Ấp Long Khốt -"
     ]
   },
   "TN-VINHHUNG": {
@@ -1063,7 +1096,10 @@
       "Ấp Măng Đa",
       "Ấp Vĩnh Hưng -",
       "Ấp Ông Lẹt -",
-      "Ấp Lò Gạch -"
+      "Ấp Lò Gạch -",
+      "Ấp Bàu Nâu -",
+      "Ấp Chiến Thắng -",
+      "Ấp Măng Đa -"
     ]
   },
   "TN-KHANHHUNG": {
@@ -1075,7 +1111,8 @@
       "Ấp Bến Phố -",
       "Ấp Láng Lớn -",
       "Ấp Hưng Điền -",
-      "Ấp Hưng Điền A -"
+      "Ấp Hưng Điền A -",
+      "Ấp Thái Trị -"
     ]
   },
   "TN-HUNGDIEN": {
@@ -1130,7 +1167,9 @@
       "Ấp Bình Phước",
       "Ấp Tân Nho",
       "Ấp Gia Thạnh",
-      "Ấp Bình Trị"
+      "Ấp Bình Trị",
+      "Ấp Bình Hạp",
+      "Ấp Phú Xuân"
     ]
   },
   "TN-THUANMY": {
@@ -1166,7 +1205,8 @@
     "ma_dien_luc": "PB0603",
     "khu_pho": [
       "Ấp rừng sến",
-      "Ấp Tràm Lạc"
+      "Ấp Tràm Lạc",
+      "Ấp Đức Hạnh"
     ]
   },
   "TN-MYQUY": {
@@ -1198,6 +1238,40 @@
     "ma_dien_luc": "PB0602",
     "khu_pho": [
       "Ấp Bà Mía"
+    ]
+  },
+  "TN-MYLEDOCDUONGTINH826": {
+    "ten_phuong": "Mỹ Lệ - Dọc đường tỉnh 826",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "Ấp 14"
+    ]
+  },
+  "TN-MYLEDOCDUONGTINH830B": {
+    "ten_phuong": "Mỹ Lệ - Dọc đường tỉnh 830B",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "Ấp 7",
+      "Ấp 13",
+      "Ấp Cầu Chùa",
+      "Ấp Vạn Phước"
+    ]
+  },
+  "TN-DONGTHANH": {
+    "ten_phuong": "Đông Thành",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Đức Huệ",
+    "ma_dien_luc": "PB0610",
+    "khu_pho": [
+      "Ấp Mỹ Hưng",
+      "Ấp Mỹ Thạnh Đông",
+      "Ấp Gần Cây xăng Nam Hưng",
+      "Ấp Thành Tây",
+      "Ấp Mỹ Phát"
     ]
   }
 }
