@@ -77,7 +77,9 @@
       "Ấp Tân Lương",
       "Ấp Thạnh Hiệp",
       "Khu phố Giồng Tre",
-      "Khu phố Tân Trung"
+      "Khu phố Tân Trung",
+      "Khu phố Thạnh Đông",
+      "Khu phố Tân Hoà"
     ],
     "loai_don_vi": "Phường"
   },
@@ -140,7 +142,9 @@
       "Ấp Xóm Mía",
       "Ấp Cây Nính",
       "Ấp Giữa",
-      "Ấp Xóm Bố"
+      "Ấp Xóm Bố",
+      "Ấp 5 xã Truông Mít",
+      "Ấp Đá Hàng"
     ],
     "loai_don_vi": "Xã"
   },
@@ -379,7 +383,8 @@
       "Ấp Suối Đá",
       "Ấp Phước Minh",
       "Ấp Tân Định",
-      "Ấp Phước Hòa"
+      "Ấp Phước Hòa",
+      "Ấp Phước Bình"
     ],
     "loai_don_vi": "Xã"
   },
@@ -416,9 +421,10 @@
     "khu_pho": [
       "Ấp Tân Mới",
       "Ấp Tân Thạnh",
-      "Ấp Thạnh Bắc"
+      "Ấp Thạnh Bắc",
+      "Ấp Bàu Rã"
     ],
-    "loai_don_vi": ""
+    "loai_don_vi": "Xã"
   },
   "TN-TANBIEN": {
     "ten_phuong": "Tân Biên",
@@ -449,7 +455,8 @@
       "Ấp Tân Phong",
       "Ấp Cầu",
       "Ấp Thạnh Lợi",
-      "Ấp Thạnh An"
+      "Ấp Thạnh An",
+      "Ấp Bàu Rã xã Tân Lập"
     ],
     "loai_don_vi": "Xã"
   },
@@ -651,7 +658,8 @@
       "Ấp 2",
       "Ấp Toàn bộ Văn Phòng Tư Vấn",
       "Ấp Môi giới BĐS Phương Đông",
-      "Ấp 1"
+      "Ấp 1",
+      "Ấp Toàn bộ ấp Tân Thành"
     ]
   },
   "TN-MYHANH": {
@@ -684,7 +692,8 @@
     "ten_huyen": "Đức Hòa",
     "ma_dien_luc": "PB0603",
     "khu_pho": [
-      "Ấp chánh hội"
+      "Ấp chánh hội",
+      "Ấp Lập Điền"
     ]
   },
   "TN-PHUOCLY": {
@@ -792,7 +801,8 @@
     "khu_pho": [
       "Khu phố - Từ Cầu Mộc Hóa đến Cầu Cái Cát",
       "Khu phố 3",
-      "Khu phố - Từ Quốc Lộ  62 đến Cầu Hùng Vương"
+      "Khu phố - Từ Quốc Lộ  62 đến Cầu Hùng Vương",
+      "Khu phố 8"
     ]
   },
   "TN-BINHHIEP": {
@@ -802,7 +812,8 @@
     "ma_dien_luc": "PB0605",
     "khu_pho": [
       "Ấp Bình Tây",
-      "Ấp Bình Hòa Tây"
+      "Ấp Bình Hòa Tây",
+      "Ấp Ông Lễ"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -914,7 +925,9 @@
     "khu_pho": [
       "Ấp Bình Hòa",
       "Ấp Rạch Bộng",
-      "Ấp Nhà Trường"
+      "Ấp Nhà Trường",
+      "Ấp Toàn bộ Khu TĐC Phước Đông",
+      "Ấp 5"
     ]
   },
   "TN-RACHKIEN": {
@@ -1085,7 +1098,8 @@
       "Ấp Thái Bình Trung -",
       "Ấp Vĩnh Bình -",
       "Ấp Cả Có -",
-      "Ấp Long Khốt -"
+      "Ấp Long Khốt -",
+      "Ấp Bình Châu -"
     ]
   },
   "TN-VINHHUNG": {
@@ -1274,7 +1288,204 @@
       "Ấp Mỹ Thạnh Đông",
       "Ấp Gần Cây xăng Nam Hưng",
       "Ấp Thành Tây",
-      "Ấp Mỹ Phát"
+      "Ấp Mỹ Phát",
+      "Ấp Mỹ Lợi",
+      "Ấp Voi",
+      "Ấp Vinh",
+      "Ấp Giồng Lức"
+    ]
+  },
+  "TN-MYTHANHKHUDUONGDANPHIASAU": {
+    "ten_phuong": "Mỹ Thạnh (khu Đường dan phía sau)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp Vàm Kinh"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAPANHOA1CUONGBATAM": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp An Hoà 1 củ Ông Ba Tâm)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAPLONGTHANHCUKHUVUCCAUVI": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp Long Thạnh củ khu vực Cầu Vĩ)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCCAYDAU": {
+    "ten_phuong": "Mỹ Thạnh (khu vực Cây Dầu)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp Vàm Kinh"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAP1MYTHANHCU": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp 1 Mỹ Thạnh củ)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCTRUONGTIEUHOCBINHAN": {
+    "ten_phuong": "Mỹ Thạnh (khu vực Trường Tiểu Học Bình An)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp Vàm Kinh"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAPANHOA2": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp An Hoà 2)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAP1MYTHANHCUXOMXOAI": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp 1 Mỹ Thạnh củ - Xốm Xoài)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCTRUONGTRUNGHOCBINHAN": {
+    "ten_phuong": "Mỹ Thạnh (khu vực Trường Trung Học Bình An)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp Vàm Kinh"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAPANHOA2KHUVUCGIENGNUOCCAOVANSON": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp An Hoà 2 khu vực Giếng Nước Cao Văn Sơn)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAPLONGTHANHCU": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp Long Thạnh củ)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAP1MYTHANHCUCAUCHUA": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp 1 Mỹ Thạnh củ - Cầu Chùa)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAPANHOA1CUCHUAANHOA": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp An Hoà 1 củ Chùa An Hoà)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAPANHOA1CUDAPLANG": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp An Hoà 1 củ Đập Làng)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-MYTHANHKHUVUCAPXOMXOAICU": {
+    "ten_phuong": "Mỹ Thạnh (khu vực ấp Xốm Xoài củ)",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Ấp An Hoà"
+    ]
+  },
+  "TN-TANTAP": {
+    "ten_phuong": "Tân Tập",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Cần Giuộc",
+    "ma_dien_luc": "PB0604",
+    "khu_pho": [
+      "Ấp Tân Hòa"
+    ]
+  },
+  "TN-TUYENTHANH": {
+    "ten_phuong": "Tuyên Thạnh",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Kiến Tường",
+    "ma_dien_luc": "PB0605",
+    "khu_pho": [
+      "Ấp Cái Sây"
+    ]
+  },
+  "TN-CANDUOC": {
+    "ten_phuong": "Cần Đước",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "Ấp 3",
+      "Ấp 4"
+    ]
+  },
+  "TN-TANLANDOCQL50": {
+    "ten_phuong": "Tân Lân - Dọc QL 50",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "Ấp Nhà Dài"
+    ]
+  },
+  "TN-THANHPHUOC": {
+    "ten_phuong": "Thạnh Phước",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Thạnh Hóa",
+    "ma_dien_luc": "PB0611",
+    "khu_pho": [
+      "Ấp Vàm Lớn -",
+      "Ấp Thạnh Phú -",
+      "Ấp Cả Sáu -",
+      "Ấp Đình -"
+    ]
+  },
+  "TN-HUNGDIENVACAMBODIA": {
+    "ten_phuong": "Hưng Điền và Cambodia",
+    "loai_don_vi": "Xã",
+    "ten_huyen": "Tân Hưng",
+    "ma_dien_luc": "PB0613",
+    "khu_pho": [
+      "Ấp Cây Me"
     ]
   }
 }
