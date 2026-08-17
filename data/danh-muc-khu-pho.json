@@ -231,9 +231,11 @@
     "khu_pho": [
       "Ấp Đông Lợi",
       "Ấp Đông Tiến",
-      "Ấp Tân Lâm"
+      "Ấp Tân Lâm",
+      "Ấp Đông Thành",
+      "Ấp Đông Hà"
     ],
-    "loai_don_vi": ""
+    "loai_don_vi": "Xã"
   },
   "TN-TANPHU": {
     "ten_phuong": "Tân Phú",
@@ -264,7 +266,8 @@
     "khu_pho": [
       "Ấp Tân Tỉnh",
       "Ấp Tân Đông",
-      "Ấp Lê Văn Trầm - Ấp Tân Thạnh"
+      "Ấp Lê Văn Trầm - Ấp Tân Thạnh",
+      "Ấp Tân Phú"
     ],
     "loai_don_vi": "Xã"
   },
@@ -289,7 +292,9 @@
       "Ấp Phước Lộc",
       "Ấp Hòa Hiệp",
       "Ấp Phước Hưng",
-      "Ấp Hòa Đông B"
+      "Ấp Hòa Đông B",
+      "Ấp Phước An",
+      "Ấp phước Hòa"
     ],
     "loai_don_vi": "Xã"
   },
@@ -668,7 +673,8 @@
     "ten_huyen": "Đức Hòa",
     "ma_dien_luc": "PB0603",
     "khu_pho": [
-      "Ấp 5"
+      "Ấp 5",
+      "Ấp 1"
     ]
   },
   "TN-DUCHOA": {
