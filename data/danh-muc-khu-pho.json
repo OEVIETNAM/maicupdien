@@ -62,7 +62,8 @@
       "Khu phố Hiệp Thạnh",
       "Khu phố 22",
       "Khu phố 18",
-      "Khu phố 14"
+      "Khu phố 14",
+      "Khu phố Hiệp Lễ"
     ],
     "loai_don_vi": "Phường"
   },
@@ -237,7 +238,10 @@
       "Ấp Đông Tiến",
       "Ấp Tân Lâm",
       "Ấp Đông Thành",
-      "Ấp Đông Hà"
+      "Ấp Đông Hà",
+      "Ấp Tầm Phô",
+      "Ấp Tân Trung",
+      "Ấp Tân Cường"
     ],
     "loai_don_vi": "Xã"
   },
@@ -412,7 +416,8 @@
       "Ấp Lộc Hiệp",
       "Ấp Lộc Trung",
       "Ấp Bến Củi",
-      "Ấp Lộc Tân"
+      "Ấp Lộc Tân",
+      "Ấp B2"
     ],
     "loai_don_vi": "Xã"
   },
@@ -555,9 +560,10 @@
       "Khu phố Hiệp Trường",
       "Khu phố Hiệp An",
       "Ấp Thanh Hùng",
-      "Ấp Thanh Thuận"
+      "Ấp Thanh Thuận",
+      "Khu phố Hiệp Hòa"
     ],
-    "loai_don_vi": ""
+    "loai_don_vi": "Phường"
   },
   "TN-LONGTHUAN": {
     "ten_phuong": "Long Thuận",
@@ -886,7 +892,9 @@
       "Ấp 5",
       "Ấp 6",
       "Ấp 7",
-      "Ấp 3A Phước Lợi"
+      "Ấp 3A Phước Lợi",
+      "Ấp 3B",
+      "Ấp 4 Phước Lợi"
     ]
   },
   "TN-THANHLOI": {
@@ -921,7 +929,8 @@
       "Ấp 2 Thạnh Đức",
       "Ấp Tân Bình",
       "Ấp An Nhựt Tân",
-      "Ấp 7 Nhựt Chánh"
+      "Ấp 7 Nhựt Chánh",
+      "Ấp 6 Nhựt Chánh"
     ]
   },
   "TN-TANLANDOCDUONGTINH826": {
