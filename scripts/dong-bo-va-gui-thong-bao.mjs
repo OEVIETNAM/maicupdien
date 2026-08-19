@@ -24,7 +24,14 @@ function khoi_tao_firebase_admin() {
   }
   const thong_tin_dang_nhap = JSON.parse(chuoi_khoa);
   admin.initializeApp({ credential: admin.credential.cert(thong_tin_dang_nhap) });
-  return { co_so_du_lieu: admin.firestore(), nhan_tin: admin.messaging() };
+
+  const co_so_du_lieu = admin.firestore();
+  // Cho phep bo qua field co gia tri "undefined" thay vi lam crash toan bo
+  // job (Firestore von khong chap nhan undefined, chi chap nhan null hoac
+  // khong co field do). PHAI goi truoc bat ky thao tac Firestore nao khac.
+  co_so_du_lieu.settings({ ignoreUndefinedProperties: true });
+
+  return { co_so_du_lieu, nhan_tin: admin.messaging() };
 }
 
 /** Tao bitmask (BigInt) tu danh sach chi_so_bit — ban sao cua src/bitset.js vi
@@ -91,6 +98,14 @@ async function dong_bo_va_tra_ve_ban_ghi_moi(co_so_du_lieu, danh_sach_ban_ghi) {
   const cac_ban_ghi_moi = [];
 
   for (const ban_ghi of danh_sach_ban_ghi) {
+    // Bo qua ban ghi hong / thieu du lieu (vd: EVNSPC tra ve trang chan WAF
+    // thay vi du lieu that, khien du lieu cao ve bi lech cau truc) — ghi
+    // canh bao ra log de biet, thay vi ghi rac vao Firestore hoac lam crash job.
+    if (!Array.isArray(ban_ghi.ma_khu_pho) || ban_ghi.ma_khu_pho.length === 0) {
+      console.warn("[BO QUA] Ban ghi thieu ma_khu_pho hop le:", JSON.stringify(ban_ghi).slice(0, 200));
+      continue;
+    }
+
     const ma_tai_lieu = tao_ma_tai_lieu(ban_ghi);
     const tham_chieu = bo_suu_tap.doc(ma_tai_lieu);
     const da_ton_tai = (await tham_chieu.get()).exists;
