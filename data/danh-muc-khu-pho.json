@@ -149,7 +149,8 @@
       "Ấp Xóm Bố",
       "Ấp 5 xã Truông Mít",
       "Ấp Đá Hàng",
-      "Ấp Phước An"
+      "Ấp Phước An",
+      "Ấp Phước Đông"
     ],
     "loai_don_vi": "Xã"
   },
@@ -733,7 +734,8 @@
       "Ấp Ngoài",
       "Ấp Long Khánh",
       "Ấp Long Thạnh",
-      "Ấp Long Thới"
+      "Ấp Long Thới",
+      "Ấp Vĩnh Phước"
     ]
   },
   "TN-CANGIUOC": {
@@ -910,7 +912,10 @@
       "Ấp 7",
       "Ấp 3A Phước Lợi",
       "Ấp 3B",
-      "Ấp 4 Phước Lợi"
+      "Ấp 4 Phước Lợi",
+      "Ấp Phú Ân",
+      "Ấp Phước Lý",
+      "Ấp Vĩnh Phước"
     ]
   },
   "TN-THANHLOI": {
@@ -1206,7 +1211,8 @@
     "khu_pho": [
       "Ấp Cập kênh 79",
       "Ấp Cả Sách",
-      "Ấp Rọc Chanh"
+      "Ấp Rọc Chanh",
+      "Ấp cả bát"
     ]
   },
   "TN-VINHCHAU": {
