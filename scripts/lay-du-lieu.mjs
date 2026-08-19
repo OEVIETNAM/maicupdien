@@ -43,8 +43,9 @@ function tach_khu_pho_tu_van_ban(van_ban_khu_vuc, danh_sach_ten_khu_pho) {
     const cac_ten_tho = bo_tien_to.split(",").map((t) => t.trim().replace(/[.\s]+$/, ""));
 
     for (const ten_tho of cac_ten_tho) {
+      if (!ten_tho) continue;
       for (const ten_chuan of danh_sach_ten_khu_pho) {
-        if (ten_chuan.toLowerCase() === ten_tho.toLowerCase()) {
+        if (ten_chuan && ten_chuan.toLowerCase() === ten_tho.toLowerCase()) {
           ket_qua.push(ten_chuan);
         }
       }
@@ -83,10 +84,21 @@ async function lay_html_lich_cup_dien(tu_ngay, den_ngay, chuoi_cookie) {
 
 function phan_tich_html(html_tho, danh_muc_khu_pho) {
   const $ = cheerio.load(html_tho);
-  const danh_sach_ten_khu_pho = Object.values(danh_muc_khu_pho).map((t) => t.ten_khu_pho);
+
+  // Loc bo nhung muc thieu ten_khu_pho hop le trong danh muc (vd: go thieu,
+  // sai dinh dang khi chinh sua file mo rong tinh/phuong khac), kem canh bao
+  const danh_sach_ten_khu_pho = Object.values(danh_muc_khu_pho)
+    .map((t) => t.ten_khu_pho)
+    .filter((ten) => {
+      if (!ten) console.warn("[CANH BAO] Co muc trong danh-muc-khu-pho.json thieu ten_khu_pho hop le.");
+      return Boolean(ten);
+    });
+
   // map nguoc: ten khu pho -> ma_khu_pho (de tra chi_so_bit)
   const ten_sang_ma = Object.fromEntries(
-    Object.entries(danh_muc_khu_pho).map(([ma, tt]) => [tt.ten_khu_pho, ma])
+    Object.entries(danh_muc_khu_pho)
+      .filter(([, tt]) => Boolean(tt.ten_khu_pho))
+      .map(([ma, tt]) => [tt.ten_khu_pho, ma])
   );
 
   const ket_qua = [];
