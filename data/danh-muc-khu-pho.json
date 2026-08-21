@@ -71,7 +71,10 @@
       "Khu Phố 19",
       "Khu Phố 20",
       "Khu Phố 21",
-      "Khu phố 17 19"
+      "Khu phố 17 19",
+      "Khu phó 1",
+      "6",
+      "7"
     ],
     "loai_don_vi": "Phường"
   },
@@ -630,7 +633,9 @@
       "Khu phố Nhơn Thuận",
       "Ấp Bình Nam",
       "Khu phố Nhơn Trị",
-      "Đường Nguyễn Văn Khánh"
+      "Đường Nguyễn Văn Khánh",
+      "một phần khu tái định cư an vĩnh ngãi",
+      "một phần đường châu thị kim"
     ]
   },
   "TN-KHANHHAU": {
@@ -656,7 +661,11 @@
       "Một phần đường Nguyễn An Ninh",
       "đường Hùng Vương",
       "Một phần đường Đinh Thiếu Sơn",
-      "Một phần đường Trần Văn Chính"
+      "Một phần đường Trần Văn Chính",
+      "Một phần",
+      "một phần đường trần phong sắc",
+      "một phần đường nguyễn cửu vân",
+      "nguyễn  minh đường"
     ]
   },
   "TN-MYTHANH": {
@@ -688,7 +697,10 @@
       "Một phần ấp Bà Miều (ấp 4)",
       "Một phần ấp Bà Miều (ấp 5 khu vực Kênh Giữa)",
       "Một phần ấp Bà Miều (ấp 5)",
-      "Một phần ấp Bà Miều (ấp Cầu Lớn)"
+      "Một phần ấp Bà Miều (ấp Cầu Lớn)",
+      "Toàn bộ ấp Tân Thành",
+      "Một phần ấp Vàm Kinh",
+      "Một phần ấp An Hoà"
     ]
   },
   "TN-THUTHUA": {
@@ -747,7 +759,8 @@
     "ma_dien_luc": "PB0603",
     "khu_pho": [
       "Ấp 5",
-      "Ấp 1"
+      "Ấp 1",
+      "Một phần"
     ]
   },
   "TN-DUCHOA": {
@@ -1080,7 +1093,8 @@
       "Ấp 5",
       "Ấp Cầu Xây",
       "Một phần ấp Cầu Xây",
-      "Một phần ấp 2"
+      "Một phần ấp 2",
+      "Một phần Ấp Nhà Dài"
     ]
   },
   "TN-RACHKIEN": {
@@ -1169,7 +1183,8 @@
       "Một phần ấp An Nhựt Tân",
       "Một phần ấp Bình Đông",
       "Một phần ấp Bình Nghị",
-      "Một phần"
+      "Một phần",
+      "Một phần ấp 1+3"
     ]
   },
   "TN-HIEPHOA": {
@@ -1304,7 +1319,9 @@
     "ma_dien_luc": "PB0613",
     "khu_pho": [
       "Ấp Cập kênh Sông Trăng",
-      "Ấp Hưng Hà"
+      "Ấp Hưng Hà",
+      "Một phần ấp Cây Me",
+      "Ấp Cây Me"
     ]
   },
   "TN-TANHUNG": {
@@ -1540,7 +1557,8 @@
       "Ấp Đông Nhì",
       "Ấp Đông Trung",
       "Ấp Bà Nghĩa",
-      "Một phần Ấp 3"
+      "Một phần Ấp 3",
+      "Một phần ấp 6"
     ]
   },
   "TN-THANHPHUOC": {
@@ -1814,6 +1832,51 @@
     "ma_dien_luc": "PB0602",
     "khu_pho": [
       "Một phần"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-THANHDIEN-3": {
+    "ten_phuong": "Thanh Điển",
+    "ten_huyen": "Tân Ninh",
+    "ma_dien_luc": "PB0501",
+    "khu_pho": [
+      "Khu phố Hiệp Hoà Hiệp Tân"
+    ],
+    "loai_don_vi": "Phường"
+  },
+  "TN-GODAU-2": {
+    "ten_phuong": "Gò Dầu",
+    "ten_huyen": "Trảng Bàng",
+    "ma_dien_luc": "PB0503",
+    "khu_pho": [
+      "Khu phố Phước Hậu"
+    ],
+    "loai_don_vi": "Phường"
+  },
+  "TN-NHUTTAO-2": {
+    "ten_phuong": "Nhựt Tảo",
+    "ten_huyen": "Tân An",
+    "ma_dien_luc": "PB0601",
+    "khu_pho": [
+      "Một phần"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-NHUTTAO-3": {
+    "ten_phuong": "Nhựt Tảo",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "Một phần"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-THUYTAY": {
+    "ten_phuong": "Thuỷ Tây",
+    "ten_huyen": "Thạnh Hóa",
+    "ma_dien_luc": "PB0611",
+    "khu_pho": [
+      "Đường liên"
     ],
     "loai_don_vi": "Xã"
   }
