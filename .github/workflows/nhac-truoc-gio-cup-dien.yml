@@ -2,9 +2,11 @@ name: Nhac truoc gio cup dien
 
 on:
   schedule:
-    # Moi 20 phut - can chay day hon workflow dong bo chinh, vi muc dich la
-    # bat sat thoi diem "con ~24h nua la den gio cup" de nhac dung luc.
-    - cron: "*/20 * * * *"
+    # Chay dung 1 lan moi ngay luc 6h00 sang gio Viet Nam (23:00 UTC hom truoc,
+    # vi VN = UTC+7). Gui thong bao cho tat ca lich cup dien trong vong 24h
+    # toi tinh tu thoi diem nay — khong gui ngay khi vua phat hien du lieu moi
+    # trong ngay, du co cap nhat lich moi cung phai doi den 6h sang hom sau.
+    - cron: "0 23 * * *"
   workflow_dispatch: {}
 
 jobs:

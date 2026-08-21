@@ -1,4 +1,4 @@
-name: Cap nhat lich cup dien va gui thong bao
+name: Dong bo lich cup dien (khong gui thong bao)
 
 on:
   schedule:
