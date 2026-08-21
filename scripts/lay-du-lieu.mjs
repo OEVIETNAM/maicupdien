@@ -103,13 +103,35 @@ function tim_ma_phuong_theo_ten(danh_muc, ma_dien_luc, ten) {
 
 // ---------- Phan tich van ban "KHU VUC" ----------
 
+/** Cat bo phan chu thich/mo ta thua ra khoi 1 ten hanh chinh da bat duoc —
+ *  EVNSPC hay ghi kem chu thich ngay sau ten that, KHONG luon co dau phay
+ *  ngan cach (vd "Mỹ Thạnh (khu vực ấp An Hoà 1 củ...)", "Tân An tỉnh Tây Ninh",
+ *  "Tân Tây và một phần ấp Tuyên Nhơn - xã Thạnh Hoá"). Chi giu dung phan
+ *  ten truoc dau hieu chu thich dau tien gap phai. */
+function don_gian_hoa_ten_don_vi(ten_tho) {
+  let ten = ten_tho;
+  const cac_diem_cat = [
+    ten.indexOf("("),
+    ten.search(/\s+và\s+/i),
+    ten.search(/\s+-\s+/),
+    ten.search(/\s+[Tt]ỉnh\s+/),
+  ].filter((vi_tri) => vi_tri !== -1 && vi_tri !== undefined);
+
+  if (cac_diem_cat.length > 0) {
+    ten = ten.slice(0, Math.min(...cac_diem_cat));
+  }
+  return ten.trim();
+}
+
 /** Tim don vi hanh chinh (Phuong/Xa + ten) xuat hien trong 1 cum van ban, vi tri bat dau cua no. */
 function tim_don_vi_hanh_chinh_trong_cum(cum) {
   const khop = cum.match(/(Phường|phường|Xã|xã)\s+([^,;.\n]+)/);
   if (!khop) return null;
+  const ten_da_don_gian = don_gian_hoa_ten_don_vi(khop[2]);
+  if (!ten_da_don_gian) return null;
   return {
     loai: /^ph/i.test(khop[1]) ? "Phường" : "Xã",
-    ten: khop[2].trim(),
+    ten: ten_da_don_gian,
     chi_so_bat_dau: khop.index,
   };
 }

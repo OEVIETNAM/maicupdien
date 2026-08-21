@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Mái Cúp Điện — Cảnh báo lịch cúp điện theo khu phố</title>
-<meta name="description" content="Đăng ký nhận thông báo lịch cúp điện trước 1 ngày, theo đúng khu phố bạn sống. Không cần cài app, không cần đăng nhập." />
+<title>Mai Cúp Điện — Chuẩn bị trước nha</title>
+<meta name="description" content="Đăng ký nhận thông báo cúp điện trước 1 ngày theo khu phố bạn sống (Chỉ riêng Tây Ninh)." />
 
 <link rel="manifest" href="manifest.webmanifest" />
 <meta name="theme-color" content="#0B1220" />
@@ -17,8 +17,8 @@
 
   <header class="tieu-de">
     <span class="nhan">Cảnh báo cúp điện · Tỉnh Tây Ninh</span>
-    <h1>Mái Cúp Điện</h1>
-    <p>Chọn đúng xã/phường và khu phố bạn sống. Có lịch cúp điện mới, bạn sẽ nhận thông báo — kèm nhắc lại trước giờ cúp khoảng 1 ngày.</p>
+    <h1>Mai Cúp Điện Chuẩn Bị Đi Nha</h1>
+    <p>Chọn khu phố bạn sống. Có lịch cúp điện sẽ báo trước 1 ngày chuẩn bị.</p>
   </header>
 
   <div class="duong-day-dien" aria-hidden="true">
@@ -36,7 +36,7 @@
     <div class="the">
       <span class="nhan-truong">1. Chọn đơn vị điện lực quản lý</span>
       <select id="chon-don-vi" class="chon-phuong">
-        <option value="">— Chọn huyện/thị xã —</option>
+        <option value="">— Chọn điện lực theo Xã/Phường —</option>
         <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js -->
       </select>
     </div>
@@ -44,14 +44,14 @@
     <div class="the">
       <span class="nhan-truong">2. Chọn xã/phường bạn sống</span>
       <select id="chon-phuong" class="chon-phuong" disabled>
-        <option value="">— Chọn huyện/thị xã ở trên trước —</option>
+        <option value="">— Chọn Xã/Phường ở trên trước —</option>
         <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js, sau khi chon don vi -->
       </select>
       <p class="ghi-chu-chon-phuong">Mỗi tài khoản chỉ theo dõi được 1 xã/phường. Muốn đổi sang xã/phường khác, chọn lại ở đây rồi bật thông báo lại.</p>
     </div>
 
     <div class="the" id="the-chon-khu-pho">
-      <span class="nhan-truong">3. Chọn (các) khu phố bạn muốn theo dõi</span>
+      <span class="nhan-truong">3. Chọn Khu phố/Ấp bạn muốn theo dõi</span>
       <div id="danh-sach-khu-pho" class="danh-sach-khu-pho">
         <!-- Sinh tu data/danh-muc-khu-pho.json bang app.js, sau khi chon phuong -->
       </div>
@@ -84,7 +84,7 @@
   </p>
 
   <footer class="chan-trang">
-    Dữ liệu tổng hợp từ các Điện lực trực thuộc EVNSPC tại tỉnh Tây Ninh. Tự động xoá sau khi hết thời gian cúp điện.
+    Dữ liệu tổng hợp từ các Điện lực trực thuộc EVNSPC tại tỉnh Tây Ninh.
   </footer>
 
 </div>

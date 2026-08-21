@@ -24,6 +24,8 @@ function la_ten_rac(ten) {
     / và /i.test(ten) ||
     /một phần|1 phần/i.test(ten) ||
     /\bấp\s/i.test(ten) ||
+    /\btỉnh\s/i.test(ten) ||
+    /[()]/.test(ten) ||
     ten.length > 20
   );
 }

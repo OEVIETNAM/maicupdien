@@ -72,9 +72,7 @@ lần quét sau (gần giờ cúp hơn) mới gửi, tránh báo quá sớm khi�
 
 EVNSPC đôi khi liệt kê luôn tên hộ kinh doanh/công ty/trạm biến áp ngay trong
 trường KHU VỰC lẫn với tên khu phố/ấp thật. `lay-du-lieu.mjs` có 1 danh sách từ
-khoá loại bỏ (biến `TU_KHOA_LOAI_BO` — tìm trong file để xem/sửa): `hộ kinh
-doanh`, `hkd`, `công ty`, `cty`, `doanh nghiệp`, `dntn`, `cơ sở sản xuất`, `trạm
-biến áp`, `tba`, `nhà máy`, `xí nghiệp`, `chi nhánh`, `khách hàng`.
+khoá loại bỏ (biến `TU_KHOA_LOAI_BO` — tìm trong file để xem/sửa): `hộ kinh doanh`, `hkd`, `công ty`, `cty`, `doanh nghiệp`, `dntn`, `cơ sở sản xuất`, `trạm biến áp`, `tba`, `nhà máy`, `xí nghiệp`, `chi nhánh`, `khách hàng`.
 
 Nếu sau này thấy vẫn còn lọt tên lạ không phải khu phố/ấp thật, thêm từ khoá mới
 vào biến `TU_KHOA_LOAI_BO` trong `scripts/lay-du-lieu.mjs` — không cần sửa gì
