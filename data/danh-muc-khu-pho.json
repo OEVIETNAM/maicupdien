@@ -353,7 +353,8 @@
       "Ấp Biên Giới",
       "Ấp Hòa Thạnh",
       "Ấp Bưng Rò",
-      "Ấp Hiệp Phước"
+      "Ấp Hiệp Phước",
+      "Ấp Tân Định"
     ],
     "loai_don_vi": "Xã"
   },
@@ -404,7 +405,8 @@
       "Ấp Bàu Sen",
       "Ấp Trường",
       "ấp Tầm Long",
-      "ấp Xóm Mới 2"
+      "ấp Xóm Mới 2",
+      "Ấp Tầm Long Long"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1379,7 +1381,8 @@
     "khu_pho": [
       "Ấp Cập kênh Ngang",
       "Ấp Vĩnh Ân",
-      "Ấp Đại"
+      "Ấp Đại",
+      "Một phần ấp vĩnh nguyện"
     ]
   },
   "TN-CHAU": {
@@ -1507,7 +1510,8 @@
     "ten_huyen": "Tân Hưng",
     "ma_dien_luc": "PB0613",
     "khu_pho": [
-      "Ấp Hưng Thạnh"
+      "Ấp Hưng Thạnh",
+      "Một phần ấp 2"
     ]
   },
   "TN-DONGTHANH": {
@@ -1945,6 +1949,25 @@
     "ma_dien_luc": "PB0602",
     "khu_pho": [
       "Một phần"
+    ],
+    "loai_don_vi": "Phường"
+  },
+  "TN-DUONGMINHCHAU-2": {
+    "ten_phuong": "Dương Minh Châu",
+    "ten_huyen": "Tân Ninh",
+    "ma_dien_luc": "PB0501",
+    "khu_pho": [
+      "Ấp Phước Hòa",
+      "Ấp Phước Lợi"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-GIALOC-2": {
+    "ten_phuong": "Gia Lộc",
+    "ten_huyen": "Trảng Bàng",
+    "ma_dien_luc": "PB0503",
+    "khu_pho": [
+      "Khu phố Lộc Khê"
     ],
     "loai_don_vi": "Phường"
   }
