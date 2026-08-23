@@ -117,9 +117,39 @@ function ten_hien_thi_phuong(thong_tin_phuong) {
     : thong_tin_phuong.ten_phuong;
 }
 
+const BIEU_THUC_MOT_PHAN = /^\s*một\s*phần\s+/i;
+
+/** Neu ten bat dau bang "Một phần ", quy ve dung ten ap goc (bo tien to,
+ *  viet hoa lai chu cai dau). Dung de GOM 1 ap va cac ban ghi "cup 1 phan
+ *  ap do" lai thanh CHUNG 1 khu vuc/field, thay vi hien thanh 2 dong rieng
+ *  biet nhu du lieu tho tu EVNSPC hay bi tach ra. */
+function quy_ve_ten_ap_goc(ten) {
+  if (!BIEU_THUC_MOT_PHAN.test(ten)) return ten;
+  const ten_con_lai = ten.replace(BIEU_THUC_MOT_PHAN, "").trim();
+  if (!ten_con_lai) return ten;
+  return ten_con_lai.charAt(0).toUpperCase() + ten_con_lai.slice(1);
+}
+
+/** Gom cac chi so trong mang khu_pho cua 1 Xa/Phuong theo TEN AP GOC (sau khi
+ *  quy_ve_ten_ap_goc). Vi du khu_pho = ["Ấp Thái Trị", "Một phần ấp Thái Trị"]
+ *  se gom thanh 1 nhom { ten_goc: "Ấp Thái Trị", cac_chi_so: [4, 5] } - nguoi
+ *  dung chi thay VA chon 1 the "Ấp Thái Trị" duy nhat, nhung tick vao la dang
+ *  ky nhan tin cho CA HAI truong hop (cup nguyen ap lan cup 1 phan ap). */
+function gom_nhom_khu_pho_theo_ten_goc(thong_tin_phuong) {
+  const nhom_theo_ten_goc = new Map(); // ten_goc -> { ten_goc, cac_chi_so: [] }
+  thong_tin_phuong.khu_pho.forEach((ten_khu_pho, chi_so) => {
+    const ten_goc = quy_ve_ten_ap_goc(ten_khu_pho);
+    if (!nhom_theo_ten_goc.has(ten_goc)) {
+      nhom_theo_ten_goc.set(ten_goc, { ten_goc, cac_chi_so: [] });
+    }
+    nhom_theo_ten_goc.get(ten_goc).cac_chi_so.push(chi_so);
+  });
+  return [...nhom_theo_ten_goc.values()];
+}
+
 /** Ve lai luoi checkbox khu pho cho 1 Xa/Phuong cu the. Value cua moi checkbox
- *  la CHI SO (dang chuoi) trong mang khu_pho cua phuong do - chinh la
- *  chi_so_bit dung cho bitmask cuc bo. */
+ *  la DANH SACH CHI SO (cach nhau boi dau phay) gom tat ca chi_so_bit thuoc
+ *  cung 1 ten ap goc - xem gom_nhom_khu_pho_theo_ten_goc. */
 function ve_lai_luoi_khu_pho(ma_phuong, danh_sach_ten_da_chon_truoc = []) {
   const thong_tin_phuong = danh_muc_theo_phuong[ma_phuong];
   if (!thong_tin_phuong) {
@@ -132,12 +162,14 @@ function ve_lai_luoi_khu_pho(ma_phuong, danh_sach_ten_da_chon_truoc = []) {
   phan_tu_danh_sach_khu_pho.classList.remove("an");
   thong_diep_chua_chon_phuong_el.classList.add("an");
 
-  phan_tu_danh_sach_khu_pho.innerHTML = thong_tin_phuong.khu_pho
-    .map((ten_khu_pho, chi_so) => `
+  const cac_nhom_khu_pho = gom_nhom_khu_pho_theo_ten_goc(thong_tin_phuong);
+
+  phan_tu_danh_sach_khu_pho.innerHTML = cac_nhom_khu_pho
+    .map(({ ten_goc, cac_chi_so }, chi_so_nhom) => `
       <div class="the-khu-pho">
-        <input type="checkbox" id="kp-${chi_so}" name="khu-pho" value="${chi_so}"
-          ${danh_sach_ten_da_chon_truoc.includes(ten_khu_pho) ? "checked" : ""} />
-        <label for="kp-${chi_so}">${ten_khu_pho}</label>
+        <input type="checkbox" id="kp-${chi_so_nhom}" name="khu-pho" value="${cac_chi_so.join(",")}"
+          ${danh_sach_ten_da_chon_truoc.includes(ten_goc) ? "checked" : ""} />
+        <label for="kp-${chi_so_nhom}">${ten_goc}</label>
       </div>
     `)
     .join("");
@@ -171,9 +203,14 @@ async function kiem_tra_dang_ky_hien_co() {
     if (!thong_tin_phuong) return null; // phuong da dang ky khong con hop le (vd bi doi ma)
 
     const bitmask = chuoi_sang_bitmask(du_lieu.bitmask);
-    const ten_khu_pho = bitmask_sang_danh_sach_chi_so(bitmask)
-      .map((chi_so) => thong_tin_phuong.khu_pho[chi_so])
-      .filter(Boolean);
+    // Quy ve ten ap goc roi loc trung - vi "Ấp X" va "Một phần ấp X" co the
+    // ung voi 2 chi_so bit khac nhau nhung nguoi dung chi can thay 1 the.
+    const ten_khu_pho = [...new Set(
+      bitmask_sang_danh_sach_chi_so(bitmask)
+        .map((chi_so) => thong_tin_phuong.khu_pho[chi_so])
+        .filter(Boolean)
+        .map((ten) => quy_ve_ten_ap_goc(ten))
+    )];
 
     if (ten_khu_pho.length === 0) return null;
     return { token: token_thiet_bi, ma_phuong, ten_khu_pho };
@@ -186,8 +223,13 @@ async function kiem_tra_dang_ky_hien_co() {
 function tinh_trang_thai_khu_pho(ten_khu_pho, danh_sach_ban_ghi) {
   const bay_gio = new Date();
 
+  // So khop theo TEN AP GOC (sau quy_ve_ten_ap_goc) o ca 2 phia - vi ban ghi
+  // tu Firestore co the ghi "Ấp X" (cup nguyen ap) hoac "Một phần ấp X" (cup
+  // 1 phan), nhung the trang thai chi hien thi 1 dong duy nhat cho "Ấp X".
+  const khop_ten_ap = (bg) => bg.ten_khu_pho?.some((ten) => quy_ve_ten_ap_goc(ten) === ten_khu_pho);
+
   const ban_ghi_dang_cup = danh_sach_ban_ghi.find((bg) => {
-    if (!bg.ten_khu_pho?.includes(ten_khu_pho)) return false;
+    if (!khop_ten_ap(bg)) return false;
     if (!bg.tu_luc || !bg.den_luc) return false;
     return bg.tu_luc.toDate() <= bay_gio && bay_gio <= bg.den_luc.toDate();
   });
@@ -196,7 +238,7 @@ function tinh_trang_thai_khu_pho(ten_khu_pho, danh_sach_ban_ghi) {
   }
 
   const cac_ban_ghi_sap_toi = danh_sach_ban_ghi
-    .filter((bg) => bg.ten_khu_pho?.includes(ten_khu_pho) && bg.tu_luc && bg.tu_luc.toDate() > bay_gio)
+    .filter((bg) => khop_ten_ap(bg) && bg.tu_luc && bg.tu_luc.toDate() > bay_gio)
     .sort((a, b) => a.tu_luc.toDate() - b.tu_luc.toDate());
 
   return { trang_thai: "co-dien", ban_ghi_sap_toi: cac_ban_ghi_sap_toi[0] || null };
@@ -332,9 +374,15 @@ async function xu_ly_gui_dang_ky(su_kien) {
     }
 
     const thong_tin_phuong = danh_muc_theo_phuong[ma_phuong];
-    const cac_chi_so_bit = cac_o_da_chon.map((o) => Number(o.value));
+    // Moi checkbox co the mang theo NHIEU chi_so (gom nhom theo ten ap goc -
+    // xem gom_nhom_khu_pho_theo_ten_goc), nen can "trai phang" danh sach ra.
+    const cac_chi_so_bit = cac_o_da_chon.flatMap((o) => o.value.split(",").map(Number));
     const bitmask = tao_bitmask_tu_danh_sach_chi_so(cac_chi_so_bit);
-    const ten_khu_pho_da_chon = cac_chi_so_bit.map((chi_so) => thong_tin_phuong.khu_pho[chi_so]);
+    // Ten hien thi/luu lai chi lay ten ap goc, khong lap lai vi 1 checkbox co
+    // the ung voi ca "Ấp X" lan "Một phần ấp X" (cung 1 ten goc "Ấp X").
+    const ten_khu_pho_da_chon = [...new Set(
+      cac_chi_so_bit.map((chi_so) => quy_ve_ten_ap_goc(thong_tin_phuong.khu_pho[chi_so]))
+    )];
 
     // Ghi de toan bo tai lieu (khong merge) - vi doi phuong nghia la bo hoan
     // toan dang ky cu, khong con lai bitmask cua phuong truoc do.

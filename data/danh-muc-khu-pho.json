@@ -1301,7 +1301,7 @@
       "Ấp Thuận Bình",
       "Ấp Mỏ Vẹt",
       "Ấp Tân Hiệp",
-      "Ấp Thuận Hiệp –"
+      "Ấp Thuận Hiệp"
     ]
   },
   "TN-THANHHOA": {
@@ -1311,8 +1311,8 @@
     "ma_dien_luc": "PB0611",
     "khu_pho": [
       "Ấp Thạnh An",
-      "Ấp và một phần ấp Thuỷ Tây –",
-      "Ấp Thuỷ Đông –"
+      "Ấp và một phần ấp Thuỷ Tây",
+      "Ấp Thuỷ Đông"
     ]
   },
   "TN-TUYENBINH": {
@@ -1321,21 +1321,21 @@
     "ten_huyen": "Vĩnh Hưng",
     "ma_dien_luc": "PB0612",
     "khu_pho": [
-      "Ấp Rạch Mây -",
-      "Ấp Cả Cóc -",
-      "Ấp Tuyên Bình Tây -",
-      "Ấp Cả Rưng -",
-      "Ấp Thái Bình Trung -",
-      "Ấp Vĩnh Bình -",
-      "Ấp Cả Có -",
-      "Ấp Long Khốt -",
-      "Ấp Bình Châu -",
-      "Một phần ấp Cả Rưng -",
-      "Một phần ấp Long Khốt -",
-      "Một phần ấp Vĩnh Bình -",
-      "Một phần ấp Bình Châu -",
-      "Một phần ấp Tuyên Bình Tây -",
-      "Một phần ấp Thái Bình Trung -",
+      "Ấp Rạch Mây",
+      "Ấp Cả Cóc",
+      "Ấp Tuyên Bình Tây",
+      "Ấp Cả Rưng",
+      "Ấp Thái Bình Trung",
+      "Ấp Vĩnh Bình",
+      "Ấp Cả Có",
+      "Ấp Long Khốt",
+      "Ấp Bình Châu",
+      "Một phần ấp Cả Rưng",
+      "Một phần ấp Long Khốt",
+      "Một phần ấp Vĩnh Bình",
+      "Một phần ấp Bình Châu",
+      "Một phần ấp Tuyên Bình Tây",
+      "Một phần ấp Thái Bình Trung",
       "Một phần ấp Thái Bình Trung"
     ]
   },
@@ -1345,23 +1345,23 @@
     "ten_huyen": "Vĩnh Hưng",
     "ma_dien_luc": "PB0612",
     "khu_pho": [
-      "Ấp Bàu Sậy -",
-      "Ấp Vĩnh Trị -",
+      "Ấp Bàu Sậy",
+      "Ấp Vĩnh Trị",
       "Ấp Măng Đa",
-      "Ấp Vĩnh Hưng -",
-      "Ấp Ông Lẹt -",
-      "Ấp Lò Gạch -",
-      "Ấp Bàu Nâu -",
-      "Ấp Chiến Thắng -",
-      "Ấp Măng Đa -",
-      "Một phần ấp Bàu Nâu -",
-      "Một phần ấp Chiến Thắng -",
-      "Một phần ấp Ông Lẹt -",
-      "Một phần ấp Măng Đa -",
-      "Một phần ấp Bàu Sậy -",
-      "Một phần ấp Vĩnh Hưng -",
-      "Một phần ấp Vĩnh Trị -",
-      "Một phần ấp Lò Gạch -"
+      "Ấp Vĩnh Hưng",
+      "Ấp Ông Lẹt",
+      "Ấp Lò Gạch",
+      "Ấp Bàu Nâu",
+      "Ấp Chiến Thắng",
+      "Ấp Măng Đa",
+      "Một phần ấp Bàu Nâu",
+      "Một phần ấp Chiến Thắng",
+      "Một phần ấp Ông Lẹt",
+      "Một phần ấp Măng Đa",
+      "Một phần ấp Bàu Sậy",
+      "Một phần ấp Vĩnh Hưng",
+      "Một phần ấp Vĩnh Trị",
+      "Một phần ấp Lò Gạch"
     ]
   },
   "TN-KHANHHUNG": {
@@ -1370,17 +1370,17 @@
     "ten_huyen": "Vĩnh Hưng",
     "ma_dien_luc": "PB0612",
     "khu_pho": [
-      "Ấp Bến Phố -",
-      "Ấp Láng Lớn -",
-      "Ấp Hưng Điền -",
-      "Ấp Hưng Điền A -",
-      "Ấp Thái Trị -",
-      "Một phần ấp Thái Trị -",
-      "Một phần ấp Láng Lớn -",
-      "Một phần ấp Hưng Điền A -",
-      "Một phần ấp Bến Phố -",
-      "Một phần ấp Gò Châu Mai -",
-      "Một phần ấp Hưng Điền -"
+      "Ấp Bến Phố",
+      "Ấp Láng Lớn",
+      "Ấp Hưng Điền",
+      "Ấp Hưng Điền A",
+      "Ấp Thái Trị",
+      "Một phần ấp Thái Trị",
+      "Một phần ấp Láng Lớn",
+      "Một phần ấp Hưng Điền A",
+      "Một phần ấp Bến Phố",
+      "Một phần ấp Gò Châu Mai",
+      "Một phần ấp Hưng Điền"
     ]
   },
   "TN-HUNGDIEN": {
@@ -1665,16 +1665,16 @@
     "ten_huyen": "Thạnh Hóa",
     "ma_dien_luc": "PB0611",
     "khu_pho": [
-      "Ấp Vàm Lớn -",
-      "Ấp Thạnh Phú -",
-      "Ấp Cả Sáu -",
-      "Ấp Đình -",
+      "Ấp Vàm Lớn",
+      "Ấp Thạnh Phú",
+      "Ấp Cả Sáu",
+      "Ấp Đình",
       "Khu vực Rạch Cả Dừng",
       "Khu vực Kênh Maren",
       "Khu vực cặp đường tỉnh 817",
       "Khu vực cặp Kênh sau UB",
       "Khu vực vinh sao",
-      "ấp Ông Quới -"
+      "ấp Ông Quới"
     ]
   },
   "TN-NHONNINH": {

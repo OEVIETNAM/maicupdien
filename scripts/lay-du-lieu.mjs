@@ -35,6 +35,18 @@ const TIEU_DE_GIA_LAP_TRINH_DUYET = {
 
 const BIEU_THUC_TIEN_TO = /^(Khu\s*phố|Ấp|Khóm|Tổ\s*dân\s*phố)\s+/i;
 
+// EVNSPC hay ghi "Một phần ấp X" khi chi 1 phan cua ap bi cup (thay vi ca
+// ap). Ta KHONG coi day la 1 khu pho/ap rieng - ma quy ve dung ten ap goc
+// "X" de dung chung 1 field voi lan cup nguyen ap, tranh sinh field trung
+// lap nhu "Ấp X" va "Một phần ấp X" nam canh nhau trong danh sach.
+const BIEU_THUC_MOT_PHAN = /^\s*một\s*phần\s+/i;
+
+// Sau khi cat doan van ban truoc ten Xa/Phuong, phan con du lai co the dinh
+// theo mot dau gach ngang/dau cham/khoang trang thua (vd "Ấp Bến Phố -")
+// vi EVNSPC dung dau "-" thay dau phay de ngan cach voi ten Xa/Phuong ngay
+// sau do. Can cat sach cac ky tu nay o CUOI chuoi truoc khi luu ten.
+const BIEU_THUC_DUOI_CHUOI_THUA = /[\s.\-–—]+$/;
+
 // Cac cum tu cho thay day KHONG PHAI ten khu pho/ap that, ma la ten ho kinh
 // doanh/cong ty/tram bien ap... bi EVNSPC liet ke lan trong truong KHU VUC.
 // Neu 1 token (sau khi tach theo dau phay) chua bat ky tu khoa nao duoi day,
@@ -139,19 +151,38 @@ function tim_don_vi_hanh_chinh_trong_cum(cum) {
 /** Tach danh sach ten khu pho/ap tho tu doan van ban truoc ten Phuong/Xa.
  *  Neu 1 token khong co san tien to (vi du "An Hội" sau dau phay dung sau
  *  "Khu phố An Quới,"), tu dong ke thua tien to cua token dau tien trong cum. */
+/** Cat sach dau "-"/dau cham/khoang trang thua o cuoi 1 ten khu pho tho. */
+function don_dep_duoi_ten(ten) {
+  return ten.replace(BIEU_THUC_DUOI_CHUOI_THUA, "").trim();
+}
+
+/** Neu ten bat dau bang "Một phần ", bo tien to nay di va viet hoa lai chu
+ *  cai dau (vi phan con lai thuong viet thuong, vd "một phần ấp Thái Trị"
+ *  -> "ấp Thái Trị" -> "Ấp Thái Trị"), de quy ve dung ten ap goc. */
+function quy_ve_ten_ap_goc(ten) {
+  if (!BIEU_THUC_MOT_PHAN.test(ten)) return ten;
+  const ten_con_lai = ten.replace(BIEU_THUC_MOT_PHAN, "").trim();
+  if (!ten_con_lai) return ten;
+  return ten_con_lai.charAt(0).toUpperCase() + ten_con_lai.slice(1);
+}
+
 function tach_danh_sach_ten_khu_pho(doan_truoc_phuong) {
   const token_tho = doan_truoc_phuong
     .split(",")
-    .map((t) => t.trim().replace(/[.\s]+$/, ""))
+    .map((t) => don_dep_duoi_ten(t))
     .filter(Boolean);
   if (token_tho.length === 0) return [];
 
   const khop_tien_to_dau = token_tho[0].match(BIEU_THUC_TIEN_TO);
   const tien_to_ke_thua = khop_tien_to_dau ? khop_tien_to_dau[0].trim() : null;
 
-  return token_tho.map((tho) =>
-    BIEU_THUC_TIEN_TO.test(tho) || !tien_to_ke_thua ? tho : `${tien_to_ke_thua} ${tho}`
-  ).filter((ten) => !la_ten_can_loai_bo(ten));
+  return token_tho
+    .map((tho) =>
+      BIEU_THUC_TIEN_TO.test(tho) || !tien_to_ke_thua ? tho : `${tien_to_ke_thua} ${tho}`
+    )
+    .map((tho) => quy_ve_ten_ap_goc(tho))
+    .map((tho) => don_dep_duoi_ten(tho)) // "Mot phan" co the tu no cung dinh dau "-" o cuoi
+    .filter((ten) => !la_ten_can_loai_bo(ten));
 }
 
 // ---------- Goi API EVNSPC ----------
