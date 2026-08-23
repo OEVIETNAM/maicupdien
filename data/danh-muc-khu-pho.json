@@ -388,7 +388,8 @@
       "Ấp Thái Bình",
       "Ấp Chòm Dừa",
       "Ấp Cầy Xiêng",
-      "Khu phố 4"
+      "Khu phố 4",
+      "ấp Bình Long"
     ],
     "loai_don_vi": "Xã"
   },
@@ -811,7 +812,8 @@
       "Ấp Bình Tiền 1",
       "Ấp 2",
       "Ấp Bình Tả",
-      "1 phần ấp Bình Tiền 1"
+      "1 phần ấp Bình Tiền 1",
+      "1 phần ấp Bình Tiền 2"
     ]
   },
   "TN-HAUNGHIA": {
@@ -1120,7 +1122,9 @@
       "Một phần ấp 6 Thạnh Đức",
       "một phần ấp 2",
       "5 6",
-      "8 Nhựt Chánh"
+      "8 Nhựt Chánh",
+      "Ấp 4 Thạnh Đức",
+      "8 Nhựt Chánh và một phần ấp 1"
     ]
   },
   "TN-TANLAN": {
@@ -2039,6 +2043,17 @@
     "khu_pho": [
       "Đường ra Kênh Rạch Bần đến Sông vàm Cỏ",
       "Một phần ấp An Hòa"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-LONGHUU": {
+    "ten_phuong": "Long Hựu",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "Ấp Rạch Cát",
+      "Ấp Long Ninh",
+      "1 phần"
     ],
     "loai_don_vi": "Xã"
   }
