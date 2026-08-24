@@ -935,7 +935,21 @@
       "một phần ấp 2",
       "Khu vực từ KCN Tân Kim đến Vòng Xoay Tân Kim đến Cầu Cần Giuộc (cũ)",
       "một phần ấp Tân Kim",
-      "Khu vực từ KCN Tân Kim đến Vòng Xoay Tân Kim"
+      "Khu vực từ KCN Tân Kim đến Vòng Xoay Tân Kim",
+      "Nhánh rẽ Trạm bơm Giếng 6 Long Hậu",
+      "Nhánh rẽ Trạm bơm Giếng 7 Long Hậu",
+      "ấp Bình Đức",
+      "Nhánh rẽ Trạm bơm Giếng  Long Hậu G8",
+      "Nhánh rẽ Trạm bơm trung chuyển NMXL nước thải KDC TDC Long Hậu-tuyến 479 Long Hậu",
+      "Khu vực từ Bến Phà Cần Giuộc mới (đường Nguyễn Thị Bẹ) đến Ngã 3 đường Nguyễn An Ninh và đường Nguyễn Thị Bảy",
+      "Khu vực từ Huyện Đội Cần Giuộc cũ đến Cầu Cần Giuộc cũ",
+      "đến Bến Phà Cần Giuộc cũ",
+      "Khu vực Cầu Ông Chuồng đến Bến Phà Cần Giuộc Mới đến Trường THPT Nguyễn Thị Một ( Đường ĐT.826C)",
+      "toàn bộ ấp Lũy",
+      "Phước Lại",
+      "Tân Thanh",
+      "Nhánh rẽ Trạm bơm trung chuyển Nước Thải-tuyến 480 Long Hậu",
+      "Nhánh rẽ Chiếu sáng T62/1 KCN Long Hậu-tuyến 478 Long Hậu"
     ]
   },
   "TN-MYLOC": {
@@ -961,7 +975,8 @@
       "một phần Ấp Lộc Tiền",
       "Khu vực từ Ngã Tư Xoài Đôi đầu đường Chùa Khánh Ninh (Đường ĐT 835)",
       "một phần ấp Phước Hưng 1",
-      "2"
+      "2",
+      "Thuận Nam"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -972,7 +987,10 @@
     "khu_pho": [
       "Ấp Long An 3",
       "Ấp Long An 4",
-      "Ấp Long An 1"
+      "Ấp Long An 1",
+      "Ấp 1",
+      "2",
+      "Chánh Nhì"
     ]
   },
   "TN-MOCHOA": {
@@ -1687,7 +1705,15 @@
     "ma_dien_luc": "PB0604",
     "khu_pho": [
       "Ấp Tân Hòa",
-      "Ấp Tân Quang 2"
+      "Ấp Tân Quang 2",
+      "toàn bộ ấp Nam",
+      "Tây",
+      "Tân Quang 1",
+      "2",
+      "Tân Quí",
+      "Tân Đại",
+      "Vĩnh Hòa",
+      "Khu vực Ngã Tư Đông Thạnh đến Ngã Tư Chợ Trạm đến Cống Ba Mau đến đầu đường Nguyễn Thị Bài"
     ]
   },
   "TN-TUYENTHANH": {
