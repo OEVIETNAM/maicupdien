@@ -49,13 +49,13 @@ function bitmask_sang_danh_sach_chi_so(bitmask) {
 /** Tim cac ban ghi can nhac: chua nhac, va tu_luc nam trong (bay_gio, bay_gio + 24h]. */
 async function tim_ban_ghi_can_nhac(co_so_du_lieu) {
   const bay_gio = admin.firestore.Timestamp.now();
-  const sau_24h = admin.firestore.Timestamp.fromMillis(bay_gio.toMillis() + 24 * 60 * 60 * 1000);
+  const sau_36h = admin.firestore.Timestamp.fromMillis(bay_gio.toMillis() + 36 * 60 * 60 * 1000);
 
   const snapshot = await co_so_du_lieu
     .collection("lich_cup_dien")
     .where("da_gui_nhac", "==", false)
     .where("tu_luc", ">", bay_gio)
-    .where("tu_luc", "<=", sau_24h)
+    .where("tu_luc", "<=", sau_36h)
     .get();
 
   return snapshot.docs.map((d) => ({ id: d.id, ref: d.ref, ...d.data() }));
