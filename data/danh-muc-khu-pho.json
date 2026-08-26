@@ -203,7 +203,9 @@
       "Khu phố Lộc Tiên",
       "Khu phố Lộc Châu",
       "Khu phố Lộc Hoà",
-      "Khu phố Suối Sâu"
+      "Khu phố Suối Sâu",
+      "Phòng Kinh tế",
+      "Hạ tầng và Đô thị"
     ],
     "loai_don_vi": "Phường"
   },
@@ -373,7 +375,8 @@
       "Ấp Thành Long",
       "Ấp Bến Sỏi",
       "Ấp Bến Cừ",
-      "Ấp Trà Sim"
+      "Ấp Trà Sim",
+      "Ấp Thành Nam"
     ],
     "loai_don_vi": "Xã"
   },
@@ -463,7 +466,8 @@
       "Ấp Lộc Tân",
       "Ấp B2",
       "Ấp Phước Nghĩa",
-      "ấp Bàu Sen"
+      "ấp Bàu Sen",
+      "Ấp 3"
     ],
     "loai_don_vi": "Xã"
   },
@@ -530,7 +534,8 @@
       "Ấp Thạnh An",
       "Ấp Bàu Rã xã Tân Lập",
       "Ấp Sân Bay",
-      "Ấp Xóm Tháp"
+      "Ấp Xóm Tháp",
+      "ấp Mới"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2079,7 +2084,9 @@
     "ten_huyen": "Trảng Bàng",
     "ma_dien_luc": "PB0503",
     "khu_pho": [
-      "Khu phố Phước Hậu"
+      "Khu phố Phước Hậu",
+      "Phòng Kinh tế",
+      "Hạ tầng và Đô thị"
     ],
     "loai_don_vi": "Phường"
   },
