@@ -24,17 +24,80 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
+// ---- Ban sao thu gon cua src/kho-thong-bao.js ----
+// Service Worker la "classic script" (importScripts, khong ho tro `import`
+// ES module) nen khong the dung chung file src/kho-thong-bao.js voi app.js.
+// Neu sua ten CSDL/kho hay logic o day, nho sua ca ben src/kho-thong-bao.js.
+const TEN_CSDL_THONG_BAO = "mai-cup-dien-thong-bao";
+const TEN_KHO_THONG_BAO = "thong_bao";
+const SO_LUONG_THONG_BAO_TOI_DA = 3;
+
+function mo_csdl_thong_bao() {
+  return new Promise((giai_quyet, tu_choi) => {
+    const yeu_cau_mo = indexedDB.open(TEN_CSDL_THONG_BAO, 1);
+    yeu_cau_mo.onupgradeneeded = () => {
+      const csdl = yeu_cau_mo.result;
+      if (!csdl.objectStoreNames.contains(TEN_KHO_THONG_BAO)) {
+        csdl.createObjectStore(TEN_KHO_THONG_BAO, { keyPath: "id", autoIncrement: true });
+      }
+    };
+    yeu_cau_mo.onsuccess = () => giai_quyet(yeu_cau_mo.result);
+    yeu_cau_mo.onerror = () => tu_choi(yeu_cau_mo.error);
+  });
+}
+
+async function luu_thong_bao_moi(tieu_de, noi_dung) {
+  const csdl = await mo_csdl_thong_bao();
+
+  await new Promise((giai_quyet, tu_choi) => {
+    const giao_dich = csdl.transaction(TEN_KHO_THONG_BAO, "readwrite");
+    giao_dich.objectStore(TEN_KHO_THONG_BAO).add({
+      tieu_de, noi_dung, thoi_gian: Date.now(), da_xem: false,
+    });
+    giao_dich.oncomplete = () => giai_quyet();
+    giao_dich.onerror = () => tu_choi(giao_dich.error);
+  });
+
+  const tat_ca = await new Promise((giai_quyet, tu_choi) => {
+    const yeu_cau = csdl.transaction(TEN_KHO_THONG_BAO, "readonly")
+      .objectStore(TEN_KHO_THONG_BAO)
+      .getAll();
+    yeu_cau.onsuccess = () => giai_quyet(yeu_cau.result);
+    yeu_cau.onerror = () => tu_choi(yeu_cau.error);
+  });
+
+  if (tat_ca.length > SO_LUONG_THONG_BAO_TOI_DA) {
+    const can_xoa = tat_ca
+      .sort((a, b) => a.thoi_gian - b.thoi_gian)
+      .slice(0, tat_ca.length - SO_LUONG_THONG_BAO_TOI_DA);
+    await new Promise((giai_quyet, tu_choi) => {
+      const giao_dich = csdl.transaction(TEN_KHO_THONG_BAO, "readwrite");
+      const kho = giao_dich.objectStore(TEN_KHO_THONG_BAO);
+      can_xoa.forEach((bg) => kho.delete(bg.id));
+      giao_dich.oncomplete = () => giai_quyet();
+      giao_dich.onerror = () => tu_choi(giao_dich.error);
+    });
+  }
+
+  csdl.close();
+}
+
 // Hien thong bao khi nhan push luc app dang chay nen (background)
 messaging.onBackgroundMessage((payload) => {
   const tieu_de = payload?.notification?.title || "Lịch cúp điện";
   const noi_dung = payload?.notification?.body || "";
-  self.registration.showNotification(tieu_de, {
-    body: noi_dung,
-    icon: "icons/icon-192.png",
-    badge: "icons/icon-192.png",
-    vibrate: [200, 100, 200],
-    data: { url: self.registration.scope }, // trang se mo khi nguoi dung bam vao thong bao
-  });
+
+  return luu_thong_bao_moi(tieu_de, noi_dung)
+    .catch((loi) => console.warn("Khong luu duoc thong bao (background):", loi))
+    .then(() =>
+      self.registration.showNotification(tieu_de, {
+        body: noi_dung,
+        icon: "icons/icon-192.png",
+        badge: "icons/icon-192.png",
+        vibrate: [200, 100, 200],
+        data: { url: self.registration.scope }, // trang se mo khi nguoi dung bam vao thong bao
+      })
+    );
 });
 
 // Khi nguoi dung BAM VAO thong bao: dong thong bao lai, roi neu da co san 1
@@ -59,7 +122,7 @@ self.addEventListener("notificationclick", (su_kien) => {
 });
 
 // ---- Phan cache offline shell (tach biet voi phan messaging o tren) ----
-const TEN_BO_NHO_DEM = "mai-cup-dien-v1";
+const TEN_BO_NHO_DEM = "mai-cup-dien-v2";
 const CAC_FILE_CAN_CACHE = [
   "./",
   "./index.html",
@@ -68,6 +131,7 @@ const CAC_FILE_CAN_CACHE = [
   "./src/app.js",
   "./src/bitset.js",
   "./src/cau-hinh-firebase.js",
+  "./src/kho-thong-bao.js",
   "./data/danh-muc-khu-pho.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png",

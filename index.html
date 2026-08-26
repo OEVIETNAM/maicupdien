@@ -16,10 +16,29 @@
 <div class="khung-trang">
 
   <header class="tieu-de">
+    <button type="button" id="nut-chuong-thong-bao" class="nut-chuong" aria-label="Xem lại thông báo đã nhận">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" />
+        <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+      </svg>
+      <span id="huy-hieu-so-thong-bao" class="huy-hieu-so an">0</span>
+    </button>
     <span class="nhan">Cảnh báo cúp điện · Tỉnh Tây Ninh</span>
     <h1>Mai Cúp Điện Chuẩn Bị Đi Nha</h1>
     <p>Chọn khu phố bạn sống. Có lịch cúp điện sẽ báo trước 1 ngày chuẩn bị.</p>
   </header>
+
+  <div id="lop-phu-thong-bao" class="lop-phu an">
+    <div class="hop-thoai-thong-bao" role="dialog" aria-modal="true" aria-labelledby="tieu-de-hop-thoai-thong-bao">
+      <div class="dau-hop-thoai-thong-bao">
+        <span id="tieu-de-hop-thoai-thong-bao" class="nhan-truong">Thông báo đã nhận</span>
+        <button type="button" id="nut-dong-thong-bao" class="nut-dong-thong-bao" aria-label="Đóng">✕</button>
+      </div>
+      <div id="danh-sach-thong-bao-da-nhan" class="danh-sach-thong-bao-da-nhan">
+        <!-- Sinh boi app.js -->
+      </div>
+    </div>
+  </div>
 
   <div class="duong-day-dien" aria-hidden="true">
     <svg viewBox="0 0 400 28" preserveAspectRatio="none">

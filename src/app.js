@@ -5,14 +5,22 @@ import {
 } from "./bitset.js";
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import { getMessaging, getToken } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging.js";
+import { getMessaging, getToken, onMessage } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging.js";
 import {
   getFirestore, doc, getDoc, setDoc, deleteDoc, serverTimestamp,
   collection, query, where, onSnapshot,
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+import {
+  luu_thong_bao_moi, lay_danh_sach_thong_bao,
+  dem_so_thong_bao_chua_xem, danh_dau_tat_ca_da_xem,
+} from "./kho-thong-bao.js";
 
 const the_ung_dung_firebase = initializeApp(CAU_HINH_FIREBASE);
 const co_so_du_lieu = getFirestore(the_ung_dung_firebase);
+// 1 instance messaging DUY NHAT, dung chung cho ca luc lay token lan luc
+// lang nghe thong bao foreground (onMessage o cuoi file) - tranh tao nhieu
+// instance khong can thiet.
+const nhan_tin = getMessaging(the_ung_dung_firebase);
 
 // Khoa luu trong localStorage de nho token FCM GAN NHAT ma CHINH THIET BI
 // NAY (trinh duyet) da dung de dang ky. Firebase Messaging co the cap token
@@ -67,6 +75,12 @@ const man_hinh_trang_thai = document.getElementById("man-hinh-trang-thai");
 const ten_phuong_dang_theo_doi_el = document.getElementById("ten-phuong-dang-theo-doi");
 const danh_sach_the_trang_thai = document.getElementById("danh-sach-the-trang-thai");
 const nut_sua_dang_ky = document.getElementById("nut-sua-dang-ky");
+
+const nut_chuong_thong_bao = document.getElementById("nut-chuong-thong-bao");
+const huy_hieu_so_thong_bao_el = document.getElementById("huy-hieu-so-thong-bao");
+const lop_phu_thong_bao_el = document.getElementById("lop-phu-thong-bao");
+const danh_sach_thong_bao_da_nhan_el = document.getElementById("danh-sach-thong-bao-da-nhan");
+const nut_dong_thong_bao = document.getElementById("nut-dong-thong-bao");
 
 let danh_muc_theo_phuong = {}; // { ma_phuong: { ten_phuong, ten_huyen, ma_dien_luc, khu_pho: [...] } }
 let danh_muc_theo_don_vi = {}; // { ma_dien_luc: { ten_don_vi, cac_ma_phuong: [ma_phuong, ...] } }
@@ -226,7 +240,6 @@ async function kiem_tra_dang_ky_hien_co() {
   }
   try {
     const dang_ky_worker = await dang_ky_service_worker();
-    const nhan_tin = getMessaging(the_ung_dung_firebase);
     const token_thiet_bi = await getToken(nhan_tin, {
       vapidKey: VAPID_KEY_CONG_KHAI,
       serviceWorkerRegistration: dang_ky_worker,
@@ -403,7 +416,6 @@ async function xu_ly_gui_dang_ky(su_kien) {
       return;
     }
 
-    const nhan_tin = getMessaging(the_ung_dung_firebase);
     const token_thiet_bi = await getToken(nhan_tin, {
       vapidKey: VAPID_KEY_CONG_KHAI,
       serviceWorkerRegistration: dang_ky_worker,
@@ -444,8 +456,86 @@ async function xu_ly_gui_dang_ky(su_kien) {
   }
 }
 
+// ================== CHUONG XEM LAI THONG BAO ==================
+// Bam vao thong bao he thong xong la no BIEN MAT, khong con cho nao xem lai
+// noi dung. Bieu tuong chuong nay luu tam toi da 3 thong bao gan nhat (xem
+// src/kho-thong-bao.js) de nguoi dung bam vao xem lai bat cu luc nao, chu
+// khong rieng gi thong bao chua doc.
+
+function dinh_dang_thoi_gian_thong_bao(thoi_gian_epoch_ms) {
+  return new Date(thoi_gian_epoch_ms).toLocaleString("vi-VN", {
+    day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit",
+  });
+}
+
+/** Cap nhat so hien tren huy hieu do o goc chuong = so thong bao CHUA XEM. */
+async function cap_nhat_huy_hieu_chuong() {
+  try {
+    const so_luong_chua_xem = await dem_so_thong_bao_chua_xem();
+    if (so_luong_chua_xem > 0) {
+      huy_hieu_so_thong_bao_el.textContent = String(so_luong_chua_xem);
+      huy_hieu_so_thong_bao_el.classList.remove("an");
+    } else {
+      huy_hieu_so_thong_bao_el.classList.add("an");
+    }
+  } catch (loi) {
+    console.warn("Khong cap nhat duoc huy hieu chuong:", loi);
+  }
+}
+
+/** Mo popup liet ke toi da 3 thong bao gan nhat (chu co lon cho de doc),
+ *  roi danh dau tat ca la da xem (huy hieu do se tat sau khi mo popup). */
+async function mo_lop_phu_thong_bao() {
+  const danh_sach = await lay_danh_sach_thong_bao().catch(() => []);
+
+  danh_sach_thong_bao_da_nhan_el.innerHTML = danh_sach.length
+    ? danh_sach
+        .map(
+          (bg) => `
+            <div class="the-thong-bao-da-nhan">
+              <div class="tieu-de-thong-bao-da-nhan">${bg.tieu_de}</div>
+              <div class="noi-dung-thong-bao-da-nhan">${bg.noi_dung}</div>
+              <div class="thoi-gian-thong-bao-da-nhan">${dinh_dang_thoi_gian_thong_bao(bg.thoi_gian)}</div>
+            </div>
+          `
+        )
+        .join("")
+    : `<p class="trong-khong-co-thong-bao">Chưa có thông báo nào được gửi tới bạn.</p>`;
+
+  lop_phu_thong_bao_el.classList.remove("an");
+
+  await danh_dau_tat_ca_da_xem().catch(() => {});
+  cap_nhat_huy_hieu_chuong();
+}
+
+function dong_lop_phu_thong_bao() {
+  lop_phu_thong_bao_el.classList.add("an");
+}
+
+nut_chuong_thong_bao.addEventListener("click", mo_lop_phu_thong_bao);
+nut_dong_thong_bao.addEventListener("click", dong_lop_phu_thong_bao);
+lop_phu_thong_bao_el.addEventListener("click", (su_kien) => {
+  if (su_kien.target === lop_phu_thong_bao_el) dong_lop_phu_thong_bao(); // bam ra ngoai hop thoai
+});
+document.addEventListener("keydown", (su_kien) => {
+  if (su_kien.key === "Escape") dong_lop_phu_thong_bao();
+});
+
+// Thong bao NHAN LUC APP DANG MO SAN (foreground): Firebase Messaging trong
+// truong hop nay se KHONG tu dong hien thong bao he thong (khac voi luc app
+// dong - do firebase-messaging-sw.js dam nhiem), nen phai tu luu lai o day
+// de nguoi dung van thay duoc qua chuong, du dang mo san trang.
+onMessage(nhan_tin, (payload) => {
+  const tieu_de = payload?.notification?.title || "Lịch cúp điện";
+  const noi_dung = payload?.notification?.body || "";
+  luu_thong_bao_moi(tieu_de, noi_dung)
+    .then(cap_nhat_huy_hieu_chuong)
+    .catch((loi) => console.warn("Khong luu duoc thong bao (foreground):", loi));
+});
+
 async function khoi_dong() {
   await nap_danh_muc_khu_pho();
+  cap_nhat_huy_hieu_chuong();
 
   chon_don_vi_el.addEventListener("change", () => {
     ve_lai_danh_sach_phuong(chon_don_vi_el.value);

@@ -55,7 +55,9 @@ body {
 }
 
 header.tieu-de {
+  position: relative;
   margin-bottom: 4px;
+  padding-right: 52px; /* chua cho chuong khoi de len chu "nhan" */
 }
 header.tieu-de .nhan {
   font-family: "Inter", sans-serif;
@@ -78,6 +80,131 @@ header.tieu-de p {
   font-size: 15px;
   line-height: 1.5;
   margin: 0;
+}
+
+/* ---- Bieu tuong chuong xem lai thong bao ---- */
+.nut-chuong {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--mau-vien);
+  border-radius: 12px;
+  background: var(--mau-the);
+  color: var(--mau-chu);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nut-chuong:hover { border-color: rgba(255,255,255,0.25); }
+.nut-chuong svg { width: 22px; height: 22px; }
+
+.huy-hieu-so {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--mau-canh-bao-dam);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* ---- Popup xem lai thong bao (chu co lon, de doc cho nguoi lon tuoi) ---- */
+.lop-phu {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(4, 8, 16, 0.72);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+}
+@media (min-width: 560px) {
+  .lop-phu { align-items: center; padding: 20px; }
+}
+
+.hop-thoai-thong-bao {
+  width: 100%;
+  max-width: 480px;
+  max-height: 82vh;
+  overflow-y: auto;
+  background: var(--mau-nen-phu);
+  border: 1px solid var(--mau-vien);
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+}
+@media (min-width: 560px) {
+  .hop-thoai-thong-bao { border-radius: 20px; }
+}
+
+.dau-hop-thoai-thong-bao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.dau-hop-thoai-thong-bao .nhan-truong { margin-bottom: 0; font-size: 14px; }
+
+.nut-dong-thong-bao {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--mau-vien);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--mau-chu);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.danh-sach-thong-bao-da-nhan {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.the-thong-bao-da-nhan {
+  padding: 18px;
+  border-radius: var(--be-mat-bo-cong);
+  background: var(--mau-the);
+  border: 1px solid var(--mau-vien);
+}
+
+/* Chu co XL theo yeu cau - de nguoi lon tuoi de nhin */
+.the-thong-bao-da-nhan .tieu-de-thong-bao-da-nhan {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--mau-canh-bao);
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+.the-thong-bao-da-nhan .noi-dung-thong-bao-da-nhan {
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--mau-chu);
+}
+.the-thong-bao-da-nhan .thoi-gian-thong-bao-da-nhan {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--mau-chu-mo);
+}
+
+.trong-khong-co-thong-bao {
+  padding: 24px 4px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--mau-chu-mo);
 }
 
 .the {
