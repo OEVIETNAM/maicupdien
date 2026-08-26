@@ -33,7 +33,29 @@ messaging.onBackgroundMessage((payload) => {
     icon: "icons/icon-192.png",
     badge: "icons/icon-192.png",
     vibrate: [200, 100, 200],
+    data: { url: self.registration.scope }, // trang se mo khi nguoi dung bam vao thong bao
   });
+});
+
+// Khi nguoi dung BAM VAO thong bao: dong thong bao lai, roi neu da co san 1
+// tab dang mo trang nay thi CHUYEN QUA tab do (focus), con khong thi MO TAB
+// MOI. Neu thieu doan nay, mac dinh trinh duyet chi dong thong bao ma khong
+// lam gi ca — day chinh la ly do bam vao thong bao truoc day khong mo trang.
+self.addEventListener("notificationclick", (su_kien) => {
+  su_kien.notification.close();
+  const duong_dan_can_mo = su_kien.notification.data?.url || self.registration.scope;
+
+  su_kien.waitUntil(
+    self.clients
+      .matchAll({ type: "window", includeUncontrolled: true })
+      .then((danh_sach_tab_dang_mo) => {
+        const tab_co_san = danh_sach_tab_dang_mo.find(
+          (tab) => tab.url === duong_dan_can_mo || tab.url.startsWith(self.registration.scope)
+        );
+        if (tab_co_san) return tab_co_san.focus();
+        return self.clients.openWindow(duong_dan_can_mo);
+      })
+  );
 });
 
 // ---- Phan cache offline shell (tach biet voi phan messaging o tren) ----

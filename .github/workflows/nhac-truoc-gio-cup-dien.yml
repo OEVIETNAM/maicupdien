@@ -3,9 +3,11 @@ name: Nhac truoc gio cup dien
 on:
   schedule:
     # Chay dung 1 lan moi ngay luc 6h00 sang gio Viet Nam (23:00 UTC hom truoc,
-    # vi VN = UTC+7). Gui thong bao cho tat ca lich cup dien trong vong 24h
-    # toi tinh tu thoi diem nay — khong gui ngay khi vua phat hien du lieu moi
-    # trong ngay, du co cap nhat lich moi cung phai doi den 6h sang hom sau.
+    # vi VN = UTC+7). Gui thong bao cho tat ca lich cup dien trong vong 36h
+    # toi tinh tu thoi diem nay (xem ly do chon 36h thay vi 24h trong
+    # scripts/nhac-truoc-gio-cup-dien.mjs) — khong gui ngay khi vua phat hien
+    # du lieu moi trong ngay, du co cap nhat lich moi cung phai doi den 6h
+    # sang hom sau.
     - cron: "0 23 * * *"
   workflow_dispatch: {}
 

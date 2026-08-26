@@ -1,20 +1,29 @@
 // Luong RIENG BIET voi scripts/dong-bo-va-gui-thong-bao.mjs.
 //
 // Muc dich: gui 1 tin nhac nho DUY NHAT cho moi ban ghi lich_cup_dien, vao
-// thoi diem gan voi "24 gio truoc gio bat dau cup dien" nhat co the — vi du
-// lich cup luc 7h ngay 14 thi nguoi dung se nhan duoc tin nhan dang:
-// "Mai cúp điện rồi, chuẩn bị trước nha!" vao khoang 7h sang ngay 13.
+// thoi diem gan voi "truoc gio bat dau cup dien toi da 36 gio" nhat co the.
+// Truoc day nguong nay la 24h, nhung thuc te co truong hop lich cup dien
+// bat dau luc 7h-8h SANG hom sau: script cap-nhat chi chay 2 lan/ngay (6h va
+// 18h gio VN), nen neu lich moi duoc phat hien vao lan chay 18h thi khoang
+// cach den 7h sang hom sau CHI CON ~13h - van trong nguong, khong sao. Nhung
+// neu lich duoc phat hien SOM hon (vd 6h sang) va bat dau luc 15h CHIEU hom
+// SAU (tuc gan 33h sau), voi nguong 24h thi ban ghi nay se bi BO LO hoan
+// toan trong lan quet 6h sang hom do (vi 33h > 24h), va phai doi den lan
+// quet KE TIEP (6h sang hom sau) moi vao nguong - nhung luc do co the DA
+// CUP ROI (7h) hoac chi con vai tieng truoc gio cup (15h), qua tre de
+// "chuan bi truoc nha" nhu ten thong bao. Nang nguong len 36h giup bat duoc
+// ca 2 truong hop nay tu lan quet dau tien, khong can doi lan quet ke tiep.
 //
 // Vi script nay chay theo chu ky (vd moi 15-30 phut, xem
 // .github/workflows/nhac-truoc-gio-cup-dien.yml), no se KHONG canh gio chinh
 // xac tuyet doi — sai so toi da bang chu ky chay. Neu 1 ban ghi duoc PHAT
-// HIEN lan dau (boi dong-bo-va-gui-thong-bao.mjs) khi da con CHUA DEN 24h
+// HIEN lan dau (boi dong-bo-va-gui-thong-bao.mjs) khi da con CHUA DEN 36h
 // nua la den gio cup, script nay se gui nhac NGAY LAP TUC trong lan chay gan
 // nhat, thay vi bo qua — "tre con hon khong".
 //
 // Dieu kien 1 ban ghi duoc nhac:
 //   - da_gui_nhac == false (chua tung nhac)
-//   - tu_luc nam trong khoang (bay_gio, bay_gio + 24h]  — tuc con toi da 24h,
+//   - tu_luc nam trong khoang (bay_gio, bay_gio + 36h]  — tuc con toi da 36h,
 //     va CHUA bat dau (khac voi thong bao "phat hien lich moi" o luong kia)
 //
 // Sau khi gui xong cho 1 ban ghi, danh dau da_gui_nhac = true de lan chay sau
@@ -46,7 +55,7 @@ function bitmask_sang_danh_sach_chi_so(bitmask) {
   return ket_qua;
 }
 
-/** Tim cac ban ghi can nhac: chua nhac, va tu_luc nam trong (bay_gio, bay_gio + 24h]. */
+/** Tim cac ban ghi can nhac: chua nhac, va tu_luc nam trong (bay_gio, bay_gio + 36h]. */
 async function tim_ban_ghi_can_nhac(co_so_du_lieu) {
   const bay_gio = admin.firestore.Timestamp.now();
   const sau_36h = admin.firestore.Timestamp.fromMillis(bay_gio.toMillis() + 36 * 60 * 60 * 1000);

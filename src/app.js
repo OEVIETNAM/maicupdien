@@ -7,12 +7,52 @@ import {
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getMessaging, getToken } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging.js";
 import {
-  getFirestore, doc, getDoc, setDoc, serverTimestamp,
+  getFirestore, doc, getDoc, setDoc, deleteDoc, serverTimestamp,
   collection, query, where, onSnapshot,
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const the_ung_dung_firebase = initializeApp(CAU_HINH_FIREBASE);
 const co_so_du_lieu = getFirestore(the_ung_dung_firebase);
+
+// Khoa luu trong localStorage de nho token FCM GAN NHAT ma CHINH THIET BI
+// NAY (trinh duyet) da dung de dang ky. Firebase Messaging co the cap token
+// MOI cho CUNG 1 thiet bi/trinh duyet trong 1 so truong hop (vi du: nguoi
+// dung bat thong bao khi con dung tab Chrome thuong, sau do "Cai dat ung
+// dung" (Them vao man hinh chinh) - Android tao ra 1 danh tinh WebAPK rieng,
+// khien FCM cap token KHAC cho cung thiet bi). Vi ca 2 token cu va moi deu
+// con "song" (Firestore van con ca 2 ban ghi dang_ky_thong_bao), server se
+// gui thong bao CHO CA 2 -> nguoi dung nhan 2 lan cho cung 1 su kien. localStorage
+// dung chung 1 vung luu tru giua tab trinh duyet va ban PWA da cai (cung 1
+// origin), nen dung no de PHAT HIEN va DON DEP token cu moi khi thay doi.
+const KHOA_LUU_TOKEN_FCM = "mai_cup_dien_token_fcm_da_dang_ky";
+
+/** So sanh token FCM vua lay duoc voi token da luu tu lan truoc (neu co).
+ *  Neu khac nhau, tuc thiet bi nay da tung dang ky bang 1 token cu khac ->
+ *  xoa ban ghi dang_ky_thong_bao cua token cu do (best-effort, khong chan
+ *  luong chinh neu loi), roi cap nhat lai localStorage voi token moi nhat. */
+async function don_dep_token_fcm_cu_neu_khac(token_moi) {
+  let token_cu = null;
+  try {
+    token_cu = localStorage.getItem(KHOA_LUU_TOKEN_FCM);
+  } catch (loi) {
+    console.warn("Khong doc duoc token cu tu localStorage:", loi);
+  }
+
+  if (token_cu && token_cu !== token_moi) {
+    try {
+      await deleteDoc(doc(co_so_du_lieu, "dang_ky_thong_bao", token_cu));
+      console.log("Da don dep dang ky thong bao cu (token doi):", token_cu);
+    } catch (loi) {
+      console.warn("Khong xoa duoc dang ky thong bao cu:", loi);
+    }
+  }
+
+  try {
+    localStorage.setItem(KHOA_LUU_TOKEN_FCM, token_moi);
+  } catch (loi) {
+    console.warn("Khong luu duoc token moi vao localStorage:", loi);
+  }
+}
 
 const chon_don_vi_el = document.getElementById("chon-don-vi");
 const chon_phuong_el = document.getElementById("chon-phuong");
@@ -192,6 +232,7 @@ async function kiem_tra_dang_ky_hien_co() {
       serviceWorkerRegistration: dang_ky_worker,
     });
     if (!token_thiet_bi) return null;
+    await don_dep_token_fcm_cu_neu_khac(token_thiet_bi);
 
     const tham_chieu = doc(co_so_du_lieu, "dang_ky_thong_bao", token_thiet_bi);
     const tai_lieu = await getDoc(tham_chieu);
@@ -372,6 +413,7 @@ async function xu_ly_gui_dang_ky(su_kien) {
       hien_thong_diep("Không lấy được mã thiết bị. Vui lòng thử lại.", "loi");
       return;
     }
+    await don_dep_token_fcm_cu_neu_khac(token_thiet_bi);
 
     const thong_tin_phuong = danh_muc_theo_phuong[ma_phuong];
     // Moi checkbox co the mang theo NHIEU chi_so (gom nhom theo ten ap goc -
