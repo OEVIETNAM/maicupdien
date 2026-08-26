@@ -271,7 +271,8 @@
       "Ấp Đông Hà",
       "Ấp Tầm Phô",
       "Ấp Tân Trung",
-      "Ấp Tân Cường"
+      "Ấp Tân Cường",
+      "Ấp Tàm Phô"
     ],
     "loai_don_vi": "Xã"
   },
@@ -954,7 +955,8 @@
       "Phước Lại",
       "Tân Thanh",
       "Nhánh rẽ Trạm bơm trung chuyển Nước Thải-tuyến 480 Long Hậu",
-      "Nhánh rẽ Chiếu sáng T62/1 KCN Long Hậu-tuyến 478 Long Hậu"
+      "Nhánh rẽ Chiếu sáng T62/1 KCN Long Hậu-tuyến 478 Long Hậu",
+      "Ấp Long Hậu 3"
     ]
   },
   "TN-MYLOC": {
@@ -1542,7 +1544,8 @@
       "Hộ thắp sáng thanh long Nguyễn Văn Bình ấp An Thạnh",
       "Ấp Bình Ân",
       "Đường Cao Văn Lầu",
-      "ấp Trường Xuân"
+      "ấp Trường Xuân",
+      "Một phần"
     ]
   },
   "TN-THUANMY": {
@@ -1913,7 +1916,9 @@
       "Khu phố Chà Là",
       "Khu phố Ninh Phước",
       "Khu phố Bàu Năng",
-      "Khu phố Ninh Phú"
+      "Khu phố Ninh Phú",
+      "khu phố Ninh An",
+      "khu phố Ninh Hiệp"
     ],
     "loai_don_vi": "Phường"
   },
