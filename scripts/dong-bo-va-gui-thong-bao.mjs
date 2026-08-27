@@ -9,10 +9,10 @@
 // thuoc dung 1 ma_phuong), lam 2 viec:
 //   1) Ghi vao Firestore collection "lich_cup_dien" (idempotent — ma tai
 //      lieu la hash noi dung, chay lai nhieu lan khong tao trung).
-//      Tao moi thi dat them da_gui_nhac=false (danh cho
-//      scripts/nhac-truoc-gio-cup-dien.mjs biet ban ghi nay CHUA duoc nhac
-//      "sap den gio cup" — script nay KHONG dung lai gia tri do sau khi da
-//      co san, tranh reset nham ve chua-nhac).
+//      Tao moi thi dat them da_gui_nhac_cho=[] (danh sach token FCM DA duoc
+//      scripts/nhac-truoc-gio-cup-dien.mjs gui nhac - de trong luc moi tao,
+//      script do se tu bo sung dan). Script nay KHONG dung lai mang do sau
+//      khi da co san, tranh xoa mat lich su ai da duoc nhac.
 //   2) Xoa cac ban ghi lich_cup_dien da qua thoi gian ket thuc (don dep).
 //
 // Can bien moi truong FIREBASE_SERVICE_ACCOUNT_KEY_JSON (JSON service account,
@@ -106,9 +106,9 @@ async function dong_bo_va_tra_ve_tat_ca(co_so_du_lieu, danh_sach_ban_ghi) {
     };
 
     if (!da_ton_tai) {
-      // CHI dat khi TAO MOI — khong ghi de neu da ton tai, tranh reset ve
-      // "chua nhac" mat du scripts/nhac-truoc-gio-cup-dien.mjs da xu ly roi.
-      du_lieu_ghi.da_gui_nhac = false;
+      // CHI dat khi TAO MOI — khong ghi de neu da ton tai, tranh mat lich su
+      // "da gui nhac cho ai" ma scripts/nhac-truoc-gio-cup-dien.mjs da tich luy.
+      du_lieu_ghi.da_gui_nhac_cho = [];
       console.log(
         `[MOI] ${ban_ghi.ten_phuong} — ${(ban_ghi.ten_khu_pho || []).join(", ")} — ${ban_ghi.thoi_gian_nguyen_van.replace(/\s+/g, " ")}`
       );
