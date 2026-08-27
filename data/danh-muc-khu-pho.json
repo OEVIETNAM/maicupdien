@@ -203,7 +203,9 @@
       "Khu phố Lộc Tiên",
       "Khu phố Lộc Châu",
       "Khu phố Lộc Hoà",
-      "Khu phố Suối Sâu"
+      "Khu phố Suối Sâu",
+      "Phòng Kinh tế",
+      "Hạ tầng và Đô thị"
     ],
     "loai_don_vi": "Phường"
   },
@@ -269,7 +271,8 @@
       "Ấp Đông Hà",
       "Ấp Tầm Phô",
       "Ấp Tân Trung",
-      "Ấp Tân Cường"
+      "Ấp Tân Cường",
+      "Ấp Tàm Phô"
     ],
     "loai_don_vi": "Xã"
   },
@@ -373,7 +376,8 @@
       "Ấp Thành Long",
       "Ấp Bến Sỏi",
       "Ấp Bến Cừ",
-      "Ấp Trà Sim"
+      "Ấp Trà Sim",
+      "Ấp Thành Nam"
     ],
     "loai_don_vi": "Xã"
   },
@@ -463,7 +467,8 @@
       "Ấp Lộc Tân",
       "Ấp B2",
       "Ấp Phước Nghĩa",
-      "ấp Bàu Sen"
+      "ấp Bàu Sen",
+      "Ấp 3"
     ],
     "loai_don_vi": "Xã"
   },
@@ -530,7 +535,8 @@
       "Ấp Thạnh An",
       "Ấp Bàu Rã xã Tân Lập",
       "Ấp Sân Bay",
-      "Ấp Xóm Tháp"
+      "Ấp Xóm Tháp",
+      "ấp Mới"
     ],
     "loai_don_vi": "Xã"
   },
@@ -949,7 +955,8 @@
       "Phước Lại",
       "Tân Thanh",
       "Nhánh rẽ Trạm bơm trung chuyển Nước Thải-tuyến 480 Long Hậu",
-      "Nhánh rẽ Chiếu sáng T62/1 KCN Long Hậu-tuyến 478 Long Hậu"
+      "Nhánh rẽ Chiếu sáng T62/1 KCN Long Hậu-tuyến 478 Long Hậu",
+      "Ấp Long Hậu 3"
     ]
   },
   "TN-MYLOC": {
@@ -1537,7 +1544,8 @@
       "Hộ thắp sáng thanh long Nguyễn Văn Bình ấp An Thạnh",
       "Ấp Bình Ân",
       "Đường Cao Văn Lầu",
-      "ấp Trường Xuân"
+      "ấp Trường Xuân",
+      "Một phần"
     ]
   },
   "TN-THUANMY": {
@@ -1908,7 +1916,9 @@
       "Khu phố Chà Là",
       "Khu phố Ninh Phước",
       "Khu phố Bàu Năng",
-      "Khu phố Ninh Phú"
+      "Khu phố Ninh Phú",
+      "khu phố Ninh An",
+      "khu phố Ninh Hiệp"
     ],
     "loai_don_vi": "Phường"
   },
@@ -2079,7 +2089,9 @@
     "ten_huyen": "Trảng Bàng",
     "ma_dien_luc": "PB0503",
     "khu_pho": [
-      "Khu phố Phước Hậu"
+      "Khu phố Phước Hậu",
+      "Phòng Kinh tế",
+      "Hạ tầng và Đô thị"
     ],
     "loai_don_vi": "Phường"
   },
