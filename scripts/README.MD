@@ -44,6 +44,21 @@ git clone <URL_REPOSITORY_CUA_BAN>
 
 ---
 
+## 📊 Thống Kê / Rà Soát Danh Mục
+
+Muốn xem nhanh danh sách đầy đủ (có đánh số thứ tự, sắp xếp theo tên) của **Điện lực → Xã/Phường → Khu phố/Ấp** để đối chiếu xem đã quét đủ dữ liệu chưa? Chạy:
+
+```bash
+npm run thong-ke
+```
+
+Lệnh này đọc `data/danh-muc-khu-pho.json` (không gọi mạng, không đụng Firestore) và:
+
+* In tóm tắt số lượng ra màn hình (mỗi Điện lực có bao nhiêu Xã/Phường).
+* Ghi báo cáo đầy đủ (đánh số từng Khu phố/Ấp) ra file `bao-cao-danh-muc.md` ở thư mục gốc — mở bằng trình đọc Markdown bất kỳ (VS Code, GitHub...) để xem/đối chiếu.
+
+---
+
 ## 🤝 Đóng Góp (Contributing)
 
 Mọi đóng góp, báo lỗi (issue) hoặc kéo yêu cầu (pull request) để cải thiện ứng dụng đều rất hoan nghênh. Hãy thoải mái fork và phát triển thêm tính năng cho cộng đồng nhé!
