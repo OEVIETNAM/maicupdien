@@ -2,13 +2,26 @@ name: Nhac truoc gio cup dien
 
 on:
   schedule:
-    # Chay dung 1 lan moi ngay luc 6h00 sang gio Viet Nam (23:00 UTC hom truoc,
-    # vi VN = UTC+7). Gui thong bao cho tat ca lich cup dien trong vong 36h
-    # toi tinh tu thoi diem nay (xem ly do chon 36h thay vi 24h trong
-    # scripts/nhac-truoc-gio-cup-dien.mjs) — khong gui ngay khi vua phat hien
-    # du lieu moi trong ngay, du co cap nhat lich moi cung phai doi den 6h
-    # sang hom sau.
-    - cron: "0 23 * * *"
+    # Chay MOI 30 PHUT ca ngay (khong con chi 1 lan/ngay nhu truoc).
+    #
+    # LY DO DOI TU 1 LAN/NGAY SANG 30 PHUT/LAN - PHAT HIEN BUG THUC TE: workflow
+    # nay TUNG dung chung cron "0 23 * * *" (6h sang VN) VOI
+    # cap-nhat-lich-cup-dien.yml (workflow dong bo du lieu). Vi GitHub Actions
+    # KHONG dam bao thu tu chay giua 2 workflow rieng biet dung chung 1 gio
+    # cron, co truong hop workflow NAY chay/doc du lieu TRUOC khi workflow
+    # DONG BO kip ghi lich cup dien phat hien sang hom do vao Firestore -> lich
+    # do coi nhu "chua ton tai" luc quet, BI BO QUA hoan toan. Vi workflow nay
+    # truoc day CHI chay 1 lan/ngay, bo lo lan do la mat luon - sang hom sau
+    # tu_luc cua lich hom truoc da o QUA KHU nen khong bao gio duoc nhac nua
+    # (day chinh la nguyen nhan 1 nguoi dang ky bao "hom nay cup dien nhung
+    # khong nhan duoc thong bao nao").
+    #
+    # Chay moi 30 phut giai quyet tan goc van de nay: du co bi "hut" 1 lan vi
+    # dong bo chua kip ghi xong, lan chay ke tiep (30 phut sau) se bat duoc
+    # ngay, khong con phai doi ca 1 ngay. Vi scripts/nhac-truoc-gio-cup-dien.mjs
+    # da theo doi rieng tung nguoi dang ky (da_gui_nhac_cho), chay day dac hon
+    # KHONG lam ai bi nhac 2 lan cho cung 1 lich - chi lam giam do tre toi da.
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 jobs:
