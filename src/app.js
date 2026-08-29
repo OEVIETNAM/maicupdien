@@ -134,10 +134,12 @@ async function nap_danh_muc_khu_pho() {
   const danh_sach_don_vi_sap_xep = Object.entries(danh_muc_theo_don_vi)
     .sort((a, b) => a[1].ten_don_vi.localeCompare(b[1].ten_don_vi, "vi"));
 
+  // Danh so thu tu (1, 2, 3...) truoc ten - de nguoi dung/nguoi quan ly de
+  // dem nhanh xem danh sach da du hay chua, vd "22. Điện lực Trảng Bàng".
   chon_don_vi_el.innerHTML =
     `<option value="">— Chọn huyện/thị xã —</option>` +
     danh_sach_don_vi_sap_xep
-      .map(([ma_dien_luc, tt]) => `<option value="${ma_dien_luc}">${tt.ten_don_vi}</option>`)
+      .map(([ma_dien_luc, tt], chi_so) => `<option value="${ma_dien_luc}">${chi_so + 1}. ${tt.ten_don_vi}</option>`)
       .join("");
 }
 
@@ -158,7 +160,7 @@ function ve_lai_danh_sach_phuong(ma_dien_luc) {
   chon_phuong_el.innerHTML =
     `<option value="">— Chọn xã/phường —</option>` +
     danh_sach_phuong_sap_xep
-      .map(([ma_phuong, tt]) => `<option value="${ma_phuong}">${ten_hien_thi_phuong(tt)}</option>`)
+      .map(([ma_phuong, tt], chi_so) => `<option value="${ma_phuong}">${chi_so + 1}. ${ten_hien_thi_phuong(tt)}</option>`)
       .join("");
   chon_phuong_el.disabled = false;
 }
@@ -188,7 +190,9 @@ function quy_ve_ten_ap_goc(ten) {
  *  quy_ve_ten_ap_goc). Vi du khu_pho = ["Ấp Thái Trị", "Một phần ấp Thái Trị"]
  *  se gom thanh 1 nhom { ten_goc: "Ấp Thái Trị", cac_chi_so: [4, 5] } - nguoi
  *  dung chi thay VA chon 1 the "Ấp Thái Trị" duy nhat, nhung tick vao la dang
- *  ky nhan tin cho CA HAI truong hop (cup nguyen ap lan cup 1 phan ap). */
+ *  ky nhan tin cho CA HAI truong hop (cup nguyen ap lan cup 1 phan ap). Ket
+ *  qua duoc SAP XEP THEO BANG CHU CAI (a, ă, â, b...) de nguoi dung/nguoi
+ *  quan ly de dem/doi chieu xem danh sach da du hay chua. */
 function gom_nhom_khu_pho_theo_ten_goc(thong_tin_phuong) {
   const nhom_theo_ten_goc = new Map(); // ten_goc -> { ten_goc, cac_chi_so: [] }
   thong_tin_phuong.khu_pho.forEach((ten_khu_pho, chi_so) => {
@@ -198,12 +202,13 @@ function gom_nhom_khu_pho_theo_ten_goc(thong_tin_phuong) {
     }
     nhom_theo_ten_goc.get(ten_goc).cac_chi_so.push(chi_so);
   });
-  return [...nhom_theo_ten_goc.values()];
+  return [...nhom_theo_ten_goc.values()].sort((a, b) => a.ten_goc.localeCompare(b.ten_goc, "vi"));
 }
 
 /** Ve lai luoi checkbox khu pho cho 1 Xa/Phuong cu the. Value cua moi checkbox
  *  la DANH SACH CHI SO (cach nhau boi dau phay) gom tat ca chi_so_bit thuoc
- *  cung 1 ten ap goc - xem gom_nhom_khu_pho_theo_ten_goc. */
+ *  cung 1 ten ap goc - xem gom_nhom_khu_pho_theo_ten_goc. Moi the duoc danh
+ *  so thu tu (1, 2, 3...) truoc ten, vd "1. Khu phố Gia Huỳnh", de de dem. */
 function ve_lai_luoi_khu_pho(ma_phuong, danh_sach_ten_da_chon_truoc = []) {
   const thong_tin_phuong = danh_muc_theo_phuong[ma_phuong];
   if (!thong_tin_phuong) {
@@ -223,7 +228,7 @@ function ve_lai_luoi_khu_pho(ma_phuong, danh_sach_ten_da_chon_truoc = []) {
       <div class="the-khu-pho">
         <input type="checkbox" id="kp-${chi_so_nhom}" name="khu-pho" value="${cac_chi_so.join(",")}"
           ${danh_sach_ten_da_chon_truoc.includes(ten_goc) ? "checked" : ""} />
-        <label for="kp-${chi_so_nhom}">${ten_goc}</label>
+        <label for="kp-${chi_so_nhom}">${chi_so_nhom + 1}. ${ten_goc}</label>
       </div>
     `)
     .join("");
