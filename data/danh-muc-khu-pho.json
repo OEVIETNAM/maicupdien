@@ -770,7 +770,8 @@
       "Ấp Bà Miều (ấp 4)",
       "Ấp Bà Miều (ấp 5 khu vực Kênh Giữa)",
       "Ấp Bà Miều (ấp 5)",
-      "Ấp Bà Miều (ấp Cầu Lớn)"
+      "Ấp Bà Miều (ấp Cầu Lớn)",
+      "Một phần"
     ]
   },
   "TN-THUTHUA": {
@@ -959,7 +960,8 @@
       "Tân Thanh",
       "Nhánh rẽ Trạm bơm trung chuyển Nước Thải-tuyến 480 Long Hậu",
       "Nhánh rẽ Chiếu sáng T62/1 KCN Long Hậu-tuyến 478 Long Hậu",
-      "Ấp Long Hậu 3"
+      "Ấp Long Hậu 3",
+      "Một phần"
     ]
   },
   "TN-MYLOC": {
@@ -1256,7 +1258,8 @@
       "toàn bộ ấp 4",
       "8",
       "Một phần ấp 2",
-      "Ấp 2"
+      "Ấp 2",
+      "Một phần"
     ]
   },
   "TN-TANTRU": {
@@ -2207,6 +2210,15 @@
     "ma_dien_luc": "PB0611",
     "khu_pho": [
       "Một phần"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-VAMCO-2": {
+    "ten_phuong": "Vàm cở",
+    "ten_huyen": "Tân Trụ",
+    "ma_dien_luc": "PB0609",
+    "khu_pho": [
+      "một phần"
     ],
     "loai_don_vi": "Xã"
   }
