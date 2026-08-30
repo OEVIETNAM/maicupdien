@@ -171,7 +171,8 @@
       "Ấp Phước An",
       "Ấp Phước Đông",
       "ấp Chánh",
-      "Ấp Phước Bình B"
+      "Ấp Phước Bình B",
+      "Ấp Phước Hội"
     ],
     "loai_don_vi": "Xã"
   },
@@ -453,7 +454,8 @@
       "Ấp Phước Hòa",
       "Ấp Phước Bình",
       "Ấp Phước Long",
-      "Ấp Phước Tân"
+      "Ấp Phước Tân",
+      "Ấp Phước Lợi"
     ],
     "loai_don_vi": "Xã"
   },
@@ -723,7 +725,9 @@
       "Đường Trần Văn Chính",
       "Khu đâu cư IDCO",
       "Đường quốc lộ 62",
-      "Đường Võ Văn Môn"
+      "Đường Võ Văn Môn",
+      "Đường Phạm Văn Trạch",
+      "Đường Lê Hữu Nghĩa"
     ]
   },
   "TN-MYTHANH": {
@@ -842,7 +846,8 @@
     "khu_pho": [
       "Ấp 5",
       "Ấp 1",
-      "Một phần"
+      "Một phần",
+      "Ấp 4"
     ]
   },
   "TN-DUCHOA": {
@@ -894,7 +899,12 @@
       "một phần Ấp Ngoài",
       "Long Hưng",
       "ấp Trong",
-      "ấp Long Giêng"
+      "ấp Long Giêng",
+      "Khu vực từ Ngã Tư Phước Lý đến Cầu Long Thượng ( Đường ĐT.835B)",
+      "toàn bộ ấp Long Thạnh",
+      "Ấp Phước Lý",
+      "Khu vực từ KDC Gò Đen đến Khu đô thị Năm Sao ( Đường ĐT.835B)",
+      "toàn bộ ấp Phú Thành"
     ]
   },
   "TN-CANGIUOC": {
@@ -961,7 +971,8 @@
       "Nhánh rẽ Trạm bơm trung chuyển Nước Thải-tuyến 480 Long Hậu",
       "Nhánh rẽ Chiếu sáng T62/1 KCN Long Hậu-tuyến 478 Long Hậu",
       "Ấp Long Hậu 3",
-      "Một phần"
+      "Một phần",
+      "Khu vực từ Cầu Rạch Dơi đến Cầu Rạch Dừa ( Đường Đ.T826C ) đến Vòng Xoay Tân Kim một phần ấp Long Đức Đông"
     ]
   },
   "TN-MYLOC": {
@@ -1002,7 +1013,11 @@
       "Ấp Long An 1",
       "Ấp 1",
       "2",
-      "Chánh Nhì"
+      "Chánh Nhì",
+      "3",
+      "Khu vực từ Trạm 110kV Tân Tập đến Ngã Tư Chợ Trạm ( Đường ĐT.835B)",
+      "toàn bộ Tây Phú",
+      "Phú Thạnh"
     ]
   },
   "TN-MOCHOA": {
@@ -1014,7 +1029,9 @@
       "Ấp Tân Lập 7",
       "Ấp Bình Phong Thạnh 2",
       "Ấp Tân Thành",
-      "Đường QL 62 Ấp Tân Lập 2"
+      "Đường QL 62 Ấp Tân Lập 2",
+      "Đường Trần Văn Trà",
+      "ấp Bình Phong Thạnh 1"
     ]
   },
   "TN-BINHHOA": {
@@ -1199,7 +1216,8 @@
       "5 6",
       "8 Nhựt Chánh",
       "Ấp 4 Thạnh Đức",
-      "8 Nhựt Chánh và một phần ấp 1"
+      "8 Nhựt Chánh và một phần ấp 1",
+      "8 Nhựt Chánh và ấp 1"
     ]
   },
   "TN-TANLAN": {
@@ -1243,7 +1261,8 @@
       "Cầu Tràm",
       "Một phần ấp Minh Thiện",
       "Một phần ấp 2",
-      "Ấp 2"
+      "Ấp 2",
+      "Ấp 7"
     ]
   },
   "TN-LONGCANG": {
@@ -1259,7 +1278,8 @@
       "8",
       "Một phần ấp 2",
       "Ấp 2",
-      "Một phần"
+      "Một phần",
+      "Ấp 7"
     ]
   },
   "TN-TANTRU": {
@@ -1278,7 +1298,8 @@
       "Ấp Bình Hòa",
       "Một phần ấp Bình Tây",
       "Một phần Ấp Bình Hòa",
-      "Một phần ấp Bình Trinh Đông"
+      "Một phần ấp Bình Trinh Đông",
+      "Ấp 1"
     ]
   },
   "TN-VAMCO": {
@@ -1352,7 +1373,8 @@
       "Trên Đường Tỉnh 825 gần Khô Bò 5 Chớ",
       "Một phần",
       "Ấp Hòa Hiệp 2",
-      "Ấp HòaHiệp 2"
+      "Ấp HòaHiệp 2",
+      "Đường vô xóm Hòa Hiệp 2"
     ]
   },
   "TN-ANNINH": {
@@ -1553,7 +1575,8 @@
       "Ấp Bình Ân",
       "Đường Cao Văn Lầu",
       "ấp Trường Xuân",
-      "Một phần"
+      "Một phần",
+      "Ấp Hiệp Thạnh"
     ]
   },
   "TN-THUANMY": {
@@ -1580,7 +1603,9 @@
       "Một phần Ấp Bình Trị 2",
       "Một phần Ấp Xuân Hòa",
       "Ấp Phú Tây",
-      "Ấp Bình Trị 2"
+      "Ấp Bình Trị 2",
+      "Hộ xay xát Lê Hữu Tuấn",
+      "Hộ thắp sáng thanh long  Lê Hữu Tuấn ấp Thanh Hòa"
     ]
   },
   "TN-VINHCONG": {
@@ -1598,7 +1623,9 @@
       "Ấp An Thạnh",
       "Ấp Vĩnh Bình",
       "Ấp Bình Quới",
-      "Vĩnh Hòa"
+      "Vĩnh Hòa",
+      "Ấp Bình Sơn",
+      "Ấp Bình Công"
     ]
   },
   "TN-DUCLAP": {
@@ -1664,7 +1691,14 @@
       "Đường đi Ấp 3 Mỹ Quý Đông",
       "khu vực ấp Mỹ Thạnh Bắc",
       "ấp Voi Đình",
-      "Ấp 1"
+      "Ấp 1",
+      "Đường Rạch Cồn ra sông vàm cỏ",
+      "Đường ra cầu Ông Bước",
+      "Đường ra Ấp 1 Mỹ Quý Đông",
+      "Đường ra Ấp 3 Mỹ Quý Đông",
+      "Đường ra Cầu Đường Xuồng",
+      "Đường đan vô xóm Ông Bàng",
+      "Đường Ấp 3 Chân Tốc"
     ]
   },
   "TN-VINHTHANH": {
@@ -1732,7 +1766,19 @@
       "Tân Quí",
       "Tân Đại",
       "Vĩnh Hòa",
-      "Khu vực Ngã Tư Đông Thạnh đến Ngã Tư Chợ Trạm đến Cống Ba Mau đến đầu đường Nguyễn Thị Bài"
+      "Khu vực Ngã Tư Đông Thạnh đến Ngã Tư Chợ Trạm đến Cống Ba Mau đến đầu đường Nguyễn Thị Bài",
+      "Vĩnh Thạnh",
+      "Khu vực từ Trạm 110kV Tân Tập đến Cầu Rạch Vộp ( Đường ĐT.830)",
+      "đến bến Phà Vĩnh Đông ( Đường Phạm Văn Tài)",
+      "toàn bộ Tân Thành",
+      "Tân Chánh",
+      "Tân Đông",
+      "Đông Bình",
+      "Đông An",
+      "Thạnh Trung",
+      "Khu vực từ Trạm 110kV Tân Tập đến Cảng Quốc Tế Long An ( Đường ĐT.830)",
+      "Ấp Trung",
+      "toàn bộ  Tân Chánh"
     ]
   },
   "TN-TUYENTHANH": {
@@ -2180,7 +2226,9 @@
     "khu_pho": [
       "Đường ra Kênh Rạch Bần đến Sông vàm Cỏ",
       "Một phần ấp An Hòa",
-      "Ấp An Hòa"
+      "Ấp An Hòa",
+      "Từ Trường THCS Hòa Thành đến  Trường tiều học Nguyễn Văn Nguyên",
+      "ấp Tân Hoà"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2219,6 +2267,34 @@
     "ma_dien_luc": "PB0609",
     "khu_pho": [
       "một phần"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-GIALOC-3": {
+    "ten_phuong": "Gia Lộc",
+    "ten_huyen": "Trảng Bàng",
+    "ma_dien_luc": "PB0503",
+    "khu_pho": [
+      "Khu phố Gia Lâm"
+    ],
+    "loai_don_vi": "Phường"
+  },
+  "TN-MYYEN-2": {
+    "ten_phuong": "Mỹ Yên",
+    "ten_huyen": "Cần Giuộc",
+    "ma_dien_luc": "PB0604",
+    "khu_pho": [
+      "Ấp 3B"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANTAY": {
+    "ten_phuong": "Tân Tây",
+    "ten_huyen": "Thạnh Hóa",
+    "ma_dien_luc": "PB0611",
+    "khu_pho": [
+      "Khu vực Đường Kênh 21",
+      "ấp Đông Hoà"
     ],
     "loai_don_vi": "Xã"
   }
