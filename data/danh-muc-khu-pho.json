@@ -2297,5 +2297,23 @@
       "ấp Đông Hoà"
     ],
     "loai_don_vi": "Xã"
+  },
+  "TN-ANNINHDONG1PHANXAANNINH": {
+    "ten_phuong": "An Ninh Đông 1 phần xã An Ninh",
+    "ten_huyen": "Đức Huệ",
+    "ma_dien_luc": "PB0610",
+    "khu_pho": [
+      "ấp An Hiệp"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TUYENBINH-2": {
+    "ten_phuong": "Tuyen Bình",
+    "ten_huyen": "Vĩnh Hưng",
+    "ma_dien_luc": "PB0612",
+    "khu_pho": [
+      "Một phần"
+    ],
+    "loai_don_vi": "Xã"
   }
 }
