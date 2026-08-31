@@ -152,7 +152,8 @@
       "Ấp Bến Rộng",
       "Ấp Cẩm Thắng",
       "ấp Rộc A",
-      "ấp Rộc B"
+      "ấp Rộc B",
+      "ấp Trà Võ"
     ],
     "loai_don_vi": "Xã"
   },
@@ -735,7 +736,13 @@
       "Đường Phạm Văn Trạch",
       "Đường Lê Hữu Nghĩa",
       "Đường nguyễn Công Trung",
-      "đường Nguyễn Thông"
+      "đường Nguyễn Thông",
+      "Đường Hồ Văn Long",
+      "Huỳnh Việt Thanh",
+      "Huỳnh Văn Gấm",
+      "KDC Thái Dương",
+      "Đường Nguyễn Đình Chiểu",
+      "đường Thủ Kho Huân"
     ]
   },
   "TN-MYTHANH": {
@@ -783,7 +790,8 @@
       "Ấp Bà Miều (ấp 5 khu vực Kênh Giữa)",
       "Ấp Bà Miều (ấp 5)",
       "Ấp Bà Miều (ấp Cầu Lớn)",
-      "Một phần"
+      "Một phần",
+      "ấp Bình An"
     ]
   },
   "TN-THUTHUA": {
@@ -872,7 +880,8 @@
       "Ấp 2",
       "Ấp Bình Tả",
       "1 phần ấp Bình Tiền 1",
-      "1 phần ấp Bình Tiền 2"
+      "1 phần ấp Bình Tiền 2",
+      "ấp 5"
     ]
   },
   "TN-HAUNGHIA": {
@@ -1127,7 +1136,9 @@
       "Một phần ấp Tấn Long",
       "Một phần ấp Bến Lức 8",
       "Một phần Ấp 3 An Thạnh (Đường dọc 3 KCN Phú An Thạnh)",
-      "Một phần ấp Phước Tú"
+      "Một phần ấp Phước Tú",
+      "Ấp Bến Lức 3",
+      "7"
     ]
   },
   "TN-LUONGHOA": {
@@ -1336,7 +1347,10 @@
       "Ấp 3",
       "Ấp Tân Phước Tây",
       "Ấp Bình Hòa",
-      "Ấp Thuận Lợi"
+      "Ấp Thuận Lợi",
+      "Ấp Tân Hòa",
+      "Tân Lợi",
+      "Nhựt Hòa"
     ]
   },
   "TN-NHUTTAO": {
@@ -1417,7 +1431,16 @@
       "Ấp An Hiệp",
       "Ấp An Hưng",
       "Đường Đi",
-      "Đường cổng Ấp Văn Hóa Hòa Hiệp 1"
+      "Đường cổng Ấp Văn Hóa Hòa Hiệp 1",
+      "Đường Vô Ông Trọng T73 Lộc Giang",
+      "Ấp An Định",
+      "Đường Hồ Chí Minh đến khu AK",
+      "Ấp Lộc Thạnh",
+      "Đường đi Lộc Hưng",
+      "Ấp Lộc Hưng",
+      "Đường đi Lộc An",
+      "ấp Lộc An",
+      "Đường đi Gạch Sông Lộc"
     ]
   },
   "TN-BINHTHANH": {
@@ -1664,7 +1687,8 @@
       "Ấp Đức Hạnh",
       "1 phần ấp Tràm Lạc",
       "1 phần ấp Chánh",
-      "Một phần"
+      "Một phần",
+      "ấp rừng dầu"
     ]
   },
   "TN-MYQUY": {
@@ -1803,7 +1827,8 @@
       "Thạnh Trung",
       "Khu vực từ Trạm 110kV Tân Tập đến Cảng Quốc Tế Long An ( Đường ĐT.830)",
       "Ấp Trung",
-      "toàn bộ  Tân Chánh"
+      "toàn bộ  Tân Chánh",
+      "Khu vực từ đầu Cầu Bảy Đảnh đến Cầu Ban Kiệt"
     ]
   },
   "TN-TUYENTHANH": {
@@ -2078,7 +2103,9 @@
     "khu_pho": [
       "Một phần",
       "Ấp Long Mỹ",
-      "Tân Mỹ"
+      "Tân Mỹ",
+      "Ấp 1",
+      "7"
     ],
     "loai_don_vi": "Xã"
   },
