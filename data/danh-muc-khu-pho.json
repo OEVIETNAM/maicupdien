@@ -75,7 +75,10 @@
       "Khu phó 1",
       "6",
       "7",
-      "Khu phố Hiệp Bình"
+      "Khu phố Hiệp Bình",
+      "Khu phố 8",
+      "Khu phố 10",
+      "Khu phố 11"
     ],
     "loai_don_vi": "Phường"
   },
@@ -698,7 +701,8 @@
       "Một phần đường Ngãi Lợi",
       "Đường Hoàng Anh",
       "Đường Ngãi Lợi",
-      "CCN Tú Phương"
+      "CCN Tú Phương",
+      "đườn nguyễn văn quá"
     ]
   },
   "TN-LONGAN": {
@@ -742,7 +746,8 @@
       "Huỳnh Văn Gấm",
       "KDC Thái Dương",
       "Đường Nguyễn Đình Chiểu",
-      "đường Thủ Kho Huân"
+      "đường Thủ Kho Huân",
+      "KDC Đồng Thái Dương"
     ]
   },
   "TN-MYTHANH": {
@@ -882,7 +887,8 @@
       "1 phần ấp Bình Tiền 1",
       "1 phần ấp Bình Tiền 2",
       "ấp 5",
-      "1 phần"
+      "1 phần",
+      "Ấp 3B"
     ]
   },
   "TN-HAUNGHIA": {
@@ -1159,7 +1165,10 @@
       "một phần ấp 1",
       "Một phần ấp 8",
       "Một phần ấp 5",
-      "Ấp 5"
+      "Ấp 5",
+      "Ấp 7A",
+      "Ấp 7",
+      "Ấp 6"
     ]
   },
   "TN-MYYEN": {
@@ -1204,7 +1213,10 @@
       "Một phần Ấp 4",
       "KDC Lago Centro City ấp 4 Lương Bình",
       "Một phần",
-      "KDC Ấp 4 Lương Bình"
+      "KDC Ấp 4 Lương Bình",
+      "KCN Thịnh Phát  ấp 3 Lương Bình",
+      "Ấp 5A",
+      "5B Lương Bình"
     ]
   },
   "TN-BINHDUC": {
@@ -1285,7 +1297,8 @@
       "Một phần ấp 2",
       "Ấp 2",
       "Ấp 7",
-      "Ấp 8"
+      "Ấp 8",
+      "Ấp 9"
     ]
   },
   "TN-LONGCANG": {
@@ -1325,7 +1338,8 @@
       "Một phần ấp Bình Tây",
       "Một phần Ấp Bình Hòa",
       "Một phần ấp Bình Trinh Đông",
-      "Ấp 1"
+      "Ấp 1",
+      "Bình Lợi"
     ]
   },
   "TN-VAMCO": {
@@ -1351,7 +1365,13 @@
       "Ấp Thuận Lợi",
       "Ấp Tân Hòa",
       "Tân Lợi",
-      "Nhựt Hòa"
+      "Nhựt Hòa",
+      "Nhựt Tân",
+      "Nhựt Long",
+      "Bình Thạnh",
+      "2",
+      "4",
+      "5"
     ]
   },
   "TN-NHUTTAO": {
@@ -1689,7 +1709,8 @@
       "1 phần ấp Tràm Lạc",
       "1 phần ấp Chánh",
       "Một phần",
-      "ấp rừng dầu"
+      "ấp rừng dầu",
+      "Ấp Tân Hòa"
     ]
   },
   "TN-MYQUY": {
@@ -1878,7 +1899,8 @@
       "Ấp Đông Trung",
       "Ấp Bà Nghĩa",
       "Một phần Ấp 3",
-      "Một phần ấp 6"
+      "Một phần ấp 6",
+      "- Một phần ấp 2"
     ]
   },
   "TN-THANHPHUOC": {
@@ -2392,6 +2414,15 @@
     "ma_dien_luc": "PB0603",
     "khu_pho": [
       "Ấp Bình Lợi"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANTRUMOTPHANXAVAMCO": {
+    "ten_phuong": "Tân Trụ một  phần xã Vàm cỏ",
+    "ten_huyen": "Tân Trụ",
+    "ma_dien_luc": "PB0609",
+    "khu_pho": [
+      "Một phần"
     ],
     "loai_don_vi": "Xã"
   }
