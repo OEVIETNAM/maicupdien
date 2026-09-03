@@ -102,7 +102,8 @@
       "Khu phố Kinh Tế",
       "Khu phố Ninh Tân",
       "Khu phố Ninh Phú",
-      "Khu phố Giồng Cà"
+      "Khu phố Giồng Cà",
+      "Khu phố Ninh Thọ"
     ],
     "loai_don_vi": "Phường"
   },
@@ -309,7 +310,8 @@
     "khu_pho": [
       "Ấp Hội Thành",
       "Ấp Hội Tân",
-      "Ấp Tân Hiệp"
+      "Ấp Tân Hiệp",
+      "Ấp Hội Thạnh"
     ],
     "loai_don_vi": ""
   },
@@ -339,7 +341,8 @@
       "Ấp Suối Ngô",
       "Ấp Cây Cầy",
       "Ấp Sóc Con Trăn",
-      "Ấp Trảng Ba Chân"
+      "Ấp Trảng Ba Chân",
+      "Ấp 4"
     ],
     "loai_don_vi": "Xã"
   },
@@ -462,7 +465,8 @@
       "Ấp Phước Bình",
       "Ấp Phước Long",
       "Ấp Phước Tân",
-      "Ấp Phước Lợi"
+      "Ấp Phước Lợi",
+      "Ấp Phước Hội"
     ],
     "loai_don_vi": "Xã"
   },
@@ -548,7 +552,8 @@
       "Ấp Bàu Rã xã Tân Lập",
       "Ấp Sân Bay",
       "Ấp Xóm Tháp",
-      "ấp Mới"
+      "ấp Mới",
+      "Ấp Thạnh Thọ"
     ],
     "loai_don_vi": "Xã"
   },
@@ -748,7 +753,8 @@
       "KDC Thái Dương",
       "Đường Nguyễn Đình Chiểu",
       "đường Thủ Kho Huân",
-      "KDC Đồng Thái Dương"
+      "KDC Đồng Thái Dương",
+      "KDC Bình Tâm"
     ]
   },
   "TN-MYTHANH": {
@@ -832,7 +838,8 @@
       "Một phần ấp Nhị Thành 3",
       "Một phần ấp Thủ Khoa Thừa 5",
       "Ấp Bình Thạnh 1",
-      "Đường Phan Văn Tình"
+      "Đường Phan Văn Tình",
+      "Một phấn ấp Nhị Thành 3"
     ]
   },
   "TN-TANLONG": {
@@ -1647,7 +1654,8 @@
       "Một phần",
       "Ấp Hiệp Thạnh",
       "Ấp An Thạnh",
-      "Ấp Bình Lục"
+      "Ấp Bình Lục",
+      "Ấp Tân Châu"
     ]
   },
   "TN-THUANMY": {
@@ -1922,7 +1930,8 @@
       "Khu vực cặp Kênh sau UB",
       "Khu vực vinh sao",
       "ấp Ông Quới",
-      "Khu vực Vàm Hai Luông"
+      "Khu vực Vàm Hai Luông",
+      "Khu vực Vàm Thủ Ngân"
     ]
   },
   "TN-NHONNINH": {
@@ -2007,7 +2016,8 @@
       "Ấp Dương Xuân Hội",
       "Ấp Long An",
       "Ấp Nhà Việc",
-      "Ấp Cầu Hàn"
+      "Ấp Cầu Hàn",
+      "Ấp Cầu Đôi"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -2085,7 +2095,9 @@
     "ma_dien_luc": "PB0509",
     "khu_pho": [
       "Ấp Phước Hưng",
-      "Ấp Bình Hòa"
+      "Ấp Bình Hòa",
+      "Ấp Phước Đông",
+      "Ấp Phước Bình"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2118,7 +2130,8 @@
     "khu_pho": [
       "một phần",
       "Một phần Quốc Lộ 62",
-      "Quốc Lộ 62"
+      "Quốc Lộ 62",
+      "Ấp 1"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2287,7 +2300,9 @@
     "ma_dien_luc": "PB0503",
     "khu_pho": [
       "Khu phố Lộc Khê",
-      "khu phố Gia Lâm"
+      "khu phố Gia Lâm",
+      "KP Gia Huỳnh",
+      "Gia Tân"
     ],
     "loai_don_vi": "Phường"
   },
@@ -2426,6 +2441,15 @@
     "ma_dien_luc": "PB0609",
     "khu_pho": [
       "Một phần"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-BENLUCVAMOTPHANAPVOILAXAMYYEN": {
+    "ten_phuong": "Bến Lức va một phần Ấp Voi Lá xã Mỹ Yên",
+    "ten_huyen": "Bến Lức",
+    "ma_dien_luc": "PB0606",
+    "khu_pho": [
+      "Ấp Bến Lức 10"
     ],
     "loai_don_vi": "Xã"
   }
