@@ -215,7 +215,8 @@
       "Khu phố Suối Sâu",
       "Phòng Kinh tế",
       "Hạ tầng và Đô thị",
-      "Khu phố An Khương"
+      "Khu phố An Khương",
+      "Khu phố Tịnh Phong"
     ],
     "loai_don_vi": "Phường"
   },
@@ -250,7 +251,8 @@
       "Ấp Đôn Thuận",
       "Ấp Trảng Cỏ",
       "Ấp Thuận Lợi",
-      "Ấp Cầu Xe"
+      "Ấp Cầu Xe",
+      "Ấp Xóm Suối"
     ],
     "loai_don_vi": ""
   },
@@ -1242,7 +1244,8 @@
       "Một phần ấp Lò Gạch",
       "Một phần ấp 2",
       "3",
-      "Ấp Lò Gạch"
+      "Ấp Lò Gạch",
+      "Ấp 3 Mỹ Yên"
     ]
   },
   "TN-THANHLOI": {
@@ -2203,7 +2206,8 @@
       "một phần",
       "Một phần Quốc Lộ 62",
       "Quốc Lộ 62",
-      "Ấp 1"
+      "Ấp 1",
+      "Một phàn"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2315,7 +2319,8 @@
     "khu_pho": [
       "Khu phố Phước Hậu",
       "Phòng Kinh tế",
-      "Hạ tầng và Đô thị"
+      "Hạ tầng và Đô thị",
+      "Khu phố Bình Nguyên 1"
     ],
     "loai_don_vi": "Phường"
   },
@@ -2551,6 +2556,15 @@
     "khu_pho": [
       "Ấp Thạnh Hiệp",
       "Ấp Bàu Bền"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-SUOIDA": {
+    "ten_phuong": "Suối Đá",
+    "ten_huyen": "Tân Ninh",
+    "ma_dien_luc": "PB0501",
+    "khu_pho": [
+      "Ấp Phước Lợi"
     ],
     "loai_don_vi": "Xã"
   }
