@@ -103,7 +103,8 @@
       "Khu phố Ninh Tân",
       "Khu phố Ninh Phú",
       "Khu phố Giồng Cà",
-      "Khu phố Ninh Thọ"
+      "Khu phố Ninh Thọ",
+      "Khu phố Tân Hòa"
     ],
     "loai_don_vi": "Phường"
   },
@@ -198,7 +199,8 @@
       "Ấp Thuận An",
       "Ấp Thuận Hòa",
       "Ấp 5",
-      "ấp 6"
+      "ấp 6",
+      "Võ Quan Huy\nNguyễn Trí Hưng\nTrường Trung Học Cơ Sở Bàu Đồn\nTrạm Y tế"
     ],
     "loai_don_vi": "Xã"
   },
@@ -415,7 +417,8 @@
       "Ấp Cầy Xiêng",
       "Khu phố 4",
       "ấp Bình Long",
-      "ấp Suối Dộp"
+      "ấp Suối Dộp",
+      "Ấp Bình Phong"
     ],
     "loai_don_vi": "Xã"
   },
@@ -567,7 +570,8 @@
       "Ấp Sân Bay",
       "Ấp Xóm Tháp",
       "ấp Mới",
-      "Ấp Thạnh Thọ"
+      "Ấp Thạnh Thọ",
+      "Ấp Gò Cát"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1034,7 +1038,8 @@
       "KDC Thái Sơn",
       "Khu vực từ đường Nguyễn Thị Bẹ đến đường Đê Lò Đường",
       "Khu vực từ ngã tư giao đường Trương Văn Bang và đường Nguyễn An Ninh đến Chùa Giác Nguyên đến đường Lê Văn Hai",
-      "Hòa Thuận"
+      "Hòa Thuận",
+      "Khu vực Khu dân Cư Hoàng Hoa"
     ]
   },
   "TN-MYLOC": {
@@ -1193,7 +1198,8 @@
       "Đường Dọc 3",
       "Khu công nghiệp Phú An Thạnh",
       "KCN Phú An Thạnh",
-      "Đường Ngang 2"
+      "Đường Ngang 2",
+      "Cơ Sở Thiên Dũng ấp Thanh Phú"
     ]
   },
   "TN-LUONGHOA": {
@@ -1245,7 +1251,8 @@
       "Một phần ấp 2",
       "3",
       "Ấp Lò Gạch",
-      "Ấp 3 Mỹ Yên"
+      "Ấp 3 Mỹ Yên",
+      "Cơ Sở Thụy Hưng Long  ấp 7B"
     ]
   },
   "TN-THANHLOI": {
@@ -1301,7 +1308,9 @@
       "Ấp 4 Thạnh Đức",
       "8 Nhựt Chánh và một phần ấp 1",
       "8 Nhựt Chánh và ấp 1",
-      "Ấp 1 Nhựt Chánh"
+      "Ấp 1 Nhựt Chánh",
+      "TSTL Nguyễn Văn Hà Ấp Kênh Ngay Bình Đức",
+      "TSTL Nguyễn Văn Hảo Ấp Kênh Ngay Bình Đức"
     ]
   },
   "TN-TANLAN": {
@@ -1423,7 +1432,8 @@
       "Bình Thạnh",
       "2",
       "4",
-      "5"
+      "5",
+      "Một phần"
     ]
   },
   "TN-NHUTTAO": {
@@ -1447,7 +1457,8 @@
       "Một phần",
       "Một phần ấp 1+3",
       "Một phần ấp Lạc Tấn",
-      "Ấp Ấp Quê Mỹ Thạnh"
+      "Ấp Ấp Quê Mỹ Thạnh",
+      "Ấp Ấp Lạc Tấn"
     ]
   },
   "TN-HIEPHOA": {
@@ -1654,7 +1665,8 @@
       "Ấp cả bát",
       "Một phần ấp Bàu Chứa",
       "Ấp Bàu Chứa",
-      "Ấp Vĩnh Thạnh"
+      "Ấp Vĩnh Thạnh",
+      "Ấp Gò Thuyền"
     ]
   },
   "TN-VINHCHAU": {
@@ -1840,7 +1852,8 @@
       "Đường Ấp 3 Chân Tốc",
       "Đâu đường tỉnh 838  đến  Chốt biên phòng Voi Đình",
       "Ấp 3",
-      "Đường ra bến phà Ấp 3 Mỹ Thạnh Bắc"
+      "Đường ra bến phà Ấp 3 Mỹ Thạnh Bắc",
+      "Đường vô Xóm Ấp 5 Mỹ Quý Tây Một phần"
     ]
   },
   "TN-VINHTHANH": {
@@ -1922,7 +1935,8 @@
       "Ấp Trung",
       "toàn bộ  Tân Chánh",
       "Khu vực từ đầu Cầu Bảy Đảnh đến Cầu Ban Kiệt",
-      "Khu vực đường Đê Vĩnh Tân ( gần Trường Tiểu học Phước Vĩnh Đông)"
+      "Khu vực đường Đê Vĩnh Tân ( gần Trường Tiểu học Phước Vĩnh Đông)",
+      "Khu vực đường Đê Bao Tân Đại"
     ]
   },
   "TN-TUYENTHANH": {
@@ -2052,7 +2066,8 @@
       "Lê Mạnh",
       "Giồng Dung",
       "Hậu Thạnh Tây",
-      "Trạm Cụm dân cư Hậu Thạnh Tây - Đường tỉnh lộ 837 - Ấp Hậu Thạnh Tây"
+      "Trạm Cụm dân cư Hậu Thạnh Tây - Đường tỉnh lộ 837 - Ấp Hậu Thạnh Tây",
+      "Trạm Chợ Trung tâm nông sản Hậu Thạnh Đông - Ấp Đỗ Văn Bốn"
     ]
   },
   "TN-ANLUCLONG": {
@@ -2246,7 +2261,8 @@
       "Trạm T17 Kinh 27/3 Bắc 1- Đường Kinh 27/3 - Ấp Tây",
       "Trạm T21 Kinh 27/3 Bắc - Đường Kinh 27/3 - Ấp Tây",
       "Cụm dân cư Tân Bình - Ấp Hiệp Thành",
-      "Trạm T24 Cà Nhíp 1 - Đường Kinh Hiệp Thành - Ấp Tân Thạnh"
+      "Trạm T24 Cà Nhíp 1 - Đường Kinh Hiệp Thành - Ấp Tân Thạnh",
+      "Trạm Xay xát Kiến Bình - Ấp Tân Thạnh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2567,5 +2583,15 @@
       "Ấp Phước Lợi"
     ],
     "loai_don_vi": "Xã"
+  },
+  "TN-TRANGBANG-2": {
+    "ten_phuong": "Trảng Bàng",
+    "ten_huyen": "Trảng Bàng",
+    "ma_dien_luc": "PB0503",
+    "khu_pho": [
+      "Khu phố Lộc An",
+      "Khu phố An Quới"
+    ],
+    "loai_don_vi": "Phường"
   }
 }
