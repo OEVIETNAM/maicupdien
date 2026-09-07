@@ -181,7 +181,8 @@
       "Ấp Phước Đông",
       "ấp Chánh",
       "Ấp Phước Bình B",
-      "Ấp Phước Hội"
+      "Ấp Phước Hội",
+      "Lò Bánh Mì Phạm Long Hổ\nTrường Tiểu Học Phước Trạch\nTrường THCS Trần Hưng Đạo\nPhòng Kinh tế"
     ],
     "loai_don_vi": "Xã"
   },
@@ -254,7 +255,8 @@
       "Ấp Trảng Cỏ",
       "Ấp Thuận Lợi",
       "Ấp Cầu Xe",
-      "Ấp Xóm Suối"
+      "Ấp Xóm Suối",
+      "Ấp Đôn Thuận"
     ],
     "loai_don_vi": ""
   },
@@ -398,7 +400,8 @@
       "Ấp Bến Cừ",
       "Ấp Trà Sim",
       "Ấp Thành Nam",
-      "Ấp Thành Đông"
+      "Ấp Thành Đông",
+      "Ấp Nam Bến Sỏi"
     ],
     "loai_don_vi": "Xã"
   },
@@ -419,7 +422,8 @@
       "ấp Bình Long",
       "ấp Suối Dộp",
       "Ấp Bình Phong",
-      "1 phần ấp Thanh Bình"
+      "1 phần ấp Thanh Bình",
+      "Ấp Tân Thành"
     ],
     "loai_don_vi": "Xã"
   },
@@ -779,7 +783,9 @@
       "đường Thủ Kho Huân",
       "KDC Đồng Thái Dương",
       "KDC Bình Tâm",
-      "Khu phố Bình Quân 2"
+      "Khu phố Bình Quân 2",
+      "Đường Lê Văn Tưởng",
+      "đường"
     ]
   },
   "TN-MYTHANH": {
@@ -1086,7 +1092,9 @@
       "3",
       "Khu vực từ Trạm 110kV Tân Tập đến Ngã Tư Chợ Trạm ( Đường ĐT.835B)",
       "toàn bộ Tây Phú",
-      "Phú Thạnh"
+      "Phú Thạnh",
+      "Khu vực từ cổng ấp Văn Hóa Long An 2(QL50) đến Đê Trường Long ( đường Trần Văn Nghĩa)",
+      "Ấp Long An 2"
     ]
   },
   "TN-MOCHOA": {
@@ -1115,7 +1123,8 @@
       "Ấp Mây Rắc",
       "Đường Lộ 817",
       "ấp Bình Tây",
-      "ấp Bình Nam"
+      "ấp Bình Nam",
+      "Một phấn ấp Bình Trung"
     ]
   },
   "TN-KIENTUONG": {
@@ -1201,7 +1210,8 @@
       "Khu công nghiệp Phú An Thạnh",
       "KCN Phú An Thạnh",
       "Đường Ngang 2",
-      "Cơ Sở Thiên Dũng ấp Thanh Phú"
+      "Cơ Sở Thiên Dũng ấp Thanh Phú",
+      "Thanh Hiệp Thanh Phú"
     ]
   },
   "TN-LUONGHOA": {
@@ -1254,7 +1264,8 @@
       "3",
       "Ấp Lò Gạch",
       "Ấp 3 Mỹ Yên",
-      "Cơ Sở Thụy Hưng Long  ấp 7B"
+      "Cơ Sở Thụy Hưng Long  ấp 7B",
+      "Lê Hoàng Hùng (nhà trọ) ấp 1"
     ]
   },
   "TN-THANHLOI": {
@@ -1492,7 +1503,8 @@
       "Ấp Hòa Hiệp 2",
       "Ấp HòaHiệp 2",
       "Đường vô xóm Hòa Hiệp 2",
-      "Đường vô Xóm Cây Da Một phần Ấp Hòa Hiệp 2"
+      "Đường vô Xóm Cây Da Một phần Ấp Hòa Hiệp 2",
+      "Đường vô xóm Ấp Hòa Hiệp 2 Một phần Ấp Hòa Hiệp 2"
     ]
   },
   "TN-ANNINH": {
@@ -1668,7 +1680,8 @@
       "Một phần ấp Bàu Chứa",
       "Ấp Bàu Chứa",
       "Ấp Vĩnh Thạnh",
-      "Ấp Gò Thuyền"
+      "Ấp Gò Thuyền",
+      "Ấp Vĩnh Lợi"
     ]
   },
   "TN-VINHCHAU": {
@@ -2200,7 +2213,8 @@
     "khu_pho": [
       "Ấp Long Thạnh",
       "Ấp Phước Đông",
-      "ấp Phước Trung"
+      "ấp Phước Trung",
+      "Ấp Long Giao"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2422,7 +2436,8 @@
       "Từ Trường THCS Hòa Thành đến  Trường tiều học Nguyễn Văn Nguyên",
       "ấp Tân Hoà",
       "Từ  Trường tiều học Nguyễn Văn Nguyên",
-      "đến Chợ Hội Đồng Sầm"
+      "đến Chợ Hội Đồng Sầm",
+      "Đường đi từ ngã 3 Bảy Đờ đến"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2527,7 +2542,8 @@
     "ma_dien_luc": "PB0603",
     "khu_pho": [
       "Ấp Bình Lợi",
-      "Ấp Thuận Hòa 2"
+      "Ấp Thuận Hòa 2",
+      "Ấp Tân Bình"
     ],
     "loai_don_vi": "Xã"
   },
