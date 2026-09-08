@@ -183,7 +183,10 @@
       "ấp Chánh",
       "Ấp Phước Bình B",
       "Ấp Phước Hội",
-      "Lò Bánh Mì Phạm Long Hổ\nTrường Tiểu Học Phước Trạch\nTrường THCS Trần Hưng Đạo\nPhòng Kinh tế"
+      "Lò Bánh Mì Phạm Long Hổ\nTrường Tiểu Học Phước Trạch\nTrường THCS Trần Hưng Đạo\nPhòng Kinh tế",
+      "Ấp Phước Tây",
+      "Ấp Phước  An",
+      "Ấp Phước Bình A"
     ],
     "loai_don_vi": "Xã"
   },
@@ -946,7 +949,9 @@
       "Ấp 3B",
       "Một phần",
       "1 phần ấp Bình Tiền",
-      "1 phần ấp Bình Tả 2"
+      "1 phần ấp Bình Tả 2",
+      "Ấp Bình Tiền 2 Một phần",
+      "Ấp Bình Tả 2"
     ]
   },
   "TN-HAUNGHIA": {
@@ -1090,7 +1095,8 @@
       "Khu vực từ Ngã Tư Xoài Đôi đầu đường Chùa Khánh Ninh (Đường ĐT 835)",
       "một phần ấp Phước Hưng 1",
       "2",
-      "Thuận Nam"
+      "Thuận Nam",
+      "Phước Hưng"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -2106,7 +2112,8 @@
       "Hậu Thạnh Tây",
       "Trạm Cụm dân cư Hậu Thạnh Tây - Đường tỉnh lộ 837 - Ấp Hậu Thạnh Tây",
       "Trạm Chợ Trung tâm nông sản Hậu Thạnh Đông - Ấp Đỗ Văn Bốn",
-      "Trạm T27/1 Bờ Nam 7 Mét 5 - Ấp Bắc Hòa"
+      "Trạm T27/1 Bờ Nam 7 Mét 5 - Ấp Bắc Hòa",
+      "Một phần"
     ]
   },
   "TN-ANLUCLONG": {
