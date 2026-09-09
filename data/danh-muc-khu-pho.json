@@ -327,7 +327,9 @@
       "Ấp Hội Thành",
       "Ấp Hội Tân",
       "Ấp Tân Hiệp",
-      "Ấp Hội Thạnh"
+      "Ấp Hội Thạnh",
+      "Ấp Hội Thắng",
+      "Ấp Hội An"
     ],
     "loai_don_vi": ""
   },
@@ -747,7 +749,9 @@
       "CCN Tú Phương",
       "đườn nguyễn văn quá",
       "Một phần",
-      "ẤP Ngãi Lợi"
+      "ẤP Ngãi Lợi",
+      "Đường nguyễn văn quá",
+      "ấp bình an"
     ]
   },
   "TN-LONGAN": {
@@ -927,7 +931,8 @@
       "Một phần",
       "Ấp 4",
       "1 phần ấp 2",
-      "1 phần Ấp Giồng Lớn"
+      "1 phần Ấp Giồng Lớn",
+      "1 phần ấp mới 1"
     ]
   },
   "TN-DUCHOA": {
@@ -966,7 +971,8 @@
       "Một phần",
       "1 phần ấp Bàu Công",
       "Ấp Khiêm Cương",
-      "Ấp Rừng Muỗi"
+      "Ấp Rừng Muỗi",
+      "1 phần"
     ]
   },
   "TN-PHUOCLY": {
@@ -1642,7 +1648,8 @@
       "Một phần ấp Bình Châu",
       "Một phần ấp Tuyên Bình Tây",
       "Một phần ấp Thái Bình Trung",
-      "Một phần ấp Thái Bình Trung"
+      "Một phần ấp Thái Bình Trung",
+      "Một phấn ấp Rạch Mây"
     ]
   },
   "TN-VINHHUNG": {
@@ -1688,7 +1695,8 @@
       "Một phần ấp Bến Phố",
       "Một phần ấp Gò Châu Mai",
       "Một phần ấp Hưng Điền",
-      "Ấp Gò Châu Mai"
+      "Ấp Gò Châu Mai",
+      "Một phấn ấp Hưng Điền A"
     ]
   },
   "TN-HUNGDIEN": {
@@ -2665,5 +2673,15 @@
       "Khu phố An Quới"
     ],
     "loai_don_vi": "Phường"
+  },
+  "TN-HOAKHANH-2": {
+    "ten_phuong": "Hoà Khánh",
+    "ten_huyen": "Đức Hòa",
+    "ma_dien_luc": "PB0603",
+    "khu_pho": [
+      "1 phần ấp Lập Thành",
+      "1 phần ấp Bùng Binh"
+    ],
+    "loai_don_vi": "Xã"
   }
 }
