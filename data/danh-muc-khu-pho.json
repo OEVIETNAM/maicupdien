@@ -800,7 +800,8 @@
       "Đường Nguyễn Thị Bảy",
       "đường nguyễn văn tạo",
       "trịnh quan nghị",
-      "lưu văn tế"
+      "lưu văn tế",
+      "Quốc Lộ 62"
     ]
   },
   "TN-MYTHANH": {
@@ -1068,7 +1069,11 @@
       "Khu vực từ đường Nguyễn Thị Bẹ đến đường Đê Lò Đường",
       "Khu vực từ ngã tư giao đường Trương Văn Bang và đường Nguyễn An Ninh đến Chùa Giác Nguyên đến đường Lê Văn Hai",
       "Hòa Thuận",
-      "Khu vực Khu dân Cư Hoàng Hoa"
+      "Khu vực Khu dân Cư Hoàng Hoa",
+      "Nhánh rẽ Nhà xưởng xây sẵn Lô T4 KCN Long Hậu",
+      "Nhánh rẽ Nhà xưởng xây sẳn 6 tầng KCN Long Hậu",
+      "Nhánh rẽ Chiếu sáng T8 KCN Long Hậu",
+      "Nhánh rẽ Nhà xưởng xây sẳn Lô F01B KCN Long Hậu"
     ]
   },
   "TN-MYLOC": {
@@ -1236,7 +1241,8 @@
       "Đường Ngang 2",
       "Cơ Sở Thiên Dũng ấp Thanh Phú",
       "Thanh Hiệp Thanh Phú",
-      "Ấp Bến Lức 2"
+      "Ấp Bến Lức 2",
+      "Ấp Bến Lức 7"
     ]
   },
   "TN-LUONGHOA": {
@@ -1290,7 +1296,11 @@
       "Ấp Lò Gạch",
       "Ấp 3 Mỹ Yên",
       "Cơ Sở Thụy Hưng Long  ấp 7B",
-      "Lê Hoàng Hùng (nhà trọ) ấp 1"
+      "Lê Hoàng Hùng (nhà trọ) ấp 1",
+      "Ấp Long Bình",
+      "Phước Tĩnh",
+      "Phước Toàn",
+      "ấp Chợ Phước Lợi"
     ]
   },
   "TN-THANHLOI": {
@@ -1311,7 +1321,8 @@
       "KDC Ấp 4 Lương Bình",
       "KCN Thịnh Phát  ấp 3 Lương Bình",
       "Ấp 5A",
-      "5B Lương Bình"
+      "5B Lương Bình",
+      "ấp 3"
     ]
   },
   "TN-BINHDUC": {
@@ -1415,7 +1426,15 @@
       "Ấp 7",
       "Ấp 1",
       "Ấp 4",
-      "Ấp 3"
+      "Ấp 3",
+      "- Toàn bộ CCN Kiến Thành và một phần ấp 3",
+      "- Một phần ấp 3",
+      "8 và toàn bộ ấp 1",
+      "5",
+      "6",
+      "9",
+      "10",
+      "13"
     ]
   },
   "TN-TANTRU": {
