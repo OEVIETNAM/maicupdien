@@ -645,7 +645,8 @@
       "Khu phố Trường Cửu",
       "Khu phố Trường Lưu",
       "Khu phố Trường Thọ",
-      "Khu phố Năm Trại"
+      "Khu phố Năm Trại",
+      "Khu phố Trường An"
     ],
     "loai_don_vi": "Phường"
   },
@@ -934,7 +935,8 @@
       "Ấp 4",
       "1 phần ấp 2",
       "1 phần Ấp Giồng Lớn",
-      "1 phần ấp mới 1"
+      "1 phần ấp mới 1",
+      "1 phần"
     ]
   },
   "TN-DUCHOA": {
@@ -959,7 +961,8 @@
       "1 phần ấp Bình Tiền",
       "1 phần ấp Bình Tả 2",
       "Ấp Bình Tiền 2 Một phần",
-      "Ấp Bình Tả 2"
+      "Ấp Bình Tả 2",
+      "1 phần ấp 1A"
     ]
   },
   "TN-HAUNGHIA": {
@@ -1109,7 +1112,8 @@
       "một phần ấp Phước Hưng 1",
       "2",
       "Thuận Nam",
-      "Phước Hưng"
+      "Phước Hưng",
+      "Một phần"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1250,7 +1254,8 @@
       "Cơ Sở Thiên Dũng ấp Thanh Phú",
       "Thanh Hiệp Thanh Phú",
       "Ấp Bến Lức 2",
-      "Ấp Bến Lức 7"
+      "Ấp Bến Lức 7",
+      "Đường Nguyễn Hữu Thọ"
     ]
   },
   "TN-LUONGHOA": {
@@ -1308,7 +1313,8 @@
       "Ấp Long Bình",
       "Phước Tĩnh",
       "Phước Toàn",
-      "ấp Chợ Phước Lợi"
+      "ấp Chợ Phước Lợi",
+      "Một phần"
     ]
   },
   "TN-THANHLOI": {
@@ -1827,7 +1833,8 @@
       "Hộ xay xát Lê Hữu Tuấn",
       "Hộ thắp sáng thanh long  Lê Hữu Tuấn ấp Thanh Hòa",
       "Ấp Thanh Phú Long",
-      "Bình Thạnh"
+      "Bình Thạnh",
+      "Một Phần"
     ]
   },
   "TN-VINHCONG": {
@@ -1863,7 +1870,9 @@
       "1 phần ấp Chánh",
       "Một phần",
       "ấp rừng dầu",
-      "Ấp Tân Hòa"
+      "Ấp Tân Hòa",
+      "1 phần ấp Nhơn Hòa 1",
+      "1 phần"
     ]
   },
   "TN-MYQUY": {
@@ -1937,7 +1946,8 @@
     "ma_dien_luc": "PB0613",
     "khu_pho": [
       "Ấp Hưng Thạnh",
-      "Một phần ấp 2"
+      "Một phần ấp 2",
+      "Một phần"
     ]
   },
   "TN-DONGTHANH": {
@@ -2193,7 +2203,8 @@
       "Khu phố Ninh Lợi",
       "Khu phố Ninh Tân",
       "Khu phố Ninh Đức",
-      "Khu phố Ninh Phúc"
+      "Khu phố Ninh Phúc",
+      "Khu phố Ninh Nghĩa Ninh Lợi"
     ],
     "loai_don_vi": "Phường"
   },
