@@ -362,7 +362,9 @@
       "Ấp Sóc Con Trăn",
       "Ấp Trảng Ba Chân",
       "Ấp 4",
-      "Ấp 5"
+      "Ấp 5",
+      "Ấp Trảng Trai",
+      "Ấp Suối Bà Chiêm"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1793,7 +1795,8 @@
       "Ấp An Thạnh",
       "Ấp Bình Lục",
       "Ấp Tân Châu",
-      "Phú Ngãi Trị"
+      "Phú Ngãi Trị",
+      "Ấp Phước Tân Hưng"
     ]
   },
   "TN-THUANMY": {
@@ -1923,7 +1926,8 @@
       "Đâu đường tỉnh 838  đến  Chốt biên phòng Voi Đình",
       "Ấp 3",
       "Đường ra bến phà Ấp 3 Mỹ Thạnh Bắc",
-      "Đường vô Xóm Ấp 5 Mỹ Quý Tây Một phần"
+      "Đường vô Xóm Ấp 5 Mỹ Quý Tây Một phần",
+      "Đầu đường đan Ấp 5 đến Kênh Tỉnh Ấp 5"
     ]
   },
   "TN-VINHTHANH": {
@@ -2272,7 +2276,8 @@
       "Ấp Long Thạnh",
       "Ấp Phước Đông",
       "ấp Phước Trung",
-      "Ấp Long Giao"
+      "Ấp Long Giao",
+      "Ấp Long Hòa 2"
     ],
     "loai_don_vi": "Xã"
   },
