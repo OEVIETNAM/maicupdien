@@ -2348,7 +2348,8 @@
       "Tân Mỹ",
       "Ấp 1",
       "7",
-      "Ấp 9"
+      "Ấp 9",
+      "1 phần"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2376,7 +2377,11 @@
       "Cụm dân cư Tân Bình - Ấp Hiệp Thành",
       "Trạm T24 Cà Nhíp 1 - Đường Kinh Hiệp Thành - Ấp Tân Thạnh",
       "Trạm Xay xát Kiến Bình - Ấp Tân Thạnh",
-      "Đường Kinh 27 tháng 3 - Ấp Tây"
+      "Đường Kinh 27 tháng 3 - Ấp Tây",
+      "Ấp Tân Bình",
+      "Ấp Hiệp Thành",
+      "Ấp Đông",
+      "Ấp Tây"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2722,5 +2727,14 @@
       "1 phần ấp Bùng Binh"
     ],
     "loai_don_vi": "Xã"
+  },
+  "TN-LONGHOA-2": {
+    "ten_phuong": "Long Hoa",
+    "ten_huyen": "Dương Minh Châu",
+    "ma_dien_luc": "PB0506",
+    "khu_pho": [
+      "Khu phố Trường Xuân"
+    ],
+    "loai_don_vi": "Phường"
   }
 }
