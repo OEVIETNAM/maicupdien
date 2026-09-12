@@ -105,7 +105,8 @@
       "Khu phố Giồng Cà",
       "Khu phố Ninh Thọ",
       "Khu phố Tân Hòa",
-      "Khu phố Ninh Lộc"
+      "Khu phố Ninh Lộc",
+      "Khu phố Thạnh Trung"
     ],
     "loai_don_vi": "Phường"
   },
@@ -462,7 +463,8 @@
       "Ấp Trường",
       "ấp Tầm Long",
       "ấp Xóm Mới 2",
-      "Ấp Tầm Long Long"
+      "Ấp Tầm Long Long",
+      "Ấp Bình Lợi"
     ],
     "loai_don_vi": "Xã"
   },
@@ -652,7 +654,8 @@
       "Khu phố Trường Lưu",
       "Khu phố Trường Thọ",
       "Khu phố Năm Trại",
-      "Khu phố Trường An"
+      "Khu phố Trường An",
+      "Khu phố Trường Đức"
     ],
     "loai_don_vi": "Phường"
   },
@@ -814,7 +817,8 @@
       "đường nguyễn văn tạo",
       "trịnh quan nghị",
       "lưu văn tế",
-      "Quốc Lộ 62"
+      "Quốc Lộ 62",
+      "Đường Trần Văn Nam"
     ]
   },
   "TN-MYTHANH": {
@@ -1159,7 +1163,12 @@
       "Đường 819",
       "ấp Tân Lập 3",
       "Ấp Tân Thiết",
-      "ấp Cả Đá"
+      "ấp Cả Đá",
+      "Ấp 6",
+      "Ấp 3",
+      "ấp 4",
+      "ấp 5",
+      "Ấp Mương Khai"
     ]
   },
   "TN-BINHHOA": {
@@ -1572,7 +1581,8 @@
       "Ấp HòaHiệp 2",
       "Đường vô xóm Hòa Hiệp 2",
       "Đường vô Xóm Cây Da Một phần Ấp Hòa Hiệp 2",
-      "Đường vô xóm Ấp Hòa Hiệp 2 Một phần Ấp Hòa Hiệp 2"
+      "Đường vô xóm Ấp Hòa Hiệp 2 Một phần Ấp Hòa Hiệp 2",
+      "Đường đi Gò Sao Tân Phú"
     ]
   },
   "TN-ANNINH": {
@@ -1755,7 +1765,8 @@
       "Ấp Bàu Chứa",
       "Ấp Vĩnh Thạnh",
       "Ấp Gò Thuyền",
-      "Ấp Vĩnh Lợi"
+      "Ấp Vĩnh Lợi",
+      "Ấp Bào Chứa"
     ]
   },
   "TN-VINHCHAU": {
@@ -2297,7 +2308,8 @@
       "Ấp Phước Hưng",
       "Ấp Bình Hòa",
       "Ấp Phước Đông",
-      "Ấp Phước Bình"
+      "Ấp Phước Bình",
+      "Ấp Phước Giang"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2406,7 +2418,8 @@
     "ten_huyen": "Tân Thạnh",
     "ma_dien_luc": "PB0608",
     "khu_pho": [
-      "Ấp Thận Cần"
+      "Ấp Thận Cần",
+      "Đường tỉnh 819 từ Cầu 79 đến Cầu Thanh Niên - Ấp Thận Cần"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2553,7 +2566,11 @@
     "khu_pho": [
       "Ấp Rạch Cát",
       "Ấp Long Ninh",
-      "1 phần"
+      "1 phần",
+      "Ấp Long Hưng",
+      "Ấp Hựu Lộc",
+      "Ấp Tây",
+      "Ấp Mỹ Điền"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2736,5 +2753,23 @@
       "Khu phố Trường Xuân"
     ],
     "loai_don_vi": "Phường"
+  },
+  "TN-MOCHOADENCAUTHANHNIEN": {
+    "ten_phuong": "Mộc Hóa đến Cầu Thanh Niên",
+    "ten_huyen": "Kiến Tường",
+    "ma_dien_luc": "PB0605",
+    "khu_pho": [
+      "Đường tỉnh 819 từ Cầu 79 ấp Tân Lập 4"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANTHANHTUCAUBAYTHUOCDENGIAPRANHXANHONHOALAP": {
+    "ten_phuong": "Tân Thạnh từ Cầu Bảy Thước đến giáp ranh xã Nhơn Hòa Lập",
+    "ten_huyen": "Tân Thạnh",
+    "ma_dien_luc": "PB0608",
+    "khu_pho": [
+      "- Đường tỉnh 837B"
+    ],
+    "loai_don_vi": "Xã"
   }
 }
