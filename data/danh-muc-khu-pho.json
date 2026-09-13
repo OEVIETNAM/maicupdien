@@ -226,7 +226,9 @@
       "Phòng Kinh tế",
       "Hạ tầng và Đô thị",
       "Khu phố An Khương",
-      "Khu phố Tịnh Phong"
+      "Khu phố Tịnh Phong",
+      "Khu phố An Đước",
+      "Khu phố Lộc Chánh"
     ],
     "loai_don_vi": "Phường"
   },
@@ -818,7 +820,8 @@
       "trịnh quan nghị",
       "lưu văn tế",
       "Quốc Lộ 62",
-      "Đường Trần Văn Nam"
+      "Đường Trần Văn Nam",
+      "Đường TL 833 đường Mai Bá hương"
     ]
   },
   "TN-MYTHANH": {
@@ -904,7 +907,8 @@
       "Một phần ấp Thủ Khoa Thừa 5",
       "Ấp Bình Thạnh 1",
       "Đường Phan Văn Tình",
-      "Một phấn ấp Nhị Thành 3"
+      "Một phấn ấp Nhị Thành 3",
+      "Ấp Tân Thành"
     ]
   },
   "TN-TANLONG": {
@@ -1020,7 +1024,8 @@
       "Khu vực từ KDC Gò Đen đến Khu đô thị Năm Sao ( Đường ĐT.835B)",
       "toàn bộ ấp Phú Thành",
       "Khu vực đường Trần Thị Tám đến Cầu Long Khê-Phước Lý: Một phần Ấp Phú Ân",
-      "Khu vực từ đầu đường Trần Thị Non đến đường Đ.T14 đến ngã 3 đường Hóc Hưu"
+      "Khu vực từ đầu đường Trần Thị Non đến đường Đ.T14 đến ngã 3 đường Hóc Hưu",
+      "Khu vực từ đầu đường Nguyễn Thị Chanh đến đường Phạm Thị Kiều"
     ]
   },
   "TN-CANGIUOC": {
@@ -1172,7 +1177,8 @@
       "Ấp 3",
       "ấp 4",
       "ấp 5",
-      "Ấp Mương Khai"
+      "Ấp Mương Khai",
+      "Ấp 2"
     ]
   },
   "TN-BINHHOA": {
@@ -1336,7 +1342,8 @@
       "Phước Tĩnh",
       "Phước Toàn",
       "ấp Chợ Phước Lợi",
-      "Một phần"
+      "Một phần",
+      "Đồ gỗ mỹ nghệ Sóc Bi Ấp 2"
     ]
   },
   "TN-THANHLOI": {
@@ -1413,7 +1420,9 @@
       "Một phần ấp Cầu Xây",
       "Một phần ấp 2",
       "Một phần Ấp Nhà Dài",
-      "Ấp 2"
+      "Ấp 2",
+      "Ấp 6",
+      "7"
     ]
   },
   "TN-RACHKIEN": {
@@ -1683,7 +1692,8 @@
       "Một phần ấp Tuyên Bình Tây",
       "Một phần ấp Thái Bình Trung",
       "Một phần ấp Thái Bình Trung",
-      "Một phấn ấp Rạch Mây"
+      "Một phấn ấp Rạch Mây",
+      "Ấp Rạch Đình"
     ]
   },
   "TN-VINHHUNG": {
@@ -1770,7 +1780,8 @@
       "Ấp Vĩnh Thạnh",
       "Ấp Gò Thuyền",
       "Ấp Vĩnh Lợi",
-      "Ấp Bào Chứa"
+      "Ấp Bào Chứa",
+      "Ấp: Vĩnh Thạnh"
     ]
   },
   "TN-VINHCHAU": {
@@ -1970,7 +1981,8 @@
       "Ấp 3",
       "Đường ra bến phà Ấp 3 Mỹ Thạnh Bắc",
       "Đường vô Xóm Ấp 5 Mỹ Quý Tây Một phần",
-      "Đầu đường đan Ấp 5 đến Kênh Tỉnh Ấp 5"
+      "Đầu đường đan Ấp 5 đến Kênh Tỉnh Ấp 5",
+      "Đường đan biên giới"
     ]
   },
   "TN-VINHTHANH": {
@@ -2434,7 +2446,9 @@
     "khu_pho": [
       "Đường hướng đi bên phải",
       "bên trái Bà Vọng",
-      "một phần ấp Bàu Trai Hạ"
+      "một phần ấp Bàu Trai Hạ",
+      "Đường trên KDC Hiệp Hòa",
+      "Khu vực 4"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2574,7 +2588,8 @@
       "Ấp Long Hưng",
       "Ấp Hựu Lộc",
       "Ấp Tây",
-      "Ấp Mỹ Điền"
+      "Ấp Mỹ Điền",
+      "Ấp Chợ"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2670,7 +2685,8 @@
       "Ấp Bình Lợi",
       "Ấp Thuận Hòa 2",
       "Ấp Tân Bình",
-      "Ấp Thuận Hòa 1"
+      "Ấp Thuận Hòa 1",
+      "Ấp Giồng Ngang"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2769,6 +2785,24 @@
   },
   "TN-TANTHANHTUCAUBAYTHUOCDENGIAPRANHXANHONHOALAP": {
     "ten_phuong": "Tân Thạnh từ Cầu Bảy Thước đến giáp ranh xã Nhơn Hòa Lập",
+    "ten_huyen": "Tân Thạnh",
+    "ma_dien_luc": "PB0608",
+    "khu_pho": [
+      "- Đường tỉnh 837B"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANTHANH-3": {
+    "ten_phuong": "Tân Thạnh",
+    "ten_huyen": "Kiến Tường",
+    "ma_dien_luc": "PB0605",
+    "khu_pho": [
+      "Ấp 7 mét"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANTHANHTUCAUBAYTHUOCDENGIAPRANHXANHONHOALAP-2": {
+    "ten_phuong": "Tân Thạnh  từ Cầu Bảy Thước đến giáp ranh xã Nhơn Hòa Lập",
     "ten_huyen": "Tân Thạnh",
     "ma_dien_luc": "PB0608",
     "khu_pho": [
