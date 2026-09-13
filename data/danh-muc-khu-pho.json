@@ -1740,7 +1740,8 @@
       "Một phần ấp Gò Châu Mai",
       "Một phần ấp Hưng Điền",
       "Ấp Gò Châu Mai",
-      "Một phấn ấp Hưng Điền A"
+      "Một phấn ấp Hưng Điền A",
+      "Một phần"
     ]
   },
   "TN-HUNGDIEN": {
@@ -1917,7 +1918,9 @@
       "1 phần  ấp Tràm Lạc",
       "1 phần ấp Hậu Hòa",
       "Ấp Chánh",
-      "Ấp Hậu Hòa"
+      "Ấp Hậu Hòa",
+      "1 phần ấp Nhơn Hoà 2",
+      "1 phẩn Ấp Tràm Lạc"
     ]
   },
   "TN-MYQUY": {
@@ -2119,7 +2122,8 @@
       "Một phần Ấp 3",
       "Một phần ấp 6",
       "- Một phần ấp 2",
-      "Ấp 2"
+      "Ấp 2",
+      "1 phần"
     ]
   },
   "TN-THANHPHUOC": {
@@ -2761,7 +2765,8 @@
     "ma_dien_luc": "PB0603",
     "khu_pho": [
       "1 phần ấp Lập Thành",
-      "1 phần ấp Bùng Binh"
+      "1 phần ấp Bùng Binh",
+      "Ấp Thuận Hòa 1"
     ],
     "loai_don_vi": "Xã"
   },
