@@ -664,7 +664,8 @@
       "Khu phố Năm Trại",
       "Khu phố Trường An",
       "Khu phố Trường Đức",
-      "Khu phố Hiệp An"
+      "Khu phố Hiệp An",
+      "khu phố Trường Ân"
     ],
     "loai_don_vi": "Phường"
   },
@@ -1013,7 +1014,8 @@
       "Ấp Khiêm Cương",
       "Ấp Rừng Muỗi",
       "1 phần",
-      "ấp Chánh"
+      "ấp Chánh",
+      "1 phần ấp Sò Đo"
     ]
   },
   "TN-PHUOCLY": {
@@ -1663,7 +1665,9 @@
       "Đường hẻm Trạm Bơm Lộc Giang",
       "Đường tỉnh 822B đến bến phà Lộc Giang",
       "Lộc Chánh",
-      "Đường vô trân khu dân cư An Ninh Tây"
+      "Đường vô trân khu dân cư An Ninh Tây",
+      "Đường T25 Sơn Lợi  trái",
+      "Ấp Sơn Lợi"
     ]
   },
   "TN-BINHTHANH": {
@@ -2096,7 +2100,8 @@
       "toàn bộ  Tân Chánh",
       "Khu vực từ đầu Cầu Bảy Đảnh đến Cầu Ban Kiệt",
       "Khu vực đường Đê Vĩnh Tân ( gần Trường Tiểu học Phước Vĩnh Đông)",
-      "Khu vực đường Đê Bao Tân Đại"
+      "Khu vực đường Đê Bao Tân Đại",
+      "Một phần"
     ]
   },
   "TN-TUYENTHANH": {
@@ -2175,7 +2180,8 @@
       "ấp Đá Biên",
       "Khu vực Rạch Thủ Ngân",
       "Khu vực Kênh 19-5",
-      "Khu vực Kênh 2-9"
+      "Khu vực Kênh 2-9",
+      "Mộ phần"
     ]
   },
   "TN-NHONNINH": {
