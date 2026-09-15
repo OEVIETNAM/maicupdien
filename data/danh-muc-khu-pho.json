@@ -389,7 +389,9 @@
       "Ấp Hòa Đông B",
       "Ấp Phước An",
       "Ấp phước Hòa",
-      "Ấp Phước Lập"
+      "Ấp Phước Lập",
+      "Ấp Phước Lợi",
+      "Ấp Phước Trung"
     ],
     "loai_don_vi": "Xã"
   },
@@ -548,7 +550,8 @@
       "Ấp Phước Hiệp",
       "Ấp Láng",
       "Ấp Phước Lễ",
-      "ấp Phước An"
+      "ấp Phước An",
+      "ấp Phước Hội"
     ],
     "loai_don_vi": "Xã"
   },
@@ -660,7 +663,8 @@
       "Khu phố Trường Thọ",
       "Khu phố Năm Trại",
       "Khu phố Trường An",
-      "Khu phố Trường Đức"
+      "Khu phố Trường Đức",
+      "Khu phố Hiệp An"
     ],
     "loai_don_vi": "Phường"
   },
@@ -693,7 +697,8 @@
       "Khu phố Hiệp An",
       "Ấp Thanh Hùng",
       "Ấp Thanh Thuận",
-      "Khu phố Hiệp Hòa"
+      "Khu phố Hiệp Hòa",
+      "Khu phố Hiệp Định"
     ],
     "loai_don_vi": "Phường"
   },
@@ -706,7 +711,11 @@
       "Ấp Bảo",
       "Ấp Long Giang",
       "Ấp Long Khánh",
-      "Ấp Long An"
+      "Ấp Long An",
+      "Ấp Long Châu",
+      "ấp Long Phú",
+      "ấp Long Cường",
+      "ấp Long Thịnh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -770,7 +779,10 @@
       "Một phần",
       "ẤP Ngãi Lợi",
       "Đường nguyễn văn quá",
-      "ấp bình an"
+      "ấp bình an",
+      "Đường Nguyễn Cửu Vân",
+      "PLA",
+      "đường Phạm Văn Thành"
     ]
   },
   "TN-LONGAN": {
@@ -826,7 +838,8 @@
       "lưu văn tế",
       "Quốc Lộ 62",
       "Đường Trần Văn Nam",
-      "Đường TL 833 đường Mai Bá hương"
+      "Đường TL 833 đường Mai Bá hương",
+      "Đường Huỳnh Việt Thanh"
     ]
   },
   "TN-MYTHANH": {
@@ -957,7 +970,8 @@
       "1 phần ấp 2",
       "1 phần Ấp Giồng Lớn",
       "1 phần ấp mới 1",
-      "1 phần"
+      "1 phần",
+      "Ấp Mới 2"
     ]
   },
   "TN-DUCHOA": {
@@ -1771,7 +1785,9 @@
       "Ấp: Hưng Hà",
       "Sông Trăng",
       "Ấp: Gò Pháo",
-      "Ấp Ngã Tư"
+      "Ấp Ngã Tư",
+      "Cập kên Sông Trăng",
+      "kên T11 và kên Cái Cỏ"
     ]
   },
   "TN-TANHUNG": {
@@ -2217,7 +2233,8 @@
       "Trạm Cụm dân cư Hậu Thạnh Tây - Đường tỉnh lộ 837 - Ấp Hậu Thạnh Tây",
       "Trạm Chợ Trung tâm nông sản Hậu Thạnh Đông - Ấp Đỗ Văn Bốn",
       "Trạm T27/1 Bờ Nam 7 Mét 5 - Ấp Bắc Hòa",
-      "Một phần"
+      "Một phần",
+      "Ấp Đỗ Văn Bốn và một phần Ấp Hậu Thạnh Đông"
     ]
   },
   "TN-ANLUCLONG": {
@@ -2442,7 +2459,8 @@
       "Ấp 4",
       "Ấp 5",
       "Trạm Cầu Bằng Lăng  - Ấp 2",
-      "Trạm Bờ Bắc DVD T137/1 - Ấp 5"
+      "Trạm Bờ Bắc DVD T137/1 - Ấp 5",
+      "Đường tỉnh 837 – Từ Cầu Tân Lập đến Cầu Bùi Cũ - Một phần Ấp 1"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2465,7 +2483,8 @@
       "bên trái Bà Vọng",
       "một phần ấp Bàu Trai Hạ",
       "Đường trên KDC Hiệp Hòa",
-      "Khu vực 4"
+      "Khu vực 4",
+      "Khu vực 2"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2706,7 +2725,8 @@
       "Ấp Thuận Hòa 2",
       "Ấp Tân Bình",
       "Ấp Thuận Hòa 1",
-      "Ấp Giồng Ngang"
+      "Ấp Giồng Ngang",
+      "Một phần"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2829,6 +2849,24 @@
     "ma_dien_luc": "PB0608",
     "khu_pho": [
       "- Đường tỉnh 837B"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANTHANHTUDUONGTINH837CAUCANHIPDENGIAPRANHXANHONHOALAP": {
+    "ten_phuong": "Tân Thạnh từ Đường tình 837 Cầu Cà Nhíp đến giáp ranh xã Nhơn Hòa Lập",
+    "ten_huyen": "Tân Thạnh",
+    "ma_dien_luc": "PB0608",
+    "khu_pho": [
+      "Ấp Tân Thạnh"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-THUANMY-2": {
+    "ten_phuong": "Thuận Mỹ",
+    "ten_huyen": "Tân Trụ",
+    "ma_dien_luc": "PB0609",
+    "khu_pho": [
+      "Ấp Thanh Tân"
     ],
     "loai_don_vi": "Xã"
   }
