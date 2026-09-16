@@ -783,7 +783,8 @@
       "ấp bình an",
       "Đường Nguyễn Cửu Vân",
       "PLA",
-      "đường Phạm Văn Thành"
+      "đường Phạm Văn Thành",
+      "Phuòng Long An"
     ]
   },
   "TN-LONGAN": {
@@ -955,7 +956,8 @@
       "Ấp 1 (ấp 2 Long Thuận củ)",
       "Một phấn ấp 3",
       "7",
-      "1 phần"
+      "1 phần",
+      "Một phần"
     ]
   },
   "TN-MYHANH": {
@@ -1306,7 +1308,10 @@
       "Thanh Hiệp Thanh Phú",
       "Ấp Bến Lức 2",
       "Ấp Bến Lức 7",
-      "Đường Nguyễn Hữu Thọ"
+      "Đường Nguyễn Hữu Thọ",
+      "Môt phần Ấp Thanh Hiệp Thanh Phú",
+      "KDC 135 và Một phần ấp Bến Lức 9",
+      "10"
     ]
   },
   "TN-LUONGHOA": {
@@ -1425,7 +1430,8 @@
       "8 Nhựt Chánh và ấp 1",
       "Ấp 1 Nhựt Chánh",
       "TSTL Nguyễn Văn Hà Ấp Kênh Ngay Bình Đức",
-      "TSTL Nguyễn Văn Hảo Ấp Kênh Ngay Bình Đức"
+      "TSTL Nguyễn Văn Hảo Ấp Kênh Ngay Bình Đức",
+      "1 phần Ấp 4 Nhựt Chánh"
     ]
   },
   "TN-TANLAN": {
@@ -1907,7 +1913,9 @@
       "Hộ thắp sáng thanh long  Lê Hữu Tuấn ấp Thanh Hòa",
       "Ấp Thanh Phú Long",
       "Bình Thạnh",
-      "Một Phần"
+      "Một Phần",
+      "Hộ nuôi tôm Châu Tấn Hiếu",
+      "Hộ TSTL Nguyễn Đức Cuộc"
     ]
   },
   "TN-VINHCONG": {
@@ -2281,7 +2289,9 @@
       "Nguyễn Văn Bé",
       "Nguyễn Thành Công",
       "Nguyễn Văn Son",
-      "Phạm Văn Xuân"
+      "Phạm Văn Xuân",
+      "Hộ TSTL Trần Thị Kim Trinh",
+      "ấp Long Trì"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -2661,7 +2671,8 @@
     "ten_huyen": "Thạnh Hóa",
     "ma_dien_luc": "PB0611",
     "khu_pho": [
-      "Một phần"
+      "Một phần",
+      "1 phần"
     ],
     "loai_don_vi": "Xã"
   },
