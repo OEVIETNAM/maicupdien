@@ -1445,7 +1445,9 @@
       "Một phần Ấp Nhà Dài",
       "Ấp 2",
       "Ấp 6",
-      "7"
+      "7",
+      "Ấp Ao Gòn và toàn bộ ấp Nhà Trường",
+      "Bà Thoại"
     ]
   },
   "TN-RACHKIEN": {
@@ -1502,7 +1504,9 @@
       "6",
       "9",
       "10",
-      "13"
+      "13",
+      "14 KCN Thuận Đạo MR)",
+      "13 KCN Thuận Đạo MR)"
     ]
   },
   "TN-TANTRU": {
@@ -2378,7 +2382,8 @@
       "Ấp Phước Đông",
       "ấp Phước Trung",
       "Ấp Long Giao",
-      "Ấp Long Hòa 2"
+      "Ấp Long Hòa 2",
+      "Ấp Long Bình"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2417,7 +2422,11 @@
       "Ấp 1",
       "7",
       "Ấp 9",
-      "1 phần"
+      "1 phần",
+      "Ấp Rạch Đào",
+      "Ấp CHợ Mỹ",
+      "Ấp Vạn Phước",
+      "Ấp Chợ Đào"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2589,7 +2598,9 @@
       "khu phố Gia Lâm",
       "KP Gia Huỳnh",
       "Gia Tân",
-      "Ấp Bà Nhã xã Hưng Thuận\nKhu phố Lộc Trát"
+      "Ấp Bà Nhã xã Hưng Thuận\nKhu phố Lộc Trát",
+      "khu phố Tân Lộc",
+      "khu phố Lộc Trát"
     ],
     "loai_don_vi": "Phường"
   },
@@ -2875,5 +2886,14 @@
       "Ấp Thanh Tân"
     ],
     "loai_don_vi": "Xã"
+  },
+  "TN-3": {
+    "ten_phuong": "3",
+    "ten_huyen": "Tân An",
+    "ma_dien_luc": "PB0601",
+    "khu_pho": [
+      "Khu dân cư"
+    ],
+    "loai_don_vi": "Phường"
   }
 }
