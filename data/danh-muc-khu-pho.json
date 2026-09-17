@@ -269,7 +269,8 @@
       "Ấp Cầu Xe",
       "Ấp Xóm Suối",
       "Ấp Đôn Thuận",
-      "Ấp Bà Nhã"
+      "Ấp Bà Nhã",
+      "Ấp Tân Thuận"
     ],
     "loai_don_vi": ""
   },
@@ -933,7 +934,8 @@
       "Ấp Bình Thạnh 1",
       "Đường Phan Văn Tình",
       "Một phấn ấp Nhị Thành 3",
-      "Ấp Tân Thành"
+      "Ấp Tân Thành",
+      "1 phần"
     ]
   },
   "TN-TANLONG": {
@@ -980,7 +982,8 @@
       "1 phần ấp mới 1",
       "1 phần",
       "Ấp Mới 2",
-      "Ấp Mới 1"
+      "Ấp Mới 1",
+      "1 phần ấp  3"
     ]
   },
   "TN-DUCHOA": {
@@ -2357,7 +2360,8 @@
       "Khu phố Bàu Năng",
       "Khu phố Ninh Phú",
       "khu phố Ninh An",
-      "khu phố Ninh Hiệp"
+      "khu phố Ninh Hiệp",
+      "Khu Phố Ninh Thuận"
     ],
     "loai_don_vi": "Phường"
   },
@@ -2483,7 +2487,8 @@
       "Ấp Tân Bình",
       "Ấp Hiệp Thành",
       "Ấp Đông",
-      "Ấp Tây"
+      "Ấp Tây",
+      "Một phần"
     ],
     "loai_don_vi": "Xã"
   },
