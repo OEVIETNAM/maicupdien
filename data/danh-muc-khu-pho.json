@@ -231,7 +231,10 @@
       "Khu phố An Đước",
       "Khu phố Lộc Chánh",
       "Khu phố An Thành",
-      "Khu phố An Phú"
+      "Khu phố An Phú",
+      "KH An BÌnh",
+      "Bàu Mây",
+      "Lộc Bình"
     ],
     "loai_don_vi": "Phường"
   },
@@ -1573,7 +1576,8 @@
       "Bình Lợi",
       "Ấp Tân Bình",
       "Ấp Bình Quê",
-      "Ấp Bình Tinh Đông"
+      "Ấp Bình Tinh Đông",
+      "ấp Bình Điện"
     ]
   },
   "TN-VAMCO": {
@@ -1631,7 +1635,9 @@
       "Một phần ấp 1+3",
       "Một phần ấp Lạc Tấn",
       "Ấp Ấp Quê Mỹ Thạnh",
-      "Ấp Ấp Lạc Tấn"
+      "Ấp Ấp Lạc Tấn",
+      "Bình Đức",
+      "Bình Hòa"
     ]
   },
   "TN-HIEPHOA": {
@@ -2120,7 +2126,8 @@
       "Một phần",
       "ấp Thành Đông",
       "Ấp Thành Nam",
-      "Đường kênh Cầu Sập đến Huyện Đội củ"
+      "Đường kênh Cầu Sập đến Huyện Đội củ",
+      "ấp Vàm Rạch Gốc"
     ]
   },
   "TN-TANTAP": {
