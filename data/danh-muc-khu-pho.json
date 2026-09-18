@@ -622,7 +622,8 @@
       "Ấp Mỏ Công",
       "Ấp Huỳnh Công Giản",
       "Ấp Suối Ông Đình",
-      "Ấp 1"
+      "Ấp 1",
+      "Ấp Gò Đá"
     ],
     "loai_don_vi": ""
   },
@@ -767,7 +768,8 @@
       "Đường Trần Minh Châu",
       "Đường Lê Văn Khuyên",
       "Đường Nguyễn Văn Tịch",
-      "đường Trần Văn Giàu"
+      "đường Trần Văn Giàu",
+      "Đường TL 833"
     ]
   },
   "TN-KHANHHAU": {
@@ -790,7 +792,10 @@
       "Đường Nguyễn Cửu Vân",
       "PLA",
       "đường Phạm Văn Thành",
-      "Phuòng Long An"
+      "Phuòng Long An",
+      "Đường Huỳnh Châu Sổ",
+      "Khu phố Quyết Thắng 2",
+      "Đường Nguyễn Văn Cương"
     ]
   },
   "TN-LONGAN": {
@@ -983,7 +988,12 @@
       "1 phần",
       "Ấp Mới 2",
       "Ấp Mới 1",
-      "1 phần ấp  3"
+      "1 phần ấp  3",
+      "Ấp 2",
+      "Ấp 3",
+      "Ấp Nhơn Hòa 2",
+      "Ấp Giồng Găng",
+      "Ấp Bình Hữu"
     ]
   },
   "TN-DUCHOA": {
@@ -1026,7 +1036,9 @@
       "Ấp Rừng Muỗi",
       "1 phần",
       "ấp Chánh",
-      "1 phần ấp Sò Đo"
+      "1 phần ấp Sò Đo",
+      "Ấp Tân Hội",
+      "Ấp Gò Cao"
     ]
   },
   "TN-PHUOCLY": {
@@ -1139,7 +1151,12 @@
       "Nhánh rẽ Nhà xưởng xây sẳn Lô F01B KCN Long Hậu",
       "KDC Lộc Thành",
       "ấp Long Hậu 4",
-      "Khu TĐC Long Phú"
+      "Khu TĐC Long Phú",
+      "Một phãn",
+      "Khu vực từ KCN Tân Kim đến Ngã Tư Tân Kim",
+      "Khu vực hẻm Đình Phước Thành",
+      "Khu vực từ Cống 3 Nhơn đến Cây Xăng Petrolimex",
+      "Khu vực từ Chùa Vĩnh Long đến Đình Trị Yên"
     ]
   },
   "TN-MYLOC": {
@@ -1168,7 +1185,8 @@
       "2",
       "Thuận Nam",
       "Phước Hưng",
-      "Một phần"
+      "Một phần",
+      "Khu vực từ Cầu Mồng Gà đến Trường THCS Thuận Thành"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1229,7 +1247,9 @@
       "ấp Bình Tây",
       "ấp Bình Nam",
       "Một phấn ấp Bình Trung",
-      "ấp 1"
+      "ấp 1",
+      "Đường Kinh Đường Bàng",
+      "ấp Bình Đông"
     ]
   },
   "TN-KIENTUONG": {
@@ -1405,7 +1425,9 @@
       "KCN Thịnh Phát  ấp 3 Lương Bình",
       "Ấp 5A",
       "5B Lương Bình",
-      "ấp 3"
+      "ấp 3",
+      "Ấp 2 Lương Bình",
+      "Ấp 4 Lương Bình"
     ]
   },
   "TN-BINHDUC": {
@@ -1704,7 +1726,8 @@
       "Ấp Thuận Bình",
       "Ấp Mỏ Vẹt",
       "Ấp Tân Hiệp",
-      "Ấp Thuận Hiệp"
+      "Ấp Thuận Hiệp",
+      "Khu vực Đường Tuần Tra"
     ]
   },
   "TN-THANHHOA": {
@@ -1717,7 +1740,8 @@
       "Ấp và một phần ấp Thuỷ Tây",
       "Ấp Thuỷ Đông",
       "Khu vực cặp đường 876",
-      "ấp Bún Bà Của"
+      "ấp Bún Bà Của",
+      "Khu vực Cầu Sân Bay"
     ]
   },
   "TN-TUYENBINH": {
@@ -2270,7 +2294,8 @@
       "Trạm Chợ Trung tâm nông sản Hậu Thạnh Đông - Ấp Đỗ Văn Bốn",
       "Trạm T27/1 Bờ Nam 7 Mét 5 - Ấp Bắc Hòa",
       "Một phần",
-      "Ấp Đỗ Văn Bốn và một phần Ấp Hậu Thạnh Đông"
+      "Ấp Đỗ Văn Bốn và một phần Ấp Hậu Thạnh Đông",
+      "- Ấp Đỗ Văn Bốn"
     ]
   },
   "TN-ANLUCLONG": {
@@ -2488,7 +2513,9 @@
       "Ấp Hiệp Thành",
       "Ấp Đông",
       "Ấp Tây",
-      "Một phần"
+      "Một phần",
+      "- Đường Kinh Cà Nhíp - Ấp Hiệp Thành",
+      "Khu vực Chợ Mới Tân Thạnh và từ Cầu Cà Nhíp đến Cầu Hiệp Thành - Một phần Ấp Kiến Bình"
     ],
     "loai_don_vi": "Xã"
   },
