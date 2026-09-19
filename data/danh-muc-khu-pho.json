@@ -164,7 +164,8 @@
       "ấp Rộc B",
       "ấp Trà Võ",
       "Nguyễn Tuấn Khanh\nNguyễn Hoàng Sơn\nNgô Thanh Liêm\nNguyễn Văn Tài\nLý Hên\nPhòng Kinh tế",
-      "Ấp Bến Mương"
+      "Ấp Bến Mương",
+      "Ấp Cẩm Long"
     ],
     "loai_don_vi": "Xã"
   },
@@ -673,7 +674,9 @@
       "Khu phố Trường Đức",
       "Khu phố Hiệp An",
       "khu phố Trường Ân",
-      "Khu phố Long Hải"
+      "Khu phố Long Hải",
+      "Khu phố Trường Lộc",
+      "Khu phố Trường Phước"
     ],
     "loai_don_vi": "Phường"
   },
@@ -743,7 +746,8 @@
       "Ấp Rừng Dầu",
       "- Ấp Voi",
       "Ấp Chánh",
-      "Ấp Voi"
+      "Ấp Voi",
+      "Ấp Bàu Tép"
     ],
     "loai_don_vi": "Xã"
   },
@@ -772,7 +776,8 @@
       "Đường Lê Văn Khuyên",
       "Đường Nguyễn Văn Tịch",
       "đường Trần Văn Giàu",
-      "Đường TL 833"
+      "Đường TL 833",
+      "Ấp 4"
     ]
   },
   "TN-KHANHHAU": {
@@ -855,7 +860,8 @@
       "Quốc Lộ 62",
       "Đường Trần Văn Nam",
       "Đường TL 833 đường Mai Bá hương",
-      "Đường Huỳnh Việt Thanh"
+      "Đường Huỳnh Việt Thanh",
+      "Đường Nguyễn Văn Rành"
     ]
   },
   "TN-MYTHANH": {
@@ -1235,7 +1241,8 @@
       "Ấp Mương Khai",
       "Ấp 2",
       "Đường Đê Hải Hưng",
-      "ấp Tân Lập 5"
+      "ấp Tân Lập 5",
+      "Đường Ven Sông Vàm Cỏ"
     ]
   },
   "TN-BINHHOA": {
@@ -1577,7 +1584,8 @@
       "Ấp Tân Bình",
       "Ấp Bình Quê",
       "Ấp Bình Tinh Đông",
-      "ấp Bình Điện"
+      "ấp Bình Điện",
+      "Ấp Lạc Tấn"
     ]
   },
   "TN-VAMCO": {
@@ -1671,7 +1679,9 @@
       "Đường vô xóm Hòa Hiệp 2",
       "Đường vô Xóm Cây Da Một phần Ấp Hòa Hiệp 2",
       "Đường vô xóm Ấp Hòa Hiệp 2 Một phần Ấp Hòa Hiệp 2",
-      "Đường đi Gò Sao Tân Phú"
+      "Đường đi Gò Sao Tân Phú",
+      "Đường vô khu dân cư Hiệp Hòa",
+      "khu vực 2"
     ]
   },
   "TN-ANNINH": {
@@ -2810,7 +2820,8 @@
       "Ấp Thuận Hòa 1",
       "Ấp Giồng Ngang",
       "Một phần",
-      "Ấp Hóc Thơm 2"
+      "Ấp Hóc Thơm 2",
+      "Ấp Lập Thành"
     ],
     "loai_don_vi": "Xã"
   },
