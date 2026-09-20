@@ -42,7 +42,9 @@
       "Khu phố Hòa Phú",
       "Khu phố Lộc An",
       "Khu phố Lộc Du",
-      "Khu phố Lộc Thành"
+      "Khu phố Lộc Thành",
+      "Khu phố Hoà Bình",
+      "Khu phố An Phú"
     ],
     "loai_don_vi": "Phường"
   },
@@ -454,7 +456,8 @@
       "Ấp Tân Thành",
       "Ấp Thanh An",
       "ấp Tua Hai",
-      "ấp Giồng Tre"
+      "ấp Giồng Tre",
+      "Ấp Suối Muồn"
     ],
     "loai_don_vi": "Xã"
   },
@@ -696,7 +699,8 @@
       "Khu phố Long Bình",
       "Khu phố Long Kim",
       "Khu phố Long Thới",
-      "Khu phố Long Chí"
+      "Khu phố Long Chí",
+      "Khu phố Long Thời"
     ],
     "loai_don_vi": "Phường"
   },
@@ -727,7 +731,8 @@
       "Ấp Long Châu",
       "ấp Long Phú",
       "ấp Long Cường",
-      "ấp Long Thịnh"
+      "ấp Long Thịnh",
+      "Ấp Ngã Tắc"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1048,7 +1053,10 @@
       "1 phần ấp Sò Đo",
       "Ấp Tân Hội",
       "Ấp Gò Cao",
-      "1p"
+      "1p",
+      "Ấp Rừng Dầu",
+      "Ấp Bàu Công",
+      "Ấp Giồng Ngang"
     ]
   },
   "TN-PHUOCLY": {
@@ -1081,7 +1089,8 @@
       "Khu vực đường Trần Thị Tám đến Cầu Long Khê-Phước Lý: Một phần Ấp Phú Ân",
       "Khu vực từ đầu đường Trần Thị Non đến đường Đ.T14 đến ngã 3 đường Hóc Hưu",
       "Khu vực từ đầu đường Nguyễn Thị Chanh đến đường Phạm Thị Kiều",
-      "Nhánh rẽ KDC Phước Lý Năm Sao"
+      "Nhánh rẽ KDC Phước Lý Năm Sao",
+      "ấp Phú Thành"
     ]
   },
   "TN-CANGIUOC": {
@@ -1414,7 +1423,9 @@
       "Phước Toàn",
       "ấp Chợ Phước Lợi",
       "Một phần",
-      "Đồ gỗ mỹ nghệ Sóc Bi Ấp 2"
+      "Đồ gỗ mỹ nghệ Sóc Bi Ấp 2",
+      "Ấp 1 Phước Lợi",
+      "2 Phước Lợi"
     ]
   },
   "TN-THANHLOI": {
@@ -1587,7 +1598,8 @@
       "Ấp Bình Quê",
       "Ấp Bình Tinh Đông",
       "ấp Bình Điện",
-      "Ấp Lạc Tấn"
+      "Ấp Lạc Tấn",
+      "Ấp Ấp Bình An"
     ]
   },
   "TN-VAMCO": {
@@ -1833,7 +1845,9 @@
       "Một phần ấp Hưng Điền",
       "Ấp Gò Châu Mai",
       "Một phấn ấp Hưng Điền A",
-      "Một phần"
+      "Một phần",
+      "Ấp Long Khốt",
+      "Ấp Thái Bình Trung"
     ]
   },
   "TN-HUNGDIEN": {
@@ -2097,7 +2111,8 @@
       "Một phần ấp 2",
       "Một phần",
       "Ấp: Hưng Thạnh",
-      "Thạnh Hưng"
+      "Thạnh Hưng",
+      "Ấp Gò Bún và một phần ấp Thạnh Hưng"
     ]
   },
   "TN-DONGTHANH": {
@@ -2450,7 +2465,8 @@
       "Ấp Bình Hòa",
       "Ấp Phước Đông",
       "Ấp Phước Bình",
-      "Ấp Phước Giang"
+      "Ấp Phước Giang",
+      "Ấp Phước Hội"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2488,7 +2504,8 @@
       "Một phần Quốc Lộ 62",
       "Quốc Lộ 62",
       "Ấp 1",
-      "Một phàn"
+      "Một phàn",
+      "Ấp 2"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2727,7 +2744,10 @@
       "Ấp Hựu Lộc",
       "Ấp Tây",
       "Ấp Mỹ Điền",
-      "Ấp Chợ"
+      "Ấp Chợ",
+      "Ấp Ông Rèn",
+      "Ấp Rạch Đào",
+      "Ấp Cầu Ngang"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2787,7 +2807,8 @@
       "ấp Đông Hoà",
       "Khu vực Kênh Thuỷ Tân ấp Bến Kè",
       "Khu vực Nhà Thờ Tân Đông",
-      "ấp Tân Đông"
+      "ấp Tân Đông",
+      "Khu vực Kênh 24"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2832,7 +2853,8 @@
       "Một phần",
       "Ấp Hóc Thơm 2",
       "Ấp Lập Thành",
-      "1 phần ấp Thôi Môi"
+      "1 phần ấp Thôi Môi",
+      "Ấp Hóc Thơm 1"
     ],
     "loai_don_vi": "Xã"
   },
