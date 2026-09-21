@@ -496,7 +496,8 @@
       "Ấp Long Châu",
       "Ấp Long Thạnh",
       "Ấp Phước Đông",
-      "Ấp Phước Trung"
+      "Ấp Phước Trung",
+      "Ấp Long Hòa"
     ],
     "loai_don_vi": "Xã"
   },
@@ -631,7 +632,9 @@
       "Ấp Huỳnh Công Giản",
       "Ấp Suối Ông Đình",
       "Ấp 1",
-      "Ấp Gò Đá"
+      "Ấp Gò Đá",
+      "Ấp Vườn Tiêu",
+      "Ấp Thanh An"
     ],
     "loai_don_vi": ""
   },
@@ -1316,7 +1319,8 @@
       "Ấp Mới",
       "Ấp Gò Tranh",
       "Ấp Gò Dồ",
-      "Đường QL62"
+      "Đường QL62",
+      "Ấp Tầm Đuông"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -1600,7 +1604,8 @@
       "Ấp Bình Tinh Đông",
       "ấp Bình Điện",
       "Ấp Lạc Tấn",
-      "Ấp Ấp Bình An"
+      "Ấp Ấp Bình An",
+      "Ấp Ấp Bình Lãng"
     ]
   },
   "TN-VAMCO": {
@@ -2034,7 +2039,9 @@
       "Ấp Chánh",
       "Ấp Hậu Hòa",
       "1 phần ấp Nhơn Hoà 2",
-      "1 phẩn Ấp Tràm Lạc"
+      "1 phẩn Ấp Tràm Lạc",
+      "Ấp Bàu Sen",
+      "Ấp Đức Ngãi"
     ]
   },
   "TN-MYQUY": {
@@ -3025,6 +3032,15 @@
       "Ấp 1",
       "5",
       "6A"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANBIENSDT0983326254": {
+    "ten_phuong": "Tân Biên SĐT 0983326254",
+    "ten_huyen": "Tân Biên",
+    "ma_dien_luc": "PB0507",
+    "khu_pho": [
+      "Văn phòng Đảng uỷ"
     ],
     "loai_don_vi": "Xã"
   }
