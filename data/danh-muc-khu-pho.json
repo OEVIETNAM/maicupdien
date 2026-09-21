@@ -479,7 +479,8 @@
       "ấp Tầm Long",
       "ấp Xóm Mới 2",
       "Ấp Tầm Long Long",
-      "Ấp Bình Lợi"
+      "Ấp Bình Lợi",
+      "ấp Cầu Trường"
     ],
     "loai_don_vi": "Xã"
   },
@@ -987,7 +988,10 @@
       "Một phấn ấp 3",
       "7",
       "1 phần",
-      "Một phần"
+      "Một phần",
+      "1 phần ấp 3",
+      "8",
+      "1 phấn ấp 2"
     ]
   },
   "TN-MYHANH": {
@@ -1229,7 +1233,8 @@
       "toàn bộ Tây Phú",
       "Phú Thạnh",
       "Khu vực từ cổng ấp Văn Hóa Long An 2(QL50) đến Đê Trường Long ( đường Trần Văn Nghĩa)",
-      "Ấp Long An 2"
+      "Ấp Long An 2",
+      "một phần"
     ]
   },
   "TN-MOCHOA": {
@@ -2755,7 +2760,8 @@
       "Ấp Chợ",
       "Ấp Ông Rèn",
       "Ấp Rạch Đào",
-      "Ấp Cầu Ngang"
+      "Ấp Cầu Ngang",
+      "Toàn"
     ],
     "loai_don_vi": "Xã"
   },
