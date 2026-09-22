@@ -637,7 +637,9 @@
       "Ấp 1",
       "Ấp Gò Đá",
       "Ấp Vườn Tiêu",
-      "Ấp Thanh An"
+      "Ấp Thanh An",
+      "Ấp Dinh",
+      "Ấp Thanh Tân"
     ],
     "loai_don_vi": ""
   },
@@ -1107,7 +1109,8 @@
       "Khu vực từ đầu đường Trần Thị Non đến đường Đ.T14 đến ngã 3 đường Hóc Hưu",
       "Khu vực từ đầu đường Nguyễn Thị Chanh đến đường Phạm Thị Kiều",
       "Nhánh rẽ KDC Phước Lý Năm Sao",
-      "ấp Phú Thành"
+      "ấp Phú Thành",
+      "Toàn bộ khu vực nhánh rẽ KDC Phước Lý Năm Sao ( ĐT.835B)"
     ]
   },
   "TN-CANGIUOC": {
@@ -1444,7 +1447,8 @@
       "Một phần",
       "Đồ gỗ mỹ nghệ Sóc Bi Ấp 2",
       "Ấp 1 Phước Lợi",
-      "2 Phước Lợi"
+      "2 Phước Lợi",
+      "Ấp 2 Mỹ Yên"
     ]
   },
   "TN-THANHLOI": {
@@ -2885,7 +2889,9 @@
       "Ấp Hóc Thơm 2",
       "Ấp Lập Thành",
       "1 phần ấp Thôi Môi",
-      "Ấp Hóc Thơm 1"
+      "Ấp Hóc Thơm 1",
+      "1 phần ấp Lập Thành",
+      "Bùng Binh thuộc"
     ],
     "loai_don_vi": "Xã"
   },
