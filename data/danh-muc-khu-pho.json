@@ -580,7 +580,9 @@
       "Ấp Thạnh Bắc",
       "Ấp Bàu Rã",
       "Ấp Suối Mây",
-      "Ấp Tân Khai"
+      "Ấp Tân Khai",
+      "Ấp Tân Tiến",
+      "Ấp Tân Hòa"
     ],
     "loai_don_vi": "Xã"
   },
@@ -691,7 +693,8 @@
       "Khu phố Trường Lộc",
       "Khu phố Trường Phước",
       "Khu phố Long Đại",
-      "Khu phố Sân Cu"
+      "Khu phố Sân Cu",
+      "Khu p[hố Trường Huệ"
     ],
     "loai_don_vi": "Phường"
   },
@@ -973,7 +976,8 @@
       "1 phần",
       "3",
       "6",
-      "9)"
+      "9)",
+      "1 phần ấp 3A"
     ]
   },
   "TN-TANLONG": {
@@ -1919,7 +1923,8 @@
       "Ấp Ngã Tư",
       "Cập kên Sông Trăng",
       "kên T11 và kên Cái Cỏ",
-      "Ấp: Cây Me"
+      "Ấp: Cây Me",
+      "Ấp Gò Chuối"
     ]
   },
   "TN-TANHUNG": {
@@ -1953,7 +1958,9 @@
       "Một phần ấp vĩnh nguyện",
       "ấp Vĩnh Đại",
       "Ấp Võ Văn Be",
-      "Ấp Vườn Chuối"
+      "Ấp Vườn Chuối",
+      "Một phần",
+      "Ấp 5"
     ]
   },
   "TN-CHAU": {
@@ -2465,7 +2472,8 @@
     "khu_pho": [
       "Khu Phố Thanh Trung",
       "Khu Phố Thanh Phước",
-      "Khu phố Thanh Hòa"
+      "Khu phố Thanh Hòa",
+      "khu phố hu phố Thanh Đông"
     ],
     "loai_don_vi": "Phường"
   },
