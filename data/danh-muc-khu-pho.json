@@ -239,7 +239,8 @@
       "Khu phố An Phú",
       "KH An BÌnh",
       "Bàu Mây",
-      "Lộc Bình"
+      "Lộc Bình",
+      "khu phố Lộc Thanh"
     ],
     "loai_don_vi": "Phường"
   },
@@ -935,7 +936,8 @@
       "Toàn bộ ấp Vàm Kinh",
       "ấp Bà Nghiệm",
       "ấp Vườn Cò",
-      "ấp Bà Mía"
+      "ấp Bà Mía",
+      "Một phấn ấp Vàm Kinh"
     ]
   },
   "TN-THUTHUA": {
@@ -1009,7 +1011,8 @@
       "Một phần",
       "1 phần ấp 3",
       "8",
-      "1 phấn ấp 2"
+      "1 phấn ấp 2",
+      "1 phần ấp 1"
     ]
   },
   "TN-MYHANH": {
@@ -1709,7 +1712,8 @@
       "Ấp Ấp Quê Mỹ Thạnh",
       "Ấp Ấp Lạc Tấn",
       "Bình Đức",
-      "Bình Hòa"
+      "Bình Hòa",
+      "Ấp Ấp Tấn Đức"
     ]
   },
   "TN-HIEPHOA": {
@@ -1794,7 +1798,8 @@
       "Lộc Chánh",
       "Đường vô trân khu dân cư An Ninh Tây",
       "Đường T25 Sơn Lợi  trái",
-      "Ấp Sơn Lợi"
+      "Ấp Sơn Lợi",
+      "Đường vô khu dân cư An Ninh Tây"
     ]
   },
   "TN-BINHTHANH": {
@@ -2170,7 +2175,8 @@
       "Một phần",
       "Ấp: Hưng Thạnh",
       "Thạnh Hưng",
-      "Ấp Gò Bún và một phần ấp Thạnh Hưng"
+      "Ấp Gò Bún và một phần ấp Thạnh Hưng",
+      "Ấp Gò Cả Bô"
     ]
   },
   "TN-DONGTHANH": {
@@ -2530,7 +2536,8 @@
       "Ấp Phước Đông",
       "Ấp Phước Bình",
       "Ấp Phước Giang",
-      "Ấp Phước Hội"
+      "Ấp Phước Hội",
+      "Ấp Bình Phú"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2793,7 +2800,8 @@
       "đến Chợ Hội Đồng Sầm",
       "Đường đi từ ngã 3 Bảy Đờ đến",
       "Đường đi từ Cầu Cần Dè đến",
-      "một phần"
+      "một phần",
+      "ấp Bình Phú"
     ],
     "loai_don_vi": "Xã"
   },
