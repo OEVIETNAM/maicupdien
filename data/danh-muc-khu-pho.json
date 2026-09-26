@@ -1867,7 +1867,8 @@
       "Một phần ấp Thái Bình Trung",
       "Một phần ấp Thái Bình Trung",
       "Một phấn ấp Rạch Mây",
-      "Ấp Rạch Đình"
+      "Ấp Rạch Đình",
+      "Một phần"
     ]
   },
   "TN-VINHHUNG": {
@@ -1963,7 +1964,8 @@
       "Ấp Gò Thuyền",
       "Ấp Vĩnh Lợi",
       "Ấp Bào Chứa",
-      "Ấp: Vĩnh Thạnh"
+      "Ấp: Vĩnh Thạnh",
+      "Ấp Cả Cát"
     ]
   },
   "TN-VINHCHAU": {
@@ -3176,6 +3178,15 @@
     "ma_dien_luc": "PB0612",
     "khu_pho": [
       "Ấp Lò Gạch"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-BINHTHANH-2": {
+    "ten_phuong": "Bình Thành",
+    "ten_huyen": "Đức Huệ",
+    "ma_dien_luc": "PB0610",
+    "khu_pho": [
+      "Ấp Mớp Xanh"
     ],
     "loai_don_vi": "Xã"
   }
