@@ -1039,7 +1039,8 @@
       "Ấp 3",
       "Ấp Nhơn Hòa 2",
       "Ấp Giồng Găng",
-      "Ấp Bình Hữu"
+      "Ấp Bình Hữu",
+      "1p"
     ]
   },
   "TN-DUCHOA": {
@@ -1222,7 +1223,8 @@
       "Khu vực từ bến phà Cần Giuộc ( mới) đến Cầu Rạch Dừa ( đường ĐT.826C)",
       "toàn bộ ấp Tân Thanh",
       "Khu vực từ đường Ấp 1 Long Hậu đến Cầu Rạch Dừa",
-      "Các ấp: Hòa Thuận 1"
+      "Các ấp: Hòa Thuận 1",
+      "Khu vực Khu dân cư Tân Phú Thịnh"
     ]
   },
   "TN-MYLOC": {
@@ -1300,7 +1302,8 @@
       "Ấp 2",
       "Đường Đê Hải Hưng",
       "ấp Tân Lập 5",
-      "Đường Ven Sông Vàm Cỏ"
+      "Đường Ven Sông Vàm Cỏ",
+      "Ấp Tân Thiết và ấp Cả Đá"
     ]
   },
   "TN-BINHHOA": {
@@ -1659,7 +1662,10 @@
       "ấp Bình Điện",
       "Ấp Lạc Tấn",
       "Ấp Ấp Bình An",
-      "Ấp Ấp Bình Lãng"
+      "Ấp Ấp Bình Lãng",
+      "Ấp Ấp Bình Thạnh",
+      "Ấp Ấp Bình Trinh Đông",
+      "Bình Đông"
     ]
   },
   "TN-VAMCO": {
@@ -1720,7 +1726,8 @@
       "Ấp Ấp Lạc Tấn",
       "Bình Đức",
       "Bình Hòa",
-      "Ấp Ấp Tấn Đức"
+      "Ấp Ấp Tấn Đức",
+      "Ấp 1+3"
     ]
   },
   "TN-HIEPHOA": {
@@ -2262,7 +2269,10 @@
       "Khu vực đường Đê Bao Tân Đại",
       "Một phần",
       "toàn bộ Tân Chánh",
-      "toàn bộ ấp Vĩnh Thạnh"
+      "toàn bộ ấp Vĩnh Thạnh",
+      "Khu vực Ngã Tư Đông Thạnh",
+      "ấp Bắc",
+      "Tân Thành"
     ]
   },
   "TN-TUYENTHANH": {
@@ -2720,7 +2730,9 @@
       "Khu phố Phước Hậu",
       "Phòng Kinh tế",
       "Hạ tầng và Đô thị",
-      "Khu phố Bình Nguyên 1"
+      "Khu phố Bình Nguyên 1",
+      "khu phố Gia Bình",
+      "khu phố Rổng Tượng"
     ],
     "loai_don_vi": "Phường"
   },
@@ -3155,6 +3167,15 @@
     "ma_dien_luc": "PB0504",
     "khu_pho": [
       "ẤP Cây Cầy"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-VINHTRI": {
+    "ten_phuong": "Vĩnh Trị",
+    "ten_huyen": "Vĩnh Hưng",
+    "ma_dien_luc": "PB0612",
+    "khu_pho": [
+      "Ấp Lò Gạch"
     ],
     "loai_don_vi": "Xã"
   }
