@@ -985,7 +985,9 @@
       "6",
       "9)",
       "1 phần ấp 3A",
-      "Ấp Bình Thạnh"
+      "Ấp Bình Thạnh",
+      "1 phần KCN Hoà Bình",
+      "1 phấn Ấp 7"
     ]
   },
   "TN-TANLONG": {
@@ -1836,7 +1838,8 @@
       "Ấp Mỏ Vẹt",
       "Ấp Tân Hiệp",
       "Ấp Thuận Hiệp",
-      "Khu vực Đường Tuần Tra"
+      "Khu vực Đường Tuần Tra",
+      "Một phần"
     ]
   },
   "TN-THANHHOA": {
@@ -1975,7 +1978,8 @@
       "Ấp Vĩnh Lợi",
       "Ấp Bào Chứa",
       "Ấp: Vĩnh Thạnh",
-      "Ấp Cả Cát"
+      "Ấp Cả Cát",
+      "Một phần"
     ]
   },
   "TN-VINHCHAU": {
@@ -2472,7 +2476,8 @@
       "Nguyễn Văn Son",
       "Phạm Văn Xuân",
       "Hộ TSTL Trần Thị Kim Trinh",
-      "ấp Long Trì"
+      "ấp Long Trì",
+      "một phần"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -3212,6 +3217,15 @@
       "Ấp Bàu Voi",
       "Dọc đường Kênh Ngã 5 Bình Thành",
       "Ấp Bộ Sô"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-XATHANHHOA": {
+    "ten_phuong": ": Xã Thạnh Hóa",
+    "ten_huyen": "Thạnh Hóa",
+    "ma_dien_luc": "PB0611",
+    "khu_pho": [
+      "Các"
     ],
     "loai_don_vi": "Xã"
   }
