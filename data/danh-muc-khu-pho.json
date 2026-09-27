@@ -109,7 +109,8 @@
       "Khu phố Ninh Thọ",
       "Khu phố Tân Hòa",
       "Khu phố Ninh Lộc",
-      "Khu phố Thạnh Trung"
+      "Khu phố Thạnh Trung",
+      "Khu phố Thạnh Lợi"
     ],
     "loai_don_vi": "Phường"
   },
@@ -147,7 +148,8 @@
       "Khu phố Suối Cao B",
       "Khu phố Cây Trắc",
       "Khu phố Lộc Khê",
-      "Khu phố Phước Đức B"
+      "Khu phố Phước Đức B",
+      "Khu phố Phước Đức A"
     ],
     "loai_don_vi": "Phường"
   },
@@ -982,7 +984,8 @@
       "3",
       "6",
       "9)",
-      "1 phần ấp 3A"
+      "1 phần ấp 3A",
+      "Ấp Bình Thạnh"
     ]
   },
   "TN-TANLONG": {
@@ -1015,7 +1018,8 @@
       "1 phần ấp 3",
       "8",
       "1 phấn ấp 2",
-      "1 phần ấp 1"
+      "1 phần ấp 1",
+      "Một phấn ấp 1"
     ]
   },
   "TN-MYHANH": {
@@ -1321,7 +1325,9 @@
       "ấp 1",
       "Đường Kinh Đường Bàng",
       "ấp Bình Đông",
-      "Ấp Bình Trung 1"
+      "Ấp Bình Trung 1",
+      "Đường 817",
+      "Ấp Bình Đông 1"
     ]
   },
   "TN-KIENTUONG": {
@@ -1417,7 +1423,10 @@
       "Đường Nguyễn Hữu Thọ",
       "Môt phần Ấp Thanh Hiệp Thanh Phú",
       "KDC 135 và Một phần ấp Bến Lức 9",
-      "10"
+      "10",
+      "KDC 135 ấp Bến Lức 10",
+      "KDC Thuận Đạo ấp Bến Lức 8",
+      "Ấp Bến Lức 6"
     ]
   },
   "TN-LUONGHOA": {
@@ -1484,7 +1493,8 @@
       "Ấp 4",
       "7A",
       "7B Mỹ Yên",
-      "Ấp 7A Mỹ Yên"
+      "Ấp 7A Mỹ Yên",
+      "Ấp Chợ"
     ]
   },
   "TN-THANHLOI": {
@@ -2178,7 +2188,10 @@
       "Đường vô Xóm Ấp 5 Mỹ Quý Tây Một phần",
       "Đầu đường đan Ấp 5 đến Kênh Tỉnh Ấp 5",
       "Đường đan biên giới",
-      "tòan bộ"
+      "tòan bộ",
+      "Đường tỉnh 838 đoạn qua cầu bà vòm",
+      "Đường đan sau trường cấp 2",
+      "3 Mỹ Quý"
     ]
   },
   "TN-VINHTHANH": {
@@ -2274,7 +2287,8 @@
       "toàn bộ ấp Vĩnh Thạnh",
       "Khu vực Ngã Tư Đông Thạnh",
       "ấp Bắc",
-      "Tân Thành"
+      "Tân Thành",
+      "Khu vực gần đầu Cầu Ông Hiếu"
     ]
   },
   "TN-TUYENTHANH": {
@@ -2825,7 +2839,9 @@
       "Đường đi từ ngã 3 Bảy Đờ đến",
       "Đường đi từ Cầu Cần Dè đến",
       "một phần",
-      "ấp Bình Phú"
+      "ấp Bình Phú",
+      "Cụm dân cự Ngã 5 Bình Thành",
+      "Ấp Giồng Ông Bạn"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3186,7 +3202,16 @@
     "ten_huyen": "Đức Huệ",
     "ma_dien_luc": "PB0610",
     "khu_pho": [
-      "Ấp Mớp Xanh"
+      "Ấp Mớp Xanh",
+      "Đường tỉnh 838 gần khu di tích Bình Thành",
+      "Đường Ấp 1",
+      "2 Bình Hòa Hưng",
+      "Đường tỉnh 838 gần khu vực BCH Quân Sự",
+      "Dọc đường Kênh Ấp 3",
+      "4 Bình Hòa Hưng",
+      "Ấp Bàu Voi",
+      "Dọc đường Kênh Ngã 5 Bình Thành",
+      "Ấp Bộ Sô"
     ],
     "loai_don_vi": "Xã"
   }
