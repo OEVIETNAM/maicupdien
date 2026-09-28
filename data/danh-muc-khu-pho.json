@@ -110,7 +110,9 @@
       "Khu phố Tân Hòa",
       "Khu phố Ninh Lộc",
       "Khu phố Thạnh Trung",
-      "Khu phố Thạnh Lợi"
+      "Khu phố Thạnh Lợi",
+      "Khu phố Tân Phước",
+      "Khu phố Ninh Phúc"
     ],
     "loai_don_vi": "Phường"
   },
@@ -772,7 +774,8 @@
       "Ấp Chánh",
       "Ấp Voi",
       "Ấp Bàu Tép",
-      "Ấp Bến Đình"
+      "Ấp Bến Đình",
+      "Ấp Mộc Bài"
     ],
     "loai_don_vi": "Xã"
   },
@@ -802,7 +805,8 @@
       "Đường Nguyễn Văn Tịch",
       "đường Trần Văn Giàu",
       "Đường TL 833",
-      "Ấp 4"
+      "Ấp 4",
+      "Đường Lê Thị Trâm"
     ]
   },
   "TN-KHANHHAU": {
@@ -942,7 +946,9 @@
       "ấp Vườn Cò",
       "ấp Bà Mía",
       "Một phấn ấp Vàm Kinh",
-      "Ấp Vàm Kinh"
+      "Ấp Vàm Kinh",
+      "Một phấn ấp Cầu Lớn",
+      "Một phấn ấp Bà Mía"
     ]
   },
   "TN-THUTHUA": {
@@ -1132,7 +1138,8 @@
       "Khu vực từ đầu đường Nguyễn Thị Chanh đến đường Phạm Thị Kiều",
       "Nhánh rẽ KDC Phước Lý Năm Sao",
       "ấp Phú Thành",
-      "Toàn bộ khu vực nhánh rẽ KDC Phước Lý Năm Sao ( ĐT.835B)"
+      "Toàn bộ khu vực nhánh rẽ KDC Phước Lý Năm Sao ( ĐT.835B)",
+      "Khu vực Khu dân cư Hải Sơn"
     ]
   },
   "TN-CANGIUOC": {
@@ -1329,7 +1336,10 @@
       "ấp Bình Đông",
       "Ấp Bình Trung 1",
       "Đường 817",
-      "Ấp Bình Đông 1"
+      "Ấp Bình Đông 1",
+      "Ấp 2",
+      "Ấp Bình Hòa Đông 1",
+      "Ấp Bình Hòa Đông"
     ]
   },
   "TN-KIENTUONG": {
@@ -1428,7 +1438,9 @@
       "10",
       "KDC 135 ấp Bến Lức 10",
       "KDC Thuận Đạo ấp Bến Lức 8",
-      "Ấp Bến Lức 6"
+      "Ấp Bến Lức 6",
+      "Ấp 1B An Thạnh",
+      "Ấp 5 An Thạnh"
     ]
   },
   "TN-LUONGHOA": {
@@ -1520,7 +1532,8 @@
       "5B Lương Bình",
       "ấp 3",
       "Ấp 2 Lương Bình",
-      "Ấp 4 Lương Bình"
+      "Ấp 4 Lương Bình",
+      "5"
     ]
   },
   "TN-BINHDUC": {
@@ -1739,7 +1752,8 @@
       "Bình Đức",
       "Bình Hòa",
       "Ấp Ấp Tấn Đức",
-      "Ấp 1+3"
+      "Ấp 1+3",
+      "Ấp Ấp An Nhựt Tân"
     ]
   },
   "TN-HIEPHOA": {
@@ -2252,7 +2266,10 @@
       "ấp Thành Đông",
       "Ấp Thành Nam",
       "Đường kênh Cầu Sập đến Huyện Đội củ",
-      "ấp Vàm Rạch Gốc"
+      "ấp Vàm Rạch Gốc",
+      "Khu vực trường Học Mỹ Bình đến Ấp Dinh",
+      "Ấp Giồng Ông Út",
+      "Khu vực trường Học Mỹ Bình"
     ]
   },
   "TN-TANTAP": {
@@ -2846,7 +2863,10 @@
       "một phần",
       "ấp Bình Phú",
       "Cụm dân cự Ngã 5 Bình Thành",
-      "Ấp Giồng Ông Bạn"
+      "Ấp Giồng Ông Bạn",
+      "Dọc đường Kênh Ngã 5 Bình Thành",
+      "Ấp Bàu Sến",
+      "Ấp Giồng Lớn"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3216,7 +3236,8 @@
       "4 Bình Hòa Hưng",
       "Ấp Bàu Voi",
       "Dọc đường Kênh Ngã 5 Bình Thành",
-      "Ấp Bộ Sô"
+      "Ấp Bộ Sô",
+      "Khu vực trường Học Mỹ Bình đến Ấp Dinh"
     ],
     "loai_don_vi": "Xã"
   },
