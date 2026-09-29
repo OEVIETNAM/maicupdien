@@ -775,7 +775,8 @@
       "Ấp Voi",
       "Ấp Bàu Tép",
       "Ấp Bến Đình",
-      "Ấp Mộc Bài"
+      "Ấp Mộc Bài",
+      "Ấp Xóm Lò"
     ],
     "loai_don_vi": "Xã"
   },
@@ -890,7 +891,10 @@
       "Đường Trần Văn Nam",
       "Đường TL 833 đường Mai Bá hương",
       "Đường Huỳnh Việt Thanh",
-      "Đường Nguyễn Văn Rành"
+      "Đường Nguyễn Văn Rành",
+      "Đường Lộ Tránh",
+      "đường Võ Văn Kiệt",
+      "KDC IDICO"
     ]
   },
   "TN-MYTHANH": {
@@ -1027,7 +1031,8 @@
       "8",
       "1 phấn ấp 2",
       "1 phần ấp 1",
-      "Một phấn ấp 1"
+      "Một phấn ấp 1",
+      "Một phấn ấp 2"
     ]
   },
   "TN-MYHANH": {
@@ -1316,7 +1321,9 @@
       "Đường Đê Hải Hưng",
       "ấp Tân Lập 5",
       "Đường Ven Sông Vàm Cỏ",
-      "Ấp Tân Thiết và ấp Cả Đá"
+      "Ấp Tân Thiết và ấp Cả Đá",
+      "khu phố 1",
+      "Đường 817"
     ]
   },
   "TN-BINHHOA": {
@@ -1440,7 +1447,10 @@
       "KDC Thuận Đạo ấp Bến Lức 8",
       "Ấp Bến Lức 6",
       "Ấp 1B An Thạnh",
-      "Ấp 5 An Thạnh"
+      "Ấp 5 An Thạnh",
+      "Ấp 1A Thanh Phú",
+      "UBND",
+      "Đường Nguyễn Hữu Thọ Ấp Bến Lức 3"
     ]
   },
   "TN-LUONGHOA": {
@@ -1508,7 +1518,8 @@
       "7A",
       "7B Mỹ Yên",
       "Ấp 7A Mỹ Yên",
-      "Ấp Chợ"
+      "Ấp Chợ",
+      "KDC Vĩnh Lộc ấp Long Bình"
     ]
   },
   "TN-THANHLOI": {
@@ -1659,7 +1670,12 @@
       "10",
       "13",
       "14 KCN Thuận Đạo MR)",
-      "13 KCN Thuận Đạo MR)"
+      "13 KCN Thuận Đạo MR)",
+      "Ấp Phước Vân",
+      "Tuy Lộc",
+      "An Thuận",
+      "Long Thới (ấp 2",
+      "12 cũ)"
     ]
   },
   "TN-TANTRU": {
@@ -1868,7 +1884,9 @@
       "Khu vực cặp đường 876",
       "ấp Bún Bà Của",
       "Khu vực Cầu Sân Bay",
-      "Khu vực Kênh Tây"
+      "Khu vực Kênh Tây",
+      "ấp Tuyên Nhơn",
+      "Ấp An Đông"
     ]
   },
   "TN-TUYENBINH": {
@@ -2269,7 +2287,8 @@
       "ấp Vàm Rạch Gốc",
       "Khu vực trường Học Mỹ Bình đến Ấp Dinh",
       "Ấp Giồng Ông Út",
-      "Khu vực trường Học Mỹ Bình"
+      "Khu vực trường Học Mỹ Bình",
+      "Đường chốt Dân Quân Mỹ Thạnh Tây"
     ]
   },
   "TN-TANTAP": {
@@ -2367,7 +2386,15 @@
       "- Một phần ấp 2",
       "Ấp 2",
       "1 phần",
-      "Một phần"
+      "Một phần",
+      "Toàn bộ ấp: 11",
+      "23 và một phần ấp 7",
+      "7",
+      "Toàn bộ ấp: 1",
+      "5",
+      "8 11",
+      "23",
+      "Ấp Lăng"
     ]
   },
   "TN-THANHPHUOC": {
@@ -2394,7 +2421,8 @@
       "Khu vực Kênh 19-5",
       "Khu vực Kênh 2-9",
       "Mộ phần",
-      "ấp Đông Thuận"
+      "ấp Đông Thuận",
+      "ấp Ông Hiếu"
     ]
   },
   "TN-NHONNINH": {
@@ -2411,7 +2439,9 @@
       "Ấp Tân Ninh",
       "Ấp Trại Lòn",
       "Đường Kinh 915 - Ấp Trại Lòn",
-      "Đường Kinh Bùi Mới - Ấp Năm Ngàn"
+      "Đường Kinh Bùi Mới - Ấp Năm Ngàn",
+      "Đường Kinh 6000 Tân Ninh - Ấp Năm Ngàn",
+      "Đường Kinh 6000 Nhơn Ninh - Ấp Năm Ngàn"
     ]
   },
   "TN-NHONHOALAP": {
@@ -3247,6 +3277,15 @@
     "ma_dien_luc": "PB0611",
     "khu_pho": [
       "Các"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-PHUOCVINH-3": {
+    "ten_phuong": "Phước Vình",
+    "ten_huyen": "Thái Bình",
+    "ma_dien_luc": "PB0505",
+    "khu_pho": [
+      "Ấp Phước Hưng"
     ],
     "loai_don_vi": "Xã"
   }
