@@ -1057,7 +1057,8 @@
       "Ấp Nhơn Hòa 2",
       "Ấp Giồng Găng",
       "Ấp Bình Hữu",
-      "1p"
+      "1p",
+      "Ấp Bình Tiền 2"
     ]
   },
   "TN-DUCHOA": {
@@ -1084,7 +1085,8 @@
       "Ấp Bình Tiền 2 Một phần",
       "Ấp Bình Tả 2",
       "1 phần ấp 1A",
-      "Ấp Mới 2"
+      "Ấp Mới 2",
+      "1p"
     ]
   },
   "TN-HAUNGHIA": {
@@ -1293,7 +1295,8 @@
       "Phú Thạnh",
       "Khu vực từ cổng ấp Văn Hóa Long An 2(QL50) đến Đê Trường Long ( đường Trần Văn Nghĩa)",
       "Ấp Long An 2",
-      "một phần"
+      "một phần",
+      "Ấp Phú"
     ]
   },
   "TN-MOCHOA": {
@@ -1544,7 +1547,8 @@
       "ấp 3",
       "Ấp 2 Lương Bình",
       "Ấp 4 Lương Bình",
-      "5"
+      "5",
+      "Ấp 6"
     ]
   },
   "TN-BINHDUC": {
@@ -1886,7 +1890,8 @@
       "Khu vực Cầu Sân Bay",
       "Khu vực Kênh Tây",
       "ấp Tuyên Nhơn",
-      "Ấp An Đông"
+      "Ấp An Đông",
+      "Khu vực Tiểu Đoàn 1"
     ]
   },
   "TN-TUYENBINH": {
@@ -2158,7 +2163,8 @@
       "Ấp Bàu Sen",
       "Ấp Đức Ngãi",
       "Ấp Tân Hội",
-      "Ấp Nhơn Hòa 2"
+      "Ấp Nhơn Hòa 2",
+      "Ấp Nhơn Hoà 1 một phần"
     ]
   },
   "TN-MYQUY": {
@@ -2683,7 +2689,8 @@
       "Ấp CHợ Mỹ",
       "Ấp Vạn Phước",
       "Ấp Chợ Đào",
-      "Ấp 11"
+      "Ấp 11",
+      "Ấp Chợ Trạm"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3102,7 +3109,8 @@
     "khu_pho": [
       "1 phần ấp Lập Thành",
       "1 phần ấp Bùng Binh",
-      "Ấp Thuận Hòa 1"
+      "Ấp Thuận Hòa 1",
+      "1 phần ấp Hóc Thơm 2"
     ],
     "loai_don_vi": "Xã"
   },
