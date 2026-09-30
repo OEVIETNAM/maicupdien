@@ -464,7 +464,10 @@
       "Ấp Thanh An",
       "ấp Tua Hai",
       "ấp Giồng Tre",
-      "Ấp Suối Muồn"
+      "Ấp Suối Muồn",
+      "Tổ 8 và tổ 11 ấp Tân Thành",
+      "Tổ 6 ấp Tân Thành",
+      "Tổ 1 và tổ 4 ấp Tân Thành"
     ],
     "loai_don_vi": "Xã"
   },
@@ -894,7 +897,8 @@
       "Đường Nguyễn Văn Rành",
       "Đường Lộ Tránh",
       "đường Võ Văn Kiệt",
-      "KDC IDICO"
+      "KDC IDICO",
+      "KDC Đồng Tâm khu phố Bình cư 2"
     ]
   },
   "TN-MYTHANH": {
@@ -1058,7 +1062,9 @@
       "Ấp Giồng Găng",
       "Ấp Bình Hữu",
       "1p",
-      "Ấp Bình Tiền 2"
+      "Ấp Bình Tiền 2",
+      "ấp Tràm Lạc",
+      "ấp Mới 2 thuộc"
     ]
   },
   "TN-DUCHOA": {
@@ -1086,7 +1092,9 @@
       "Ấp Bình Tả 2",
       "1 phần ấp 1A",
       "Ấp Mới 2",
-      "1p"
+      "1p",
+      "1 phần Bình Tiền 1",
+      "ấp 2 thuộc"
     ]
   },
   "TN-HAUNGHIA": {
@@ -1453,7 +1461,10 @@
       "Ấp 5 An Thạnh",
       "Ấp 1A Thanh Phú",
       "UBND",
-      "Đường Nguyễn Hữu Thọ Ấp Bến Lức 3"
+      "Đường Nguyễn Hữu Thọ Ấp Bến Lức 3",
+      "Một phần",
+      "ấp Bến Lức 3 và ấp 1A",
+      "ấp 3"
     ]
   },
   "TN-LUONGHOA": {
@@ -1477,7 +1488,8 @@
       "Ấp 7A",
       "Ấp 7",
       "Ấp 6",
-      "Hộ SX Trương Thanh Trường ấp 9"
+      "Hộ SX Trương Thanh Trường ấp 9",
+      "Một phần"
     ]
   },
   "TN-MYYEN": {
@@ -1611,7 +1623,9 @@
       "Ấp 6",
       "7",
       "Ấp Ao Gòn và toàn bộ ấp Nhà Trường",
-      "Bà Thoại"
+      "Bà Thoại",
+      "- Một phần ấp 1",
+      "5 và toàn bộ ấp 2"
     ]
   },
   "TN-RACHKIEN": {
@@ -2164,7 +2178,8 @@
       "Ấp Đức Ngãi",
       "Ấp Tân Hội",
       "Ấp Nhơn Hòa 2",
-      "Ấp Nhơn Hoà 1 một phần"
+      "Ấp Nhơn Hoà 1 một phần",
+      "ấp Bình Hữu 1"
     ]
   },
   "TN-MYQUY": {
