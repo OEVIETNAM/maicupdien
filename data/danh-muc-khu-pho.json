@@ -45,7 +45,8 @@
       "Khu phố Lộc Thành",
       "Khu phố Hoà Bình",
       "Khu phố An Phú",
-      "Khu phố Lộc Thành"
+      "Khu phố Lộc Thành",
+      "Khu phố Hoà Bình"
     ],
     "loai_don_vi": "Phường"
   },
@@ -469,7 +470,11 @@
       "Tổ 8 và tổ 11 ấp Tân Thành",
       "Tổ 6 ấp Tân Thành",
       "Tổ 1 và tổ 4 ấp Tân Thành",
-      "- Ấp Bình Lương"
+      "- Ấp Bình Lương",
+      "Ấp Tân Thành (trừ tổ 1",
+      "Ấp tổ 4",
+      "Ấp tổ 6",
+      "Ấp tổ 8 và tổ 11)"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1362,7 +1367,8 @@
       "Ấp Bình Đông 1",
       "Ấp 2",
       "Ấp Bình Hòa Đông 1",
-      "Ấp Bình Hòa Đông"
+      "Ấp Bình Hòa Đông",
+      "Ấp Bình Hòa Đông 2 và Ấp Bình Hòa Đông 3"
     ]
   },
   "TN-KIENTUONG": {
@@ -1706,7 +1712,8 @@
       "Tuy Lộc",
       "An Thuận",
       "Long Thới (ấp 2",
-      "12 cũ)"
+      "12 cũ)",
+      "Ấp An Thuận (ấp 13 cũ)"
     ]
   },
   "TN-TANTRU": {
@@ -2163,7 +2170,8 @@
       "Ấp Bình Sơn",
       "Ấp Bình Công",
       "Ấp Bình Xuyên",
-      "Một phần"
+      "Một phần",
+      "Hộ thắp sáng thanh long Nguyễn Tấn Toàn ấp Đa Phú"
     ]
   },
   "TN-DUCLAP": {
@@ -2900,7 +2908,8 @@
       "Gia Tân",
       "Ấp Bà Nhã xã Hưng Thuận\nKhu phố Lộc Trát",
       "khu phố Tân Lộc",
-      "khu phố Lộc Trát"
+      "khu phố Lộc Trát",
+      "Khu phố Lộc Du"
     ],
     "loai_don_vi": "Phường"
   },
