@@ -113,7 +113,8 @@
       "Khu phố Thạnh Trung",
       "Khu phố Thạnh Lợi",
       "Khu phố Tân Phước",
-      "Khu phố Ninh Phúc"
+      "Khu phố Ninh Phúc",
+      "Khu phố Ninh An"
     ],
     "loai_don_vi": "Phường"
   },
@@ -246,7 +247,10 @@
       "KH An BÌnh",
       "Bàu Mây",
       "Lộc Bình",
-      "khu phố Lộc Thanh"
+      "khu phố Lộc Thanh",
+      "Khu phố Lộc Tân",
+      "Khu phố Lộc Thành",
+      "Khu phố Lộc Vĩnh"
     ],
     "loai_don_vi": "Phường"
   },
@@ -639,7 +643,8 @@
       "Ấp Xóm Tháp",
       "ấp Mới",
       "Ấp Thạnh Thọ",
-      "Ấp Gò Cát"
+      "Ấp Gò Cát",
+      "Ấp Đồng Dài"
     ],
     "loai_don_vi": "Xã"
   },
@@ -711,7 +716,8 @@
       "Khu phố Long Đại",
       "Khu phố Sân Cu",
       "Khu p[hố Trường Huệ",
-      "Nguyễn Văn Linh"
+      "Nguyễn Văn Linh",
+      "Khu phố Trường Trường Xuân"
     ],
     "loai_don_vi": "Phường"
   },
@@ -787,7 +793,8 @@
       "Ấp Bàu Tép",
       "Ấp Bến Đình",
       "Ấp Mộc Bài",
-      "Ấp Xóm Lò"
+      "Ấp Xóm Lò",
+      "Ấp Bàu Gõ"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1262,7 +1269,8 @@
       "toàn bộ ấp Tân Thanh",
       "Khu vực từ đường Ấp 1 Long Hậu đến Cầu Rạch Dừa",
       "Các ấp: Hòa Thuận 1",
-      "Khu vực Khu dân cư Tân Phú Thịnh"
+      "Khu vực Khu dân cư Tân Phú Thịnh",
+      "Khu vực Đường Lê Văn Sáu"
     ]
   },
   "TN-MYLOC": {
@@ -1551,7 +1559,8 @@
       "7B Mỹ Yên",
       "Ấp 7A Mỹ Yên",
       "Ấp Chợ",
-      "KDC Vĩnh Lộc ấp Long Bình"
+      "KDC Vĩnh Lộc ấp Long Bình",
+      "Trần Quang Diệt ấp 2"
     ]
   },
   "TN-THANHLOI": {
@@ -1644,7 +1653,8 @@
       "Ấp Ao Gòn và toàn bộ ấp Nhà Trường",
       "Bà Thoại",
       "- Một phần ấp 1",
-      "5 và toàn bộ ấp 2"
+      "5 và toàn bộ ấp 2",
+      "Ấp Ao Gòn ( ấp Nhà Thờ cũ)"
     ]
   },
   "TN-RACHKIEN": {
@@ -1713,7 +1723,10 @@
       "An Thuận",
       "Long Thới (ấp 2",
       "12 cũ)",
-      "Ấp An Thuận (ấp 13 cũ)"
+      "Ấp An Thuận (ấp 13 cũ)",
+      "Ấp An Thuận đoạn cống 7 Mi (ấp 13 cũ)",
+      "Toàn bộ KDC Long Cang",
+      "ấp Long Cang (ấp 3 cũ)"
     ]
   },
   "TN-TANTRU": {
@@ -1808,7 +1821,8 @@
       "Bình Hòa",
       "Ấp Ấp Tấn Đức",
       "Ấp 1+3",
-      "Ấp Ấp An Nhựt Tân"
+      "Ấp Ấp An Nhựt Tân",
+      "Ấp Ấp Bình Nghị"
     ]
   },
   "TN-HIEPHOA": {
@@ -1894,7 +1908,8 @@
       "Đường vô trân khu dân cư An Ninh Tây",
       "Đường T25 Sơn Lợi  trái",
       "Ấp Sơn Lợi",
-      "Đường vô khu dân cư An Ninh Tây"
+      "Đường vô khu dân cư An Ninh Tây",
+      "Đường từ ngã 4 Bến Đò về hướng Chùa Đất"
     ]
   },
   "TN-BINHTHANH": {
@@ -1926,7 +1941,8 @@
       "Khu vực Kênh Tây",
       "ấp Tuyên Nhơn",
       "Ấp An Đông",
-      "Khu vực Tiểu Đoàn 1"
+      "Khu vực Tiểu Đoàn 1",
+      "Khu vực kênh Bắc Đông từ Kênh 7 Chủ đến kênh Cái Tôm: ấp Thạnh An"
     ]
   },
   "TN-TUYENBINH": {
@@ -2484,7 +2500,8 @@
       "Đường Kinh 915 - Ấp Trại Lòn",
       "Đường Kinh Bùi Mới - Ấp Năm Ngàn",
       "Đường Kinh 6000 Tân Ninh - Ấp Năm Ngàn",
-      "Đường Kinh 6000 Nhơn Ninh - Ấp Năm Ngàn"
+      "Đường Kinh 6000 Nhơn Ninh - Ấp Năm Ngàn",
+      "Đường Kinh Phụng Thớt - Từ Cầu Kinh Đường Cắt đến Cầu Kinh Bảy Ngàn – Một phần Ấp Năm Ngàn"
     ]
   },
   "TN-NHONHOALAP": {
@@ -2609,7 +2626,8 @@
       "Khu Phố Thanh Trung",
       "Khu Phố Thanh Phước",
       "Khu phố Thanh Hòa",
-      "khu phố hu phố Thanh Đông"
+      "khu phố hu phố Thanh Đông",
+      "Tổ 25"
     ],
     "loai_don_vi": "Phường"
   },
@@ -2729,7 +2747,8 @@
       "Ấp Vạn Phước",
       "Ấp Chợ Đào",
       "Ấp 11",
-      "Ấp Chợ Trạm"
+      "Ấp Chợ Trạm",
+      "Ấp 12"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2764,7 +2783,8 @@
       "Ấp Tây",
       "Một phần",
       "- Đường Kinh Cà Nhíp - Ấp Hiệp Thành",
-      "Khu vực Chợ Mới Tân Thạnh và từ Cầu Cà Nhíp đến Cầu Hiệp Thành - Một phần Ấp Kiến Bình"
+      "Khu vực Chợ Mới Tân Thạnh và từ Cầu Cà Nhíp đến Cầu Hiệp Thành - Một phần Ấp Kiến Bình",
+      "Đường Kinh Bắc Đông - Ấp Tân Thạnh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3345,6 +3365,16 @@
     "ma_dien_luc": "PB0603",
     "khu_pho": [
       "ấp Chánh"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-ANNINHKHUVUCTRAMT50TRUCTANMYLOCGIANG": {
+    "ten_phuong": "An Ninh khu vực trạm T50 trục Tân Mỹ Lộc Giang",
+    "ten_huyen": "Đức Huệ",
+    "ma_dien_luc": "PB0610",
+    "khu_pho": [
+      "Đường tỉnh 825 từ đầu Ấp Văn Hóa Hòa Hiệp 1 đến đầu đường Chợ An Ninh",
+      "Một phần Ấp An Hiệp"
     ],
     "loai_don_vi": "Xã"
   }
