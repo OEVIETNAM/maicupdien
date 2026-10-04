@@ -203,7 +203,8 @@
       "Ấp Phước Tây",
       "Ấp Phước  An",
       "Ấp Phước Bình A",
-      "Ấp Phước Hòa"
+      "Ấp Phước Hòa",
+      "Ấp Phước Hội B"
     ],
     "loai_don_vi": "Xã"
   },
@@ -429,7 +430,8 @@
       "Ấp Hòa Thạnh",
       "Ấp Bưng Rò",
       "Ấp Hiệp Phước",
-      "Ấp Tân Định"
+      "Ấp Tân Định",
+      "Ấp Bố Lớn"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1178,7 +1180,8 @@
       "Nhánh rẽ KDC Phước Lý Năm Sao",
       "ấp Phú Thành",
       "Toàn bộ khu vực nhánh rẽ KDC Phước Lý Năm Sao ( ĐT.835B)",
-      "Khu vực Khu dân cư Hải Sơn"
+      "Khu vực Khu dân cư Hải Sơn",
+      "Khu vực Đường Bờ Nhà Thờ ( Sân Banh)"
     ]
   },
   "TN-CANGIUOC": {
@@ -1277,7 +1280,8 @@
       "Khu vực từ đường Ấp 1 Long Hậu đến Cầu Rạch Dừa",
       "Các ấp: Hòa Thuận 1",
       "Khu vực Khu dân cư Tân Phú Thịnh",
-      "Khu vực Đường Lê Văn Sáu"
+      "Khu vực Đường Lê Văn Sáu",
+      "Khu vực trên đường QL50 từ Cây Xăng Kế Mỹ đến đầu đường Phạm Văn Trực đến Đường Nguyễn Thanh Tâm"
     ]
   },
   "TN-MYLOC": {
@@ -1329,7 +1333,8 @@
       "Khu vực từ cổng ấp Văn Hóa Long An 2(QL50) đến Đê Trường Long ( đường Trần Văn Nghĩa)",
       "Ấp Long An 2",
       "một phần",
-      "Ấp Phú"
+      "Ấp Phú",
+      "Khu vực Đường Ấp 3 Long An"
     ]
   },
   "TN-MOCHOA": {
@@ -1742,7 +1747,10 @@
       "Ấp An Thuận đoạn cống 7 Mi (ấp 13 cũ)",
       "Toàn bộ KDC Long Cang",
       "ấp Long Cang (ấp 3 cũ)",
-      "Ấp Tuy Lộc (ấp 11 cũ)"
+      "Ấp Tuy Lộc (ấp 11 cũ)",
+      "Ấp Rạch Chanh (ấp 8 cũ)",
+      "Ấp Long Kim (ấp 7 cũ)",
+      "Khu TĐC Long Cang"
     ]
   },
   "TN-TANTRU": {
@@ -1928,7 +1936,10 @@
       "Đường từ ngã 4 Bến Đò về hướng Chùa Đất",
       "Đường tỉnh 825 từ đầu Ấp Văn Hóa An Hưng đến đầu đường nhánh rẽ T73 Lộc Giang",
       "Một phần Ấp An Hưng",
-      "Đường Lộc Chánh"
+      "Đường Lộc Chánh",
+      "Đường tỉnh 825 từ đầu Ấp Văn Hóa An Định đến Vật Liệu Xây Dựng Công Cấn",
+      "Một phần Ấp Lộc Bình",
+      "Đường vô xóm Khu AK"
     ]
   },
   "TN-BINHTHANH": {
@@ -2238,7 +2249,8 @@
       "Ấp Tân Hội",
       "Ấp Nhơn Hòa 2",
       "Ấp Nhơn Hoà 1 một phần",
-      "ấp Bình Hữu 1"
+      "ấp Bình Hữu 1",
+      "Đường số 1 Thái Hòa"
     ]
   },
   "TN-MYQUY": {
@@ -2369,7 +2381,12 @@
       "Khu vực trường Học Mỹ Bình đến Ấp Dinh",
       "Ấp Giồng Ông Út",
       "Khu vực trường Học Mỹ Bình",
-      "Đường chốt Dân Quân Mỹ Thạnh Tây"
+      "Đường chốt Dân Quân Mỹ Thạnh Tây",
+      "Đường vô xóm Khu Vực 3 Củ",
+      "Đường vô Ấp 1",
+      "2 Mỹ Thạnh Đông Củ",
+      "Đường vô Ấp 3 Mỹ Thạnh Đông Củ",
+      "Đường vô Ấp 1 Mỹ Thạnh Đông Củ"
     ]
   },
   "TN-TANTAP": {
@@ -2709,7 +2726,8 @@
       "Ấp Phước Bình",
       "Ấp Phước Giang",
       "Ấp Phước Hội",
-      "Ấp Bình Phú"
+      "Ấp Bình Phú",
+      "Ấp Phước Dân"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2825,7 +2843,10 @@
       "Trạm Cầu Bằng Lăng  - Ấp 2",
       "Trạm Bờ Bắc DVD T137/1 - Ấp 5",
       "Đường tỉnh 837 – Từ Cầu Tân Lập đến Cầu Bùi Cũ - Một phần Ấp 1",
-      "Trạm Kinh 89-3 - Ấp 5"
+      "Trạm Kinh 89-3 - Ấp 5",
+      "Đường Kinh Ba Tri",
+      "Kinh 1000 Bắc Nhơn Hòa Lập",
+      "Kinh 2000 Bắc Nhơn Hòa Lập – Một phần Ấp 4"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3068,7 +3089,9 @@
       "Khu vực Kênh Thuỷ Tân ấp Bến Kè",
       "Khu vực Nhà Thờ Tân Đông",
       "ấp Tân Đông",
-      "Khu vực Kênh 24"
+      "Khu vực Kênh 24",
+      "Khu vực Đường kênh 24 từ QL 62 đến Kênh 3",
+      "Khu vực CDC Tân Đông"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3117,7 +3140,8 @@
       "Ấp Hóc Thơm 1",
       "1 phần ấp Lập Thành",
       "Bùng Binh thuộc",
-      "1p"
+      "1p",
+      "Ấp Thôi Môi"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3408,6 +3432,15 @@
     "ma_dien_luc": "PB0501",
     "khu_pho": [
       "Ấp Tân Trung B"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-MYTHANHDONGCU": {
+    "ten_phuong": "Mỹ Thạnh Đông Củ",
+    "ten_huyen": "Đức Huệ",
+    "ma_dien_luc": "PB0610",
+    "khu_pho": [
+      "Đường trục khu vự"
     ],
     "loai_don_vi": "Xã"
   }
