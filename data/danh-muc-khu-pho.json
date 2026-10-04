@@ -1502,7 +1502,9 @@
       "1 phần ấp 3 An Thạnh",
       "1 phần Ấp Tấn Long Thanh Phú",
       "ấp 6 An Thạnh",
-      "Đường ĐT830C"
+      "Đường ĐT830C",
+      "1 phần ấp Phước Tú Thanh Phú",
+      "ấp Phước Tú Thanh Phú"
     ]
   },
   "TN-LUONGHOA": {
@@ -2196,7 +2198,8 @@
       "Bình Thạnh",
       "Một Phần",
       "Hộ nuôi tôm Châu Tấn Hiếu",
-      "Hộ TSTL Nguyễn Đức Cuộc"
+      "Hộ TSTL Nguyễn Đức Cuộc",
+      "Một phẩn"
     ]
   },
   "TN-VINHCONG": {
@@ -3441,6 +3444,25 @@
     "ma_dien_luc": "PB0610",
     "khu_pho": [
       "Đường trục khu vự"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-HUNGTHUAN-2": {
+    "ten_phuong": "Hưng Thuận",
+    "ten_huyen": "Gò Dầu",
+    "ma_dien_luc": "PB0502",
+    "khu_pho": [
+      "ấp Sóc Lào",
+      "ấp Bến Kinh"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANTRU-2": {
+    "ten_phuong": "Tân Trụ",
+    "ten_huyen": "Tầm Vu",
+    "ma_dien_luc": "PB0614",
+    "khu_pho": [
+      "Một Phần"
     ],
     "loai_don_vi": "Xã"
   }
