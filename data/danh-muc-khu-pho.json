@@ -204,7 +204,8 @@
       "Ấp Phước  An",
       "Ấp Phước Bình A",
       "Ấp Phước Hòa",
-      "Ấp Phước Hội B"
+      "Ấp Phước Hội B",
+      "Ấp Phước Bình"
     ],
     "loai_don_vi": "Xã"
   },
@@ -858,7 +859,8 @@
       "Phuòng Long An",
       "Đường Huỳnh Châu Sổ",
       "Khu phố Quyết Thắng 2",
-      "Đường Nguyễn Văn Cương"
+      "Đường Nguyễn Văn Cương",
+      "Ấp Cầu Tre"
     ]
   },
   "TN-LONGAN": {
@@ -1709,7 +1711,10 @@
       "Một phấn ấp Xoài Đôi",
       "Một phấn ấp 9",
       "Cầu Tràm và toàn bộ ấp Long Thanh",
-      "Ấp Phước Vĩnh (ấp Cầu Xây cũ)"
+      "Ấp Phước Vĩnh (ấp Cầu Xây cũ)",
+      "Ấp Long Trạch (ấp Xoài Đôi cũ)",
+      "Ấp Phước Bửu (ấp 9",
+      "10 cũ)"
     ]
   },
   "TN-LONGCANG": {
@@ -1884,7 +1889,12 @@
       "Đường vô xóm Ấp Hòa Hiệp 2 Một phần Ấp Hòa Hiệp 2",
       "Đường đi Gò Sao Tân Phú",
       "Đường vô khu dân cư Hiệp Hòa",
-      "khu vực 2"
+      "khu vực 2",
+      "Đường đi từ Cầu Móng đến Kênh Thổ Định",
+      "khu vực 3",
+      "Đường đi Ấp Chánh",
+      "từ đường Hồ Chí Minh ra Sò Đo",
+      "Đường đi Gò Sao"
     ]
   },
   "TN-ANNINH": {
@@ -1941,7 +1951,8 @@
       "Đường Lộc Chánh",
       "Đường tỉnh 825 từ đầu Ấp Văn Hóa An Định đến Vật Liệu Xây Dựng Công Cấn",
       "Một phần Ấp Lộc Bình",
-      "Đường vô xóm Khu AK"
+      "Đường vô xóm Khu AK",
+      "Đường tỉnh 825 từ đầu Vật Liệu Nông nghiệp Hoàng Nhi đến gần khu nội thất Hoàng Trang"
     ]
   },
   "TN-BINHTHANH": {
