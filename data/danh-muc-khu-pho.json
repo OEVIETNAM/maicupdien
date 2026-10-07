@@ -867,7 +867,8 @@
       "Khu phố Quyết Thắng 2",
       "Đường Nguyễn Văn Cương",
       "Ấp Cầu Tre",
-      "Một phấn Ấp Ngãi Lợi A"
+      "Một phấn Ấp Ngãi Lợi A",
+      "Một đườngấp cầu tre"
     ]
   },
   "TN-LONGAN": {
@@ -1296,7 +1297,8 @@
       "Các ấp: Hòa Thuận 1",
       "Khu vực Khu dân cư Tân Phú Thịnh",
       "Khu vực Đường Lê Văn Sáu",
-      "Khu vực trên đường QL50 từ Cây Xăng Kế Mỹ đến đầu đường Phạm Văn Trực đến Đường Nguyễn Thanh Tâm"
+      "Khu vực trên đường QL50 từ Cây Xăng Kế Mỹ đến đầu đường Phạm Văn Trực đến Đường Nguyễn Thanh Tâm",
+      "Nhánh rẽ Nhà Xưởng Dịch Vụ Tân Kim - OSSIF (T44B)"
     ]
   },
   "TN-MYLOC": {
@@ -2534,7 +2536,13 @@
       "5",
       "8 11",
       "23",
-      "Ấp Lăng"
+      "Ấp Lăng",
+      "- Một phần ấp 1",
+      "5 (ấp 1",
+      "9",
+      "10 cũ)",
+      "11 (ấp 23",
+      "24 cũ)"
     ]
   },
   "TN-THANHPHUOC": {
@@ -2843,7 +2851,18 @@
       "Ấp 12",
       "CCN Thiên Lộc Thành",
       "Thép Tây Nam ấp Ông Mộc (ấp 3",
-      "4 cũ)"
+      "4 cũ)",
+      "- ĐT 827D đoạn từ trạm điện 220 KV Cần Đước đến bến đò Bến Bạ và ĐT 830 đoạn từ Cầu Bà Tượng đến Ngã 3 Năm Ảnh",
+      "ĐH17 đoạn từ Ngã 3 Năm Ảnh đến Bến Đò Long Sơn cũ thuộc một phần ấp Long Sơn ( ấp 1 cũ)",
+      "ấp Trạch Thuận (ấp 11 cũ)",
+      "và toàn bộ ấp Ông Mộc (ấp 3",
+      "ấp Trạch An (ấp7",
+      "8 cũ)",
+      "- Một phần Ấp Trạch Định (ấp 9 cũ)",
+      "toàn bộ ấp Chợ Đào (ấp Cầu Làng",
+      "Rạch Đào cũ)",
+      "ấp Vạn Phước ( ấp Cầu Chùa cũ)",
+      "Ấp vạn Phước (ấp Vạn Phước cũ)"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3525,6 +3544,15 @@
     "ma_dien_luc": "PB0610",
     "khu_pho": [
       "Đường tỉnh 825 từ đầu Chợ An Ninh đến khu Vực Ủy Ban"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-LONGHOACU": {
+    "ten_phuong": "Long Hòa cũ",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "- ĐT 827D đoạn từ trạm điện 220 KV Cần Đước đến UB"
     ],
     "loai_don_vi": "Xã"
   }
