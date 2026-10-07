@@ -399,7 +399,8 @@
       "Ấp 4",
       "Ấp 5",
       "Ấp Trảng Trai",
-      "Ấp Suối Bà Chiêm"
+      "Ấp Suối Bà Chiêm",
+      "Ấp 2"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1406,7 +1407,9 @@
       "Ấp 2",
       "Ấp Bình Hòa Đông 1",
       "Ấp Bình Hòa Đông",
-      "Ấp Bình Hòa Đông 2 và Ấp Bình Hòa Đông 3"
+      "Ấp Bình Hòa Đông 2 và Ấp Bình Hòa Đông 3",
+      "Đường Kinh ấp Chuối Tây",
+      "ấp Chuối Tây"
     ]
   },
   "TN-KIENTUONG": {
@@ -1457,7 +1460,14 @@
       "Ấp Tầm Đuông",
       "Ấp Bình Tây 2 và ấp Gò Dồ",
       "Đường Lộ Cái Đôi Tây",
-      "ấp Bình Tân"
+      "ấp Bình Tân",
+      "Ấp Thạnh Trị",
+      "Cụm DCVL Thạnh Trị và một phần ấp Thạnh Trị",
+      "Đường Lộ 3 xã",
+      "ấp Bình Hòa Tây và ấp Gò Dồ",
+      "Đường Bờ Tây Sông Vàm Rồ",
+      "ấp Ông Gò Dưa",
+      "Đường Tuần tra Biên Giới"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -1598,7 +1608,8 @@
       "KDC Vĩnh Lộc ấp Long Bình",
       "Trần Quang Diệt ấp 2",
       "KDC Gò Đen ấp 4 Phước Lợi",
-      "4 Mỹ Yên"
+      "4 Mỹ Yên",
+      "Ấp Voi Lá"
     ]
   },
   "TN-THANHLOI": {
@@ -2233,7 +2244,10 @@
       "Một Phần",
       "Hộ nuôi tôm Châu Tấn Hiếu",
       "Hộ TSTL Nguyễn Đức Cuộc",
-      "Một phẩn"
+      "Một phẩn",
+      "Đường An Khương Thới",
+      "đường vào xóm thuộc ấp: Bình Thới",
+      "Đường  xóm thuộc ấp: Bình Thới"
     ]
   },
   "TN-VINHCONG": {
@@ -2862,7 +2876,9 @@
       "toàn bộ ấp Chợ Đào (ấp Cầu Làng",
       "Rạch Đào cũ)",
       "ấp Vạn Phước ( ấp Cầu Chùa cũ)",
-      "Ấp vạn Phước (ấp Vạn Phước cũ)"
+      "Ấp vạn Phước (ấp Vạn Phước cũ)",
+      "Ấp Xóm Trường (ấp 6 cũ)",
+      "ấp Trạch An (ấp 7 cũ)"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3553,6 +3569,15 @@
     "ma_dien_luc": "PB0607",
     "khu_pho": [
       "- ĐT 827D đoạn từ trạm điện 220 KV Cần Đước đến UB"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TUNGA4KINH3XA": {
+    "ten_phuong": "từ ngã 4 Kinh 3 xã",
+    "ten_huyen": "Kiến Tường",
+    "ma_dien_luc": "PB0605",
+    "khu_pho": [
+      "Đường Bờ Đông Kinh 3"
     ],
     "loai_don_vi": "Xã"
   }
