@@ -293,7 +293,8 @@
       "Ấp Xóm Suối",
       "Ấp Đôn Thuận",
       "Ấp Bà Nhã",
-      "Ấp Tân Thuận"
+      "Ấp Tân Thuận",
+      "Ấp Lộc Thuận"
     ],
     "loai_don_vi": ""
   },
@@ -1161,7 +1162,8 @@
       "Ấp Rừng Dầu",
       "Ấp Bàu Công",
       "Ấp Giồng Ngang",
-      "Một ohần"
+      "Một ohần",
+      "Ấp Đức Ngãi"
     ]
   },
   "TN-PHUOCLY": {
@@ -1467,7 +1469,17 @@
       "ấp Bình Hòa Tây và ấp Gò Dồ",
       "Đường Bờ Tây Sông Vàm Rồ",
       "ấp Ông Gò Dưa",
-      "Đường Tuần tra Biên Giới"
+      "Đường Tuần tra Biên Giới",
+      "Đường QL 62 đoạn  Ngã 4 Bình Hiệp",
+      "Ông Ông Nhan Tây",
+      "Đường QL 62 đoạn TT Nghiên Cứu ĐTM ấp Bình Tân",
+      "Đường Kinh 61 từ Cầu Bình Tân    đến CS Hàn tiện  Ông  Hai Hai",
+      "Đường Bình Tân",
+      "CDCVL Bình Tân",
+      "Đường Rạch Bích đoạn giáp Sông Pro",
+      "ấp Ông Nhan Đông",
+      "Đường Bình Tân đoạn giáp CDCVL  Bình Tân",
+      "Đường Bình Tân    đoạn Trạm Y Tế"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -1534,7 +1546,9 @@
       "ấp 6 An Thạnh",
       "Đường ĐT830C",
       "1 phần ấp Phước Tú Thanh Phú",
-      "ấp Phước Tú Thanh Phú"
+      "ấp Phước Tú Thanh Phú",
+      "Đường Trần Thế Sinh",
+      "Ấp Bến Lức 9"
     ]
   },
   "TN-LUONGHOA": {
@@ -1560,7 +1574,8 @@
       "Ấp 6",
       "Hộ SX Trương Thanh Trường ấp 9",
       "Một phần",
-      "Ấp 6A"
+      "Ấp 6A",
+      "Đường ĐT830C"
     ]
   },
   "TN-MYYEN": {
@@ -2018,7 +2033,11 @@
       "ấp Tuyên Nhơn",
       "Ấp An Đông",
       "Khu vực Tiểu Đoàn 1",
-      "Khu vực kênh Bắc Đông từ Kênh 7 Chủ đến kênh Cái Tôm: ấp Thạnh An"
+      "Khu vực kênh Bắc Đông từ Kênh 7 Chủ đến kênh Cái Tôm: ấp Thạnh An",
+      "Khu vực CDC Thạnh An",
+      "Trạm BN khu 2 thị trấn: ấp Thuỷ Đông",
+      "Trang Trại Dư Hoài: ấp Thạnh An",
+      "Trạm Sạc WinFast: ấp Thuỷ Tây"
     ]
   },
   "TN-TUYENBINH": {
@@ -2270,7 +2289,10 @@
       "Ấp Bình Công",
       "Ấp Bình Xuyên",
       "Một phần",
-      "Hộ thắp sáng thanh long Nguyễn Tấn Toàn ấp Đa Phú"
+      "Hộ thắp sáng thanh long Nguyễn Tấn Toàn ấp Đa Phú",
+      "Đường An Thạnh",
+      "đường vào xóm ấp:  An Thạnh",
+      "Hòa Phú"
     ]
   },
   "TN-DUCLAP": {
@@ -2301,7 +2323,8 @@
       "Ấp Nhơn Hòa 2",
       "Ấp Nhơn Hoà 1 một phần",
       "ấp Bình Hữu 1",
-      "Đường số 1 Thái Hòa"
+      "Đường số 1 Thái Hòa",
+      "Ấp Bình Hữu"
     ]
   },
   "TN-MYQUY": {
@@ -2484,7 +2507,14 @@
       "Khu vực Ngã Tư Đông Thạnh",
       "ấp Bắc",
       "Tân Thành",
-      "Khu vực gần đầu Cầu Ông Hiếu"
+      "Khu vực gần đầu Cầu Ông Hiếu",
+      "Khu vực từ Ngã Tư Đông Thạnh đến Trường Tiểu Học Rạch Núi",
+      "ấp Nam",
+      "Khu vực từ Ngã Tư Đông Thạnh đến Trường THCS Đông Thạnh ấp Tây",
+      "Khu vực gần Đảng Ủy",
+      "Khu vực gần Cổng Ấp Văn Hóa Ấp Nam",
+      "Khu vực từ Ngã Tư Đông Thạnh đến Cầu Ông Chuồng (ĐT.826C)",
+      "thuộc ấp Tây"
     ]
   },
   "TN-TUYENTHANH": {
@@ -2915,7 +2945,15 @@
       "- Đường Kinh Cà Nhíp - Ấp Hiệp Thành",
       "Khu vực Chợ Mới Tân Thạnh và từ Cầu Cà Nhíp đến Cầu Hiệp Thành - Một phần Ấp Kiến Bình",
       "Đường Kinh Bắc Đông - Ấp Tân Thạnh",
-      "Một  phần"
+      "Một  phần",
+      "Trạm T22 Tân Hòa 8 - Ấp Đông",
+      "Trạm T29 Tân Hòa 6 - Ấp Đông",
+      "Trạm T38 Tân Hòa - Ấp Đông",
+      "Trạm T47 CDC Tân Hòa - Ấp Đông",
+      "Trạm T47/3 CDC Tân Hòa 3 - Ấp Đông",
+      "Trạm T129 Bệnh Viện - Ấp Tân Thạnh",
+      "Trạm T146 Nhà Văn Hóa - Ấp Tân Thạnh",
+      "Trạm T148B/1 Kho Bạc Tân Thạnh - Ấp Tân Thạnh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3182,7 +3220,8 @@
       "ấp Tân Đông",
       "Khu vực Kênh 24",
       "Khu vực Đường kênh 24 từ QL 62 đến Kênh 3",
-      "Khu vực CDC Tân Đông"
+      "Khu vực CDC Tân Đông",
+      "Trạm bơm Kênh 22: ấp Công Trường"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3578,6 +3617,24 @@
     "ma_dien_luc": "PB0605",
     "khu_pho": [
       "Đường Bờ Đông Kinh 3"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANTAPAPTAY": {
+    "ten_phuong": "Tân Tập ấp Tây",
+    "ten_huyen": "Cần Giuộc",
+    "ma_dien_luc": "PB0604",
+    "khu_pho": [
+      "Khu vực từ Ngã Tư Đông Thạnh đến Đảng Ủy"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-VINHTHANH-2": {
+    "ten_phuong": "Vĩnh Thạnh:",
+    "ten_huyen": "Tân Hưng",
+    "ma_dien_luc": "PB0613",
+    "khu_pho": [
+      "- Một phần ấp Gò Cả Bô"
     ],
     "loai_don_vi": "Xã"
   }
