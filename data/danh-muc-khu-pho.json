@@ -177,7 +177,8 @@
       "Nguyễn Tuấn Khanh\nNguyễn Hoàng Sơn\nNgô Thanh Liêm\nNguyễn Văn Tài\nLý Hên\nPhòng Kinh tế",
       "Ấp Bến Mương",
       "Ấp Cẩm Long",
-      "Ấp Bến Đình"
+      "Ấp Bến Đình",
+      "Ấp Cầu Sắt"
     ],
     "loai_don_vi": "Xã"
   },
@@ -870,7 +871,10 @@
       "Đường Nguyễn Văn Cương",
       "Ấp Cầu Tre",
       "Một phấn Ấp Ngãi Lợi A",
-      "Một đườngấp cầu tre"
+      "Một đườngấp cầu tre",
+      "Đường Quốc Lộ 1A",
+      "khu phố Thủ Tửu 1",
+      "Đường Kinh N3"
     ]
   },
   "TN-LONGAN": {
@@ -933,7 +937,9 @@
       "đường Võ Văn Kiệt",
       "KDC IDICO",
       "KDC Đồng Tâm khu phố Bình cư 2",
-      "Đường Huỳnh Văn Gấm"
+      "Đường Huỳnh Văn Gấm",
+      "Đường Quốc Lộ 62 và hẻm 299 Khu phố Xuân Hoà 1",
+      "ấp Cầu Tre"
     ]
   },
   "TN-MYTHANH": {
@@ -1301,7 +1307,13 @@
       "Khu vực Khu dân cư Tân Phú Thịnh",
       "Khu vực Đường Lê Văn Sáu",
       "Khu vực trên đường QL50 từ Cây Xăng Kế Mỹ đến đầu đường Phạm Văn Trực đến Đường Nguyễn Thanh Tâm",
-      "Nhánh rẽ Nhà Xưởng Dịch Vụ Tân Kim - OSSIF (T44B)"
+      "Nhánh rẽ Nhà Xưởng Dịch Vụ Tân Kim - OSSIF (T44B)",
+      "Khu vực gần Trường THCS&THPT Nguyễn Thị Một đến khu vực gần Cổng chào ấp Văn Hóa Phước Thới (ĐT.826C)",
+      "thuộc ấp Tân Thanh",
+      "Khu vực gần cống Mương Chài ( Đường Bà Kiểu)",
+      "thuộc ấp Phước Lại",
+      "Khu vực gần Cổng chào ấp Văn Hóa Phước Thới(ĐT.826C)",
+      "thuộc ấp Phước Thới"
     ]
   },
   "TN-MYLOC": {
@@ -1385,7 +1397,11 @@
       "Ấp Tân Thiết và ấp Cả Đá",
       "khu phố 1",
       "Đường 817",
-      "Ấp Bình Phong Thạnh 3"
+      "Ấp Bình Phong Thạnh 3",
+      "Đường QL 62 đoạn Khu Du Lich Sinh Thái",
+      "Đường QL 62 đoạn  Cây Xăng Cầu 79",
+      "Đường Lê Quốc Sản đoang Cầu Thanh Niên 1",
+      "ấp Bình Hòa Đông 2"
     ]
   },
   "TN-BINHHOA": {
@@ -1436,7 +1452,8 @@
       "khu phố 4",
       "Đường Nguyễn Hữu Thọ",
       "Một phần khu phố 4",
-      "Đường QL 62 Khu phố 8"
+      "Đường QL 62 Khu phố 8",
+      "Đường QL 62 đoạn Rạch Ông Sự"
     ]
   },
   "TN-BINHHIEP": {
@@ -1479,7 +1496,9 @@
       "Đường Rạch Bích đoạn giáp Sông Pro",
       "ấp Ông Nhan Đông",
       "Đường Bình Tân đoạn giáp CDCVL  Bình Tân",
-      "Đường Bình Tân    đoạn Trạm Y Tế"
+      "Đường Bình Tân    đoạn Trạm Y Tế",
+      "Đường QL 62 đoạn Cầu Hung Ga Ri",
+      "Đường QL 62 đoạn  Cây Xăng Ông Đấu"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -1722,7 +1741,10 @@
       "- Một phần ấp 1",
       "5 và toàn bộ ấp 2",
       "Ấp Ao Gòn ( ấp Nhà Thờ cũ)",
-      "Ấp Bình Hòa ( ấp Cầu Xây cũ)"
+      "Ấp Bình Hòa ( ấp Cầu Xây cũ)",
+      "Ấp Phước Đông",
+      "Cầu Nổi (ấp 3",
+      "5 cũ)"
     ]
   },
   "TN-RACHKIEN": {
@@ -2141,7 +2163,8 @@
       "Cập kên Sông Trăng",
       "kên T11 và kên Cái Cỏ",
       "Ấp: Cây Me",
-      "Ấp Gò Chuối"
+      "Ấp Gò Chuối",
+      "Trạm T20A/1 Tole Minh Nhựt"
     ]
   },
   "TN-TANHUNG": {
@@ -2416,7 +2439,10 @@
       "Thạnh Hưng",
       "Ấp Gò Bún và một phần ấp Thạnh Hưng",
       "Ấp Gò Cả Bô",
-      "Một ấp Thạnh Hưng"
+      "Một ấp Thạnh Hưng",
+      "Tổ hợp tác bơm điện Vân Kiều",
+      "Tổ hợp tác trạm bơm điện Kênh T5",
+      "Hộ sản xuất Võ văn Khoa"
     ]
   },
   "TN-DONGTHANH": {
@@ -2725,7 +2751,10 @@
       "Phạm Văn Xuân",
       "Hộ TSTL Trần Thị Kim Trinh",
       "ấp Long Trì",
-      "một phần"
+      "một phần",
+      "Đường Kênh 30/4 ấp Cầu Kinh",
+      "Đường Cầu Ván ấp Cầu Kinh",
+      "Đường vào xóm ấp Cẩu Kinh"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -2830,7 +2859,8 @@
       "Ấp Phước Giang",
       "Ấp Phước Hội",
       "Ấp Bình Phú",
-      "Ấp Phước Dân"
+      "Ấp Phước Dân",
+      "Ấp Phước Lập"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2953,7 +2983,8 @@
       "Trạm T47/3 CDC Tân Hòa 3 - Ấp Đông",
       "Trạm T129 Bệnh Viện - Ấp Tân Thạnh",
       "Trạm T146 Nhà Văn Hóa - Ấp Tân Thạnh",
-      "Trạm T148B/1 Kho Bạc Tân Thạnh - Ấp Tân Thạnh"
+      "Trạm T148B/1 Kho Bạc Tân Thạnh - Ấp Tân Thạnh",
+      "Trạm T137B/1 CDC Hoàng Hương 1 - Ấp Tân Thạnh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -2974,7 +3005,8 @@
       "Trạm Kinh 89-3 - Ấp 5",
       "Đường Kinh Ba Tri",
       "Kinh 1000 Bắc Nhơn Hòa Lập",
-      "Kinh 2000 Bắc Nhơn Hòa Lập – Một phần Ấp 4"
+      "Kinh 2000 Bắc Nhơn Hòa Lập – Một phần Ấp 4",
+      "Trạm T187 Y Tế Nhơn Hòa Lập - Ấp 4"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3137,7 +3169,9 @@
       "Ấp Giồng Ông Bạn",
       "Dọc đường Kênh Ngã 5 Bình Thành",
       "Ấp Bàu Sến",
-      "Ấp Giồng Lớn"
+      "Ấp Giồng Lớn",
+      "Đường Kênh Bình Thành",
+      "ấp Thanh Sơn"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3515,7 +3549,8 @@
       "Ấp Bàu Voi",
       "Dọc đường Kênh Ngã 5 Bình Thành",
       "Ấp Bộ Sô",
-      "Khu vực trường Học Mỹ Bình đến Ấp Dinh"
+      "Khu vực trường Học Mỹ Bình đến Ấp Dinh",
+      "Ban quản lý khu di Tích Bình Thành"
     ],
     "loai_don_vi": "Xã"
   },
