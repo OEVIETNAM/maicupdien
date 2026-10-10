@@ -1856,7 +1856,8 @@
       "Ấp Ấp Bình Thạnh",
       "Ấp Ấp Bình Trinh Đông",
       "Bình Đông",
-      "Bình Đức"
+      "Bình Đức",
+      "một phần"
     ]
   },
   "TN-VAMCO": {
@@ -3670,6 +3671,15 @@
     "ma_dien_luc": "PB0613",
     "khu_pho": [
       "- Một phần ấp Gò Cả Bô"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-VTAANTRU": {
+    "ten_phuong": "VTaan Trụ",
+    "ten_huyen": "Tân Trụ",
+    "ma_dien_luc": "PB0609",
+    "khu_pho": [
+      "một phần"
     ],
     "loai_don_vi": "Xã"
   }
