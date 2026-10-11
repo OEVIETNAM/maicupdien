@@ -137,7 +137,8 @@
       "Phòng Kinh tế",
       "Hạ tầng và Đô thị",
       "Khu phố Thanh Bình",
-      "Khu phố Nội Ô A"
+      "Khu phố Nội Ô A",
+      "Khu phố Trâm Vàng 1"
     ],
     "loai_don_vi": "Phường"
   },
@@ -734,7 +735,8 @@
       "Khu phố Sân Cu",
       "Khu p[hố Trường Huệ",
       "Nguyễn Văn Linh",
-      "Khu phố Trường Trường Xuân"
+      "Khu phố Trường Trường Xuân",
+      "Khu phố Trường Xuân"
     ],
     "loai_don_vi": "Phường"
   },
@@ -940,7 +942,8 @@
       "KDC Đồng Tâm khu phố Bình cư 2",
       "Đường Huỳnh Văn Gấm",
       "Đường Quốc Lộ 62 và hẻm 299 Khu phố Xuân Hoà 1",
-      "ấp Cầu Tre"
+      "ấp Cầu Tre",
+      "Đường 278 khu phố Bình An 2"
     ]
   },
   "TN-MYTHANH": {
@@ -1431,7 +1434,8 @@
       "Ấp Bình Hòa Đông",
       "Ấp Bình Hòa Đông 2 và Ấp Bình Hòa Đông 3",
       "Đường Kinh ấp Chuối Tây",
-      "ấp Chuối Tây"
+      "ấp Chuối Tây",
+      "Kinh Đường Bàng đoạn  Kinh 61"
     ]
   },
   "TN-KIENTUONG": {
@@ -1571,7 +1575,8 @@
       "1 phần ấp Phước Tú Thanh Phú",
       "ấp Phước Tú Thanh Phú",
       "Đường Trần Thế Sinh",
-      "Ấp Bến Lức 9"
+      "Ấp Bến Lức 9",
+      "Ấp Tấn Long Thanh Phú"
     ]
   },
   "TN-LUONGHOA": {
@@ -1647,7 +1652,8 @@
       "Trần Quang Diệt ấp 2",
       "KDC Gò Đen ấp 4 Phước Lợi",
       "4 Mỹ Yên",
-      "Ấp Voi Lá"
+      "Ấp Voi Lá",
+      "Ấp Chánh"
     ]
   },
   "TN-THANHLOI": {
@@ -2027,7 +2033,15 @@
       "Đường tỉnh 825 từ đầu Ấp Văn Hóa An Định đến Vật Liệu Xây Dựng Công Cấn",
       "Một phần Ấp Lộc Bình",
       "Đường vô xóm Khu AK",
-      "Đường tỉnh 825 từ đầu Vật Liệu Nông nghiệp Hoàng Nhi đến gần khu nội thất Hoàng Trang"
+      "Đường tỉnh 825 từ đầu Vật Liệu Nông nghiệp Hoàng Nhi đến gần khu nội thất Hoàng Trang",
+      "Đường An Hòa từ đầu ngã 3 Lộc Giang đến Khu vực điện máy xanh",
+      "Đường vô Xóm Đủa từ đầu ngã 3 đầu đến gàn khu nhà trọ xóm Đủa",
+      "Đường vô xóm phía sau chọ Lộc Giang",
+      "Đường Lộc Chánh gần chùa Phước Long vô xóm",
+      "Đường tỉnh 825",
+      "gần trường TH- THCS Lộc Giang",
+      "Ấp Lộc Hòa",
+      "Đường Lộc Chánh từ dầu cổng Ấp Văn Hóa Lộc Chánh vô Xóm"
     ]
   },
   "TN-BINHTHANH": {
@@ -2210,7 +2224,9 @@
       "Ấp Vườn Chuối",
       "Một phần",
       "Ấp 5",
-      "Ấp Vĩnh Nguyện"
+      "Ấp Vĩnh Nguyện",
+      "Tổ Hợp Tác Trạm Bơm Điện ấp Rọc Năng và trạm bơm điện Thành Đạt",
+      "Tổ Hợp Tác Trạm Bơm Điện ấp Rọc Năng"
     ]
   },
   "TN-CHAU": {
@@ -2256,7 +2272,9 @@
       "Ấp Bình Lục",
       "Ấp Tân Châu",
       "Phú Ngãi Trị",
-      "Ấp Phước Tân Hưng"
+      "Ấp Phước Tân Hưng",
+      "Đường Lộ Đất ấp Bình Hạp",
+      "Bình An"
     ]
   },
   "TN-THUANMY": {
@@ -2665,7 +2683,10 @@
       "Đường Kinh Bùi Mới - Ấp Năm Ngàn",
       "Đường Kinh 6000 Tân Ninh - Ấp Năm Ngàn",
       "Đường Kinh 6000 Nhơn Ninh - Ấp Năm Ngàn",
-      "Đường Kinh Phụng Thớt - Từ Cầu Kinh Đường Cắt đến Cầu Kinh Bảy Ngàn – Một phần Ấp Năm Ngàn"
+      "Đường Kinh Phụng Thớt - Từ Cầu Kinh Đường Cắt đến Cầu Kinh Bảy Ngàn – Một phần Ấp Năm Ngàn",
+      "Trạm T53 Kinh 6000 - Đường Kinh Bằng Lăng - Ấp Tân Thành",
+      "Chợ Tân Ninh - Ấp Năm Ngàn",
+      "Trạm bơm điện Kinh Tè - Đường Kinh 5000 - Ấp Tân Ninh"
     ]
   },
   "TN-NHONHOALAP": {
@@ -2865,7 +2886,8 @@
       "Ấp Phước Hội",
       "Ấp Bình Phú",
       "Ấp Phước Dân",
-      "Ấp Phước Lập"
+      "Ấp Phước Lập",
+      "Ấp Phước Thuận"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3011,7 +3033,14 @@
       "Đường Kinh Ba Tri",
       "Kinh 1000 Bắc Nhơn Hòa Lập",
       "Kinh 2000 Bắc Nhơn Hòa Lập – Một phần Ấp 4",
-      "Trạm T187 Y Tế Nhơn Hòa Lập - Ấp 4"
+      "Trạm T187 Y Tế Nhơn Hòa Lập - Ấp 4",
+      "Trạm T02 Cầu Bằng Lăng - Đường Kinh Bằng Lăng - Ấp 2",
+      "Trạm T14 Tân Ninh - Đường Kinh Bằng Lăng - Ấp 2",
+      "Trạm T21 Kinh 1000 - Đường Kinh Bằng Lăng - Ấp 2",
+      "Trạm T28 Kinh 2000 - Đường Kinh Bằng Lăng - Ấp 2",
+      "Trạm T34 Kinh 2000-1 - Đường Kinh Bằng Lăng - Ấp 2",
+      "Trạm T42 Kinh 7000 - Đường Kinh Bằng Lăng",
+      "Kinh 7000 - Ấp 2"
     ],
     "loai_don_vi": "Xã"
   },
