@@ -846,7 +846,8 @@
       "Đường TL 833",
       "Ấp 4",
       "Đường Lê Thị Trâm",
-      "Đường Châu Văn Bảy"
+      "Đường Châu Văn Bảy",
+      "đương Phạm Văn Điền"
     ]
   },
   "TN-KHANHHAU": {
@@ -1657,7 +1658,8 @@
       "KDC Gò Đen ấp 4 Phước Lợi",
       "4 Mỹ Yên",
       "Ấp Voi Lá",
-      "Ấp Chánh"
+      "Ấp Chánh",
+      "Ấp 1B An Thạnh"
     ]
   },
   "TN-THANHLOI": {
@@ -2045,7 +2047,8 @@
       "Đường tỉnh 825",
       "gần trường TH- THCS Lộc Giang",
       "Ấp Lộc Hòa",
-      "Đường Lộc Chánh từ dầu cổng Ấp Văn Hóa Lộc Chánh vô Xóm"
+      "Đường Lộc Chánh từ dầu cổng Ấp Văn Hóa Lộc Chánh vô Xóm",
+      "Đường từ ngã 4 Ông Chiêu đến gần ngả tư đường An Thuận một phần ấp An Thuỷ"
     ]
   },
   "TN-BINHTHANH": {
@@ -2187,7 +2190,9 @@
       "kên T11 và kên Cái Cỏ",
       "Ấp: Cây Me",
       "Ấp Gò Chuối",
-      "Trạm T20A/1 Tole Minh Nhựt"
+      "Trạm T20A/1 Tole Minh Nhựt",
+      "Hộ sản xuất Trần Văn Huyền",
+      "Hộ sản xuất Trần Trung Tố"
     ]
   },
   "TN-TANHUNG": {
@@ -2469,7 +2474,9 @@
       "Một ấp Thạnh Hưng",
       "Tổ hợp tác bơm điện Vân Kiều",
       "Tổ hợp tác trạm bơm điện Kênh T5",
-      "Hộ sản xuất Võ văn Khoa"
+      "Hộ sản xuất Võ văn Khoa",
+      "TỔ HỢP TÁC NÔNG NGHIỆP THẮNG LỢI",
+      "Hộ sản xuất TLê Văn Sơn"
     ]
   },
   "TN-DONGTHANH": {
@@ -2586,7 +2593,9 @@
       "ấp Sồ Đô",
       "Đường Lộ Kinh Ốp",
       "Ấp Gò Ớt",
-      "Cụm DCVL Thạnh Hưng"
+      "Cụm DCVL Thạnh Hưng",
+      "Kinh Cả Gừa đoạn Giáp Vĩnh Hưng",
+      "ấp Cả Gừa"
     ]
   },
   "TN-CANDUOC": {
@@ -2905,7 +2914,8 @@
       "ấp Phước Trung",
       "Ấp Long Giao",
       "Ấp Long Hòa 2",
-      "Ấp Long Bình"
+      "Ấp Long Bình",
+      "Ấp Long Hòa"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3110,7 +3120,8 @@
       "Hạ tầng và Đô thị",
       "Khu phố Bình Nguyên 1",
       "khu phố Gia Bình",
-      "khu phố Rổng Tượng"
+      "khu phố Rổng Tượng",
+      "Khu phố Bình Nguyên"
     ],
     "loai_don_vi": "Phường"
   },
