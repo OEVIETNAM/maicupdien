@@ -180,7 +180,8 @@
       "Ấp Bến Mương",
       "Ấp Cẩm Long",
       "Ấp Bến Đình",
-      "Ấp Cầu Sắt"
+      "Ấp Cầu Sắt",
+      "Ấp Tầm Lanh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -209,7 +210,8 @@
       "Ấp Phước Bình A",
       "Ấp Phước Hòa",
       "Ấp Phước Hội B",
-      "Ấp Phước Bình"
+      "Ấp Phước Bình",
+      "Ấp Tầm Lanh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -534,7 +536,8 @@
       "Ấp Long Thạnh",
       "Ấp Phước Đông",
       "Ấp Phước Trung",
-      "Ấp Long Hòa"
+      "Ấp Long Hòa",
+      "Ấp Long Chẩn"
     ],
     "loai_don_vi": "Xã"
   },
@@ -847,7 +850,12 @@
       "Ấp 4",
       "Đường Lê Thị Trâm",
       "Đường Châu Văn Bảy",
-      "đương Phạm Văn Điền"
+      "đương Phạm Văn Điền",
+      "Một đường Châu Thị Kim",
+      "hẻm 570 Châu Thị Kim",
+      "khu phố An Thuận",
+      "hẻm 646 Châu Thị Kim",
+      "Khu phố Vĩnh Bình"
     ]
   },
   "TN-KHANHHAU": {
@@ -1218,7 +1226,12 @@
       "ấp Phú Thành",
       "Toàn bộ khu vực nhánh rẽ KDC Phước Lý Năm Sao ( ĐT.835B)",
       "Khu vực Khu dân cư Hải Sơn",
-      "Khu vực Đường Bờ Nhà Thờ ( Sân Banh)"
+      "Khu vực Đường Bờ Nhà Thờ ( Sân Banh)",
+      "Khu vực nội bộ KDC Năm Sao",
+      "Khu vực từ KDC Khu đô thị Năm Sao (Đường ĐT 835B ) đến Ngã Tư Phước Lý ( Đường ĐT 826 ) đến Khu đô thị Năm Sao ( Đường ĐT 826 )",
+      "thuộc ấp Phước Lý",
+      "Khu vực từ Ngã Tư Phước Lý ( Đường ĐT 826 ) đến đầu đường Long Thượng Hưng Long",
+      "thuộc ấp Vĩnh Phước"
     ]
   },
   "TN-CANGIUOC": {
@@ -1325,7 +1338,8 @@
       "Khu vực gần cống Mương Chài ( Đường Bà Kiểu)",
       "thuộc ấp Phước Lại",
       "Khu vực gần Cổng chào ấp Văn Hóa Phước Thới(ĐT.826C)",
-      "thuộc ấp Phước Thới"
+      "thuộc ấp Phước Thới",
+      "thuộc ấp 2"
     ]
   },
   "TN-MYLOC": {
@@ -1581,7 +1595,10 @@
       "ấp Phước Tú Thanh Phú",
       "Đường Trần Thế Sinh",
       "Ấp Bến Lức 9",
-      "Ấp Tấn Long Thanh Phú"
+      "Ấp Tấn Long Thanh Phú",
+      "Trường Cao Đẳng Long An - Cơ Sở Bến Lức ấp 3",
+      "CS Chiếu Hai Thành ấp Long Kim",
+      "Phòng Giao dịch số 1 - Kho bạc Nhà nước Khu vực XVIII ấp 3"
     ]
   },
   "TN-LUONGHOA": {
@@ -1731,7 +1748,9 @@
       "Ấp 5 Thạnh Đức",
       "5  Nhựt Chánh",
       "8  Nhựt Chánh",
-      "TSTL Phan Thị Mang ấp 6"
+      "TSTL Phan Thị Mang ấp 6",
+      "3 Bình Đức",
+      "ấp Kênh Ngay"
     ]
   },
   "TN-TANLAN": {
@@ -2379,7 +2398,8 @@
       "Ấp Nhơn Hoà 1 một phần",
       "ấp Bình Hữu 1",
       "Đường số 1 Thái Hòa",
-      "Ấp Bình Hữu"
+      "Ấp Bình Hữu",
+      "ấp Gò Cao"
     ]
   },
   "TN-MYQUY": {
@@ -2595,7 +2615,12 @@
       "Ấp Gò Ớt",
       "Cụm DCVL Thạnh Hưng",
       "Kinh Cả Gừa đoạn Giáp Vĩnh Hưng",
-      "ấp Cả Gừa"
+      "ấp Cả Gừa",
+      "Lộ đan Kinh Ốp đoạn từ Kinh Đường Trâu đến Trường Tiểu Học Gò Ớt",
+      "ấp Bình Tây & Ấp Gò Ớt",
+      "Lộ Bình Tây Kinh Ngọn Nhỏ đoạn Trạm Cấp Nước Ấp Bình Tây",
+      "Hộ: Sở KH Công Nghệ",
+      "ấp Bàu Mua"
     ]
   },
   "TN-CANDUOC": {
@@ -2750,7 +2775,8 @@
       "Kinh 2000 Nam Trái",
       "Kinh 2000 Nam Phải",
       "Kinh 63",
-      "Kinh 16.8"
+      "Kinh 16.8",
+      "- Đường Kinh Quận từ Chợ Bắc Hòa đến Kinh 79 - Ấp Bắc Hòa"
     ]
   },
   "TN-ANLUCLONG": {
@@ -3728,6 +3754,18 @@
     "ma_dien_luc": "PB0609",
     "khu_pho": [
       "một phần"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANHUNG-2": {
+    "ten_phuong": "Tân Hưng:",
+    "ten_huyen": "Tân Hưng",
+    "ma_dien_luc": "PB0613",
+    "khu_pho": [
+      "- Một phần ấp Gò Thuyền",
+      "ấp Cả Bát",
+      "ấp Vĩnh Lợi",
+      "ấp Vĩnh Thạnh"
     ],
     "loai_don_vi": "Xã"
   }
