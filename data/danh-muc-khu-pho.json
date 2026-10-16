@@ -138,7 +138,8 @@
       "Hạ tầng và Đô thị",
       "Khu phố Thanh Bình",
       "Khu phố Nội Ô A",
-      "Khu phố Trâm Vàng 1"
+      "Khu phố Trâm Vàng 1",
+      "Nguyễn Văn Toàn\nVNPT Tây Ninh\nBưu điện Gò Dầu\nCông an"
     ],
     "loai_don_vi": "Phường"
   },
@@ -1350,7 +1351,9 @@
       "thuộc ấp Phước Lại",
       "Khu vực gần Cổng chào ấp Văn Hóa Phước Thới(ĐT.826C)",
       "thuộc ấp Phước Thới",
-      "thuộc ấp 2"
+      "thuộc ấp 2",
+      "Khu vực đường Nguyễn Thanh Tâm",
+      "Khu vực gần trạm Cấp Nước Phước Lại ( Đường ĐT.826C)"
     ]
   },
   "TN-MYLOC": {
@@ -1380,7 +1383,9 @@
       "Thuận Nam",
       "Phước Hưng",
       "Một phần",
-      "Khu vực từ Cầu Mồng Gà đến Trường THCS Thuận Thành"
+      "Khu vực từ Cầu Mồng Gà đến Trường THCS Thuận Thành",
+      "Khu vực đường Phạm Thị Cẩm",
+      "Khu vực trên đường ĐT835A ( từ Trường Tiểu Học Lộc Tiền đến đường Huỳnh Thị Luông )"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1536,7 +1541,10 @@
       "Đường Bình Tân đoạn giáp CDCVL  Bình Tân",
       "Đường Bình Tân    đoạn Trạm Y Tế",
       "Đường QL 62 đoạn Cầu Hung Ga Ri",
-      "Đường QL 62 đoạn  Cây Xăng Ông Đấu"
+      "Đường QL 62 đoạn  Cây Xăng Ông Đấu",
+      "Đường đan Kinh bà Ký",
+      "ấp Bình Bắc",
+      "Lộ Bình Bắc đoạn Cầu Bình Bắc 1"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -1609,7 +1617,8 @@
       "Ấp Tấn Long Thanh Phú",
       "Trường Cao Đẳng Long An - Cơ Sở Bến Lức ấp 3",
       "CS Chiếu Hai Thành ấp Long Kim",
-      "Phòng Giao dịch số 1 - Kho bạc Nhà nước Khu vực XVIII ấp 3"
+      "Phòng Giao dịch số 1 - Kho bạc Nhà nước Khu vực XVIII ấp 3",
+      "Khu vực Đường Nguyễn Văn Tuôi ấp Bến Lức 6"
     ]
   },
   "TN-LUONGHOA": {
@@ -1687,7 +1696,10 @@
       "4 Mỹ Yên",
       "Ấp Voi Lá",
       "Ấp Chánh",
-      "Ấp 1B An Thạnh"
+      "Ấp 1B An Thạnh",
+      "Khu vực Đường 830D ấp 5",
+      "KDC Vĩnh Lộc",
+      "Đường Quốc Lộ 1A ấp 1"
     ]
   },
   "TN-THANHLOI": {
@@ -1790,7 +1802,8 @@
       "Ấp Bình Hòa ( ấp Cầu Xây cũ)",
       "Ấp Phước Đông",
       "Cầu Nổi (ấp 3",
-      "5 cũ)"
+      "5 cũ)",
+      "ấp Cầu Nổi (ấp 5 cũ)"
     ]
   },
   "TN-RACHKIEN": {
@@ -2083,7 +2096,8 @@
       "Đường từ ngã 4 Ông Chiêu đến gần ngả tư đường An Thuận một phần ấp An Thuỷ",
       "Từ ngã 4 Đường Hồ Chí Minh đến khu vực lò gạch Thiên Lộc",
       "Gạch Kim Phát Tài",
-      "Từ ngã 4 cổ Ấp Văn Hóa Lộc Chánh đến bến phà Chợ Lộc Giang"
+      "Từ ngã 4 cổ Ấp Văn Hóa Lộc Chánh đến bến phà Chợ Lộc Giang",
+      "Đường An Thuận từ gần Đường Hồ Chí Minh về Đường An Thủy"
     ]
   },
   "TN-BINHTHANH": {
@@ -2696,7 +2710,8 @@
       "10 cũ)",
       "11 (ấp 23",
       "24 cũ)",
-      "QL50 đoạn từ cây xăng Ba Be đến Ngã 3 Tân Lân thuộc một phần ấp 5 (ấp 9 cũ)"
+      "QL50 đoạn từ cây xăng Ba Be đến Ngã 3 Tân Lân thuộc một phần ấp 5 (ấp 9 cũ)",
+      "ấp 3 (ấp 5 cũ)"
     ]
   },
   "TN-THANHPHUOC": {
@@ -2747,7 +2762,8 @@
       "Đường Kinh Phụng Thớt - Từ Cầu Kinh Đường Cắt đến Cầu Kinh Bảy Ngàn – Một phần Ấp Năm Ngàn",
       "Trạm T53 Kinh 6000 - Đường Kinh Bằng Lăng - Ấp Tân Thành",
       "Chợ Tân Ninh - Ấp Năm Ngàn",
-      "Trạm bơm điện Kinh Tè - Đường Kinh 5000 - Ấp Tân Ninh"
+      "Trạm bơm điện Kinh Tè - Đường Kinh 5000 - Ấp Tân Ninh",
+      "Đường Kinh Tè nối dài - Ấp Tân Ninh"
     ]
   },
   "TN-NHONHOALAP": {
@@ -2842,7 +2858,13 @@
       "một phần",
       "Đường Kênh 30/4 ấp Cầu Kinh",
       "Đường Cầu Ván ấp Cầu Kinh",
-      "Đường vào xóm ấp Cẩu Kinh"
+      "Đường vào xóm ấp Cẩu Kinh",
+      "Đường Chợ Ông Bái",
+      "Kênh Chiến đấu",
+      "đường kênh 30 tháng 4",
+      "Đường Kênh T2 (từ chợ Cầu Đồn đến Cổng ấp Văn Hóa Long Bình) ấp Long Thuận",
+      "Đường Kênh T2 (từ Cổng ấp Văn Hóa Long Bình đến ranh giới ĐT 827D tỉnh Đồng Tháp)",
+      "đường Kênh Bưng Môn ấp Long Trì"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -3269,7 +3291,9 @@
       "Ấp Bàu Sến",
       "Ấp Giồng Lớn",
       "Đường Kênh Bình Thành",
-      "ấp Thanh Sơn"
+      "ấp Thanh Sơn",
+      "Đường tỉnh 816 từ Ngã 3 Cây Điệp đến Cầu Cần Giè",
+      "ấp Chánh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3353,7 +3377,14 @@
       "Khu vực Kênh 24",
       "Khu vực Đường kênh 24 từ QL 62 đến Kênh 3",
       "Khu vực CDC Tân Đông",
-      "Trạm bơm Kênh 22: ấp Công Trường"
+      "Trạm bơm Kênh 22: ấp Công Trường",
+      "Từ Km 22 đến Km 23 trên Quốc lộ 62: ấp Mai Vàng",
+      "Từ Km 21 đến Km 21+500 trên Quốc lộ 62: ấp Mai Vàng",
+      "Từ Km 19 đến Km 20 trên Quốc lộ 62: ấp Cả Ràng",
+      "Từ Km 18 đến Km 19 trên Quốc lộ 62: ấp Tân Đông",
+      "Khu vực Kênh Rạch Gỗ: ấp Công Bình",
+      "Khu vực từ Kênh 3 đến Kênh Bắc Đông Mới cặp đường Kênh 21: ấp Công Trường",
+      "Khu vực từ Kênh 2 đến Kênh 3 cặp đường Kênh 21: ấp Công Trường"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3798,6 +3829,15 @@
     "ma_dien_luc": "PB0614",
     "khu_pho": [
       "Đường TL 827A từ Bảo hiểm"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-DUCHUEAPTHANHSON": {
+    "ten_phuong": "Đức Huệ ấp Thanh Sơn",
+    "ten_huyen": "Đức Huệ",
+    "ma_dien_luc": "PB0610",
+    "khu_pho": [
+      "Đường đi từ Cầu Rạch Mương đến  Cầu Cần Xé"
     ],
     "loai_don_vi": "Xã"
   }
