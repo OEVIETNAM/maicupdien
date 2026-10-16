@@ -1026,7 +1026,8 @@
       "Khu vực từ Trường Tiểu Học Mỹ Thạnh đến Chùa Hoà Bình",
       "Khu vực Cầu Ông Lớn đến Ngã ba Trâm Bầu",
       "Khu vực Đài Tưởng Niệm Mỹ Lạc",
-      "Khu vực từ nhà Ông Hai Bé (cập ĐT 817) đến nhà Ông Út"
+      "Khu vực từ nhà Ông Hai Bé (cập ĐT 817) đến nhà Ông Út",
+      "Khu vực cặp đường dan (đoạn từ nhà Ông Thế đến nhà Ông Danh)"
     ]
   },
   "TN-THUTHUA": {
@@ -1142,7 +1143,8 @@
       "Ấp Nhơn Hòa 1",
       "1 phần  Giồng Lớn ấp Mới 1",
       "1 phần  Ấp 5",
-      "1p  ấp 2"
+      "1p  ấp 2",
+      "1p ấp Mới 1"
     ]
   },
   "TN-DUCHOA": {
@@ -2097,7 +2099,9 @@
       "Từ ngã 4 Đường Hồ Chí Minh đến khu vực lò gạch Thiên Lộc",
       "Gạch Kim Phát Tài",
       "Từ ngã 4 cổ Ấp Văn Hóa Lộc Chánh đến bến phà Chợ Lộc Giang",
-      "Đường An Thuận từ gần Đường Hồ Chí Minh về Đường An Thủy"
+      "Đường An Thuận từ gần Đường Hồ Chí Minh về Đường An Thủy",
+      "Đường tỉnh 878A từ Khu Siêu Thị Thành Công đến Đường vô hẻm Lộc Bình 6 đến Gần Shop thời trang Hồng Phát",
+      "đến quán tạp hóa 3 Nhớ"
     ]
   },
   "TN-BINHTHANH": {
@@ -2434,7 +2438,8 @@
       "Đường số 1 Thái Hòa",
       "Ấp Bình Hữu",
       "ấp Gò Cao",
-      "1P ấp Bàu Sen"
+      "1P ấp Bàu Sen",
+      "1p"
     ]
   },
   "TN-MYQUY": {
@@ -2864,7 +2869,8 @@
       "đường kênh 30 tháng 4",
       "Đường Kênh T2 (từ chợ Cầu Đồn đến Cổng ấp Văn Hóa Long Bình) ấp Long Thuận",
       "Đường Kênh T2 (từ Cổng ấp Văn Hóa Long Bình đến ranh giới ĐT 827D tỉnh Đồng Tháp)",
-      "đường Kênh Bưng Môn ấp Long Trì"
+      "đường Kênh Bưng Môn ấp Long Trì",
+      "Hộ thắp sáng thanh long Nguyễn Thị Ngọc Sương"
     ]
   },
   "TN-NINHTHANH-2": {
