@@ -139,7 +139,8 @@
       "Khu phố Thanh Bình",
       "Khu phố Nội Ô A",
       "Khu phố Trâm Vàng 1",
-      "Nguyễn Văn Toàn\nVNPT Tây Ninh\nBưu điện Gò Dầu\nCông an"
+      "Nguyễn Văn Toàn\nVNPT Tây Ninh\nBưu điện Gò Dầu\nCông an",
+      "Khu phố Trâm Vàng"
     ],
     "loai_don_vi": "Phường"
   },
@@ -444,7 +445,8 @@
       "Ấp Hiệp Phước",
       "Ấp Tân Định",
       "Ấp Bố Lớn",
-      "Ấp Hiệp Thành"
+      "Ấp Hiệp Thành",
+      "Ấp Hòa Hợp"
     ],
     "loai_don_vi": "Xã"
   },
@@ -461,7 +463,8 @@
       "Ấp Trà Sim",
       "Ấp Thành Nam",
       "Ấp Thành Đông",
-      "Ấp Nam Bến Sỏi"
+      "Ấp Nam Bến Sỏi",
+      "Ấp Phước Tân"
     ],
     "loai_don_vi": "Xã"
   },
@@ -859,7 +862,9 @@
       "hẻm 570 Châu Thị Kim",
       "khu phố An Thuận",
       "hẻm 646 Châu Thị Kim",
-      "Khu phố Vĩnh Bình"
+      "Khu phố Vĩnh Bình",
+      "Khu Dân Cư Bình Tâm",
+      "đường Đỗ Tường Tự"
     ]
   },
   "TN-KHANHHAU": {
@@ -1029,7 +1034,8 @@
       "Khu vực Đài Tưởng Niệm Mỹ Lạc",
       "Khu vực từ nhà Ông Hai Bé (cập ĐT 817) đến nhà Ông Út",
       "Khu vực cặp đường dan (đoạn từ nhà Ông Thế đến nhà Ông Danh)",
-      "1 phẫn"
+      "1 phẫn",
+      "Khu vực Đường vào Xóm Cây Dầu"
     ]
   },
   "TN-THUTHUA": {
@@ -1392,7 +1398,8 @@
       "Một phần",
       "Khu vực từ Cầu Mồng Gà đến Trường THCS Thuận Thành",
       "Khu vực đường Phạm Thị Cẩm",
-      "Khu vực trên đường ĐT835A ( từ Trường Tiểu Học Lộc Tiền đến đường Huỳnh Thị Luông )"
+      "Khu vực trên đường ĐT835A ( từ Trường Tiểu Học Lộc Tiền đến đường Huỳnh Thị Luông )",
+      "Khu vực đường Lương Văn Bào(QL50) ấp Kế Mỹ"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1554,7 +1561,8 @@
       "Đường QL 62 đoạn  Cây Xăng Ông Đấu",
       "Đường đan Kinh bà Ký",
       "ấp Bình Bắc",
-      "Lộ Bình Bắc đoạn Cầu Bình Bắc 1"
+      "Lộ Bình Bắc đoạn Cầu Bình Bắc 1",
+      "Khu vực Vườn  Xoài cũ"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -1628,7 +1636,10 @@
       "Trường Cao Đẳng Long An - Cơ Sở Bến Lức ấp 3",
       "CS Chiếu Hai Thành ấp Long Kim",
       "Phòng Giao dịch số 1 - Kho bạc Nhà nước Khu vực XVIII ấp 3",
-      "Khu vực Đường Nguyễn Văn Tuôi ấp Bến Lức 6"
+      "Khu vực Đường Nguyễn Văn Tuôi ấp Bến Lức 6",
+      "Khu vực Đường ấp 5",
+      "Khu vực Đường ấp 3 An Thạnh",
+      "Khu vực Đường ĐT 830 ấp 3 An Thạnh"
     ]
   },
   "TN-LUONGHOA": {
@@ -1656,7 +1667,8 @@
       "Một phần",
       "Ấp 6A",
       "Đường ĐT830C",
-      "Trại Giam Long Hòa (K2) ấp 9"
+      "Trại Giam Long Hòa (K2) ấp 9",
+      "Khu vực Đường ĐT 830 ấp 9"
     ]
   },
   "TN-MYYEN": {
@@ -2049,7 +2061,11 @@
       "Từ cổng Chào đến Đường Hồ Chí Minh",
       "Đường Tân Phú từ  Đình thần Tân Phú đến Nhôm Kính Nguyễn Phước",
       "Đường Bàu Trai Từ Nhà Ông Mười Cô Be đến Nhà Anh Hiệp",
-      "ấp Bàu Trai"
+      "ấp Bàu Trai",
+      "Khu Chợ Hiệp Hòa từ Cầu Móng đến Điện từ Bảy Thiện",
+      "đến tiệm Nam Thái",
+      "Khu vực 4",
+      "5"
     ]
   },
   "TN-ANNINH": {
@@ -2122,7 +2138,8 @@
       "Từ ngã 4 cổ Ấp Văn Hóa Lộc Chánh đến bến phà Chợ Lộc Giang",
       "Đường An Thuận từ gần Đường Hồ Chí Minh về Đường An Thủy",
       "Đường tỉnh 878A từ Khu Siêu Thị Thành Công đến Đường vô hẻm Lộc Bình 6 đến Gần Shop thời trang Hồng Phát",
-      "đến quán tạp hóa 3 Nhớ"
+      "đến quán tạp hóa 3 Nhớ",
+      "Đường Lộc Giang từ gần Cầu kênh Tây đến Đường Hồ Chí Minh"
     ]
   },
   "TN-BINHTHANH": {
@@ -2159,7 +2176,8 @@
       "Khu vực CDC Thạnh An",
       "Trạm BN khu 2 thị trấn: ấp Thuỷ Đông",
       "Trang Trại Dư Hoài: ấp Thạnh An",
-      "Trạm Sạc WinFast: ấp Thuỷ Tây"
+      "Trạm Sạc WinFast: ấp Thuỷ Tây",
+      "Khu vực cây xăng Sáu Khoáng cặp Sông Vàm Cỏ: ấp An Đông"
     ]
   },
   "TN-TUYENBINH": {
@@ -2213,7 +2231,8 @@
       "Một phần ấp Vĩnh Hưng",
       "Một phần ấp Vĩnh Trị",
       "Một phần ấp Lò Gạch",
-      "Một phần"
+      "Một phần",
+      "Đường Đông Sông Lò Gạch từ cầu Cả Môn đến Vàm Dưng - ấp Vĩnh Thuận"
     ]
   },
   "TN-KHANHHUNG": {
@@ -2311,7 +2330,9 @@
       "Ấp 5",
       "Ấp Vĩnh Nguyện",
       "Tổ Hợp Tác Trạm Bơm Điện ấp Rọc Năng và trạm bơm điện Thành Đạt",
-      "Tổ Hợp Tác Trạm Bơm Điện ấp Rọc Năng"
+      "Tổ Hợp Tác Trạm Bơm Điện ấp Rọc Năng",
+      "- Khu vực cặp Bờ đông Kênh Ngang",
+      "khu vực cặp Kênh 7 Thước"
     ]
   },
   "TN-CHAU": {
@@ -2361,7 +2382,10 @@
       "Đường Lộ Đất ấp Bình Hạp",
       "Bình An",
       "Đường đan vào xóm một phần ấp An Thạnh",
-      "Đường An Bình (đoạn từ Hội Thánh Tin Lành đến Cầu An Bình)"
+      "Đường An Bình (đoạn từ Hội Thánh Tin Lành đến Cầu An Bình)",
+      "Đường liên ấp 2-5 (khu vực Cầu Chợ Giữa) ấp Bình Hạp",
+      "Đường đan (đoạn từ Kênh Tư Trạng 1km hướng về Công Cầu Hà Nội) ấp Phú Ngãi Trị",
+      "Đường TL 827B (từ Cống Cầu Vàm đến kênh Bảy Na) ấp Tân Nho"
     ]
   },
   "TN-THUANMY": {
@@ -2537,7 +2561,18 @@
       "Đườngvô Ấp 5 Mỹ Thạnh Bắc củ",
       "Đường tỉnh 838 gần ngã 3 ông Tỵ",
       "Đường tỉnh 838 gần Sân Bay",
-      "Đường đi Mỹ Quý Đông"
+      "Đường đi Mỹ Quý Đông",
+      "Từ đầu đường Khu Trù Mật đến Nhà nghỉ Bà Hiền",
+      "Đường ra Bà Mùi từ Vật Liệu Xây Dựng Cẩm Hồng đến Chợ Bà Mùi đến Khu vực Sông Vàm Cỏ đến Cầu Đức Huệ 2",
+      "Đường Cốc Rinh từ Quán Ăn Hân Hạnh đến Đại lý diêm Tro Năm Em",
+      "Đường Cốc Rinh từ Đại lý diêm Tro Năm Em đến gần Đường Kênh Tỉnh",
+      "Đường vô Voi Đình",
+      "từ vật liệu Xây Dựng Lan Anh đến gần Nhà Nghĩ Gia Huy",
+      "từ Café Kiều Lủy đến Trại Bò Nguyễn Chí Linh",
+      "Đường Sơ Rơ",
+      "từ Cầu Sơ Rơ đến  tạp Hóa Thanh Quyên",
+      "Đường Ấp 3 Mỹ Quý Đông",
+      "từ ngã 3 Nhà Tư Sai ra Kênh Đường Xuồng"
     ]
   },
   "TN-VINHTHANH": {
@@ -2767,7 +2802,15 @@
       "Mộ phần",
       "ấp Đông Thuận",
       "ấp Ông Hiếu",
-      "Một phần"
+      "Một phần",
+      "Từ Km 47 đến Km 47+500 cặp Quốc lộ N2: ấp Đông Thuận",
+      "Từ Kênh Trà Cú đến đầu Kênh 6 Chí",
+      "cặp Kênh 6 Chí: ấp Đông Thuận",
+      "Từ Bến Đò Vịnh Sau đến Rạch Xẻo Mũi cặp sông Vàm Cỏ: ấp Ông Quới",
+      "Từ Rạch Xẻo Mũi  đến Rạch Thủ Ngân",
+      "cặp Kênh 30/4: ấp Ông Quới",
+      "Từ Rạch Thủ Ngân đến Rạch Cái Tôm",
+      "Từ Rạch Cái Tôm đến Rạch Đá Biên"
     ]
   },
   "TN-NHONNINH": {
@@ -2851,7 +2894,8 @@
       "Tuyến dân cư Kinh Biện Minh - Ấp Giồng Dung",
       "Đường Kinh 63 Hậu Thạnh Tây - Ấp Hậu Thạnh Tây",
       "Khu vực Bến xe Hậu Thạnh Tây - Ấp Hậu Thạnh Tây",
-      "Khu vực Bến xe Hậu Thạnh Tây đến Cầu Kinh Ranh - Ấp Hậu Thạnh Tây"
+      "Khu vực Bến xe Hậu Thạnh Tây đến Cầu Kinh Ranh - Ấp Hậu Thạnh Tây",
+      "Đường Kinh Lô 600 - Ấp Hậu Thạnh Tây"
     ]
   },
   "TN-ANLUCLONG": {
@@ -2903,7 +2947,8 @@
       "đường Kênh Bưng Môn ấp Long Trì",
       "Hộ thắp sáng thanh long Nguyễn Thị Ngọc Sương",
       "Đường Kênh 30 tháng 4 (đoạn từ Trạm y tế An Lục Long đền Cầu Ông Bụi) ấp Cầu Hàng",
-      "Đường đan vào xóm một phần ấp ấp Đồng Tre"
+      "Đường đan vào xóm một phần ấp ấp Đồng Tre",
+      "Đường Kênh 30 tháng 4 (đoạn giao với đường An Tập) ấp Chợ Ông Bái"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -2924,7 +2969,8 @@
       "Khu Phố Ninh Hiệp",
       "Khu Phố Ninh An",
       "Khu Phố Ninh Phú",
-      "Khu Phố Ninh Bình"
+      "Khu Phố Ninh Bình",
+      "Khu phố ninh Hoà"
     ],
     "loai_don_vi": "Phường"
   },
@@ -3091,7 +3137,8 @@
       "Ấp vạn Phước (ấp Vạn Phước cũ)",
       "Ấp Xóm Trường (ấp 6 cũ)",
       "ấp Trạch An (ấp 7 cũ)",
-      "Ấp Trạch Định (ấp 9 cũ)"
+      "Ấp Trạch Định (ấp 9 cũ)",
+      "Ấp Tân Trạch (ấp 12 cũ)"
     ],
     "loai_don_vi": "Xã"
   },
