@@ -320,7 +320,8 @@
       "Ấp Suối Dây",
       "Ấp Thạnh Nghĩa",
       "Ấp Thạnh Hiệp",
-      "Ấp Tân Thạnh"
+      "Ấp Tân Thạnh",
+      "ấp Tha La"
     ],
     "loai_don_vi": "Xã"
   },
@@ -525,7 +526,9 @@
       "ấp Xóm Mới 2",
       "Ấp Tầm Long Long",
       "Ấp Bình Lợi",
-      "ấp Cầu Trường"
+      "ấp Cầu Trường",
+      "Ấp Xóm Ruộng (tổ 23",
+      "Ấp tổ 24)"
     ],
     "loai_don_vi": "Xã"
   },
@@ -825,7 +828,12 @@
       "Ấp Bến Đình",
       "Ấp Mộc Bài",
       "Ấp Xóm Lò",
-      "Ấp Bàu Gõ"
+      "Ấp Bàu Gõ",
+      "Ấp Bàu Tràm Lớn",
+      "Ấp Thuận Hòa",
+      "Ấp Thuận Chánh",
+      "Ấp Thuận Bắc",
+      "Ấp Thuận Lâm"
     ],
     "loai_don_vi": "Xã"
   },
@@ -867,7 +875,10 @@
       "Khu Dân Cư Bình Tâm",
       "đường Đỗ Tường Tự",
       "dường kênh tư vĩnh khu phố vĩnh bình",
-      "Đường hẻm Chùa Ông"
+      "Đường hẻm Chùa Ông",
+      "đường nguyễn văn tịch đường đỗ văn giàu",
+      "kp vĩnh bình",
+      "đỗ văn giàu khp vĩnh bình"
     ]
   },
   "TN-KHANHHAU": {
@@ -968,7 +979,8 @@
       "ấp Cầu Tre",
       "Đường 278 khu phố Bình An 2",
       "Đường Nguyễn Quang Đại",
-      "Kp Bình Phú"
+      "Kp Bình Phú",
+      "đường hùng vương đường quốc lộ 1A khu phố 1"
     ]
   },
   "TN-MYTHANH": {
@@ -1468,7 +1480,8 @@
       "Đường QL62 đoạn Cầu Song Sắt",
       "ấp Tân Lập 4",
       "Trạm Hứa Văn On",
-      "Trạm Nguyễn Văn Lãm"
+      "Trạm Nguyễn Văn Lãm",
+      "Đường Trần Quốc Sản đoạn từ CDCVL Bình Hòa Đông đến Kinh Ngon Bến Buôn"
     ]
   },
   "TN-BINHHOA": {
@@ -1734,7 +1747,9 @@
       "Khu vực Đường 830D ấp 5",
       "KDC Vĩnh Lộc",
       "Đường Quốc Lộ 1A ấp 1",
-      "Khu vực Đường 830D ấp 1"
+      "Khu vực Đường 830D ấp 1",
+      "Khu vực Đường Trường TH Mỹ Yên Ấp 4",
+      "Đường Mỹ Yên- Thanh Phú Ấp 2"
     ]
   },
   "TN-THANHLOI": {
@@ -1876,7 +1891,8 @@
       "Ấp Phước Vĩnh (ấp Cầu Xây cũ)",
       "Ấp Long Trạch (ấp Xoài Đôi cũ)",
       "Ấp Phước Bửu (ấp 9",
-      "10 cũ)"
+      "10 cũ)",
+      "Khu TDC Cầu Tràm"
     ]
   },
   "TN-LONGCANG": {
@@ -2360,7 +2376,9 @@
       "Tổ Hợp Tác Trạm Bơm Điện ấp Rọc Năng và trạm bơm điện Thành Đạt",
       "Tổ Hợp Tác Trạm Bơm Điện ấp Rọc Năng",
       "- Khu vực cặp Bờ đông Kênh Ngang",
-      "khu vực cặp Kênh 7 Thước"
+      "khu vực cặp Kênh 7 Thước",
+      "- Khu vực cặp ĐT 837B (Đoạn từ Cầu Quân Khu 7 đến khu vực giáp ranh ấp Gò Cả Bô",
+      "xã Vĩnh Thạnh)"
     ]
   },
   "TN-CHAU": {
@@ -2413,7 +2431,8 @@
       "Đường An Bình (đoạn từ Hội Thánh Tin Lành đến Cầu An Bình)",
       "Đường liên ấp 2-5 (khu vực Cầu Chợ Giữa) ấp Bình Hạp",
       "Đường đan (đoạn từ Kênh Tư Trạng 1km hướng về Công Cầu Hà Nội) ấp Phú Ngãi Trị",
-      "Đường TL 827B (từ Cống Cầu Vàm đến kênh Bảy Na) ấp Tân Nho"
+      "Đường TL 827B (từ Cống Cầu Vàm đến kênh Bảy Na) ấp Tân Nho",
+      "Đường TL 827A từ Trường Nguyễn Thông đến Bệnh Viện Châu Thành và toàn tuyến đường Cao Văn Lầu thuộc ấp Trường Xuân và toàn tuyến đường 30/4 thuộc ấp Bình Lục"
     ]
   },
   "TN-THUANMY": {
@@ -2454,7 +2473,11 @@
       "Đường  xóm thuộc ấp: Bình Thới",
       "Đường đan khu vực Chùa Đông Hòa ấp Xuân Hòa",
       "Đường đan",
-      "(khu vực từ Cánh Đồng 12 đến kênh 30/4) ấp Bình Thạnh 2"
+      "(khu vực từ Cánh Đồng 12 đến kênh 30/4) ấp Bình Thạnh 2",
+      "Đường Ao Sen-Thanh Bình 2 (đoạn từ đầu Đường Ao Sen đến nhà Văn Hóa Thanh Bình 2) ấp Xuân Hòa",
+      "Đường Lộ Dừa Thanh Phú Long (đoạn từ Ngả 4 Thanh Phú Long đến nhà Văn Hóa Thanh Bình 2) ấp Thanh Tân",
+      "Đường TL 827B ấp Vĩnh viễn",
+      "Thanh vĩnh Đông đoạm từ Chợ Thuận Mỹ đến Bến đò Thanh Vĩnh Đông"
     ]
   },
   "TN-VINHCONG": {
@@ -2675,7 +2698,9 @@
       "2 Mỹ Thạnh Đông Củ",
       "Đường vô Ấp 3 Mỹ Thạnh Đông Củ",
       "Đường vô Ấp 1 Mỹ Thạnh Đông Củ",
-      "Đường Ấp 3 Mỹ Thạnh Đông từ tiệm làm nhang 9 Dung đến Sông Vàm Cỏ"
+      "Đường Ấp 3 Mỹ Thạnh Đông từ tiệm làm nhang 9 Dung đến Sông Vàm Cỏ",
+      "Từ khu dân cư gần cầu Mỹ Thành đến hết đường Ấp 1",
+      "2 Mỹ Thạnh Đông đến sông vàm cỏ"
     ]
   },
   "TN-TANTAP": {
