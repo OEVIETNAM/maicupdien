@@ -865,7 +865,9 @@
       "hẻm 646 Châu Thị Kim",
       "Khu phố Vĩnh Bình",
       "Khu Dân Cư Bình Tâm",
-      "đường Đỗ Tường Tự"
+      "đường Đỗ Tường Tự",
+      "dường kênh tư vĩnh khu phố vĩnh bình",
+      "Đường hẻm Chùa Ông"
     ]
   },
   "TN-KHANHHAU": {
@@ -1084,7 +1086,8 @@
       "1 phấn Ấp 7",
       "ấp Bình Thành 5",
       "KCN Hoà Bình",
-      "Khu vực dọc Quốc Lộ 1A (đoạn từ Cây Xăng Phước Lộc Thọ đến Hàn Tiện Cộng Hưởng)"
+      "Khu vực dọc Quốc Lộ 1A (đoạn từ Cây Xăng Phước Lộc Thọ đến Hàn Tiện Cộng Hưởng)",
+      "Đường Phan Văn Tình (đoạn từ Công Hoà Bình đến trước Mũi Tàu Bưu Điện)"
     ]
   },
   "TN-TANLONG": {
@@ -1121,7 +1124,9 @@
       "Một phấn ấp 1",
       "Một phấn ấp 2",
       "Toàn bộ",
-      "Khu vực cặp Kênh Lộp Cộp (Nhà Giáo Phong)"
+      "Khu vực cặp Kênh Lộp Cộp (Nhà Giáo Phong)",
+      "Khu vực Nhà Sáu Giàu ra Sông Vàm Cỏ",
+      "Khu vực dọc Kênh Ông Cả"
     ]
   },
   "TN-MYHANH": {
@@ -1458,7 +1463,12 @@
       "Đường QL 62 đoạn Khu Du Lich Sinh Thái",
       "Đường QL 62 đoạn  Cây Xăng Cầu 79",
       "Đường Lê Quốc Sản đoang Cầu Thanh Niên 1",
-      "ấp Bình Hòa Đông 2"
+      "ấp Bình Hòa Đông 2",
+      "Đường QL62 đoạn Cầu 79",
+      "Đường QL62 đoạn Cầu Song Sắt",
+      "ấp Tân Lập 4",
+      "Trạm Hứa Văn On",
+      "Trạm Nguyễn Văn Lãm"
     ]
   },
   "TN-BINHHOA": {
@@ -2066,7 +2076,11 @@
       "Khu Chợ Hiệp Hòa từ Cầu Móng đến Điện từ Bảy Thiện",
       "đến tiệm Nam Thái",
       "Khu vực 4",
-      "5"
+      "5",
+      "Đường tỉnh 825 từ  Tư Gia Trương Công Buol đến Tiệm Tạp Hóa Ánh Nguyệt",
+      "Đường tỉnh 825 từ  Nhà Sách Đình Nguyên đến",
+      "ấp Hòa Hiệp 1",
+      "Đường đầu Ấp Văn Hóa Hòa Hiệp 1 đến Khu Nhà Ông Tấn"
     ]
   },
   "TN-ANNINH": {
@@ -2140,7 +2154,14 @@
       "Đường An Thuận từ gần Đường Hồ Chí Minh về Đường An Thủy",
       "Đường tỉnh 878A từ Khu Siêu Thị Thành Công đến Đường vô hẻm Lộc Bình 6 đến Gần Shop thời trang Hồng Phát",
       "đến quán tạp hóa 3 Nhớ",
-      "Đường Lộc Giang từ gần Cầu kênh Tây đến Đường Hồ Chí Minh"
+      "Đường Lộc Giang từ gần Cầu kênh Tây đến Đường Hồ Chí Minh",
+      "Đường đầu Nhà Ông Minh đến Khu Nhà Ông Thoảng",
+      "Đường An Ninh Tây từ Hội Thánh Tin Lành An Ninh Đông đến tiệp tạp Hóa Tấn Đạt",
+      "Đường An Thạnh 6",
+      "từ Ngã 3 Vô Xóm",
+      "Đường An Thạnh 7",
+      "đến Café Bến Gió",
+      "Đường An Thủy từ Sân Bóng Mini đến quán ba Hùng"
     ]
   },
   "TN-BINHTHANH": {
@@ -2288,7 +2309,9 @@
       "Trạm T20A/1 Tole Minh Nhựt",
       "Hộ sản xuất Trần Văn Huyền",
       "Hộ sản xuất Trần Trung Tố",
-      "Một phần"
+      "Một phần",
+      "Hộ sản xuất Nguyễn Thị Dung",
+      "TỔ HỢP TÁC BƠM ĐIỆN LÊ VĂN CỘP"
     ]
   },
   "TN-TANHUNG": {
@@ -2311,7 +2334,11 @@
       "Ấp Cả Cát",
       "Một phần",
       "Ấp cả Nổ",
-      "Ấp Gò Thuyền B"
+      "Ấp Gò Thuyền B",
+      "- Khu vực cặp sông Vàm Cỏ Tây (Từ bến đò ngã năm cũ (nhà chú 2 Đại) hướng về cầu kênh 504)",
+      "khu vực cặp kênh 504 Nối Dài",
+      "khu vực cặp kênh Phụ Nữ",
+      "ấp Cả Nga"
     ]
   },
   "TN-VINHCHAU": {
@@ -2425,7 +2452,9 @@
       "Đường An Khương Thới",
       "đường vào xóm thuộc ấp: Bình Thới",
       "Đường  xóm thuộc ấp: Bình Thới",
-      "Đường đan khu vực Chùa Đông Hòa ấp Xuân Hòa"
+      "Đường đan khu vực Chùa Đông Hòa ấp Xuân Hòa",
+      "Đường đan",
+      "(khu vực từ Cánh Đồng 12 đến kênh 30/4) ấp Bình Thạnh 2"
     ]
   },
   "TN-VINHCONG": {
@@ -2896,7 +2925,9 @@
       "Đường Kinh 63 Hậu Thạnh Tây - Ấp Hậu Thạnh Tây",
       "Khu vực Bến xe Hậu Thạnh Tây - Ấp Hậu Thạnh Tây",
       "Khu vực Bến xe Hậu Thạnh Tây đến Cầu Kinh Ranh - Ấp Hậu Thạnh Tây",
-      "Đường Kinh Lô 600 - Ấp Hậu Thạnh Tây"
+      "Đường Kinh Lô 600 - Ấp Hậu Thạnh Tây",
+      "Từ Cầu Bùi Cũ đến Trường THCS Hậu Thạnh Đông trên Đường tỉnh 837 - Ấp Đỗ Văn Bốn",
+      "Từ Trường THCS Hậu Thạnh Đông đến chợ Trung tâm sản Hậu Thạnh Đông trên Đường tỉnh 837 - Ấp Đỗ Văn Bốn"
     ]
   },
   "TN-ANLUCLONG": {
@@ -3214,7 +3245,12 @@
       "Trạm T28 Kinh 2000 - Đường Kinh Bằng Lăng - Ấp 2",
       "Trạm T34 Kinh 2000-1 - Đường Kinh Bằng Lăng - Ấp 2",
       "Trạm T42 Kinh 7000 - Đường Kinh Bằng Lăng",
-      "Kinh 7000 - Ấp 2"
+      "Kinh 7000 - Ấp 2",
+      "Từ Km 13 đến Km 13 + 500 trên Đường tỉnh 837 - Ấp 2",
+      "Từ Km 14 đến Km 14 + 500 trên Đường tỉnh 837 - Ấp 2",
+      "Từ Km 14 + 500 đến Km 15 trên Đường tỉnh 837 - Ấp 2",
+      "Từ khu di tích Xứ Ủy Nam bộ đến Km 15 + 500 trên Đường tỉnh 837 - Ấp 2",
+      "Từ Km 16 đến Cầu Bùi Cũ trên Đường tỉnh 837 - Ấp 2"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3952,6 +3988,15 @@
     "ma_dien_luc": "PB0611",
     "khu_pho": [
       "Khu vực từ UB"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-HAUTHANHDENCAUTREOHAUTHANHDONGTRENDUONG": {
+    "ten_phuong": "Hậu Thạnh đến cầu treo Hậu Thạnh Đông trên Đường",
+    "ten_huyen": "Tân Thạnh",
+    "ma_dien_luc": "PB0608",
+    "khu_pho": [
+      "Từ UBND"
     ],
     "loai_don_vi": "Xã"
   }
