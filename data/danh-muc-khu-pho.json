@@ -448,7 +448,10 @@
       "Ấp Tân Định",
       "Ấp Bố Lớn",
       "Ấp Hiệp Thành",
-      "Ấp Hòa Hợp"
+      "Ấp Hòa Hợp",
+      "Ấp Cây Ổi",
+      "Ấp Hiệp Bình",
+      "Ấp Tân Long"
     ],
     "loai_don_vi": "Xã"
   },
@@ -503,7 +506,8 @@
       "Ấp tổ 8 và tổ 11)",
       "Ấp Cầu Trường",
       "Tổ 3 ấp Bình Long",
-      "Ấp Bình Lương"
+      "Ấp Bình Lương",
+      "Ấp Tam Hạp"
     ],
     "loai_don_vi": "Xã"
   },
@@ -528,7 +532,8 @@
       "Ấp Bình Lợi",
       "ấp Cầu Trường",
       "Ấp Xóm Ruộng (tổ 23",
-      "Ấp tổ 24)"
+      "Ấp tổ 24)",
+      "Ấp Xóm Ruộng (trừ tổ 23"
     ],
     "loai_don_vi": "Xã"
   },
@@ -911,7 +916,14 @@
       "Đường Quốc Lộ 1A",
       "khu phố Thủ Tửu 1",
       "Đường Kinh N3",
-      "ấp Bình An B"
+      "ấp Bình An B",
+      "Kp Tường Khánh",
+      "Thủ Tửu",
+      "Quyết Thắng",
+      "Dọc QL 62 đoạn từ Bưu điện Long An đến Cầu Rạch Chùa thuộc các Kp Lợi Bình Nhơn",
+      "Xuân Hòa",
+      "Rạch Chanh",
+      "đường hoàng anh kp thủ tửu"
     ]
   },
   "TN-LONGAN": {
@@ -980,7 +992,21 @@
       "Đường 278 khu phố Bình An 2",
       "Đường Nguyễn Quang Đại",
       "Kp Bình Phú",
-      "đường hùng vương đường quốc lộ 1A khu phố 1"
+      "đường hùng vương đường quốc lộ 1A khu phố 1",
+      "khu dân cư thái dương",
+      "khu trung tâm hành chánh tỉnh",
+      "Đường Hùng Vương nối dài",
+      "Khu vực dọc  Quốc Lộ 1A đoạn từ Cầu Tân An đến Cổng 2 Lăng Nguyễn Huỳnh Đức thuộc các Kp: Kp Tân Xuân 1",
+      "Tân Xuân 2",
+      "Tân Xuân 3",
+      "Tân Xuân 4",
+      "Bình Yên Đông 2",
+      "Bình Yên Đông 3",
+      "Bình Quân 1",
+      "Xuân Hòa 1",
+      "Bình Cư",
+      "Khu vực dọc  Quốc Lộ 1A đoạn từ Cầu Tân An đến Cổng Lăng Nguyễn Huỳnh Đức thuộc các Kp: Kp Tân Xuân 1",
+      "Khu vực dọc  Quốc Lộ 1A đoạn từ Cầu Tân An đến Cổng  Lăng Nguyễn Huỳnh Đức thuộc các Kp: Kp Tân Xuân 1"
     ]
   },
   "TN-MYTHANH": {
@@ -1384,7 +1410,28 @@
       "thuộc ấp 2",
       "Khu vực đường Nguyễn Thanh Tâm",
       "Khu vực gần trạm Cấp Nước Phước Lại ( Đường ĐT.826C)",
-      "Khu vực gần bến phà Ba Lo-Trâm Bầu( Đường đê bao Long Bào)"
+      "Khu vực gần bến phà Ba Lo-Trâm Bầu( Đường đê bao Long Bào)",
+      "thuộc ấp Tân Kim",
+      "Khu vực từ trạm 110kV Cần Giuộc đến Ngã tư Gia Bảo theo đường tuyến tránh QL50 đến Trường Tiểu Học Tân Kim đến KCN Tân Kim Mở Rộng: thuộc Ấp Tân Kim",
+      "Khu vực trên đường ĐT.826C ( từ Cầu Rạch Dừa đến Cầu Rạch Dơi)",
+      "Đường ĐT.826E: thuộc ấp Long Hậu",
+      "Khu vực từ đường ĐT.826C đến Đường ĐT.826E: thuộc ấp Long Hậu",
+      "Khu vực KCN Long Hậu 3 ( Đường Long Hậu Tân Tập ): thuộc ấp Long Đức Đông",
+      "Khu vực Đường số 7",
+      "Đường số 6",
+      "Đường Trung Tâm KCN Long Hậu Mở Rộng: thuộc ấp Long Đức Đông",
+      "Khu vực Đường số 2",
+      "Đường số 5",
+      "Đường Long Hậu Hiệp Phước: thuộc ấp Long Đức Đông",
+      "Khu vực Đường số 1",
+      "Đường số 4",
+      "Đường sô 5",
+      "Đường Trung Tâm KCN Long Hậu: thuộc ấp Long Đức Đông",
+      "Khu vực Đường số 3 KCN Long Hậu: thuộc ấp Long Đức Đông",
+      "Khu vực Đường Long Hậu Tân Tập",
+      "Đường số 8",
+      "Đường số 6 KCN Long Hậu: thuộc ấp Long Đức Đông",
+      "Đường ấp 1 Long Hậu. và từ Cầu Rạch Dừa đến gần Trường THCS Và THPT Nguyễn Thị Một: thuộc ấp Long Đức Đông"
     ]
   },
   "TN-MYLOC": {
@@ -1663,7 +1710,10 @@
       "Khu vực Đường Nguyễn Văn Tuôi ấp Bến Lức 6",
       "Khu vực Đường ấp 5",
       "Khu vực Đường ấp 3 An Thạnh",
-      "Khu vực Đường ĐT 830 ấp 3 An Thạnh"
+      "Khu vực Đường ĐT 830 ấp 3 An Thạnh",
+      "Khu vực Đường ĐT830 ấp 1A An Thạnh",
+      "Khu vực Đường ĐT830C ấp Thanh Hiệp",
+      "Khu vực Đường Nguyễn Văn Nhâm ấp Bến Lức 2"
     ]
   },
   "TN-LUONGHOA": {
@@ -1749,7 +1799,8 @@
       "Đường Quốc Lộ 1A ấp 1",
       "Khu vực Đường 830D ấp 1",
       "Khu vực Đường Trường TH Mỹ Yên Ấp 4",
-      "Đường Mỹ Yên- Thanh Phú Ấp 2"
+      "Đường Mỹ Yên- Thanh Phú Ấp 2",
+      "Đường Rạch Bàu Cua ấp 3A"
     ]
   },
   "TN-THANHLOI": {
@@ -1854,7 +1905,14 @@
       "Ấp Phước Đông",
       "Cầu Nổi (ấp 3",
       "5 cũ)",
-      "ấp Cầu Nổi (ấp 5 cũ)"
+      "ấp Cầu Nổi (ấp 5 cũ)",
+      "QL 50 đoạn từ Ngã 3 Tân Lân đến Ngã 4 Chợ Trạm và toàn bộ Đường tránh TTCĐ thuộc ấp Ao Gòn (Ấp Nhà Thờ",
+      "Bà Chủ cũ)",
+      "ấp Phước Đông (ấp 1 cũ)",
+      "toàn bộ ấp Xóm Chùa (Ấp Xóm Mới",
+      "Nhà Dài cũ) ấp Ao Gòn ( ấp Ao Gòn cũ)",
+      "Bình Hòa (ấp Bình Hòa",
+      "Cầu Xây cũ)"
     ]
   },
   "TN-RACHKIEN": {
@@ -1892,7 +1950,9 @@
       "Ấp Long Trạch (ấp Xoài Đôi cũ)",
       "Ấp Phước Bửu (ấp 9",
       "10 cũ)",
-      "Khu TDC Cầu Tràm"
+      "Khu TDC Cầu Tràm",
+      "ĐT 835 đoạn từ Ngã 4 Xoài Đôi đến Cống Long Hòa thuộc ấp Phước Hưng (Ấp Minh Thiện cũ)",
+      "KDC Ấp Phước Vĩnh 3"
     ]
   },
   "TN-LONGCANG": {
@@ -1938,7 +1998,14 @@
       "Khu TĐC Long Cang",
       "1 phần Ấp Long Cang",
       "1 phần Ấp Long Kim",
-      "Ấp Tuy Lộc ( ấp 11 cũ)"
+      "Ấp Tuy Lộc ( ấp 11 cũ)",
+      "HL17 đoạn từ Chợ Mới Long Cang đến CCN Thiên Lộc Thành (giai đoạn 3) thuộc ấp Long Cang (ấp 3 cũ)",
+      "ĐT833B đoạn từ Ngã 3 Chợ mới Long Cang đến Bến Đò Long Cang và HL17 đoạn từ Chợ Mới Long Cang đến CCN Thiên Lộc Thành (giai đoạn 3) thuộc ấp Long Cang (ấp 3 cũ)",
+      "ấp Long Cang (ấp 3",
+      "ấp 4 cũ)",
+      "ĐT833B đoạn từ Ngã 3 Chợ cũ Long Cang đến Bến Đò Long Cang và HL17 đoạn từ Chợ Mới Long Cang đến Cống Đôi Ma thuộc ấp Long Cang (ấp 3 cũ)",
+      "ĐT 835 đoạn từ Cống Long Hòa đến Cầu Long Khê và ĐT 835D đoạn từ Cống Long Hòa đến Ngã 4 Phước Vân thuộc ấp An Thuận ( ấp 12",
+      "13 cũ)"
     ]
   },
   "TN-TANTRU": {
@@ -3196,7 +3263,8 @@
       "Ấp Xóm Trường (ấp 6 cũ)",
       "ấp Trạch An (ấp 7 cũ)",
       "Ấp Trạch Định (ấp 9 cũ)",
-      "Ấp Tân Trạch (ấp 12 cũ)"
+      "Ấp Tân Trạch (ấp 12 cũ)",
+      "ấp Cầu Làng"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4023,6 +4091,15 @@
     "ma_dien_luc": "PB0608",
     "khu_pho": [
       "Từ UBND"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANTRU-3": {
+    "ten_phuong": "Tân Trụ",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "Ấp Bình Trinh Đông"
     ],
     "loai_don_vi": "Xã"
   }
