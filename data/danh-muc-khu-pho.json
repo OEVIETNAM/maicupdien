@@ -756,7 +756,9 @@
       "Khu p[hố Trường Huệ",
       "Nguyễn Văn Linh",
       "Khu phố Trường Trường Xuân",
-      "Khu phố Trường Xuân"
+      "Khu phố Trường Xuân",
+      "Khu phố Long Tân",
+      "Khu phố Trường Giang"
     ],
     "loai_don_vi": "Phường"
   },
@@ -1586,7 +1588,8 @@
       "Đường Nguyễn Hữu Thọ",
       "Một phần khu phố 4",
       "Đường QL 62 Khu phố 8",
-      "Đường QL 62 đoạn Rạch Ông Sự"
+      "Đường QL 62 đoạn Rạch Ông Sự",
+      "Đường Kinh Cửa Đông từ Nhà Thiếu Nhi đến Kênh Quảng Cút"
     ]
   },
   "TN-BINHHIEP": {
@@ -1715,7 +1718,9 @@
       "Khu vực Đường ĐT 830 ấp 3 An Thạnh",
       "Khu vực Đường ĐT830 ấp 1A An Thạnh",
       "Khu vực Đường ĐT830C ấp Thanh Hiệp",
-      "Khu vực Đường Nguyễn Văn Nhâm ấp Bến Lức 2"
+      "Khu vực Đường Nguyễn Văn Nhâm ấp Bến Lức 2",
+      "Đường ĐT 830",
+      "Ấp 3 An Thạnh"
     ]
   },
   "TN-LUONGHOA": {
@@ -1877,7 +1882,9 @@
       "TSTL Phan Thị Mang ấp 6",
       "3 Bình Đức",
       "ấp Kênh Ngay",
-      "Ấp 1 Thạnh Đức"
+      "Ấp 1 Thạnh Đức",
+      "Đường ĐT 832",
+      "khu Cảng Bắc Tân Ấp 5 Nhựt Chánh"
     ]
   },
   "TN-TANLAN": {
@@ -2717,7 +2724,10 @@
       "Tổ hợp tác trạm bơm điện Kênh T5",
       "Hộ sản xuất Võ văn Khoa",
       "TỔ HỢP TÁC NÔNG NGHIỆP THẮNG LỢI",
-      "Hộ sản xuất TLê Văn Sơn"
+      "Hộ sản xuất TLê Văn Sơn",
+      "-Khu vực cặp kênh Sông Trăng: Đoạn từ nhà chú Hai Sấm đến nhà chú Hai Hùng. ấp Gò Bún",
+      "-Khu vực cặp kênh Sông Trăng",
+      "ấp Gò Bún"
     ]
   },
   "TN-DONGTHANH": {
@@ -2772,7 +2782,8 @@
       "Đường Ấp 3 Mỹ Thạnh Đông từ tiệm làm nhang 9 Dung đến Sông Vàm Cỏ",
       "Từ khu dân cư gần cầu Mỹ Thành đến hết đường Ấp 1",
       "2 Mỹ Thạnh Đông đến sông vàm cỏ",
-      "ấp Voi Ấp Vinh"
+      "ấp Voi Ấp Vinh",
+      "Đường tỉnh 839 từ Điện lực Đức Huệ đến Cầu Đức Huệ"
     ]
   },
   "TN-TANTAP": {
@@ -4105,6 +4116,15 @@
     "ma_dien_luc": "PB0607",
     "khu_pho": [
       "Ấp Bình Trinh Đông"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-VINHHUNG-2": {
+    "ten_phuong": "Vĩnh Hưng",
+    "ten_huyen": "Tân Hưng",
+    "ma_dien_luc": "PB0613",
+    "khu_pho": [
+      "Khu vực cặp kênh T3: Đoạn từ cầu T3 hướng về"
     ],
     "loai_don_vi": "Xã"
   }
