@@ -885,7 +885,9 @@
       "Đường hẻm Chùa Ông",
       "đường nguyễn văn tịch đường đỗ văn giàu",
       "kp vĩnh bình",
-      "đỗ văn giàu khp vĩnh bình"
+      "đỗ văn giàu khp vĩnh bình",
+      "đường võ hoàng hôn ấp vĩnh bình",
+      "đường kênh 10 Mậu khu phố Bình trung"
     ]
   },
   "TN-KHANHHAU": {
@@ -1010,7 +1012,15 @@
       "Xuân Hòa 1",
       "Bình Cư",
       "Khu vực dọc  Quốc Lộ 1A đoạn từ Cầu Tân An đến Cổng Lăng Nguyễn Huỳnh Đức thuộc các Kp: Kp Tân Xuân 1",
-      "Khu vực dọc  Quốc Lộ 1A đoạn từ Cầu Tân An đến Cổng  Lăng Nguyễn Huỳnh Đức thuộc các Kp: Kp Tân Xuân 1"
+      "Khu vực dọc  Quốc Lộ 1A đoạn từ Cầu Tân An đến Cổng  Lăng Nguyễn Huỳnh Đức thuộc các Kp: Kp Tân Xuân 1",
+      "N5 đường số 8 kdc idico",
+      "đường tuyến tránh đường D5",
+      "D6 D7",
+      "D8",
+      "N4",
+      "N6",
+      "N7",
+      "N8 kdc Idico"
     ]
   },
   "TN-MYTHANH": {
@@ -1080,7 +1090,11 @@
       "Khu vực từ nhà Ông Hai Bé (cập ĐT 817) đến nhà Ông Út",
       "Khu vực cặp đường dan (đoạn từ nhà Ông Thế đến nhà Ông Danh)",
       "1 phẫn",
-      "Khu vực Đường vào Xóm Cây Dầu"
+      "Khu vực Đường vào Xóm Cây Dầu",
+      "Khu vực cặp Đài Tưởng Niệm đến nhà Hai Bé",
+      "Khu vực từ Nhà Tư Xương đến Tư Chuyện",
+      "Khu vực cặp Rạch Bà Miều đến cầu Kênh Kháng Chiến",
+      "Khu vực từ Nhà Ông Hậu đến Ông Tâm"
     ]
   },
   "TN-THUTHUA": {
@@ -1589,7 +1603,9 @@
       "Một phần khu phố 4",
       "Đường QL 62 Khu phố 8",
       "Đường QL 62 đoạn Rạch Ông Sự",
-      "Đường Kinh Cửa Đông từ Nhà Thiếu Nhi đến Kênh Quảng Cút"
+      "Đường Kinh Cửa Đông từ Nhà Thiếu Nhi đến Kênh Quảng Cút",
+      "Đường Quốc Lộ  62 đoạn",
+      "Đường QL 62 đoạn Cầu Cửa Đông"
     ]
   },
   "TN-BINHHIEP": {
@@ -2254,7 +2270,8 @@
       "từ Ngã 3 Vô Xóm",
       "Đường An Thạnh 7",
       "đến Café Bến Gió",
-      "Đường An Thủy từ Sân Bóng Mini đến quán ba Hùng"
+      "Đường An Thủy từ Sân Bóng Mini đến quán ba Hùng",
+      "đến đường Sơn Lợi 4"
     ]
   },
   "TN-BINHTHANH": {
@@ -2371,7 +2388,8 @@
       "Một phấn ấp Hưng Điền A",
       "Một phần",
       "Ấp Long Khốt",
-      "Ấp Thái Bình Trung"
+      "Ấp Thái Bình Trung",
+      "Đường Bờ Đông Kênh Tân Thành-Lò Gạch từ Cầu KT6 đến Sông Long Khốt - ấp Láng Lớn"
     ]
   },
   "TN-HUNGDIEN": {
@@ -2404,7 +2422,9 @@
       "Hộ sản xuất Trần Trung Tố",
       "Một phần",
       "Hộ sản xuất Nguyễn Thị Dung",
-      "TỔ HỢP TÁC BƠM ĐIỆN LÊ VĂN CỘP"
+      "TỔ HỢP TÁC BƠM ĐIỆN LÊ VĂN CỘP",
+      "Tổ hợp tác trạm bơm số 10: Cặp kênh 79",
+      "ấp Gò Pháo"
     ]
   },
   "TN-TANHUNG": {
@@ -2455,7 +2475,9 @@
       "- Khu vực cặp Bờ đông Kênh Ngang",
       "khu vực cặp Kênh 7 Thước",
       "- Khu vực cặp ĐT 837B (Đoạn từ Cầu Quân Khu 7 đến khu vực giáp ranh ấp Gò Cả Bô",
-      "xã Vĩnh Thạnh)"
+      "xã Vĩnh Thạnh)",
+      "- Khu vực cặp Bờ đông và Bờ tây kênh Ngang Vĩnh Đại. ấp Vĩnh Đại",
+      "ấp Láng Sen"
     ]
   },
   "TN-CHAU": {
@@ -2580,7 +2602,9 @@
       "Hộ thắp sáng thanh long Nguyễn Tấn Toàn ấp Đa Phú",
       "Đường An Thạnh",
       "đường vào xóm ấp:  An Thạnh",
-      "Hòa Phú"
+      "Hòa Phú",
+      "Lộ Làng",
+      "Dĩ An ấp An Thạnh"
     ]
   },
   "TN-DUCLAP": {
@@ -2703,7 +2727,8 @@
       "từ Cầu Sơ Rơ đến  tạp Hóa Thanh Quyên",
       "Đường Ấp 3 Mỹ Quý Đông",
       "từ ngã 3 Nhà Tư Sai ra Kênh Đường Xuồng",
-      "Khu vực"
+      "Khu vực",
+      "Đường tỉnh 838 từ khoảng Quán Óc Đêm đến cầu Mỹ Bình"
     ]
   },
   "TN-VINHTHANH": {
@@ -2783,7 +2808,8 @@
       "Từ khu dân cư gần cầu Mỹ Thành đến hết đường Ấp 1",
       "2 Mỹ Thạnh Đông đến sông vàm cỏ",
       "ấp Voi Ấp Vinh",
-      "Đường tỉnh 839 từ Điện lực Đức Huệ đến Cầu Đức Huệ"
+      "Đường tỉnh 839 từ Điện lực Đức Huệ đến Cầu Đức Huệ",
+      "Đường Mỹ Bình từ  cầu đến cầu ấp Giồng Ông Út"
     ]
   },
   "TN-TANTAP": {
@@ -2911,7 +2937,10 @@
       "11 (ấp 23",
       "24 cũ)",
       "QL50 đoạn từ cây xăng Ba Be đến Ngã 3 Tân Lân thuộc một phần ấp 5 (ấp 9 cũ)",
-      "ấp 3 (ấp 5 cũ)"
+      "ấp 3 (ấp 5 cũ)",
+      "HL22 đoạn từ ngã 3 Tân Ân đến xóm lò rèn thuộc ấp 4 (ấp 6",
+      "8 cũ)",
+      "Đường Nguyễn Trãi"
     ]
   },
   "TN-THANHPHUOC": {
@@ -2972,7 +3001,8 @@
       "Trạm T53 Kinh 6000 - Đường Kinh Bằng Lăng - Ấp Tân Thành",
       "Chợ Tân Ninh - Ấp Năm Ngàn",
       "Trạm bơm điện Kinh Tè - Đường Kinh 5000 - Ấp Tân Ninh",
-      "Đường Kinh Tè nối dài - Ấp Tân Ninh"
+      "Đường Kinh Tè nối dài - Ấp Tân Ninh",
+      "Đường Kinh 7000 - Ấp Tân Thành"
     ]
   },
   "TN-NHONHOALAP": {
@@ -3279,7 +3309,8 @@
       "ấp Trạch An (ấp 7 cũ)",
       "Ấp Trạch Định (ấp 9 cũ)",
       "Ấp Tân Trạch (ấp 12 cũ)",
-      "ấp Cầu Làng"
+      "ấp Cầu Làng",
+      "QL 50"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3360,7 +3391,10 @@
       "Từ Km 14 đến Km 14 + 500 trên Đường tỉnh 837 - Ấp 2",
       "Từ Km 14 + 500 đến Km 15 trên Đường tỉnh 837 - Ấp 2",
       "Từ khu di tích Xứ Ủy Nam bộ đến Km 15 + 500 trên Đường tỉnh 837 - Ấp 2",
-      "Từ Km 16 đến Cầu Bùi Cũ trên Đường tỉnh 837 - Ấp 2"
+      "Từ Km 16 đến Cầu Bùi Cũ trên Đường tỉnh 837 - Ấp 2",
+      "Chợ Tân Lập trên đường tỉnh 837 - Ấp 2",
+      "Từ Trường THCS Nhơn Hòa Lập đến Cầu Kinh 1000 Nhơn Hòa Lập - Ấp 2",
+      "Từ Cầu Kinh 1000 Nhơn Hòa Lập đến Cầu Kinh 2000 Nhơn Hòa Lập - Ấp 2"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3386,7 +3420,11 @@
       "một phần ấp Bàu Trai Hạ",
       "Đường trên KDC Hiệp Hòa",
       "Khu vực 4",
-      "Khu vực 2"
+      "Khu vực 2",
+      "Đường tỉnh 822 từ đường Hồ Chí Minh đến Ngã 4 Xóm Mới",
+      "ấp Hoà Thuận",
+      "ấp Hoà Bình 2",
+      "Đường tỉnh 822 từ Ngã 4 Xóm Mới đến Áo Cưới Trần Dũng ấp Hoà Thuận"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3529,7 +3567,9 @@
       "Đường Kênh Bình Thành",
       "ấp Thanh Sơn",
       "Đường tỉnh 816 từ Ngã 3 Cây Điệp đến Cầu Cần Giè",
-      "ấp Chánh"
+      "ấp Chánh",
+      "Từ đầu cổng Ấp Văn Hóa Tân Hòa đến quán Hẻm đường đan quán café Phong",
+      "Đường tỉnh 839 từ quán bánh kem Lucky CaKe đến ngã 3 Ủy Ban Bình Thành Củ"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4125,6 +4165,15 @@
     "ma_dien_luc": "PB0613",
     "khu_pho": [
       "Khu vực cặp kênh T3: Đoạn từ cầu T3 hướng về"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-NHONHOALAPCUDENTRUONGTHCSNHONHOALAP": {
+    "ten_phuong": "Nhơn Hòa Lập cũ đến Trường THCS Nhơn Hòa Lập",
+    "ten_huyen": "Tân Thạnh",
+    "ma_dien_luc": "PB0608",
+    "khu_pho": [
+      "Từ UNND"
     ],
     "loai_don_vi": "Xã"
   }
