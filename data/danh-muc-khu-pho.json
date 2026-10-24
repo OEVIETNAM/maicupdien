@@ -840,7 +840,8 @@
       "Ấp Thuận Hòa",
       "Ấp Thuận Chánh",
       "Ấp Thuận Bắc",
-      "Ấp Thuận Lâm"
+      "Ấp Thuận Lâm",
+      "- Ấp Thuận Tây"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1020,7 +1021,10 @@
       "N4",
       "N6",
       "N7",
-      "N8 kdc Idico"
+      "N8 kdc Idico",
+      "đương nguyễn cửu vân",
+      "hẻm 62 nguyễn cửu vân",
+      "khu phố bình yên đông 1"
     ]
   },
   "TN-MYTHANH": {
@@ -1094,7 +1098,8 @@
       "Khu vực cặp Đài Tưởng Niệm đến nhà Hai Bé",
       "Khu vực từ Nhà Tư Xương đến Tư Chuyện",
       "Khu vực cặp Rạch Bà Miều đến cầu Kênh Kháng Chiến",
-      "Khu vực từ Nhà Ông Hậu đến Ông Tâm"
+      "Khu vực từ Nhà Ông Hậu đến Ông Tâm",
+      "Khu vực ấp Ninh Thạnh (Xóm Cốm ấp 2 Mỹ Thạnh củ)"
     ]
   },
   "TN-THUTHUA": {
@@ -1854,7 +1859,8 @@
       "KCN Thịnh Phát",
       "tỉnh lộ 830",
       "TSTL Phạm Thanh Hải ấp 6",
-      "Hộ trồng Chanh Nguyễn Phúc Luận ấp 6"
+      "Hộ trồng Chanh Nguyễn Phúc Luận ấp 6",
+      "Đường ĐT 816"
     ]
   },
   "TN-BINHDUC": {
@@ -1979,7 +1985,9 @@
       "Khu TDC Cầu Tràm",
       "ĐT 835 đoạn từ Ngã 4 Xoài Đôi đến Cống Long Hòa thuộc ấp Phước Hưng (Ấp Minh Thiện cũ)",
       "KDC Ấp Phước Vĩnh 3",
-      "Một Phần"
+      "Một Phần",
+      "Đường tỉnh 827D",
+      "ấp Long Hòa"
     ]
   },
   "TN-LONGCANG": {
@@ -2453,7 +2461,11 @@
       "- Khu vực cặp sông Vàm Cỏ Tây (Từ bến đò ngã năm cũ (nhà chú 2 Đại) hướng về cầu kênh 504)",
       "khu vực cặp kênh 504 Nối Dài",
       "khu vực cặp kênh Phụ Nữ",
-      "ấp Cả Nga"
+      "ấp Cả Nga",
+      "Khu vực cụm dân cư Vĩnh Lợi cũ",
+      "cặp kênh Thầu",
+      "cặp kênh Cả Sách",
+      "cặp kênh Cả Nổ. ấp Vĩnh Lợi"
     ]
   },
   "TN-VINHCHAU": {
@@ -2479,7 +2491,8 @@
       "- Khu vực cặp ĐT 837B (Đoạn từ Cầu Quân Khu 7 đến khu vực giáp ranh ấp Gò Cả Bô",
       "xã Vĩnh Thạnh)",
       "- Khu vực cặp Bờ đông và Bờ tây kênh Ngang Vĩnh Đại. ấp Vĩnh Đại",
-      "ấp Láng Sen"
+      "ấp Láng Sen",
+      "- Khu vực cặp đường tỉnh 819: Đoạn gần khu vực cầu Cả Nổ"
     ]
   },
   "TN-CHAU": {
@@ -2578,7 +2591,8 @@
       "Đường Ao Sen-Thanh Bình 2 (đoạn từ đầu Đường Ao Sen đến nhà Văn Hóa Thanh Bình 2) ấp Xuân Hòa",
       "Đường Lộ Dừa Thanh Phú Long (đoạn từ Ngả 4 Thanh Phú Long đến nhà Văn Hóa Thanh Bình 2) ấp Thanh Tân",
       "Đường TL 827B ấp Vĩnh viễn",
-      "Thanh vĩnh Đông đoạm từ Chợ Thuận Mỹ đến Bến đò Thanh Vĩnh Đông"
+      "Thanh vĩnh Đông đoạm từ Chợ Thuận Mỹ đến Bến đò Thanh Vĩnh Đông",
+      "Đường Xóm La Cua"
     ]
   },
   "TN-VINHCONG": {
@@ -3312,7 +3326,9 @@
       "Ấp Trạch Định (ấp 9 cũ)",
       "Ấp Tân Trạch (ấp 12 cũ)",
       "ấp Cầu Làng",
-      "QL 50"
+      "QL 50",
+      "Đường tỉnh 827D",
+      "ấp Trạch An"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3426,7 +3442,10 @@
       "Đường tỉnh 822 từ đường Hồ Chí Minh đến Ngã 4 Xóm Mới",
       "ấp Hoà Thuận",
       "ấp Hoà Bình 2",
-      "Đường tỉnh 822 từ Ngã 4 Xóm Mới đến Áo Cưới Trần Dũng ấp Hoà Thuận"
+      "Đường tỉnh 822 từ Ngã 4 Xóm Mới đến Áo Cưới Trần Dũng ấp Hoà Thuận",
+      "Đường tỉnh 822 từ Ao Sen đến Nghĩa trang Ái Huê",
+      "ấp Hoà Bình 1",
+      "Đường tỉnh 822 từ Nghĩa trang Ái Huê đến đường Hồ Chí Minhấp Hoà Bình 1"
     ],
     "loai_don_vi": "Xã"
   },
