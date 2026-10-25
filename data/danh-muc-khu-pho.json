@@ -1107,7 +1107,8 @@
       "Khu vực cặp Rạch Bà Miều đến cầu Kênh Kháng Chiến",
       "Khu vực từ Nhà Ông Hậu đến Ông Tâm",
       "Khu vực ấp Ninh Thạnh (Xóm Cốm ấp 2 Mỹ Thạnh củ)",
-      "Khu vực cặp Kênh Cầu Kè"
+      "Khu vực cặp Kênh Cầu Kè",
+      "1 phần Ấp An Hòa 2"
     ]
   },
   "TN-THUTHUA": {
@@ -1196,7 +1197,8 @@
       "Khu vực cặp Kênh Lộp Cộp (Nhà Giáo Phong)",
       "Khu vực Nhà Sáu Giàu ra Sông Vàm Cỏ",
       "Khu vực dọc Kênh Ông Cả",
-      "1 phấn ấp 1"
+      "1 phấn ấp 1",
+      "Khu vực Tuyến dân Cư Lộ Cầu Dây"
     ]
   },
   "TN-MYHANH": {
@@ -1229,7 +1231,9 @@
       "1 phần  Giồng Lớn ấp Mới 1",
       "1 phần  Ấp 5",
       "1p  ấp 2",
-      "1p ấp Mới 1"
+      "1p ấp Mới 1",
+      "1 phần ấp Bình Tả",
+      "1 phần Ấp 4"
     ]
   },
   "TN-DUCHOA": {
@@ -2055,7 +2059,8 @@
       "ĐT833B đoạn từ Ngã 3 Chợ cũ Long Cang đến Bến Đò Long Cang và HL17 đoạn từ Chợ Mới Long Cang đến Cống Đôi Ma thuộc ấp Long Cang (ấp 3 cũ)",
       "ĐT 835 đoạn từ Cống Long Hòa đến Cầu Long Khê và ĐT 835D đoạn từ Cống Long Hòa đến Ngã 4 Phước Vân thuộc ấp An Thuận ( ấp 12",
       "13 cũ)",
-      "Đường Nguyễn Trung Trực ấp Long Cang"
+      "Đường Nguyễn Trung Trực ấp Long Cang",
+      "1 phần"
     ]
   },
   "TN-TANTRU": {
@@ -3839,7 +3844,8 @@
       "1 phần ấp Bùng Binh",
       "Ấp Thuận Hòa 1",
       "1 phần ấp Hóc Thơm 2",
-      "1p"
+      "1p",
+      "1 phần ấp Giồng Ngang"
     ],
     "loai_don_vi": "Xã"
   },
