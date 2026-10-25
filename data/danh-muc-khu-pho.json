@@ -140,7 +140,8 @@
       "Khu phố Nội Ô A",
       "Khu phố Trâm Vàng 1",
       "Nguyễn Văn Toàn\nVNPT Tây Ninh\nBưu điện Gò Dầu\nCông an",
-      "Khu phố Trâm Vàng"
+      "Khu phố Trâm Vàng",
+      "Khu phố Thanh Bình A"
     ],
     "loai_don_vi": "Phường"
   },
@@ -214,7 +215,8 @@
       "Ấp Phước Hòa",
       "Ấp Phước Hội B",
       "Ấp Phước Bình",
-      "Ấp Tầm Lanh"
+      "Ấp Tầm Lanh",
+      "ấp Phước Hội A"
     ],
     "loai_don_vi": "Xã"
   },
@@ -233,7 +235,8 @@
       "Ấp Thuận Hòa",
       "Ấp 5",
       "ấp 6",
-      "Võ Quan Huy\nNguyễn Trí Hưng\nTrường Trung Học Cơ Sở Bàu Đồn\nTrạm Y tế"
+      "Võ Quan Huy\nNguyễn Trí Hưng\nTrường Trung Học Cơ Sở Bàu Đồn\nTrạm Y tế",
+      "ấp 4"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1025,7 +1028,10 @@
       "đương nguyễn cửu vân",
       "hẻm 62 nguyễn cửu vân",
       "khu phố bình yên đông 1",
-      "Đường Cử Luyện"
+      "Đường Cử Luyện",
+      "đườn tuyến tránh kp bình quân",
+      "đường nguyễn đại thời",
+      "đường huỳnh châu sổ kp xuân hòa 2"
     ]
   },
   "TN-MYTHANH": {
@@ -1100,7 +1106,8 @@
       "Khu vực từ Nhà Tư Xương đến Tư Chuyện",
       "Khu vực cặp Rạch Bà Miều đến cầu Kênh Kháng Chiến",
       "Khu vực từ Nhà Ông Hậu đến Ông Tâm",
-      "Khu vực ấp Ninh Thạnh (Xóm Cốm ấp 2 Mỹ Thạnh củ)"
+      "Khu vực ấp Ninh Thạnh (Xóm Cốm ấp 2 Mỹ Thạnh củ)",
+      "Khu vực cặp Kênh Cầu Kè"
     ]
   },
   "TN-THUTHUA": {
@@ -1457,7 +1464,8 @@
       "Đường số 8",
       "Đường số 6 KCN Long Hậu: thuộc ấp Long Đức Đông",
       "Đường ấp 1 Long Hậu. và từ Cầu Rạch Dừa đến gần Trường THCS Và THPT Nguyễn Thị Một: thuộc ấp Long Đức Đông",
-      "Khu vực từ Giếng nước Phước Lại ( ĐT.826C) đến Đường Tân Thanh Rạch Găng"
+      "Khu vực từ Giếng nước Phước Lại ( ĐT.826C) đến Đường Tân Thanh Rạch Găng",
+      "Khu vực đường Đê Ông Sâu"
     ]
   },
   "TN-MYLOC": {
@@ -2046,7 +2054,8 @@
       "ấp 4 cũ)",
       "ĐT833B đoạn từ Ngã 3 Chợ cũ Long Cang đến Bến Đò Long Cang và HL17 đoạn từ Chợ Mới Long Cang đến Cống Đôi Ma thuộc ấp Long Cang (ấp 3 cũ)",
       "ĐT 835 đoạn từ Cống Long Hòa đến Cầu Long Khê và ĐT 835D đoạn từ Cống Long Hòa đến Ngã 4 Phước Vân thuộc ấp An Thuận ( ấp 12",
-      "13 cũ)"
+      "13 cũ)",
+      "Đường Nguyễn Trung Trực ấp Long Cang"
     ]
   },
   "TN-TANTRU": {
@@ -2751,7 +2760,8 @@
       "Đường Ấp 3 Mỹ Quý Đông",
       "từ ngã 3 Nhà Tư Sai ra Kênh Đường Xuồng",
       "Khu vực",
-      "Đường tỉnh 838 từ khoảng Quán Óc Đêm đến cầu Mỹ Bình"
+      "Đường tỉnh 838 từ khoảng Quán Óc Đêm đến cầu Mỹ Bình",
+      "Đường đi Giồng Ngang đi Ấp 1 Mỹ Quý Đông (Củ) ấp Mỹ Quý Đông"
     ]
   },
   "TN-VINHTHANH": {
@@ -2775,7 +2785,8 @@
       "Hộ sản xuất TLê Văn Sơn",
       "-Khu vực cặp kênh Sông Trăng: Đoạn từ nhà chú Hai Sấm đến nhà chú Hai Hùng. ấp Gò Bún",
       "-Khu vực cặp kênh Sông Trăng",
-      "ấp Gò Bún"
+      "ấp Gò Bún",
+      "- Khu vực cặp kênh 79: Đoạn khu vực cầu kênh Cái Bát"
     ]
   },
   "TN-DONGTHANH": {
@@ -3025,7 +3036,10 @@
       "Chợ Tân Ninh - Ấp Năm Ngàn",
       "Trạm bơm điện Kinh Tè - Đường Kinh 5000 - Ấp Tân Ninh",
       "Đường Kinh Tè nối dài - Ấp Tân Ninh",
-      "Đường Kinh 7000 - Ấp Tân Thành"
+      "Đường Kinh 7000 - Ấp Tân Thành",
+      "Đường Kinh Tân Kiều",
+      "Kinh Tế",
+      "Kinh Ranh - Ấp Kinh Bùi"
     ]
   },
   "TN-NHONHOALAP": {
@@ -3250,7 +3264,8 @@
       "Ấp Bình Phú",
       "Ấp Phước Dân",
       "Ấp Phước Lập",
-      "Ấp Phước Thuận"
+      "Ấp Phước Thuận",
+      "Ấp Phước Tân"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3335,7 +3350,8 @@
       "ấp Cầu Làng",
       "QL 50",
       "Đường tỉnh 827D",
-      "ấp Trạch An"
+      "ấp Trạch An",
+      "QL50"
     ],
     "loai_don_vi": "Xã"
   },
