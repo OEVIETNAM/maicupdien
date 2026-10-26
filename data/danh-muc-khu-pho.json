@@ -115,7 +115,8 @@
       "Khu phố Thạnh Lợi",
       "Khu phố Tân Phước",
       "Khu phố Ninh Phúc",
-      "Khu phố Ninh An"
+      "Khu phố Ninh An",
+      "Khu phố"
     ],
     "loai_don_vi": "Phường"
   },
@@ -434,7 +435,9 @@
       "Ấp phước Hòa",
       "Ấp Phước Lập",
       "Ấp Phước Lợi",
-      "Ấp Phước Trung"
+      "Ấp Phước Trung",
+      "Ấp Phước Hưng (trừ tổ 1)",
+      "Ấp Phước Hưng (tổ 1)"
     ],
     "loai_don_vi": "Xã"
   },
@@ -818,7 +821,10 @@
       "ấp Long Phú",
       "ấp Long Cường",
       "ấp Long Thịnh",
-      "Ấp Ngã Tắc"
+      "Ấp Ngã Tắc",
+      "- Ấp Bảo",
+      "Cao Su",
+      "Long Tân"
     ],
     "loai_don_vi": "Xã"
   },
@@ -937,7 +943,8 @@
       "Rạch Chanh",
       "đường hoàng anh kp thủ tửu",
       "đường Phạm Văn Ngô",
-      "đường Trần Văn Đấu"
+      "đường Trần Văn Đấu",
+      "một phàn"
     ]
   },
   "TN-LONGAN": {
@@ -1035,7 +1042,13 @@
       "Đường Cử Luyện",
       "đườn tuyến tránh kp bình quân",
       "đường nguyễn đại thời",
-      "đường huỳnh châu sổ kp xuân hòa 2"
+      "đường huỳnh châu sổ kp xuân hòa 2",
+      "KDC Hành chánh tỉnh",
+      "Đường Nguyễn Văn Tiếp",
+      "đường Quốc Lộ 1 A",
+      "đường Cữ Luyện",
+      "đường Cao Văn Lầu",
+      "khu phố Thanh Xuân"
     ]
   },
   "TN-MYTHANH": {
@@ -1574,7 +1587,8 @@
       "ấp Tân Lập 4",
       "Trạm Hứa Văn On",
       "Trạm Nguyễn Văn Lãm",
-      "Đường Trần Quốc Sản đoạn từ CDCVL Bình Hòa Đông đến Kinh Ngon Bến Buôn"
+      "Đường Trần Quốc Sản đoạn từ CDCVL Bình Hòa Đông đến Kinh Ngon Bến Buôn",
+      "Ấp Mương Khai và cụm DCVL Tân Thành"
     ]
   },
   "TN-BINHHOA": {
@@ -1764,7 +1778,9 @@
       "Khu vực Đường ĐT830C ấp Thanh Hiệp",
       "Khu vực Đường Nguyễn Văn Nhâm ấp Bến Lức 2",
       "Đường ĐT 830",
-      "Ấp 3 An Thạnh"
+      "Ấp 3 An Thạnh",
+      "Đường ĐT830C từ ngã ba Long Bình đến đường Kênh T2",
+      "ấp Thanh Hiệp"
     ]
   },
   "TN-LUONGHOA": {
@@ -2424,7 +2440,10 @@
       "Một phần",
       "Ấp Long Khốt",
       "Ấp Thái Bình Trung",
-      "Đường Bờ Đông Kênh Tân Thành-Lò Gạch từ Cầu KT6 đến Sông Long Khốt - ấp Láng Lớn"
+      "Đường Bờ Đông Kênh Tân Thành-Lò Gạch từ Cầu KT6 đến Sông Long Khốt - ấp Láng Lớn",
+      "Đường Bờ Nam",
+      "Bờ Bắc Kênh 28",
+      "Đường 831B (từ đường 831F đến giáp biên giới Campuchia) - ấp Gò Châu Mai"
     ]
   },
   "TN-HUNGDIEN": {
@@ -2459,7 +2478,11 @@
       "Hộ sản xuất Nguyễn Thị Dung",
       "TỔ HỢP TÁC BƠM ĐIỆN LÊ VĂN CỘP",
       "Tổ hợp tác trạm bơm số 10: Cặp kênh 79",
-      "ấp Gò Pháo"
+      "ấp Gò Pháo",
+      "Tổ hợp tác bơm điện Thành Thích",
+      "ấp Cây Ba Gò",
+      "Hộ sản xuất Bùi Văn Đèo và Trương Thị Sang",
+      "trạm bơm điệnTổ hợp tác Cái Bát"
     ]
   },
   "TN-TANHUNG": {
@@ -2796,7 +2819,8 @@
       "-Khu vực cặp kênh Sông Trăng: Đoạn từ nhà chú Hai Sấm đến nhà chú Hai Hùng. ấp Gò Bún",
       "-Khu vực cặp kênh Sông Trăng",
       "ấp Gò Bún",
-      "- Khu vực cặp kênh 79: Đoạn khu vực cầu kênh Cái Bát"
+      "- Khu vực cặp kênh 79: Đoạn khu vực cầu kênh Cái Bát",
+      "Tổ hợp tác bơm điện Chín Hùng"
     ]
   },
   "TN-DONGTHANH": {
@@ -3049,7 +3073,14 @@
       "Đường Kinh 7000 - Ấp Tân Thành",
       "Đường Kinh Tân Kiều",
       "Kinh Tế",
-      "Kinh Ranh - Ấp Kinh Bùi"
+      "Kinh Ranh - Ấp Kinh Bùi",
+      "Đường Kinh Năm Ngàn",
+      "Kinh Tè",
+      "Kinh Bằng Lăng",
+      "Kinh Đòn Dong 1",
+      "Đòn Dong 2",
+      "Kinh Bích - Ấp Tân Ninh",
+      "Khu vực chợ Tân Ninh ấp Bằng Lăng"
     ]
   },
   "TN-NHONHOALAP": {
