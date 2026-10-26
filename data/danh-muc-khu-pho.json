@@ -364,7 +364,8 @@
       "Ấp Tân Lợi A",
       "Ấp Tân Châu",
       "Ấp Tân Đông",
-      "Ấp Tân Tây"
+      "Ấp Tân Tây",
+      "Ấp Tân Trung A"
     ],
     "loai_don_vi": ""
   },
@@ -663,7 +664,9 @@
       "Ấp 2",
       "Ấp 7",
       "Ấp Thạnh Tân",
-      "Ấp Tân Biên"
+      "Ấp Tân Biên",
+      "4",
+      "6"
     ],
     "loai_don_vi": "Xã"
   },
@@ -796,7 +799,8 @@
       "Ấp Thanh Hùng",
       "Ấp Thanh Thuận",
       "Khu phố Hiệp Hòa",
-      "Khu phố Hiệp Định"
+      "Khu phố Hiệp Định",
+      "Khu phố Hiệp Long"
     ],
     "loai_don_vi": "Phường"
   },
@@ -2613,7 +2617,8 @@
       "Đường Lộ Dừa Thanh Phú Long (đoạn từ Ngả 4 Thanh Phú Long đến nhà Văn Hóa Thanh Bình 2) ấp Thanh Tân",
       "Đường TL 827B ấp Vĩnh viễn",
       "Thanh vĩnh Đông đoạm từ Chợ Thuận Mỹ đến Bến đò Thanh Vĩnh Đông",
-      "Đường Xóm La Cua"
+      "Đường Xóm La Cua",
+      "Đường Lộ Dừa (khu vực cống Rạch Tràm)"
     ]
   },
   "TN-VINHCONG": {
@@ -4224,6 +4229,15 @@
     "ma_dien_luc": "PB0608",
     "khu_pho": [
       "Từ UNND"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TRAMLAC": {
+    "ten_phuong": "Tràm Lạc",
+    "ten_huyen": "Đức Hòa",
+    "ma_dien_luc": "PB0603",
+    "khu_pho": [
+      "Ấp Rừng Dầu"
     ],
     "loai_don_vi": "Xã"
   }
