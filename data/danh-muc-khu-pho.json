@@ -854,7 +854,8 @@
       "Ấp Thuận Chánh",
       "Ấp Thuận Bắc",
       "Ấp Thuận Lâm",
-      "- Ấp Thuận Tây"
+      "- Ấp Thuận Tây",
+      "Ấp Bến"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1922,7 +1923,9 @@
       "tỉnh lộ 830",
       "TSTL Phạm Thanh Hải ấp 6",
       "Hộ trồng Chanh Nguyễn Phúc Luận ấp 6",
-      "Đường ĐT 816"
+      "Đường ĐT 816",
+      "Đường ĐT 830",
+      "Đường QL N2"
     ]
   },
   "TN-BINHDUC": {
@@ -2418,7 +2421,8 @@
       "Ấp Rạch Đình",
       "Một phần",
       "Gần khoảng giữa Cầu Rạch Nhà Ông và Sông Vàm Cỏ Tây - ấp Rạch Đình",
-      "Từ Cầu Kênh 61 (gần cầu Rạch Mây) đi qua CDC Chùa Nổi cặp theo Sông Vàm Cỏ -  ấp Rạch Mây"
+      "Từ Cầu Kênh 61 (gần cầu Rạch Mây) đi qua CDC Chùa Nổi cặp theo Sông Vàm Cỏ -  ấp Rạch Mây",
+      "Đường Kênh Uỷ Ban cũ (gần CDC Thái Bình Trung"
     ]
   },
   "TN-VINHHUNG": {
@@ -2473,7 +2477,9 @@
       "Đường Bờ Đông Kênh Tân Thành-Lò Gạch từ Cầu KT6 đến Sông Long Khốt - ấp Láng Lớn",
       "Đường Bờ Nam",
       "Bờ Bắc Kênh 28",
-      "Đường 831B (từ đường 831F đến giáp biên giới Campuchia) - ấp Gò Châu Mai"
+      "Đường 831B (từ đường 831F đến giáp biên giới Campuchia) - ấp Gò Châu Mai",
+      "Đường 831F (từ đường 831B đến Bến Xe Khánh Hưng) ấp Gò Châu Mai",
+      "Đường Bờ Nam Sông Long Khốt (gần kênh T2)"
     ]
   },
   "TN-HUNGDIEN": {
@@ -2512,7 +2518,8 @@
       "Tổ hợp tác bơm điện Thành Thích",
       "ấp Cây Ba Gò",
       "Hộ sản xuất Bùi Văn Đèo và Trương Thị Sang",
-      "trạm bơm điệnTổ hợp tác Cái Bát"
+      "trạm bơm điệnTổ hợp tác Cái Bát",
+      "Tổ hợp tác Nguyễn Văn Hơi"
     ]
   },
   "TN-TANHUNG": {
@@ -2671,7 +2678,8 @@
       "Đường TL 827B ấp Vĩnh viễn",
       "Thanh vĩnh Đông đoạm từ Chợ Thuận Mỹ đến Bến đò Thanh Vĩnh Đông",
       "Đường Xóm La Cua",
-      "Đường Lộ Dừa (khu vực cống Rạch Tràm)"
+      "Đường Lộ Dừa (khu vực cống Rạch Tràm)",
+      "Đường đan Phú Tây A"
     ]
   },
   "TN-VINHCONG": {
@@ -2850,7 +2858,8 @@
       "-Khu vực cặp kênh Sông Trăng",
       "ấp Gò Bún",
       "- Khu vực cặp kênh 79: Đoạn khu vực cầu kênh Cái Bát",
-      "Tổ hợp tác bơm điện Chín Hùng"
+      "Tổ hợp tác bơm điện Chín Hùng",
+      "Hộ sản xuất Nguyễn Văn Anh"
     ]
   },
   "TN-DONGTHANH": {
