@@ -3300,7 +3300,8 @@
       "Khu phố Ninh Phú",
       "khu phố Ninh An",
       "khu phố Ninh Hiệp",
-      "Khu Phố Ninh Thuận"
+      "Khu Phố Ninh Thuận",
+      "Khu phố Ninh Lộc"
     ],
     "loai_don_vi": "Phường"
   },
@@ -3891,7 +3892,8 @@
     "ma_dien_luc": "PB0504",
     "khu_pho": [
       "Ấp Thạnh Hiệp",
-      "Ấp Bàu Bền"
+      "Ấp Bàu Bền",
+      "Ấp Tân Khai"
     ],
     "loai_don_vi": "Xã"
   },
