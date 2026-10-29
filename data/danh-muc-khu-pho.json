@@ -266,7 +266,8 @@
       "khu phố Lộc Thanh",
       "Khu phố Lộc Tân",
       "Khu phố Lộc Thành",
-      "Khu phố Lộc Vĩnh"
+      "Khu phố Lộc Vĩnh",
+      "khu phố Lộc Hưng"
     ],
     "loai_don_vi": "Phường"
   },
@@ -325,7 +326,8 @@
       "Ấp Thạnh Nghĩa",
       "Ấp Thạnh Hiệp",
       "Ấp Tân Thạnh",
-      "ấp Tha La"
+      "ấp Tha La",
+      "Ấp Thạnh Quới"
     ],
     "loai_don_vi": "Xã"
   },
@@ -902,7 +904,8 @@
       "kp vĩnh bình",
       "đỗ văn giàu khp vĩnh bình",
       "đường võ hoàng hôn ấp vĩnh bình",
-      "đường kênh 10 Mậu khu phố Bình trung"
+      "đường kênh 10 Mậu khu phố Bình trung",
+      "đường trần văn hý khu phố bình đông 2"
     ]
   },
   "TN-KHANHHAU": {
@@ -1130,7 +1133,8 @@
       "Khu vực từ Nhà Ông Hậu đến Ông Tâm",
       "Khu vực ấp Ninh Thạnh (Xóm Cốm ấp 2 Mỹ Thạnh củ)",
       "Khu vực cặp Kênh Cầu Kè",
-      "1 phần Ấp An Hòa 2"
+      "1 phần Ấp An Hòa 2",
+      "Khu vực cặp Kênh Thủ Thừa (từ Vật liệu xây dựng Sáu Lộc đến Garage Sáu)"
     ]
   },
   "TN-THUTHUA": {
@@ -1179,7 +1183,14 @@
       "ấp Bình Thành 5",
       "KCN Hoà Bình",
       "Khu vực dọc Quốc Lộ 1A (đoạn từ Cây Xăng Phước Lộc Thọ đến Hàn Tiện Cộng Hưởng)",
-      "Đường Phan Văn Tình (đoạn từ Công Hoà Bình đến trước Mũi Tàu Bưu Điện)"
+      "Đường Phan Văn Tình (đoạn từ Công Hoà Bình đến trước Mũi Tàu Bưu Điện)",
+      "Khu vực Đường Trưng Trắc",
+      "Đường Trương Công Định",
+      "Đường Nguyễn Văn Thời",
+      "Đường Nguyễn Trung Trực",
+      "ấp Thủ Khoa Thừa 1",
+      "Khu vực KDC Nhà Dài và khu vực đến Miễu",
+      "Khu vực Đường"
     ]
   },
   "TN-TANLONG": {
@@ -1634,7 +1645,8 @@
       "Kinh Đường Bàng đoạn  Kinh 61",
       "Kinh 61 Ngã 4 Kinh 61 và Cây Khô Lớn",
       "Kinh Cả Dứa từ Cầu Ngan đến ngã 4 Kinh 61",
-      "ấp Bình Thạnh"
+      "ấp Bình Thạnh",
+      "Ấp 4"
     ]
   },
   "TN-KIENTUONG": {
@@ -1712,7 +1724,9 @@
       "Đường đan Kinh bà Ký",
       "ấp Bình Bắc",
       "Lộ Bình Bắc đoạn Cầu Bình Bắc 1",
-      "Khu vực Vườn  Xoài cũ"
+      "Khu vực Vườn  Xoài cũ",
+      "Đường 817 đoạn UB  Bình Hòa Tây cũ",
+      "ấp Bình Hòa Tây 1"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -1798,7 +1812,9 @@
       "Đường ĐT830C từ ngã ba Long Bình đến đường Kênh T2",
       "ấp Thanh Hiệp",
       "Đường QL1A từ Ngã ba Bourbon đến KCN Phúc Long ấp Voi Lá",
-      "Đường Nguyễn Trung Trực từ Ngã ba Bourbon đến Đường Nguyễn Văn Tuôi ấp Bến Lức 8 và KDC Thuận Đạo"
+      "Đường Nguyễn Trung Trực từ Ngã ba Bourbon đến Đường Nguyễn Văn Tuôi ấp Bến Lức 8 và KDC Thuận Đạo",
+      "Đường QL1A",
+      "Đường Nguyễn Văn Tuôi"
     ]
   },
   "TN-LUONGHOA": {
@@ -2449,7 +2465,9 @@
       "Một phần ấp Vĩnh Trị",
       "Một phần ấp Lò Gạch",
       "Một phần",
-      "Đường Đông Sông Lò Gạch từ cầu Cả Môn đến Vàm Dưng - ấp Vĩnh Thuận"
+      "Đường Đông Sông Lò Gạch từ cầu Cả Môn đến Vàm Dưng - ấp Vĩnh Thuận",
+      "Đường Nguyễn Văn Linh (từ đường 30/4 đến giáp chợ Bàu Sậy)",
+      "đường 3/2 (từ đường Nguyễn Văn Linh đến đường CMT8)"
     ]
   },
   "TN-KHANHHUNG": {
@@ -2631,7 +2649,8 @@
       "Đường liên ấp 2-5 (khu vực Cầu Chợ Giữa) ấp Bình Hạp",
       "Đường đan (đoạn từ Kênh Tư Trạng 1km hướng về Công Cầu Hà Nội) ấp Phú Ngãi Trị",
       "Đường TL 827B (từ Cống Cầu Vàm đến kênh Bảy Na) ấp Tân Nho",
-      "Đường TL 827A từ Trường Nguyễn Thông đến Bệnh Viện Châu Thành và toàn tuyến đường Cao Văn Lầu thuộc ấp Trường Xuân và toàn tuyến đường 30/4 thuộc ấp Bình Lục"
+      "Đường TL 827A từ Trường Nguyễn Thông đến Bệnh Viện Châu Thành và toàn tuyến đường Cao Văn Lầu thuộc ấp Trường Xuân và toàn tuyến đường 30/4 thuộc ấp Bình Lục",
+      "Đường đan (từ trường Nguyễn Thông đến Cầu Ông Cưỡng ấp Gia Thạnh"
     ]
   },
   "TN-THUANMY": {
@@ -3047,7 +3066,9 @@
       "ấp 3 (ấp 5 cũ)",
       "HL22 đoạn từ ngã 3 Tân Ân đến xóm lò rèn thuộc ấp 4 (ấp 6",
       "8 cũ)",
-      "Đường Nguyễn Trãi"
+      "Đường Nguyễn Trãi",
+      "Ấp 7 (ấp 13 cũ)",
+      "Ấp 6 (ấp 19 cũ)"
     ]
   },
   "TN-THANHPHUOC": {
@@ -3235,7 +3256,12 @@
       "Hộ thắp sáng thanh long Nguyễn Thị Ngọc Sương",
       "Đường Kênh 30 tháng 4 (đoạn từ Trạm y tế An Lục Long đền Cầu Ông Bụi) ấp Cầu Hàng",
       "Đường đan vào xóm một phần ấp ấp Đồng Tre",
-      "Đường Kênh 30 tháng 4 (đoạn giao với đường An Tập) ấp Chợ Ông Bái"
+      "Đường Kênh 30 tháng 4 (đoạn giao với đường An Tập) ấp Chợ Ông Bái",
+      "Đường Kênh T2 (từ chợ Cầu Đồn đến Km 001) ấp Long Thuận",
+      "Hộ  Kho TL Trang Thuận Phát ấp Long Thuận",
+      "Đường Ao Bà Mì (từ Cầu sắt đến hết đường",
+      "từ đường Cầu Ông Cưỡng đến Cầu sắt ấp Vĩnh Xuân",
+      "đường Kênh T1 (từ Đầu đường Gò Keo đến hết đường kênh T1 (giáp đường tỉnh 879B tỉnh Đồng Tháp) ấp Long Thuận"
     ]
   },
   "TN-NINHTHANH-2": {
