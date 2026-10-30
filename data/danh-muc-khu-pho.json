@@ -478,7 +478,8 @@
       "Ấp Thành Nam",
       "Ấp Thành Đông",
       "Ấp Nam Bến Sỏi",
-      "Ấp Phước Tân"
+      "Ấp Phước Tân",
+      "Ấp Bắc Bến Sỏi"
     ],
     "loai_don_vi": "Xã"
   },
@@ -516,7 +517,8 @@
       "Ấp Cầu Trường",
       "Tổ 3 ấp Bình Long",
       "Ấp Bình Lương",
-      "Ấp Tam Hạp"
+      "Ấp Tam Hạp",
+      "Ấp An Điền"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1511,7 +1513,14 @@
       "Khu vực từ trạm 110kV Cần Giuộc (QL50) đến Vòng Xoay Ngã 5 Mũi Tàu đến Cầu Cần Giuộc(QL50)",
       "đến Cầu Cần Giuộc (Đường Tránh QL50)",
       "thuộc ấp 1",
-      "Khu vực từ Ngã tư Gia Bảo đến đầu đường Chùa Khánh Ninh( ĐT.835): thuộc ấp Thanh Ba"
+      "Khu vực từ Ngã tư Gia Bảo đến đầu đường Chùa Khánh Ninh( ĐT.835): thuộc ấp Thanh Ba",
+      "Khu vực từ Đường Long Hậu Tân Tập đến Cầu Rạch Dừa đến Trụ sở Ấp Văn Hóa Phước Thới (ĐT.826C)",
+      "thuộc ấp Long Đức Đông",
+      "Khu vực nội bộ KDC Lộc Thành",
+      "thuộc ấp Bình Đức",
+      "Khu vực gần đầu Đường Bà Kiểu",
+      "Khu vực gần cầu Bà Kiểu",
+      "Khu vực nội bộ KDC Long Hậu A"
     ]
   },
   "TN-MYLOC": {
@@ -2761,7 +2770,8 @@
       "Ấp Bình Hữu",
       "ấp Gò Cao",
       "1P ấp Bàu Sen",
-      "1p"
+      "1p",
+      "Ấp Nhơn Hòa 1"
     ]
   },
   "TN-MYQUY": {
