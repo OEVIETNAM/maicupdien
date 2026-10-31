@@ -116,7 +116,8 @@
       "Khu phố Tân Phước",
       "Khu phố Ninh Phúc",
       "Khu phố Ninh An",
-      "Khu phố"
+      "Khu phố",
+      "Khu phố Tân Lập"
     ],
     "loai_don_vi": "Phường"
   },
@@ -142,7 +143,8 @@
       "Khu phố Trâm Vàng 1",
       "Nguyễn Văn Toàn\nVNPT Tây Ninh\nBưu điện Gò Dầu\nCông an",
       "Khu phố Trâm Vàng",
-      "Khu phố Thanh Bình A"
+      "Khu phố Thanh Bình A",
+      "Khu phố Thanh Phước"
     ],
     "loai_don_vi": "Phường"
   },
@@ -1192,7 +1194,9 @@
       "Đường Nguyễn Trung Trực",
       "ấp Thủ Khoa Thừa 1",
       "Khu vực KDC Nhà Dài và khu vực đến Miễu",
-      "Khu vực Đường"
+      "Khu vực Đường",
+      "Khu vực KDC Thị Trấn GĐ 1",
+      "khu vực Cống Rạch Đào"
     ]
   },
   "TN-TANLONG": {
@@ -1234,7 +1238,10 @@
       "Khu vực dọc Kênh Ông Cả",
       "1 phấn ấp 1",
       "Khu vực Tuyến dân Cư Lộ Cầu Dây",
-      "Khu vực ấp 3"
+      "Khu vực ấp 3",
+      "Khu vực ấp 1 (dọc ĐT 817)",
+      "Khu vực ấp 1",
+      "Khu vực ấp 6 (dọc ĐT 817)"
     ]
   },
   "TN-MYHANH": {
@@ -1371,7 +1378,9 @@
       "Khu vực từ KDC Khu đô thị Năm Sao (Đường ĐT 835B ) đến Ngã Tư Phước Lý ( Đường ĐT 826 ) đến Khu đô thị Năm Sao ( Đường ĐT 826 )",
       "thuộc ấp Phước Lý",
       "Khu vực từ Ngã Tư Phước Lý ( Đường ĐT 826 ) đến đầu đường Long Thượng Hưng Long",
-      "thuộc ấp Vĩnh Phước"
+      "thuộc ấp Vĩnh Phước",
+      "Khu vực trên đường Mười Cày",
+      "thuộc ấp Phú Thành"
     ]
   },
   "TN-CANGIUOC": {
@@ -1520,7 +1529,8 @@
       "thuộc ấp Bình Đức",
       "Khu vực gần đầu Đường Bà Kiểu",
       "Khu vực gần cầu Bà Kiểu",
-      "Khu vực nội bộ KDC Long Hậu A"
+      "Khu vực nội bộ KDC Long Hậu A",
+      "Khu vực nội bộ KDC Long Hậu Mở Rộng"
     ]
   },
   "TN-MYLOC": {
@@ -1823,7 +1833,11 @@
       "Đường QL1A từ Ngã ba Bourbon đến KCN Phúc Long ấp Voi Lá",
       "Đường Nguyễn Trung Trực từ Ngã ba Bourbon đến Đường Nguyễn Văn Tuôi ấp Bến Lức 8 và KDC Thuận Đạo",
       "Đường QL1A",
-      "Đường Nguyễn Văn Tuôi"
+      "Đường Nguyễn Văn Tuôi",
+      "Khu Dịch Vụ - Khối B2 Khu chung cư kết hợp TMDV MR1",
+      "Khu Dịch Vụ - Khối A3",
+      "A4",
+      "A5 Khu chung cư kết hợp TMDV MR1"
     ]
   },
   "TN-LUONGHOA": {
@@ -2038,7 +2052,9 @@
       "- ĐT 826B đoạn từ Ngã 3 Kinh đến Đồn Rạch Cát và từ Ngã 3 Long Hựu Tây đến Bến Đò Mỹ Điền thuộc ấp Phước Đông (ấp 1 cũ)",
       "ấp Bình Hòa (ấp 2 cũ)",
       "Ấp Phước Yên (ấp 6",
-      "7 cũ)"
+      "7 cũ)",
+      "Ấp Nhà Trường (ấp Nhà Trường",
+      "Ấp Bà Thoại cũ)"
     ]
   },
   "TN-RACHKIEN": {
@@ -3018,7 +3034,10 @@
       "ấp Bình Tây & Ấp Gò Ớt",
       "Lộ Bình Tây Kinh Ngọn Nhỏ đoạn Trạm Cấp Nước Ấp Bình Tây",
       "Hộ: Sở KH Công Nghệ",
-      "ấp Bàu Mua"
+      "ấp Bàu Mua",
+      "Đường Tuyên Thạnh - Thạnh Hưng",
+      "đoạn Trường Cấp 2 Tuyên Thạnh",
+      "ấp Bắc Chan"
     ]
   },
   "TN-CANDUOC": {
@@ -3078,7 +3097,9 @@
       "8 cũ)",
       "Đường Nguyễn Trãi",
       "Ấp 7 (ấp 13 cũ)",
-      "Ấp 6 (ấp 19 cũ)"
+      "Ấp 6 (ấp 19 cũ)",
+      "Đường Hồ Văn Huê đoạn từ nhà văn hóa Khu 8 đến Cầu 30/4 thuộc Ấp 4 (ấp 8 cũ)",
+      "Ấp 11 (ấp 23 cũ)"
     ]
   },
   "TN-THANHPHUOC": {
@@ -3271,7 +3292,8 @@
       "Hộ  Kho TL Trang Thuận Phát ấp Long Thuận",
       "Đường Ao Bà Mì (từ Cầu sắt đến hết đường",
       "từ đường Cầu Ông Cưỡng đến Cầu sắt ấp Vĩnh Xuân",
-      "đường Kênh T1 (từ Đầu đường Gò Keo đến hết đường kênh T1 (giáp đường tỉnh 879B tỉnh Đồng Tháp) ấp Long Thuận"
+      "đường Kênh T1 (từ Đầu đường Gò Keo đến hết đường kênh T1 (giáp đường tỉnh 879B tỉnh Đồng Tháp) ấp Long Thuận",
+      "Đường Bình Long"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -3515,7 +3537,11 @@
       "Trạm T146 Nhà Văn Hóa - Ấp Tân Thạnh",
       "Trạm T148B/1 Kho Bạc Tân Thạnh - Ấp Tân Thạnh",
       "Trạm T137B/1 CDC Hoàng Hương 1 - Ấp Tân Thạnh",
-      "Ấp Tân Hòa"
+      "Ấp Tân Hòa",
+      "Chợ mới Tân Thạnh - Ấp Kiến Bình",
+      "Chợ cũ Tân Thạnh - Ấp Kiến Bình",
+      "Từ Cầu Tân Thạnh đến Bến xe Tân Thạnh - Ấp Kiến Bình",
+      "Khu đô thị thương mại dịch vụ Hoàng Hương và từ Cầu Kinh 12 đến Cống Kinh 12 - Ấp Tân Thạnh"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4368,6 +4394,25 @@
     "ma_dien_luc": "PB0606",
     "khu_pho": [
       "ấp Phước Vân"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-KIENTUONG-2": {
+    "ten_phuong": "Kiến Tương",
+    "ten_huyen": "Kiến Tường",
+    "ma_dien_luc": "PB0605",
+    "khu_pho": [
+      "Đường Tuyên Thạnh - Thạnh Hưng",
+      "đoạn từ Cầu Mộc Hóa đến Cầu Cái Cát khu phố 4"
+    ],
+    "loai_don_vi": "Phường"
+  },
+  "TN-TANTHANHDENCAUTANTHANH": {
+    "ten_phuong": "Tân Thạnh đến Cầu Tân Thạnh",
+    "ten_huyen": "Tân Thạnh",
+    "ma_dien_luc": "PB0608",
+    "khu_pho": [
+      "Từ UBND"
     ],
     "loai_don_vi": "Xã"
   }
