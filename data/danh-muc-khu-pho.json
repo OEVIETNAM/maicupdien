@@ -716,7 +716,8 @@
       "Ấp Vườn Tiêu",
       "Ấp Thanh An",
       "Ấp Dinh",
-      "Ấp Thanh Tân"
+      "Ấp Thanh Tân",
+      "ấp Thanh Hòa"
     ],
     "loai_don_vi": ""
   },
@@ -955,7 +956,9 @@
       "một phàn",
       "đường hoàng anh khu phố thủ tửu",
       "đườn hoàng anh",
-      "khu phó thủ tửu"
+      "khu phó thủ tửu",
+      "Đường Nguyễn Đại Thời",
+      "đường số 1 CCN Lợi Bình Nhơn"
     ]
   },
   "TN-LONGAN": {
@@ -1634,7 +1637,8 @@
       "Trạm Hứa Văn On",
       "Trạm Nguyễn Văn Lãm",
       "Đường Trần Quốc Sản đoạn từ CDCVL Bình Hòa Đông đến Kinh Ngon Bến Buôn",
-      "Ấp Mương Khai và cụm DCVL Tân Thành"
+      "Ấp Mương Khai và cụm DCVL Tân Thành",
+      "một phần"
     ]
   },
   "TN-BINHHOA": {
@@ -1694,7 +1698,8 @@
       "Đường QL 62 đoạn Rạch Ông Sự",
       "Đường Kinh Cửa Đông từ Nhà Thiếu Nhi đến Kênh Quảng Cút",
       "Đường Quốc Lộ  62 đoạn",
-      "Đường QL 62 đoạn Cầu Cửa Đông"
+      "Đường QL 62 đoạn Cầu Cửa Đông",
+      "Một phần"
     ]
   },
   "TN-BINHHIEP": {
@@ -3907,7 +3912,8 @@
       "1 phần ấp Lập Thành",
       "Bùng Binh thuộc",
       "1p",
-      "Ấp Thôi Môi"
+      "Ấp Thôi Môi",
+      "1 phần"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3988,7 +3994,9 @@
       "Ấp Thuận Hòa 1",
       "1 phần ấp Hóc Thơm 2",
       "1p",
-      "1 phần ấp Giồng Ngang"
+      "1 phần ấp Giồng Ngang",
+      "1 phần",
+      "Thuận Hòa 2"
     ],
     "loai_don_vi": "Xã"
   },
