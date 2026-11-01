@@ -910,7 +910,8 @@
       "đỗ văn giàu khp vĩnh bình",
       "đường võ hoàng hôn ấp vĩnh bình",
       "đường kênh 10 Mậu khu phố Bình trung",
-      "đường trần văn hý khu phố bình đông 2"
+      "đường trần văn hý khu phố bình đông 2",
+      "Đường Nguyên Thị Chữ"
     ]
   },
   "TN-KHANHHAU": {
@@ -1244,7 +1245,9 @@
       "Khu vực ấp 3",
       "Khu vực ấp 1 (dọc ĐT 817)",
       "Khu vực ấp 1",
-      "Khu vực ấp 6 (dọc ĐT 817)"
+      "Khu vực ấp 6 (dọc ĐT 817)",
+      "Khu vực ấp 5",
+      "ấp 6 (dọc ĐT 817)"
     ]
   },
   "TN-MYHANH": {
@@ -1339,7 +1342,8 @@
       "Ấp Giồng Ngang",
       "Một ohần",
       "Ấp Đức Ngãi",
-      "1 phần Ấp Đức Ngãi 2"
+      "1 phần Ấp Đức Ngãi 2",
+      "Ấp Bàu Trai"
     ]
   },
   "TN-PHUOCLY": {
@@ -1533,7 +1537,20 @@
       "Khu vực gần đầu Đường Bà Kiểu",
       "Khu vực gần cầu Bà Kiểu",
       "Khu vực nội bộ KDC Long Hậu A",
-      "Khu vực nội bộ KDC Long Hậu Mở Rộng"
+      "Khu vực nội bộ KDC Long Hậu Mở Rộng",
+      "Khu vực đường Long Bào",
+      "Khu vực đường Bà Kiểu Long Bào",
+      "Khu vực gần cống Mương Chài",
+      "Khu vực ngã 3 Phước Lại",
+      "Khu vực đường 826C",
+      "thuộc ấp Lũy",
+      "Khu vực đường Rạch Đình",
+      "Khu vực gần Thất Cao Đài Phước Lại",
+      "Nhánh rẽ HNT Nguyễn Văn Nghĩa",
+      "Khu vực đường Tân Thanh Rạch Găng",
+      "Khu vực đường Ấp 1 Long Hậu",
+      "Khu vực đường Chùa Chưởng Phước",
+      "Khu vực gần Trường Mẫu Giáo Phước Lại"
     ]
   },
   "TN-MYLOC": {
@@ -1568,7 +1585,11 @@
       "Khu vực trên đường ĐT835A ( từ Trường Tiểu Học Lộc Tiền đến đường Huỳnh Thị Luông )",
       "Khu vực đường Lương Văn Bào(QL50) ấp Kế Mỹ",
       "thuộc ấp Kế Mỹ",
-      "Thuận Tây 2"
+      "Thuận Tây 2",
+      "Khu vực đường Trang Văn Học",
+      "thuộc Phước Hưng 2",
+      "Khu vực trên đường Lộ Liên Thôn",
+      "Ấp Phương Hưng 3"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1750,7 +1771,10 @@
       "Lộ Bình Bắc đoạn Cầu Bình Bắc 1",
       "Khu vực Vườn  Xoài cũ",
       "Đường 817 đoạn UB  Bình Hòa Tây cũ",
-      "ấp Bình Hòa Tây 1"
+      "ấp Bình Hòa Tây 1",
+      "Đường Thạnh Trị - Lâm Trường",
+      "Đường Kinh Đòn Dông",
+      "ấp Gò Dưa"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -1969,7 +1993,8 @@
       "Hộ trồng Chanh Nguyễn Phúc Luận ấp 6",
       "Đường ĐT 816",
       "Đường ĐT 830",
-      "Đường QL N2"
+      "Đường QL N2",
+      "TSTL Nguyễn Văn Chơn ấp 5"
     ]
   },
   "TN-BINHDUC": {
@@ -2016,7 +2041,8 @@
       "ấp Kênh Ngay",
       "Ấp 1 Thạnh Đức",
       "Đường ĐT 832",
-      "khu Cảng Bắc Tân Ấp 5 Nhựt Chánh"
+      "khu Cảng Bắc Tân Ấp 5 Nhựt Chánh",
+      "Cây Xăng Phan Tuấn + Cơ sở gia công may Mặc Gia Bảo ấp 2 Thạnh Đức"
     ]
   },
   "TN-TANLAN": {
@@ -3298,7 +3324,8 @@
       "Đường Ao Bà Mì (từ Cầu sắt đến hết đường",
       "từ đường Cầu Ông Cưỡng đến Cầu sắt ấp Vĩnh Xuân",
       "đường Kênh T1 (từ Đầu đường Gò Keo đến hết đường kênh T1 (giáp đường tỉnh 879B tỉnh Đồng Tháp) ấp Long Thuận",
-      "Đường Bình Long"
+      "Đường Bình Long",
+      "Đường kênh 30/4 (khu vực Cầu ông Bụi)"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -3409,7 +3436,8 @@
       "Ấp Phước Dân",
       "Ấp Phước Lập",
       "Ấp Phước Thuận",
-      "Ấp Phước Tân"
+      "Ấp Phước Tân",
+      "Ấp Bình Quới"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4421,6 +4449,33 @@
     "ma_dien_luc": "PB0608",
     "khu_pho": [
       "Từ UBND"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-HOA": {
+    "ten_phuong": "Hòa",
+    "ten_huyen": "Đức Hòa",
+    "ma_dien_luc": "PB0603",
+    "khu_pho": [
+      "ấp Lập Thành"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-PHUOCLAI": {
+    "ten_phuong": "Phước Lại",
+    "ten_huyen": "Cần Giuộc",
+    "ma_dien_luc": "PB0604",
+    "khu_pho": [
+      "Khu vực cuối đường ( Bà Ốc ) phía sau UBND"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANCHANHCUTHUOCAP6": {
+    "ten_phuong": "Tân Chánh cũ thuộc ấp 6",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "HL22 đoạn từ xóm lò rèn đến Ngã 3 về"
     ],
     "loai_don_vi": "Xã"
   }
