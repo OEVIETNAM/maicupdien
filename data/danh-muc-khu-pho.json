@@ -911,7 +911,8 @@
       "đường võ hoàng hôn ấp vĩnh bình",
       "đường kênh 10 Mậu khu phố Bình trung",
       "đường trần văn hý khu phố bình đông 2",
-      "Đường Nguyên Thị Chữ"
+      "Đường Nguyên Thị Chữ",
+      "Khu Phố Bình Tâm"
     ]
   },
   "TN-KHANHHAU": {
@@ -1550,7 +1551,9 @@
       "Khu vực đường Tân Thanh Rạch Găng",
       "Khu vực đường Ấp 1 Long Hậu",
       "Khu vực đường Chùa Chưởng Phước",
-      "Khu vực gần Trường Mẫu Giáo Phước Lại"
+      "Khu vực gần Trường Mẫu Giáo Phước Lại",
+      "Khu vực nội bộ KTĐC Long Phú",
+      "thuộc ấp Long Phú"
     ]
   },
   "TN-MYLOC": {
@@ -2494,7 +2497,9 @@
       "Một phần",
       "Gần khoảng giữa Cầu Rạch Nhà Ông và Sông Vàm Cỏ Tây - ấp Rạch Đình",
       "Từ Cầu Kênh 61 (gần cầu Rạch Mây) đi qua CDC Chùa Nổi cặp theo Sông Vàm Cỏ -  ấp Rạch Mây",
-      "Đường Kênh Uỷ Ban cũ (gần CDC Thái Bình Trung"
+      "Đường Kênh Uỷ Ban cũ (gần CDC Thái Bình Trung",
+      "Lộ Bắc Chiên Cả Bản (gần cầu Kênh Bàu Lau)",
+      "Đường Kênh Rạch Bay đá (gần cầu bê tông)"
     ]
   },
   "TN-VINHHUNG": {
@@ -2992,7 +2997,10 @@
       "2 Mỹ Thạnh Đông đến sông vàm cỏ",
       "ấp Voi Ấp Vinh",
       "Đường tỉnh 839 từ Điện lực Đức Huệ đến Cầu Đức Huệ",
-      "Đường Mỹ Bình từ  cầu đến cầu ấp Giồng Ông Út"
+      "Đường Mỹ Bình từ  cầu đến cầu ấp Giồng Ông Út",
+      "Đường Chợ cá Rạch gốc đến quán Văn Hường đến Đường Lê Văn Rỉ từ đường tỉnh 839 đến hẻm trại cưa Đức Hiền đến Quán 2 Dĩ",
+      "Đường Bến Phà từ khu nhà Ông Năm Em đến ngả 3 Công Viên Củ",
+      "Đường Ấp 5 Mỹ Thạnh Đông từ xưởng Chao Nguyễn Thị Hoa đến Giồng Nhỏ"
     ]
   },
   "TN-TANTAP": {
@@ -3325,7 +3333,8 @@
       "từ đường Cầu Ông Cưỡng đến Cầu sắt ấp Vĩnh Xuân",
       "đường Kênh T1 (từ Đầu đường Gò Keo đến hết đường kênh T1 (giáp đường tỉnh 879B tỉnh Đồng Tháp) ấp Long Thuận",
       "Đường Bình Long",
-      "Đường kênh 30/4 (khu vực Cầu ông Bụi)"
+      "Đường kênh 30/4 (khu vực Cầu ông Bụi)",
+      "Đường kênh Chiếu đấu (khu vực nhà bia Chợ Ông Bái)"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -3478,7 +3487,8 @@
       "Ấp 1",
       "Một phàn",
       "Ấp 2",
-      "Một phấn Ấp 1"
+      "Một phấn Ấp 1",
+      "Đường Ấp 2"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4466,7 +4476,9 @@
     "ten_huyen": "Cần Giuộc",
     "ma_dien_luc": "PB0604",
     "khu_pho": [
-      "Khu vực cuối đường ( Bà Ốc ) phía sau UBND"
+      "Khu vực cuối đường ( Bà Ốc ) phía sau UBND",
+      "Khu vực đường hẻm phía sau UBND",
+      "Khu vực UBND"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4476,6 +4488,15 @@
     "ma_dien_luc": "PB0607",
     "khu_pho": [
       "HL22 đoạn từ xóm lò rèn đến Ngã 3 về"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-TANCHANHCUDENCONGVANHOAAP3TANANCUTHUOCAP7": {
+    "ten_phuong": "Tân Chánh cũ đến cổng văn hóa ấp 3 Tân Ân cũ thuộc ấp 7",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "HL22 đoạn từ Ngã 3 về"
     ],
     "loai_don_vi": "Xã"
   }
