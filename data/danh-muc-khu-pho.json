@@ -1081,7 +1081,12 @@
       "Bình Lập 1",
       "Bình An",
       "Dọc QL 1A và một phần đường Huỳnh Việt Thanh thuộc Kp Tân Xuân 3",
-      "Dọc QL 62 một phần"
+      "Dọc QL 62 một phần",
+      "Đường tuyến Tránh",
+      "khu phố Thọ Phú",
+      "Đường TL 833",
+      "đường Mai Bá Hương",
+      "khu Phố Thọ Cang"
     ]
   },
   "TN-MYTHANH": {
@@ -1159,7 +1164,8 @@
       "Khu vực ấp Ninh Thạnh (Xóm Cốm ấp 2 Mỹ Thạnh củ)",
       "Khu vực cặp Kênh Cầu Kè",
       "1 phần Ấp An Hòa 2",
-      "Khu vực cặp Kênh Thủ Thừa (từ Vật liệu xây dựng Sáu Lộc đến Garage Sáu)"
+      "Khu vực cặp Kênh Thủ Thừa (từ Vật liệu xây dựng Sáu Lộc đến Garage Sáu)",
+      "Khu vực ấp Vàm Kinh"
     ]
   },
   "TN-THUTHUA": {
@@ -1217,7 +1223,13 @@
       "Khu vực KDC Nhà Dài và khu vực đến Miễu",
       "Khu vực Đường",
       "Khu vực KDC Thị Trấn GĐ 1",
-      "khu vực Cống Rạch Đào"
+      "khu vực Cống Rạch Đào",
+      "Khu vực ấp Nhị Thành 2",
+      "Khu vực ấp Thủ Khoa Thừa 1",
+      "Thủ Khoa Thừa 3",
+      "Khu vực ấp Nhị Thành 1",
+      "(KCN Hoà Bình)",
+      "Toàn bộ"
     ]
   },
   "TN-TANLONG": {
@@ -1586,7 +1598,36 @@
       "Khu vực gần Cầu Rạch Ván",
       "Khu vực gần KCN Long Hậu",
       "Khu vực gần Trạm Y Tế",
-      "Khu vực gần Trường tiểu học Long Hậu"
+      "Khu vực gần Trường tiểu học Long Hậu",
+      "Khu vực đầu đường vào Chùa Long Phú",
+      "Khu vực gần Cống Ba Nhơn",
+      "Khu vực gần Ngã Ba Tân Kim",
+      "Khu vực gần Cây Xăng Kế Mỹ",
+      "Khu vực gần Chùa Long Phú",
+      "Khu vực đầu đường vào Đình Bình Đức ( ĐT.826C)",
+      "Khu vực đường Tập Đoàn 4",
+      "Khu vực gần Chùa Long Trường( Đường Liên Xã)",
+      "Khu vực gần cầu Rạch Dơi( ĐT.826C)",
+      "Khu vực trên Đường Liên Xã",
+      "Khu vực gần cầu Đập Đê Ông Sâu",
+      "Khu vực đường HL11",
+      "Khu vực gần UBND",
+      "Khu vực gần Tượng Đài Nghĩa Sĩ Cần Giuộc ( đường Nguyễn Đình Chiểu)",
+      "Khu vực đường Tân Phước",
+      "Khu vực đình Thuận Điền",
+      "thuộc ấp Phước Thuận",
+      "Khu vực đường Tân Phước ( gần Bến Phà Long Hậu Tân Kim )",
+      "Khu vực Chợ Cần Giuộc",
+      "Khu vực đường Long Phú",
+      "Khu vực đường Nguyễn An Ninh",
+      "Khu vực đường Long Hậu Tân Kim",
+      "thuộc ấp Long Hậu",
+      "Khu vực từ gần cầu Rạch Ván (ĐT.826C)",
+      "Khu vực từ gần cầu Cần Giuộc Mới (ĐT.826C)",
+      "Khu vực từ trạm 110kV Cần Giuộc đến Ngã tư Gia Bảo theo đường tuyến tránh QL50 đến Trường Tiểu Học Tân Kim đến KCN Tân Kim Mở Rộng",
+      "Khu vực từ đầu cầu Rạch Dơi đến đầu cầu Rạch Dừa",
+      "Khu vực từ nhà Văn Hòa Ấp Long Hậu 2 đến bến Phà Tân Phước",
+      "Khu vực KCN Tân Kim thuộc ấp Tân Kim"
     ]
   },
   "TN-MYLOC": {
@@ -1625,7 +1666,20 @@
       "Khu vực đường Trang Văn Học",
       "thuộc Phước Hưng 2",
       "Khu vực trên đường Lộ Liên Thôn",
-      "Ấp Phương Hưng 3"
+      "Ấp Phương Hưng 3",
+      "Khu vực đường Lương Văn Bào",
+      "Khu vực trên đường Phước Lâm Trường Bình",
+      "Khu vực đường Nguyễn Thị Kiều",
+      "thuộc ấp Phước Kế",
+      "Khu vực gần Cầu Mồng Gà",
+      "thuộc ấp Thuận Bắc",
+      "Khu vực đường Nguyễn Thị Sáng",
+      "thuộc ấp Phước Thuận",
+      "Khu vực đường Lê Thị Lục",
+      "Phước Thuận",
+      "Khu vực đường Kênh Đại Hội",
+      "thuộc ấp Thuận Tây 2",
+      "Trường"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1908,7 +1962,8 @@
       "Khu Dịch Vụ - Khối B2 Khu chung cư kết hợp TMDV MR1",
       "Khu Dịch Vụ - Khối A3",
       "A4",
-      "A5 Khu chung cư kết hợp TMDV MR1"
+      "A5 Khu chung cư kết hợp TMDV MR1",
+      "toàn bộ KCN Phú An Thạnh"
     ]
   },
   "TN-LUONGHOA": {
@@ -1937,7 +1992,8 @@
       "Ấp 6A",
       "Đường ĐT830C",
       "Trại Giam Long Hòa (K2) ấp 9",
-      "Khu vực Đường ĐT 830 ấp 9"
+      "Khu vực Đường ĐT 830 ấp 9",
+      "Đường ĐT830 ấp 6A"
     ]
   },
   "TN-MYYEN": {
@@ -2129,7 +2185,12 @@
       "Ấp Nhà Trường (ấp Nhà Trường",
       "Ấp Bà Thoại cũ)",
       "Ấp Ao Gòn (ấp Ao Gòn cũ)",
-      "Ấp Xóm Chùa (Ấp Xóm Mới cũ)"
+      "Ấp Xóm Chùa (Ấp Xóm Mới cũ)",
+      "ĐT 826 đoạn từ Bia tưởng niệm Xóm Chùa đến Ngã 4 Chợ Đào",
+      "ĐT 830 đoạn từ ngã 4 Chợ Đào đến Cầu Bà Tượng thuộc ấp Xóm Chùa (ấp Xóm Chùa cũ)",
+      "ĐT 826 đoạn từ Bia tưởng niệm Xóm Chùa đến Cây Xăng Kim Liên thuộc ấp Xóm Chùa (ấp Xóm Chùa cũ)",
+      "ĐT 826 đoạn từ Ngã 3 Tân Lân đến Bia tưởng niệm Xóm Chùa thuộc ấp Xóm Chùa (ấp Xóm Chùa",
+      "Nhà Thờ cũ)"
     ]
   },
   "TN-RACHKIEN": {
@@ -2172,7 +2233,12 @@
       "KDC Ấp Phước Vĩnh 3",
       "Một Phần",
       "Đường tỉnh 827D",
-      "ấp Long Hòa"
+      "ấp Long Hòa",
+      "- ĐT 835 đoạn từ Cống Long Hòa đến Ngạ 4 Xoài Đôi và ĐT 826 đoạn từ Ngã 4 Xoài đến Cổng sau KCN Cầu Tràm thuộc ấp Long Hòa (ấp Minh Thiện cũ)",
+      "Phước Vĩnh (ấp Cầu Xây",
+      "Phước Vĩnh cũ)",
+      "Long Thanh (ấp Cầu Tràm",
+      "Long Thanh cũ)"
     ]
   },
   "TN-LONGCANG": {
@@ -2227,7 +2293,9 @@
       "ĐT 835 đoạn từ Cống Long Hòa đến Cầu Long Khê và ĐT 835D đoạn từ Cống Long Hòa đến Ngã 4 Phước Vân thuộc ấp An Thuận ( ấp 12",
       "13 cũ)",
       "Đường Nguyễn Trung Trực ấp Long Cang",
-      "1 phần"
+      "1 phần",
+      "14",
+      "15 KCN Thuận Đạo MR)"
     ]
   },
   "TN-TANTRU": {
@@ -2388,7 +2456,9 @@
       "ấp Hòa Hiệp 1",
       "Đường đầu Ấp Văn Hóa Hòa Hiệp 1 đến Khu Nhà Ông Tấn",
       "Đường Tỉnh 822",
-      "đến trường tiểu học Hiệp Hòa"
+      "đến trường tiểu học Hiệp Hòa",
+      "Đường Tân Phú - Hậu Nghĩa từ trạm 110KV đến Kênh Nổi Tân Phú",
+      "khu CN DNN Tân Phú"
     ]
   },
   "TN-ANNINH": {
@@ -3044,7 +3114,9 @@
       "Đường Bến Phà từ khu nhà Ông Năm Em đến ngả 3 Công Viên Củ",
       "Đường Ấp 5 Mỹ Thạnh Đông từ xưởng Chao Nguyễn Thị Hoa đến Giồng Nhỏ",
       "Đường 838B đến đường Tuần tra biên giới",
-      "Ấp Mỹ Bình"
+      "Ấp Mỹ Bình",
+      "Đường Tỉnh 838 từ trường THPT Đức Huệ đến Cửa khẩu Mỹ Quý Tây",
+      "đến Cầu Đường Xuồng đến Chợ Mỹ Thạnh Tây"
     ]
   },
   "TN-TANTAP": {
@@ -3704,7 +3776,8 @@
       "Đường tỉnh 822 từ Ngã 4 Xóm Mới đến Áo Cưới Trần Dũng ấp Hoà Thuận",
       "Đường tỉnh 822 từ Ao Sen đến Nghĩa trang Ái Huê",
       "ấp Hoà Bình 1",
-      "Đường tỉnh 822 từ Nghĩa trang Ái Huê đến đường Hồ Chí Minhấp Hoà Bình 1"
+      "Đường tỉnh 822 từ Nghĩa trang Ái Huê đến đường Hồ Chí Minhấp Hoà Bình 1",
+      "Một phần"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3783,7 +3856,8 @@
     "ma_dien_luc": "PB0602",
     "khu_pho": [
       "Một phần",
-      "Ấp Bình Thạnh 3"
+      "Ấp Bình Thạnh 3",
+      "Khu vực dọc Quốc Lộ 1A từ Vòng Xoay Nghĩa Trang đến Cầu Ván"
     ],
     "loai_don_vi": "Phường"
   },
@@ -3849,7 +3923,9 @@
       "Đường tỉnh 816 từ Ngã 3 Cây Điệp đến Cầu Cần Giè",
       "ấp Chánh",
       "Từ đầu cổng Ấp Văn Hóa Tân Hòa đến quán Hẻm đường đan quán café Phong",
-      "Đường tỉnh 839 từ quán bánh kem Lucky CaKe đến ngã 3 Ủy Ban Bình Thành Củ"
+      "Đường tỉnh 839 từ quán bánh kem Lucky CaKe đến ngã 3 Ủy Ban Bình Thành Củ",
+      "đường tỉnh 839 từ trạm 110kv Đức Huệ đến giếng nước 6 Cang",
+      "đến Ủy Ban"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4567,6 +4643,24 @@
     "ma_dien_luc": "PB0610",
     "khu_pho": [
       "Đường đi từ Ủy Ban"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-THANHDONG": {
+    "ten_phuong": "Thạnh Đông",
+    "ten_huyen": "Tân Châu",
+    "ma_dien_luc": "PB0504",
+    "khu_pho": [
+      "Ấp Thạnh Quới"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-LONGCANGCU": {
+    "ten_phuong": "Long Cang cũ",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "ĐT 833B đoạn từ Ngã 4 Long Cang đến UB"
     ],
     "loai_don_vi": "Xã"
   }
