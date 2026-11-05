@@ -1627,7 +1627,9 @@
       "Khu vực từ trạm 110kV Cần Giuộc đến Ngã tư Gia Bảo theo đường tuyến tránh QL50 đến Trường Tiểu Học Tân Kim đến KCN Tân Kim Mở Rộng",
       "Khu vực từ đầu cầu Rạch Dơi đến đầu cầu Rạch Dừa",
       "Khu vực từ nhà Văn Hòa Ấp Long Hậu 2 đến bến Phà Tân Phước",
-      "Khu vực KCN Tân Kim thuộc ấp Tân Kim"
+      "Khu vực KCN Tân Kim thuộc ấp Tân Kim",
+      "Khu vực đường Năm Ngói",
+      "thuộc ấp Thanh Ba"
     ]
   },
   "TN-MYLOC": {
@@ -1679,7 +1681,9 @@
       "Phước Thuận",
       "Khu vực đường Kênh Đại Hội",
       "thuộc ấp Thuận Tây 2",
-      "Trường"
+      "Trường",
+      "Khu vực đường Năm Học",
+      "thuộc ấp Thuận Đông"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1782,7 +1786,10 @@
       "Kinh 61 Ngã 4 Kinh 61 và Cây Khô Lớn",
       "Kinh Cả Dứa từ Cầu Ngan đến ngã 4 Kinh 61",
       "ấp Bình Thạnh",
-      "Ấp 4"
+      "Ấp 4",
+      "Đường 817 đoạn Cầu Cây Khô Nhỏ",
+      "ấp Bình Hòa Trung",
+      "Đường 817 đoạn Cầu Cây Khô Lớn"
     ]
   },
   "TN-KIENTUONG": {
@@ -2392,7 +2399,8 @@
       "Ấp Ấp Tấn Đức",
       "Ấp 1+3",
       "Ấp Ấp An Nhựt Tân",
-      "Ấp Ấp Bình Nghị"
+      "Ấp Ấp Bình Nghị",
+      "Ấp Mỹ Bình"
     ]
   },
   "TN-HIEPHOA": {
@@ -3604,7 +3612,9 @@
       "Một phàn",
       "Ấp 2",
       "Một phấn Ấp 1",
-      "Đường Ấp 2"
+      "Đường Ấp 2",
+      "Tỉnh lộ 834B",
+      "Ấp 3"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3650,7 +3660,9 @@
       "Đường tỉnh 827D",
       "ấp Trạch An",
       "QL50",
-      "Ấp Chợ Trạm (Ấp Cầu Tam Binh cũ)"
+      "Ấp Chợ Trạm (Ấp Cầu Tam Binh cũ)",
+      "ĐT 826 đoạn từ Ngã 4 Chợ Đào đến Cây Xăng Kim Liên thuộc ấp Trạch Định (ấp 9 cũ)",
+      "ấp Chợ Mỹ (ấp Mỹ tây cũ)"
     ],
     "loai_don_vi": "Xã"
   },
