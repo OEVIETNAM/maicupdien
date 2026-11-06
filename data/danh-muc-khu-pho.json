@@ -1425,7 +1425,11 @@
       "Khu vực đường Nhà Đồ",
       "Khu vực gần đường ra bãi tập lái xe Qui Đức",
       "Khu vực đường Trần Thị Tám hướng về Bình Chánh",
-      "Khu vực Cầu Đen"
+      "Khu vực Cầu Đen",
+      "Khu vực gần Trường TH&THCS Phước Hậu",
+      "thuộc ấp Ngoài",
+      "Khu vực từ VLXD Năm Bol đến Trạm Y Tế Phước Lý ( điểm ấp Long Khánh)-ĐT.835B",
+      "Khu vực gần Trường TH &THCS Phước Hậu"
     ]
   },
   "TN-CANGIUOC": {
@@ -1629,7 +1633,20 @@
       "Khu vực từ nhà Văn Hòa Ấp Long Hậu 2 đến bến Phà Tân Phước",
       "Khu vực KCN Tân Kim thuộc ấp Tân Kim",
       "Khu vực đường Năm Ngói",
-      "thuộc ấp Thanh Ba"
+      "thuộc ấp Thanh Ba",
+      "Khu vực đường Tập Đoàn 15",
+      "Khu vực đường Chùa Long Trường",
+      "Khu vực khung viên Trường THCS Nguyễn Thị Bảy",
+      "thuộc ấp Hòa Thuận",
+      "Khu vực đường Cộng đồng Lộc Trung",
+      "thuộc ấp Lộc Trung",
+      "Khu vực gần trụ sở Ấp Văn Hóa Thanh Hà",
+      "thuộc ấp Thanh Hà",
+      "Khu vực nội bộ KTĐC Long Phú ( đường số 7",
+      "10",
+      "11",
+      "12)",
+      "Khu vực gần Cầu Rạch Dừa"
     ]
   },
   "TN-MYLOC": {
@@ -1683,7 +1700,19 @@
       "thuộc ấp Thuận Tây 2",
       "Trường",
       "Khu vực đường Năm Học",
-      "thuộc ấp Thuận Đông"
+      "thuộc ấp Thuận Đông",
+      "Khu vực gần Trường THCS Thuận Thành",
+      "Khu vực đường Cộng đồng Lộc Hậu",
+      "thuộc ấp Lộc Hậu",
+      "Khu vực gần Ngã Tư Chợ Trạm",
+      "Khu vực đường Phạm Văn Trực",
+      "Khu vực đường Nguyễn Minh Hoàng",
+      "thuộc ấp Thuận Tây 1",
+      "Khu vực ngay đầu Kênh Giáp Mè",
+      "Khu vực đường Huỳnh Thị Luông",
+      "thuộc ấp Phước Hưng 1",
+      "Khu vực đường Lộ Liên Thôn",
+      "Khu vực đường HL.19"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1789,7 +1818,8 @@
       "Ấp 4",
       "Đường 817 đoạn Cầu Cây Khô Nhỏ",
       "ấp Bình Hòa Trung",
-      "Đường 817 đoạn Cầu Cây Khô Lớn"
+      "Đường 817 đoạn Cầu Cây Khô Lớn",
+      "Đường 817 đoạn Vật tư Nông Nghiệp 5 Khôi"
     ]
   },
   "TN-KIENTUONG": {
@@ -1970,7 +2000,8 @@
       "Khu Dịch Vụ - Khối A3",
       "A4",
       "A5 Khu chung cư kết hợp TMDV MR1",
-      "toàn bộ KCN Phú An Thạnh"
+      "toàn bộ KCN Phú An Thạnh",
+      "Đường Phước Tú"
     ]
   },
   "TN-LUONGHOA": {
@@ -2065,7 +2096,8 @@
       "Đường ĐT833B từ Ngã ba Long Hiệp đến Cầu Ông Tổng  ấp Chánh",
       "KCN Phúc Long",
       "KCN Vĩnh Lộc 2",
-      "Đường QL1A từ KCN Phúc Long đến Ngã ba Gò Đen"
+      "Đường QL1A từ KCN Phúc Long đến Ngã ba Gò Đen",
+      "Đường QL1A"
     ]
   },
   "TN-THANHLOI": {
@@ -2147,7 +2179,11 @@
       "Ấp 1 Thạnh Đức",
       "Đường ĐT 832",
       "khu Cảng Bắc Tân Ấp 5 Nhựt Chánh",
-      "Cây Xăng Phan Tuấn + Cơ sở gia công may Mặc Gia Bảo ấp 2 Thạnh Đức"
+      "Cây Xăng Phan Tuấn + Cơ sở gia công may Mặc Gia Bảo ấp 2 Thạnh Đức",
+      "Đường QL1A từ Lộ Cây Điệp đến Cầu Ván ấp 2 Thạnh Đức",
+      "ấp 4 Nhựt Chánh",
+      "Đường QL1A từ Ngã Tư Bình Nhựt đến Lộ Cây Điệp ấp 6 Thạnh Đức",
+      "ấp 2 Nhựt Chánh"
     ]
   },
   "TN-TANLAN": {
@@ -2831,7 +2867,8 @@
       "Đường đan (đoạn từ Kênh Tư Trạng 1km hướng về Công Cầu Hà Nội) ấp Phú Ngãi Trị",
       "Đường TL 827B (từ Cống Cầu Vàm đến kênh Bảy Na) ấp Tân Nho",
       "Đường TL 827A từ Trường Nguyễn Thông đến Bệnh Viện Châu Thành và toàn tuyến đường Cao Văn Lầu thuộc ấp Trường Xuân và toàn tuyến đường 30/4 thuộc ấp Bình Lục",
-      "Đường đan (từ trường Nguyễn Thông đến Cầu Ông Cưỡng ấp Gia Thạnh"
+      "Đường đan (từ trường Nguyễn Thông đến Cầu Ông Cưỡng ấp Gia Thạnh",
+      "Đường liên ấp 2-5 (đoạn từ Kênh T5 Hiệp Thạnh đến Cống chợ Giữa)"
     ]
   },
   "TN-THUANMY": {
