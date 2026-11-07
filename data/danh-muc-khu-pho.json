@@ -189,7 +189,8 @@
       "Ấp Bến Đình",
       "Ấp Cầu Sắt",
       "Ấp Tầm Lanh",
-      "Ấp B"
+      "Ấp B",
+      "Ấp Rộc"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1647,7 +1648,8 @@
       "11",
       "12)",
       "Khu vực gần Cầu Rạch Dừa",
-      "Khu vực đường Thất Cao Đài Tân Kim"
+      "Khu vực đường Thất Cao Đài Tân Kim",
+      "Ấp Hòa ấp Thanh Ba"
     ]
   },
   "TN-MYLOC": {
@@ -2017,7 +2019,8 @@
       "A4",
       "A5 Khu chung cư kết hợp TMDV MR1",
       "toàn bộ KCN Phú An Thạnh",
-      "Đường Phước Tú"
+      "Đường Phước Tú",
+      "ấp 1A An Thạnh"
     ]
   },
   "TN-LUONGHOA": {
@@ -2250,7 +2253,8 @@
       "ĐT 830 đoạn từ ngã 4 Chợ Đào đến Cầu Bà Tượng thuộc ấp Xóm Chùa (ấp Xóm Chùa cũ)",
       "ĐT 826 đoạn từ Bia tưởng niệm Xóm Chùa đến Cây Xăng Kim Liên thuộc ấp Xóm Chùa (ấp Xóm Chùa cũ)",
       "ĐT 826 đoạn từ Ngã 3 Tân Lân đến Bia tưởng niệm Xóm Chùa thuộc ấp Xóm Chùa (ấp Xóm Chùa",
-      "Nhà Thờ cũ)"
+      "Nhà Thờ cũ)",
+      "Ấp Xóm Mới"
     ]
   },
   "TN-RACHKIEN": {
@@ -2886,7 +2890,9 @@
       "Đường TL 827B (từ Cống Cầu Vàm đến kênh Bảy Na) ấp Tân Nho",
       "Đường TL 827A từ Trường Nguyễn Thông đến Bệnh Viện Châu Thành và toàn tuyến đường Cao Văn Lầu thuộc ấp Trường Xuân và toàn tuyến đường 30/4 thuộc ấp Bình Lục",
       "Đường đan (từ trường Nguyễn Thông đến Cầu Ông Cưỡng ấp Gia Thạnh",
-      "Đường liên ấp 2-5 (đoạn từ Kênh T5 Hiệp Thạnh đến Cống chợ Giữa)"
+      "Đường liên ấp 2-5 (đoạn từ Kênh T5 Hiệp Thạnh đến Cống chợ Giữa)",
+      "Nước đá Phước Tân Hưng",
+      "Ấp Phước Tân Hưng"
     ]
   },
   "TN-THUANMY": {
@@ -3179,7 +3185,8 @@
       "Đường 838B đến đường Tuần tra biên giới",
       "Ấp Mỹ Bình",
       "Đường Tỉnh 838 từ trường THPT Đức Huệ đến Cửa khẩu Mỹ Quý Tây",
-      "đến Cầu Đường Xuồng đến Chợ Mỹ Thạnh Tây"
+      "đến Cầu Đường Xuồng đến Chợ Mỹ Thạnh Tây",
+      "1 phần"
     ]
   },
   "TN-TANTAP": {
