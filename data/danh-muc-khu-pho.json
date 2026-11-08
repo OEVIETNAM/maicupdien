@@ -1166,7 +1166,8 @@
       "Khu vực cặp Kênh Cầu Kè",
       "1 phần Ấp An Hòa 2",
       "Khu vực cặp Kênh Thủ Thừa (từ Vật liệu xây dựng Sáu Lộc đến Garage Sáu)",
-      "Khu vực ấp Vàm Kinh"
+      "Khu vực ấp Vàm Kinh",
+      "Khu vực ấp Tân Thành"
     ]
   },
   "TN-THUTHUA": {
@@ -1277,7 +1278,8 @@
       "Khu vực ấp 1",
       "Khu vực ấp 6 (dọc ĐT 817)",
       "Khu vực ấp 5",
-      "ấp 6 (dọc ĐT 817)"
+      "ấp 6 (dọc ĐT 817)",
+      "Khu vực ấp 2"
     ]
   },
   "TN-MYHANH": {
@@ -1727,7 +1729,8 @@
       "Khu vực trên đường 835B",
       "Khu vực đường Mỹ Lộc Phước Hậu",
       "Khu vực thuộc Ấp Phước Hưng 2",
-      "Khu vực đường HL.20"
+      "Khu vực đường HL.20",
+      "Khu vực từ KDC Chợ Mỹ đến Cống Ba Mau"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1837,7 +1840,9 @@
       "Đường 817 đoạn Vật tư Nông Nghiệp 5 Khôi",
       "Đường 817 đoạn Tuyến DCVL Bình Hòa Trung",
       "Đường 817 đoạn Cầu Kinh Xuyên",
-      "Đường 817 đoạn Cầu Cả Dứa"
+      "Đường 817 đoạn Cầu Cả Dứa",
+      "Đường 817 đoạn UB  Bình Hòa Đông cũ",
+      "Đường 817 đoạn Trạm Y Tế  Bình Hòa Đông"
     ]
   },
   "TN-KIENTUONG": {
@@ -3186,7 +3191,8 @@
       "Ấp Mỹ Bình",
       "Đường Tỉnh 838 từ trường THPT Đức Huệ đến Cửa khẩu Mỹ Quý Tây",
       "đến Cầu Đường Xuồng đến Chợ Mỹ Thạnh Tây",
-      "1 phần"
+      "1 phần",
+      "Đường từ ngã 3 Mỹ Lợi đến cống ngã 3 Mỹ Lợi"
     ]
   },
   "TN-TANTAP": {
@@ -3467,7 +3473,10 @@
       "Khu vực Bến xe Hậu Thạnh Tây đến Cầu Kinh Ranh - Ấp Hậu Thạnh Tây",
       "Đường Kinh Lô 600 - Ấp Hậu Thạnh Tây",
       "Từ Cầu Bùi Cũ đến Trường THCS Hậu Thạnh Đông trên Đường tỉnh 837 - Ấp Đỗ Văn Bốn",
-      "Từ Trường THCS Hậu Thạnh Đông đến chợ Trung tâm sản Hậu Thạnh Đông trên Đường tỉnh 837 - Ấp Đỗ Văn Bốn"
+      "Từ Trường THCS Hậu Thạnh Đông đến chợ Trung tâm sản Hậu Thạnh Đông trên Đường tỉnh 837 - Ấp Đỗ Văn Bốn",
+      "Đường Kinh Biện Minh - Ấp Giồng Dung",
+      "Đường Kinh Lô 300 - Ấp Hậu Thạnh Tây",
+      "Đường Kinh Trấp Mắt Cật - Ấp Giồng Dung"
     ]
   },
   "TN-ANLUCLONG": {
@@ -4324,7 +4333,8 @@
     "ten_huyen": "Thái Bình",
     "ma_dien_luc": "PB0505",
     "khu_pho": [
-      "ấp Bến Cầu"
+      "ấp Bến Cầu",
+      "Ấp Hòa Hợp"
     ],
     "loai_don_vi": "Xã"
   },
