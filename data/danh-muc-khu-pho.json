@@ -923,7 +923,8 @@
       "Kp An Thuận",
       "Bình An",
       "Vĩnh Hòa",
-      "Kp Bình An"
+      "Kp Bình An",
+      "TSTL Trần Quốc Toản - Thửa đất số 10 Phan Đông Sơ ấp 4"
     ]
   },
   "TN-KHANHHAU": {
@@ -973,7 +974,9 @@
       "Đường Nguyễn Đại Thời",
       "đường số 1 CCN Lợi Bình Nhơn",
       "Đường Võ Duy Tạo thuộc Kp Ngãi Lợi",
-      "Lợi Bình Nhơn"
+      "Lợi Bình Nhơn",
+      "Đường Cừu Khắc Kiệm",
+      "đường Phạm Văn Tuấn"
     ]
   },
   "TN-LONGAN": {
@@ -1091,7 +1094,12 @@
       "khu phố Thọ Phú",
       "Đường TL 833",
       "đường Mai Bá Hương",
-      "khu Phố Thọ Cang"
+      "khu Phố Thọ Cang",
+      "Đường Nguyễn Thị Rành",
+      "Đường Đỗ Trình Thoại",
+      "Đường Lê Văn Tao",
+      "Đường Hồ Ngọc Dẫn",
+      "khu phố Xuân Hòa"
     ]
   },
   "TN-MYTHANH": {
@@ -1886,7 +1894,8 @@
       "Đường Lê Lợi Nối Dài đoạn Trường Cấp 3 cũ",
       "Đường Lê Lợi Nối Dài đoạn Tiệm Tạp Hóa Ông Hòa",
       "Cụm DCVL Khóm 5",
-      "Đường Bờ Tây Kinh Quận"
+      "Đường Bờ Tây Kinh Quận",
+      "Đường Lý Thường Kiệt đoạn Bến Xe cũ"
     ]
   },
   "TN-BINHHIEP": {
@@ -2037,7 +2046,9 @@
       "Đường Phước Tú",
       "ấp 1A An Thạnh",
       "Khu đô thị Vàm Cỏ Đông",
-      "Đường QL1A từ Điện lực Bến Lức đến Cầu Bến Lức ấp Bến Lức 3"
+      "Đường QL1A từ Điện lực Bến Lức đến Cầu Bến Lức ấp Bến Lức 3",
+      "Đường Nguyễn Văn Siêu",
+      "đầu đường Nguyễn Văn Tiếp đến đến đường Kênh T2 đường ĐT830C ấp Thanh Hiệp"
     ]
   },
   "TN-LUONGHOA": {
@@ -2135,7 +2146,9 @@
       "Đường QL1A từ KCN Phúc Long đến Ngã ba Gò Đen",
       "Đường QL1A",
       "Cơ sở Tự Lực",
-      "Cơ sở Đại Hưng Phụng"
+      "Cơ sở Đại Hưng Phụng",
+      "Đường Long Bình ấp Long Bình",
+      "Long Hiệp"
     ]
   },
   "TN-THANHLOI": {
@@ -2796,7 +2809,8 @@
       "ấp Cây Ba Gò",
       "Hộ sản xuất Bùi Văn Đèo và Trương Thị Sang",
       "trạm bơm điệnTổ hợp tác Cái Bát",
-      "Tổ hợp tác Nguyễn Văn Hơi"
+      "Tổ hợp tác Nguyễn Văn Hơi",
+      "Lò Bánh Mì Tứ Quý"
     ]
   },
   "TN-TANHUNG": {
@@ -2913,7 +2927,8 @@
       "Đường đan (từ trường Nguyễn Thông đến Cầu Ông Cưỡng ấp Gia Thạnh",
       "Đường liên ấp 2-5 (đoạn từ Kênh T5 Hiệp Thạnh đến Cống chợ Giữa)",
       "Nước đá Phước Tân Hưng",
-      "Ấp Phước Tân Hưng"
+      "Ấp Phước Tân Hưng",
+      "Đường TL 827A (đoạn từ Cầu Vĩnh Công đến Nguyễn Thông)"
     ]
   },
   "TN-THUANMY": {
@@ -2989,7 +3004,10 @@
       "đường vào xóm ấp:  An Thạnh",
       "Hòa Phú",
       "Lộ Làng",
-      "Dĩ An ấp An Thạnh"
+      "Dĩ An ấp An Thạnh",
+      "Đường TL 827A (đoạn từ Cầu Vĩnh Công đến Chợ Hòa Phú)",
+      "Dĩa An",
+      "Lộ Dừa ấp Hòa Phú"
     ]
   },
   "TN-DUCLAP": {
@@ -3354,7 +3372,9 @@
       "ấp 1 (ấp 3",
       "5 cũ)",
       "ấp 1 (ấp 1",
-      "7 cũ)"
+      "7 cũ)",
+      "Ấp 10 (ấp 18",
+      "Ấp 20. 21 cũ)"
     ]
   },
   "TN-THANHPHUOC": {
@@ -3758,7 +3778,9 @@
       "QL50",
       "Ấp Chợ Trạm (Ấp Cầu Tam Binh cũ)",
       "ĐT 826 đoạn từ Ngã 4 Chợ Đào đến Cây Xăng Kim Liên thuộc ấp Trạch Định (ấp 9 cũ)",
-      "ấp Chợ Mỹ (ấp Mỹ tây cũ)"
+      "ấp Chợ Mỹ (ấp Mỹ tây cũ)",
+      "ĐT 826 đoạn từ Cây Xăng Kim Liên đến Ngã 4 Xoài Đôi thuộc ấp Trạch Định (ấp 9 cũ)",
+      "Ấp Trạch Thuận"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3813,7 +3835,10 @@
       "Đường Kinh 2000 Bắc Nhơn Hòa",
       "Kinh Sẻo Điển",
       "Cụm dân cư Kiến Bình - Ấp Kiến Bình",
-      "Bảy Mét"
+      "Bảy Mét",
+      "Khu vực Chợ Mới Tân Thạnh",
+      "từ Cầu Cà Nhíp đến Cầu Hiệp Thành và từ Cầu Tân Thạnh đến km số 2 trên đường tỉnh 837 - Ấp Kiến Bình",
+      "Từ Cầu Tân Thạnh đến km số 2 trên đường tỉnh 837 - Ấp Kiến Bình"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4810,6 +4835,42 @@
     "ma_dien_luc": "PB0613",
     "khu_pho": [
       "- Toàn bộ ấp Thạnh Hưng"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-HUUTHANH": {
+    "ten_phuong": "Hựu Thạnh",
+    "ten_huyen": "Đức Hòa",
+    "ma_dien_luc": "PB0603",
+    "khu_pho": [
+      "Ấp 2"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-NONGNGHIEPHUNGTHUAN": {
+    "ten_phuong": "Nông nghiệp Hưng Thuận",
+    "ten_huyen": "Tân Hưng",
+    "ma_dien_luc": "PB0613",
+    "khu_pho": [
+      "Hợp tác"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-HUNGDIENT17LANGBIEN": {
+    "ten_phuong": "Hưng Điền T17 Láng Biển",
+    "ten_huyen": "Tân Hưng",
+    "ma_dien_luc": "PB0613",
+    "khu_pho": [
+      "Trạm bơm điện UBND"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-HUNGDIENT26LANGBIEN": {
+    "ten_phuong": "Hưng Điền T26 Láng Biển",
+    "ten_huyen": "Tân Hưng",
+    "ma_dien_luc": "PB0613",
+    "khu_pho": [
+      "Trạm bơm điện UBND"
     ],
     "loai_don_vi": "Xã"
   }
