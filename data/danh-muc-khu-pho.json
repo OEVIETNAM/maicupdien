@@ -372,7 +372,8 @@
       "Ấp Tân Châu",
       "Ấp Tân Đông",
       "Ấp Tân Tây",
-      "Ấp Tân Trung A"
+      "Ấp Tân Trung A",
+      "Ấp Tân Hoà"
     ],
     "loai_don_vi": ""
   },
@@ -1249,7 +1250,9 @@
       "Thủ Khoa Thừa 3",
       "Khu vực ấp Nhị Thành 1",
       "(KCN Hoà Bình)",
-      "Toàn bộ"
+      "Toàn bộ",
+      "Khu vực ấp Bình Thạnh 1",
+      "Khu vực ấp Tân Thành"
     ]
   },
   "TN-TANLONG": {
@@ -1369,7 +1372,9 @@
       "Khu vực 4",
       "Ấp Hóc Thơm",
       "Khu Vực 2",
-      "âp 3B"
+      "âp 3B",
+      "KDC Tân Đức",
+      "KDC Tân Đức ấp Bình Tiền 1"
     ]
   },
   "TN-HAUNGHIA": {
@@ -1398,7 +1403,8 @@
       "1 phần Ấp Đức Ngãi 2",
       "Ấp Bàu Trai",
       "1p ấp Chánh",
-      "Ấp Sò Đo"
+      "Ấp Sò Đo",
+      "1 phần Ấp Tân Hội"
     ]
   },
   "TN-PHUOCLY": {
@@ -1455,7 +1461,8 @@
       "Khu vực gần Trường TH&THCS Phước Hậu",
       "thuộc ấp Ngoài",
       "Khu vực từ VLXD Năm Bol đến Trạm Y Tế Phước Lý ( điểm ấp Long Khánh)-ĐT.835B",
-      "Khu vực gần Trường TH &THCS Phước Hậu"
+      "Khu vực gần Trường TH &THCS Phước Hậu",
+      "Khu vực từ đầu đường Mười Cày (ĐT.835B) đến KDC Phát Hải"
     ]
   },
   "TN-CANGIUOC": {
@@ -1834,7 +1841,10 @@
       "Trạm Nguyễn Văn Lãm",
       "Đường Trần Quốc Sản đoạn từ CDCVL Bình Hòa Đông đến Kinh Ngon Bến Buôn",
       "Ấp Mương Khai và cụm DCVL Tân Thành",
-      "một phần"
+      "một phần",
+      "Hộ Võ Văn Hồng",
+      "Hộ Phan Thanh Chăm",
+      "ấp Tân Lập 2"
     ]
   },
   "TN-BINHHOA": {
@@ -2065,7 +2075,9 @@
       "Đường QL1A từ Điện lực Bến Lức đến Cầu Bến Lức ấp Bến Lức 3",
       "Đường Nguyễn Văn Siêu",
       "đầu đường Nguyễn Văn Tiếp đến đến đường Kênh T2 đường ĐT830C ấp Thanh Hiệp",
-      "Đường Nguyễn Văn Nhâm"
+      "Đường Nguyễn Văn Nhâm",
+      "Đường QL1A từ Ngã Tư Long Kim đến KCN Vĩnh Lộc 2 ấp Bến Lức 9",
+      "ấp Lò Gạch"
     ]
   },
   "TN-LUONGHOA": {
@@ -2790,7 +2802,8 @@
       "Bờ Bắc Kênh 28",
       "Đường 831B (từ đường 831F đến giáp biên giới Campuchia) - ấp Gò Châu Mai",
       "Đường 831F (từ đường 831B đến Bến Xe Khánh Hưng) ấp Gò Châu Mai",
-      "Đường Bờ Nam Sông Long Khốt (gần kênh T2)"
+      "Đường Bờ Nam Sông Long Khốt (gần kênh T2)",
+      "Đường Kinh Thái kỳ"
     ]
   },
   "TN-HUNGDIEN": {
@@ -2831,7 +2844,8 @@
       "Hộ sản xuất Bùi Văn Đèo và Trương Thị Sang",
       "trạm bơm điệnTổ hợp tác Cái Bát",
       "Tổ hợp tác Nguyễn Văn Hơi",
-      "Lò Bánh Mì Tứ Quý"
+      "Lò Bánh Mì Tứ Quý",
+      "Đoạn từ nhà chú Tư Mực đến khu vực cầu Ngọn Sông Trăng. ấp Gò Pháo"
     ]
   },
   "TN-TANHUNG": {
@@ -2949,7 +2963,9 @@
       "Đường liên ấp 2-5 (đoạn từ Kênh T5 Hiệp Thạnh đến Cống chợ Giữa)",
       "Nước đá Phước Tân Hưng",
       "Ấp Phước Tân Hưng",
-      "Đường TL 827A (đoạn từ Cầu Vĩnh Công đến Nguyễn Thông)"
+      "Đường TL 827A (đoạn từ Cầu Vĩnh Công đến Nguyễn Thông)",
+      "Đường ấp 8 (đoạn từ Đường TL 827B đến đê bao sông Vàm Cỏ Tây) ấp Phước Tân Hưng",
+      "Đường đan (đoạn đầu kênh Bảy Na đến đê bao sông Vàm Cỏ Tây) ấp Phước Tân Hưng"
     ]
   },
   "TN-THUANMY": {
@@ -2997,7 +3013,11 @@
       "Thanh vĩnh Đông đoạm từ Chợ Thuận Mỹ đến Bến đò Thanh Vĩnh Đông",
       "Đường Xóm La Cua",
       "Đường Lộ Dừa (khu vực cống Rạch Tràm)",
-      "Đường đan Phú Tây A"
+      "Đường đan Phú Tây A",
+      "Hộ thắp sáng thanh long Huỳnh Văn Tám",
+      "Nguyễn Thành Trọng ấp Thanh Phú Long",
+      "Hộ nuôi tôm Đặng Minh Ý",
+      "Châu Văn Sáng ấp Bình Trị 1"
     ]
   },
   "TN-VINHCONG": {
@@ -3028,7 +3048,12 @@
       "Dĩ An ấp An Thạnh",
       "Đường TL 827A (đoạn từ Cầu Vĩnh Công đến Chợ Hòa Phú)",
       "Dĩa An",
-      "Lộ Dừa ấp Hòa Phú"
+      "Lộ Dừa ấp Hòa Phú",
+      "Hộ thắp sáng thanh long Bùi Khắc Tương",
+      "Võ Văn Liêm",
+      "Lê Tấn Trung",
+      "Lương Ngọc Đip",
+      "Lê Hoàng Vũ ấp An Thạnh"
     ]
   },
   "TN-DUCLAP": {
