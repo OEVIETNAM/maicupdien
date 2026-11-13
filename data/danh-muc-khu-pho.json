@@ -271,7 +271,8 @@
       "Khu phố Lộc Tân",
       "Khu phố Lộc Thành",
       "Khu phố Lộc Vĩnh",
-      "khu phố Lộc Hưng"
+      "khu phố Lộc Hưng",
+      "Khu phố phố Lộc Tân"
     ],
     "loai_don_vi": "Phường"
   },
@@ -925,7 +926,9 @@
       "Bình An",
       "Vĩnh Hòa",
       "Kp Bình An",
-      "TSTL Trần Quốc Toản - Thửa đất số 10 Phan Đông Sơ ấp 4"
+      "TSTL Trần Quốc Toản - Thửa đất số 10 Phan Đông Sơ ấp 4",
+      "Đường Lê Minh Xuân",
+      "Khu Phố Bình Trung"
     ]
   },
   "TN-KHANHHAU": {
@@ -981,7 +984,8 @@
       "Đường Số 10",
       "đường số 1",
       "đường Số 2 CCn Lợi Bình Nhơn",
-      "ccn tú phương đường Nguyễn Văn Quá"
+      "ccn tú phương đường Nguyễn Văn Quá",
+      "Đường VĐ Tân An"
     ]
   },
   "TN-LONGAN": {
@@ -1844,7 +1848,8 @@
       "một phần",
       "Hộ Võ Văn Hồng",
       "Hộ Phan Thanh Chăm",
-      "ấp Tân Lập 2"
+      "ấp Tân Lập 2",
+      "Đường 817 đoạn Cầu Cây Cám"
     ]
   },
   "TN-BINHHOA": {
@@ -2179,7 +2184,9 @@
       "Đường Long Bình ấp Long Bình",
       "Long Hiệp",
       "Đường ĐT830D ấp 4",
-      "Đường ĐT835 từ Ngã ba Phước Lợi đến Cầu Long Khê ấp 1"
+      "Đường ĐT835 từ Ngã ba Phước Lợi đến Cầu Long Khê ấp 1",
+      "Đường ĐT830D ấp 1",
+      "Cơ sở Đất Mới ấp 5"
     ]
   },
   "TN-THANHLOI": {
@@ -2368,7 +2375,9 @@
       "Phước Vĩnh cũ)",
       "Long Thanh (ấp Cầu Tràm",
       "Long Thanh cũ)",
-      "1 phần"
+      "1 phần",
+      "ĐT 835 đoạn từ Cống Long Hòa đến Ngã 4 Xoài Đôi (Ấp Đồng Tâm",
+      "Minh Thiện cũ)"
     ]
   },
   "TN-LONGCANG": {
@@ -2589,7 +2598,8 @@
       "Đường Tỉnh 822",
       "đến trường tiểu học Hiệp Hòa",
       "Đường Tân Phú - Hậu Nghĩa từ trạm 110KV đến Kênh Nổi Tân Phú",
-      "khu CN DNN Tân Phú"
+      "khu CN DNN Tân Phú",
+      "ấp An Thuỷ"
     ]
   },
   "TN-ANNINH": {
@@ -2772,7 +2782,9 @@
       "Đường Đông Sông Lò Gạch từ cầu Cả Môn đến Vàm Dưng - ấp Vĩnh Thuận",
       "Đường Nguyễn Văn Linh (từ đường 30/4 đến giáp chợ Bàu Sậy)",
       "đường 3/2 (từ đường Nguyễn Văn Linh đến đường CMT8)",
-      "Đường Kinh T3 ấp Vĩnh Trị"
+      "Đường Kinh T3 ấp Vĩnh Trị",
+      "Đường Vĩnh Thuận-Tuyên Bình Tây",
+      "Đường Rạch Cà Na (gần Cầu Rạch Cà Na) - ấp Vĩnh Thuận"
     ]
   },
   "TN-KHANHHUNG": {
@@ -2803,7 +2815,8 @@
       "Đường 831B (từ đường 831F đến giáp biên giới Campuchia) - ấp Gò Châu Mai",
       "Đường 831F (từ đường 831B đến Bến Xe Khánh Hưng) ấp Gò Châu Mai",
       "Đường Bờ Nam Sông Long Khốt (gần kênh T2)",
-      "Đường Kinh Thái kỳ"
+      "Đường Kinh Thái kỳ",
+      "Đường Bờ Nam Sông Long Khốt (gần kênh CDC Thái Trị)"
     ]
   },
   "TN-HUNGDIEN": {
@@ -3420,7 +3433,8 @@
       "ấp 1 (ấp 1",
       "7 cũ)",
       "Ấp 10 (ấp 18",
-      "Ấp 20. 21 cũ)"
+      "Ấp 20. 21 cũ)",
+      "Ấp 6 (ấp 11 cũ)"
     ]
   },
   "TN-THANHPHUOC": {
@@ -3492,7 +3506,8 @@
       "Kinh Đòn Dong 1",
       "Đòn Dong 2",
       "Kinh Bích - Ấp Tân Ninh",
-      "Khu vực chợ Tân Ninh ấp Bằng Lăng"
+      "Khu vực chợ Tân Ninh ấp Bằng Lăng",
+      "Cụm dân cư Tân Thành - Ấp Tân Thành"
     ]
   },
   "TN-NHONHOALAP": {
@@ -3620,7 +3635,8 @@
       "Đường Bình Long",
       "Đường kênh 30/4 (khu vực Cầu ông Bụi)",
       "Đường kênh Chiếu đấu (khu vực nhà bia Chợ Ông Bái)",
-      "Hộ Kho TL Trang Thuận Phát"
+      "Hộ Kho TL Trang Thuận Phát",
+      "Đường Kênh T2 (đoạn từ Tổ đường đến hết đường kênh T2 (giáp đường tỉnh 879B tỉnh Đồng Tháp) ấp Long An"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -3884,7 +3900,8 @@
       "Bảy Mét",
       "Khu vực Chợ Mới Tân Thạnh",
       "từ Cầu Cà Nhíp đến Cầu Hiệp Thành và từ Cầu Tân Thạnh đến km số 2 trên đường tỉnh 837 - Ấp Kiến Bình",
-      "Từ Cầu Tân Thạnh đến km số 2 trên đường tỉnh 837 - Ấp Kiến Bình"
+      "Từ Cầu Tân Thạnh đến km số 2 trên đường tỉnh 837 - Ấp Kiến Bình",
+      "Đường Kinh 30/4 - Ấp Bảy Mét và ấp Cá Tôm"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3922,7 +3939,8 @@
       "Chợ Tân Lập trên đường tỉnh 837 - Ấp 2",
       "Từ Trường THCS Nhơn Hòa Lập đến Cầu Kinh 1000 Nhơn Hòa Lập - Ấp 2",
       "Từ Cầu Kinh 1000 Nhơn Hòa Lập đến Cầu Kinh 2000 Nhơn Hòa Lập - Ấp 2",
-      "Đường Kinh Quận từ Cầu Kinh Quận đến Kinh Kháng Chiến - Ấp 5"
+      "Đường Kinh Quận từ Cầu Kinh Quận đến Kinh Kháng Chiến - Ấp 5",
+      "Cụm dân cư Nhơn Hòa Lập - Ấp 5"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4207,7 +4225,10 @@
       "ấp Bến Kè",
       "ấp Mai Vàng",
       "ấp Cả Ràng",
-      "Khu vực từ Cống Bến Kè đến cầu Bến Kè QL 62"
+      "Khu vực từ Cống Bến Kè đến cầu Bến Kè QL 62",
+      "Khu vực từ Km19+500 đến Km20 Quốc Lộ 62: ấp Cả Ràng",
+      "Khu vực từ Km18+500 đến Km19 Quốc Lộ 62: ấp Tân Đông",
+      "Khu vực từ Km18 đến Km18+500 Quốc Lộ 62: ấp Tân Đông"
     ],
     "loai_don_vi": "Xã"
   },
