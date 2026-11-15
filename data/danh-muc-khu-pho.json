@@ -1347,7 +1347,8 @@
       "1 phần ấp Bình Tả",
       "1 phần Ấp 4",
       "1p Ấp 4",
-      "âp 5"
+      "âp 5",
+      "Ấp Hậu Hòa"
     ]
   },
   "TN-DUCHOA": {
@@ -1474,7 +1475,10 @@
       "Khu vực gần Trường TH &THCS Phước Hậu",
       "Khu vực từ đầu đường Mười Cày (ĐT.835B) đến KDC Phát Hải",
       "Khu vực đường Trần Thị Tám đến Cầu Long Khê-Phước Lý",
-      "thuộc ấp Phú Ân"
+      "thuộc ấp Phú Ân",
+      "Khu vực Ngã Tư Phước Lý ( Đường ĐT 826 ) đến đầu cầu Long Thượng",
+      "Khu vực đường Đặng Văn Búp ( Bờ bao Cầu Đen)",
+      "thuộc ấp Trong"
     ]
   },
   "TN-CANGIUOC": {
@@ -1706,7 +1710,9 @@
       "Khu vực từ Cầu Cần Giuộc Mới đến Cầu Rạch Ván (ĐT.826C)",
       "Khu vực từ Cầu Cần Giuộc Mới đến Chùa Chưởng Phước (ĐT.826C)",
       "Khu vực gần Chùa Chưởng Phước (ĐT.826C)",
-      "Khu vực từ Chùa Chưởng Phước đến khu Bờ kè Phước Lại (ĐT.826C)"
+      "Khu vực từ Chùa Chưởng Phước đến khu Bờ kè Phước Lại (ĐT.826C)",
+      "Khu vực bến phà Cần Giuộc mới đến Đình Tích Đức (khu Chợ Chiều)",
+      "Khu vực từ đầu đường Phước Lại đến Chợ Phước Lại"
     ]
   },
   "TN-MYLOC": {
@@ -1786,7 +1792,9 @@
       "Khu vực thuộc Ấp Phước Hưng 2",
       "Khu vực đường HL.20",
       "Khu vực từ KDC Chợ Mỹ đến Cống Ba Mau",
-      "Khu vực đối diện đường Phước Lâm Trường Bình"
+      "Khu vực đối diện đường Phước Lâm Trường Bình",
+      "Khu vực đường Đoàn Văn Diệu ( Tư Nhựt)",
+      "thuộc ấp Lộc Tiền"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1817,7 +1825,9 @@
       "Khu vực từ Đường Ấp 3 Long An  đến Cống Mồng Gà",
       "thuộc ấp Long An 3",
       "Khu vực từ Phòng Khám Đa Khoa Sài Gòn-Long Phụng đến đầu Bờ Đình Chánh Nhứt",
-      "thuộc ấp Chánh Nhứt"
+      "thuộc ấp Chánh Nhứt",
+      "Khu vực từ đầu đường Kênh Đại Hội (QL.50) đến đầu đường Nguyễn Thị Bài",
+      "thuộc ấp Long An 2"
     ]
   },
   "TN-MOCHOA": {
@@ -1865,7 +1875,10 @@
       "Hộ Phan Thanh Chăm",
       "ấp Tân Lập 2",
       "Đường 817 đoạn Cầu Cây Cám",
-      "Đường 817 đoạn Cầu Nội Gọ"
+      "Đường 817 đoạn Cầu Nội Gọ",
+      "Gần Khu Bảo Tồn Dược Liệu",
+      "Đường Kinh Bao Ngạn 1",
+      "đoạn Gần Khu Bảo Tồn Dược Liệu"
     ]
   },
   "TN-BINHHOA": {
@@ -2701,7 +2714,9 @@
       "đến Café Bến Gió",
       "Đường An Thủy từ Sân Bóng Mini đến quán ba Hùng",
       "đến đường Sơn Lợi 4",
-      "Đường từ ngã 4 Bến Đò về Lộc Cách"
+      "Đường từ ngã 4 Bến Đò về Lộc Cách",
+      "Đường Sơn Lợi từ Gần đình An Ninh đến  gần tiệm sửa se Bảo đến vô hẻm đường An Ninh 1",
+      "ấp An Sơn"
     ]
   },
   "TN-BINHTHANH": {
@@ -2739,7 +2754,11 @@
       "Trạm BN khu 2 thị trấn: ấp Thuỷ Đông",
       "Trang Trại Dư Hoài: ấp Thạnh An",
       "Trạm Sạc WinFast: ấp Thuỷ Tây",
-      "Khu vực cây xăng Sáu Khoáng cặp Sông Vàm Cỏ: ấp An Đông"
+      "Khu vực cây xăng Sáu Khoáng cặp Sông Vàm Cỏ: ấp An Đông",
+      "Khu vực từ Km34+500 đến Km35 Quốc Lộ 62 : ấp Bún Bà Của",
+      "Khu vực từ Km39 đến Km39+500 Quốc Lộ 62 : ấp Bún Bà Của",
+      "Khu vực từ Kênh Cả Tôm đến Kênh 6 Cục cặp Kênh Bắc Đông: ấp Thuỷ Tây",
+      "Khu vực từ Kênh Năm Dề đến Kênh Tư Song cặp Kênh Bắc Đông: ấp Thuỷ Tây"
     ]
   },
   "TN-TUYENBINH": {
@@ -2878,7 +2897,11 @@
       "trạm bơm điệnTổ hợp tác Cái Bát",
       "Tổ hợp tác Nguyễn Văn Hơi",
       "Lò Bánh Mì Tứ Quý",
-      "Đoạn từ nhà chú Tư Mực đến khu vực cầu Ngọn Sông Trăng. ấp Gò Pháo"
+      "Đoạn từ nhà chú Tư Mực đến khu vực cầu Ngọn Sông Trăng. ấp Gò Pháo",
+      "Tổ Hợp Tác Tân Thành - Lò Gạch",
+      "Hộ sản xuất Lâm Văn Linh",
+      "Hộ sản xuất Nguyễn Văn Chiểu",
+      "Hộ sản xuất Phan Văn Hùng"
     ]
   },
   "TN-TANHUNG": {
@@ -3064,7 +3087,8 @@
       "Hộ thắp sáng thanh long Huỳnh Văn Tám",
       "Nguyễn Thành Trọng ấp Thanh Phú Long",
       "Hộ nuôi tôm Đặng Minh Ý",
-      "Châu Văn Sáng ấp Bình Trị 1"
+      "Châu Văn Sáng ấp Bình Trị 1",
+      "Đường An Khương Thới (đoạn từ Trường Tiểu học An Khương Thới đến Sông Vàm Cỏ Tây) ấp Bình Thới"
     ]
   },
   "TN-VINHCONG": {
@@ -3372,7 +3396,8 @@
       "Khu vực gần Đảng Ủy",
       "Khu vực gần Cổng Ấp Văn Hóa Ấp Nam",
       "Khu vực từ Ngã Tư Đông Thạnh đến Cầu Ông Chuồng (ĐT.826C)",
-      "thuộc ấp Tây"
+      "thuộc ấp Tây",
+      "thuộc ấp Tân Chánh"
     ]
   },
   "TN-TUYENTHANH": {
@@ -5043,6 +5068,24 @@
     "ma_dien_luc": "PB0613",
     "khu_pho": [
       "Hợp tác"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-PHUOCVINHTAYDENDIEMTRAMYTE1": {
+    "ten_phuong": "Phước Vĩnh Tây đến Điểm Trạm Y Tế 1",
+    "ten_huyen": "Cần Giuộc",
+    "ma_dien_luc": "PB0604",
+    "khu_pho": [
+      "Khu vực từ Đảng Ủy"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-NHONHOALAPXATANTHANH": {
+    "ten_phuong": "Nhơn Hòa Lập) xã Tân Thạnh",
+    "ten_huyen": "Tân Thạnh",
+    "ma_dien_luc": "PB0608",
+    "khu_pho": [
+      "Ấp Tân Thạnh (từ cầu Cà Nhíp đến giáp"
     ],
     "loai_don_vi": "Xã"
   }
