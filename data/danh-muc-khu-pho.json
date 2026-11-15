@@ -933,7 +933,8 @@
       "đường Huỳnh Hoàng Hiển",
       "Khu Phố Bình An 1",
       "Đường Trần Văn Hý",
-      "khu phố Bình Đông 2"
+      "khu phố Bình Đông 2",
+      "Đường Nguyễn Văn Trưng"
     ]
   },
   "TN-KHANHHAU": {
@@ -1116,7 +1117,9 @@
       "khu phố Xuân Hòa",
       "Đường Huỳnh Văn Gâm",
       "đường Nguyễn Thanh Cần",
-      "kdc đại dương"
+      "kdc đại dương",
+      "Đường đan Khu Phố 4 (cũ)",
+      "thuộc khu phố An Thuận"
     ]
   },
   "TN-MYTHANH": {
@@ -1712,7 +1715,8 @@
       "Khu vực gần Chùa Chưởng Phước (ĐT.826C)",
       "Khu vực từ Chùa Chưởng Phước đến khu Bờ kè Phước Lại (ĐT.826C)",
       "Khu vực bến phà Cần Giuộc mới đến Đình Tích Đức (khu Chợ Chiều)",
-      "Khu vực từ đầu đường Phước Lại đến Chợ Phước Lại"
+      "Khu vực từ đầu đường Phước Lại đến Chợ Phước Lại",
+      "Khu vực Chợ Phước Lại"
     ]
   },
   "TN-MYLOC": {
@@ -2716,7 +2720,9 @@
       "đến đường Sơn Lợi 4",
       "Đường từ ngã 4 Bến Đò về Lộc Cách",
       "Đường Sơn Lợi từ Gần đình An Ninh đến  gần tiệm sửa se Bảo đến vô hẻm đường An Ninh 1",
-      "ấp An Sơn"
+      "ấp An Sơn",
+      "Đường Vô Xóm Đủa từ đầu  đường điện thoại Chí Tường đến nhà trọ Xóm Nhỏ",
+      "đến khu Nhà Trọ Minh Thơ"
     ]
   },
   "TN-BINHTHANH": {
@@ -2901,7 +2907,11 @@
       "Tổ Hợp Tác Tân Thành - Lò Gạch",
       "Hộ sản xuất Lâm Văn Linh",
       "Hộ sản xuất Nguyễn Văn Chiểu",
-      "Hộ sản xuất Phan Văn Hùng"
+      "Hộ sản xuất Phan Văn Hùng",
+      "Hộ sản xuất Phạm Thanh Phong và Huỳnh thị Mai",
+      "Hộ sản xuất Huỳnh Văn Nhỏ",
+      "Tổ hợp tác bơm nước Phan Văn Chúc",
+      "Hộ nuôi cá Trần Vũ Linh"
     ]
   },
   "TN-TANHUNG": {
@@ -3035,7 +3045,10 @@
       "Ấp Phước Tân Hưng",
       "Đường TL 827A (đoạn từ Cầu Vĩnh Công đến Nguyễn Thông)",
       "Đường ấp 8 (đoạn từ Đường TL 827B đến đê bao sông Vàm Cỏ Tây) ấp Phước Tân Hưng",
-      "Đường đan (đoạn đầu kênh Bảy Na đến đê bao sông Vàm Cỏ Tây) ấp Phước Tân Hưng"
+      "Đường đan (đoạn đầu kênh Bảy Na đến đê bao sông Vàm Cỏ Tây) ấp Phước Tân Hưng",
+      "Đường TL 827B (đoạn từ trung tâm văn hóa ấp Phú Ngãi Trị đền Công Cầu Vàm) ấp Phú Xuân",
+      "Hộ tấp trứng Gia cầm Nguyễn Duy Hiền",
+      "thắp sáng thanh long Lương Thị Thu Vân ấp An Thạnh"
     ]
   },
   "TN-THUANMY": {
@@ -3126,7 +3139,8 @@
       "Lương Ngọc Đip",
       "Lê Hoàng Vũ ấp An Thạnh",
       "Đường Cái Đôi",
-      "Đường đan (khu vực giáp ranh Rạch Bà Lý)"
+      "Đường đan (khu vực giáp ranh Rạch Bà Lý)",
+      "Đường Lộ Dừa (đoạn từ đầu đường tiếp giáp với TL 827A đến Cầu Nhất Võng) ấp Vĩnh Bình"
     ]
   },
   "TN-DUCLAP": {
@@ -3397,7 +3411,10 @@
       "Khu vực gần Cổng Ấp Văn Hóa Ấp Nam",
       "Khu vực từ Ngã Tư Đông Thạnh đến Cầu Ông Chuồng (ĐT.826C)",
       "thuộc ấp Tây",
-      "thuộc ấp Tân Chánh"
+      "thuộc ấp Tân Chánh",
+      "Khu vực Chợ Đông Thạnh",
+      "Khu vực từ Ngã Tư Đông Thạnh đến đầu đường Tây Bắc",
+      "Khu vực Chợ Núi"
     ]
   },
   "TN-TUYENTHANH": {
@@ -3539,7 +3556,12 @@
       "Từ Rạch Cái Tôm đến Rạch Đá Biên",
       "Khu vực từ Km55 đến Km55 +500 Quốc N2: ấp Đông Thuận",
       "Khu vực từ Km54 đến Km54 +500 Quốc N2: ấp Đông Thuận",
-      "Khu vực từ Km53+500 đến Km54 Quốc N2: ấp Đông Thuận"
+      "Khu vực từ Km53+500 đến Km54 Quốc N2: ấp Đông Thuận",
+      "Khu vực từ Cầu Ông Văn đến Cầu Cả Cỏ",
+      "cặp Đườnh tỉnh 817: ấp Thạnh Phú",
+      "Khu vực từ Cầu Kênh Maren đến Cầu Cả Sáu",
+      "cặp Đườnh tỉnh 817: ấp Cả Sáu",
+      "Khu vực từ Cầu Cả Sáu đến CDC Thạnh Phước"
     ]
   },
   "TN-NHONNINH": {
@@ -3918,7 +3940,9 @@
       "ĐT 826 đoạn từ Ngã 4 Chợ Đào đến Cây Xăng Kim Liên thuộc ấp Trạch Định (ấp 9 cũ)",
       "ấp Chợ Mỹ (ấp Mỹ tây cũ)",
       "ĐT 826 đoạn từ Cây Xăng Kim Liên đến Ngã 4 Xoài Đôi thuộc ấp Trạch Định (ấp 9 cũ)",
-      "Ấp Trạch Thuận"
+      "Ấp Trạch Thuận",
+      "Dọc đường tỉnh 835C",
+      "Ấp Long Sơn"
     ],
     "loai_don_vi": "Xã"
   },
@@ -3977,7 +4001,8 @@
       "Khu vực Chợ Mới Tân Thạnh",
       "từ Cầu Cà Nhíp đến Cầu Hiệp Thành và từ Cầu Tân Thạnh đến km số 2 trên đường tỉnh 837 - Ấp Kiến Bình",
       "Từ Cầu Tân Thạnh đến km số 2 trên đường tỉnh 837 - Ấp Kiến Bình",
-      "Đường Kinh 30/4 - Ấp Bảy Mét và ấp Cá Tôm"
+      "Đường Kinh 30/4 - Ấp Bảy Mét và ấp Cá Tôm",
+      "Cụm dân cư Tân Hòa - Ấp Tân Hòa"
     ],
     "loai_don_vi": "Xã"
   },
@@ -5086,6 +5111,15 @@
     "ma_dien_luc": "PB0608",
     "khu_pho": [
       "Ấp Tân Thạnh (từ cầu Cà Nhíp đến giáp"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-THANHPHUAPTHANHPHU": {
+    "ten_phuong": "Thạnh Phú: ấp Thạnh Phú",
+    "ten_huyen": "Thạnh Hóa",
+    "ma_dien_luc": "PB0611",
+    "khu_pho": [
+      "Khu dân cư"
     ],
     "loai_don_vi": "Xã"
   }
