@@ -1119,7 +1119,16 @@
       "đường Nguyễn Thanh Cần",
       "kdc đại dương",
       "Đường đan Khu Phố 4 (cũ)",
-      "thuộc khu phố An Thuận"
+      "thuộc khu phố An Thuận",
+      "Vòng xoay nghĩa trang",
+      "đường đỗ trinh thoại",
+      "Tuyến tránh",
+      "đường lê văn kiệt",
+      "nguyễn thị bảy",
+      "phạm văn trạch một phần",
+      "Bệnh Viện Đa Khoa Long An - Số 211 Nguyễn Thông",
+      "Đường Võ Tấn Đồ",
+      "KP An Bình"
     ]
   },
   "TN-MYTHANH": {
@@ -1265,7 +1274,8 @@
       "(KCN Hoà Bình)",
       "Toàn bộ",
       "Khu vực ấp Bình Thạnh 1",
-      "Khu vực ấp Tân Thành"
+      "Khu vực ấp Tân Thành",
+      "- Ấp Nhị Thành 1"
     ]
   },
   "TN-TANLONG": {
@@ -2221,7 +2231,8 @@
       "Đường ĐT830D ấp 4",
       "Đường ĐT835 từ Ngã ba Phước Lợi đến Cầu Long Khê ấp 1",
       "Đường ĐT830D ấp 1",
-      "Cơ sở Đất Mới ấp 5"
+      "Cơ sở Đất Mới ấp 5",
+      "Đường QL1A từ KCN Vĩnh Lộc 2 đến Ngã Ba Phước Lợi"
     ]
   },
   "TN-THANHLOI": {
@@ -2723,7 +2734,9 @@
       "Đường Sơn Lợi từ Gần đình An Ninh đến  gần tiệm sửa se Bảo đến vô hẻm đường An Ninh 1",
       "ấp An Sơn",
       "Đường Vô Xóm Đủa từ đầu  đường điện thoại Chí Tường đến nhà trọ Xóm Nhỏ",
-      "đến khu Nhà Trọ Minh Thơ"
+      "đến khu Nhà Trọ Minh Thơ",
+      "Đường Lộc Thuận đầu đường Lộc Thuận đến cuối đường Ấp Văn Hóa Lộc Thuận đến",
+      "Ấp Lộc Thuận"
     ]
   },
   "TN-BINHTHANH": {
@@ -2798,7 +2811,8 @@
       "Đường Kênh Uỷ Ban cũ (gần CDC Thái Bình Trung",
       "Lộ Bắc Chiên Cả Bản (gần cầu Kênh Bàu Lau)",
       "Đường Kênh Rạch Bay đá (gần cầu bê tông)",
-      "Đường bắc Sông Vàm Cỏ Tây (từ qua cầu Kênh Liên kết đến CDC Tuyên Bình Tây và đường Kênh Đầu Sấu ấp Cả Rưng"
+      "Đường bắc Sông Vàm Cỏ Tây (từ qua cầu Kênh Liên kết đến CDC Tuyên Bình Tây và đường Kênh Đầu Sấu ấp Cả Rưng",
+      "Đường 831 gần cầu Bình Châu"
     ]
   },
   "TN-VINHHUNG": {
@@ -2830,7 +2844,9 @@
       "đường 3/2 (từ đường Nguyễn Văn Linh đến đường CMT8)",
       "Đường Kinh T3 ấp Vĩnh Trị",
       "Đường Vĩnh Thuận-Tuyên Bình Tây",
-      "Đường Rạch Cà Na (gần Cầu Rạch Cà Na) - ấp Vĩnh Thuận"
+      "Đường Rạch Cà Na (gần Cầu Rạch Cà Na) - ấp Vĩnh Thuận",
+      "Đường Nguyễn Thái Bình",
+      "đường Long Khốt"
     ]
   },
   "TN-KHANHHUNG": {
@@ -2912,7 +2928,8 @@
       "Hộ sản xuất Phạm Thanh Phong và Huỳnh thị Mai",
       "Hộ sản xuất Huỳnh Văn Nhỏ",
       "Tổ hợp tác bơm nước Phan Văn Chúc",
-      "Hộ nuôi cá Trần Vũ Linh"
+      "Hộ nuôi cá Trần Vũ Linh",
+      "Trạm: T41/2 TB THT Lê Văn Cộp và T41/3 TB THT Lê Văn Cộp"
     ]
   },
   "TN-TANHUNG": {
@@ -3102,7 +3119,9 @@
       "Nguyễn Thành Trọng ấp Thanh Phú Long",
       "Hộ nuôi tôm Đặng Minh Ý",
       "Châu Văn Sáng ấp Bình Trị 1",
-      "Đường An Khương Thới (đoạn từ Trường Tiểu học An Khương Thới đến Sông Vàm Cỏ Tây) ấp Bình Thới"
+      "Đường An Khương Thới (đoạn từ Trường Tiểu học An Khương Thới đến Sông Vàm Cỏ Tây) ấp Bình Thới",
+      "Đường TL 827A (từ Đảng ủy Thuận Mỹ đến cầu 30/4) ấp Thanh Tân",
+      "Đường TL 827A  ấp Bình Thạnh"
     ]
   },
   "TN-VINHCONG": {
@@ -4003,7 +4022,13 @@
       "từ Cầu Cà Nhíp đến Cầu Hiệp Thành và từ Cầu Tân Thạnh đến km số 2 trên đường tỉnh 837 - Ấp Kiến Bình",
       "Từ Cầu Tân Thạnh đến km số 2 trên đường tỉnh 837 - Ấp Kiến Bình",
       "Đường Kinh 30/4 - Ấp Bảy Mét và ấp Cá Tôm",
-      "Cụm dân cư Tân Hòa - Ấp Tân Hòa"
+      "Cụm dân cư Tân Hòa - Ấp Tân Hòa",
+      "Ấp Tân Hòa và Ấp Cà Nhíp",
+      "Từ Cầu Kinh Hai Vụ đến Cầu Kinh 12 -N2",
+      "từ Cầu Tân Thạnh đến Cầu Cà Nhíp",
+      "Chợ Cũ Tân Thạnh",
+      "Chợ Mới Tân Thạnh",
+      "Cụm dân cư Cầu Vợi - Ấp Kiến Bình"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4381,7 +4406,8 @@
       "Bùng Binh thuộc",
       "1p",
       "Ấp Thôi Môi",
-      "1 phần"
+      "1 phần",
+      "TT văn hóa"
     ],
     "loai_don_vi": "Xã"
   },
@@ -5121,6 +5147,25 @@
     "ma_dien_luc": "PB0611",
     "khu_pho": [
       "Khu dân cư"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-5DENCAUVOI": {
+    "ten_phuong": "5 đến Cầu Voi",
+    "ten_huyen": "Thủ Thừa",
+    "ma_dien_luc": "PB0602",
+    "khu_pho": [
+      "- Khu vực từ Cây Xăng"
+    ],
+    "loai_don_vi": "Phường"
+  },
+  "TN-HAUNGHIA-2": {
+    "ten_phuong": "Hậu  Nghĩa",
+    "ten_huyen": "Đức Hòa",
+    "ma_dien_luc": "PB0603",
+    "khu_pho": [
+      "Ấp Sò Đo",
+      "Ấp Khiêm Cương"
     ],
     "loai_don_vi": "Xã"
   }
