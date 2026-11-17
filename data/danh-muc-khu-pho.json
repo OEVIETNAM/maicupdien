@@ -1727,7 +1727,9 @@
       "Khu vực từ Chùa Chưởng Phước đến khu Bờ kè Phước Lại (ĐT.826C)",
       "Khu vực bến phà Cần Giuộc mới đến Đình Tích Đức (khu Chợ Chiều)",
       "Khu vực từ đầu đường Phước Lại đến Chợ Phước Lại",
-      "Khu vực Chợ Phước Lại"
+      "Khu vực Chợ Phước Lại",
+      "Khu vực từ đầu đường Ấp 3 Long Hậu ( ĐT.826C) đến bên phà Long Hậu Tân Kim",
+      "Khu vực từ Cầu Rạch Dơi đến Cầu Rạch Dừa đến bến phà Long Hậu Tân Kim"
     ]
   },
   "TN-MYLOC": {
@@ -2127,7 +2129,9 @@
       "Đường Nguyễn Văn Nhâm",
       "Đường QL1A từ Ngã Tư Long Kim đến KCN Vĩnh Lộc 2 ấp Bến Lức 9",
       "ấp Lò Gạch",
-      "Ban Chỉ Huy Phòng Thủ Khu Vực 1-Bến Lức"
+      "Ban Chỉ Huy Phòng Thủ Khu Vực 1-Bến Lức",
+      "đầu đường Nguyễn Văn Tiếp đến đường Long Bình ấp Tấn Long Thanh Phú",
+      "toàn bộ KDC Đường 10"
     ]
   },
   "TN-LUONGHOA": {
@@ -4068,7 +4072,9 @@
       "Từ Trường THCS Nhơn Hòa Lập đến Cầu Kinh 1000 Nhơn Hòa Lập - Ấp 2",
       "Từ Cầu Kinh 1000 Nhơn Hòa Lập đến Cầu Kinh 2000 Nhơn Hòa Lập - Ấp 2",
       "Đường Kinh Quận từ Cầu Kinh Quận đến Kinh Kháng Chiến - Ấp 5",
-      "Cụm dân cư Nhơn Hòa Lập - Ấp 5"
+      "Cụm dân cư Nhơn Hòa Lập - Ấp 5",
+      "Cụm dân cư Tân Lập và Chợ Tân Lập - Ấp 2",
+      "Cụm dân cư Nhơn Hòa Lập - Ấp 2"
     ],
     "loai_don_vi": "Xã"
   },
