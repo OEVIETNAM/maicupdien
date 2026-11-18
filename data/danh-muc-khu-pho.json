@@ -703,7 +703,8 @@
       "Ấp Thạnh Thọ",
       "Ấp Gò Cát",
       "Ấp Đồng Dài",
-      "Một phần"
+      "Một phần",
+      "Ấp Thạnh Hòa"
     ],
     "loai_don_vi": "Xã"
   },
@@ -1730,7 +1731,9 @@
       "Khu vực từ đầu đường Phước Lại đến Chợ Phước Lại",
       "Khu vực Chợ Phước Lại",
       "Khu vực từ đầu đường Ấp 3 Long Hậu ( ĐT.826C) đến bên phà Long Hậu Tân Kim",
-      "Khu vực từ Cầu Rạch Dơi đến Cầu Rạch Dừa đến bến phà Long Hậu Tân Kim"
+      "Khu vực từ Cầu Rạch Dơi đến Cầu Rạch Dừa đến bến phà Long Hậu Tân Kim",
+      "Khu vực từ trạm cấp nước Phước Lại  đến Trường THPT&THCS Nguyễn Thị Một (ĐT.826C)",
+      "Khu vực từ trạm cấp nước Phước Lại  đến Trường THPT&THCS Nguyễn Thị Một đến đường hẻm PLA 05 (ĐT.826C)"
     ]
   },
   "TN-MYLOC": {
@@ -1812,7 +1815,8 @@
       "Khu vực từ KDC Chợ Mỹ đến Cống Ba Mau",
       "Khu vực đối diện đường Phước Lâm Trường Bình",
       "Khu vực đường Đoàn Văn Diệu ( Tư Nhựt)",
-      "thuộc ấp Lộc Tiền"
+      "thuộc ấp Lộc Tiền",
+      "Khu vực trên đường Nguyễn Thị Sáng"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1938,7 +1942,10 @@
       "Đường 817 đoạn UB  Bình Hòa Đông cũ",
       "Đường 817 đoạn Trạm Y Tế  Bình Hòa Đông",
       "Đường 817 đoạn Cầu Bình Hòa Đông",
-      "Đường 817 đoạn Cầu Bình Phong Thạnh"
+      "Đường 817 đoạn Cầu Bình Phong Thạnh",
+      "Đường 817 đoạn TDCVL Bình Hòa Trung",
+      "Đường 817 đoạn Gần Bến đò 6 Dòn",
+      "ấp Bình Bình Đông"
     ]
   },
   "TN-KIENTUONG": {
@@ -2132,7 +2139,12 @@
       "ấp Lò Gạch",
       "Ban Chỉ Huy Phòng Thủ Khu Vực 1-Bến Lức",
       "đầu đường Nguyễn Văn Tiếp đến đường Long Bình ấp Tấn Long Thanh Phú",
-      "toàn bộ KDC Đường 10"
+      "toàn bộ KDC Đường 10",
+      "Trạm thu phí ĐT 830",
+      "Trạm Chiếu sáng 1 ĐT 830",
+      "Trạm Chiếu sáng 2 ĐT 830",
+      "Trạm Chiếu sáng 3 ĐT 830",
+      "Trạm Chiếu sáng 4 ĐT 830"
     ]
   },
   "TN-LUONGHOA": {
@@ -2237,7 +2249,9 @@
       "Đường ĐT835 từ Ngã ba Phước Lợi đến Cầu Long Khê ấp 1",
       "Đường ĐT830D ấp 1",
       "Cơ sở Đất Mới ấp 5",
-      "Đường QL1A từ KCN Vĩnh Lộc 2 đến Ngã Ba Phước Lợi"
+      "Đường QL1A từ KCN Vĩnh Lộc 2 đến Ngã Ba Phước Lợi",
+      "Đường ĐT 830D Ấp 4",
+      "Đường ĐT 830D và QL1A Ấp 1"
     ]
   },
   "TN-THANHLOI": {
@@ -2783,7 +2797,9 @@
       "Khu vực từ Km34+500 đến Km35 Quốc Lộ 62 : ấp Bún Bà Của",
       "Khu vực từ Km39 đến Km39+500 Quốc Lộ 62 : ấp Bún Bà Của",
       "Khu vực từ Kênh Cả Tôm đến Kênh 6 Cục cặp Kênh Bắc Đông: ấp Thuỷ Tây",
-      "Khu vực từ Kênh Năm Dề đến Kênh Tư Song cặp Kênh Bắc Đông: ấp Thuỷ Tây"
+      "Khu vực từ Kênh Năm Dề đến Kênh Tư Song cặp Kênh Bắc Đông: ấp Thuỷ Tây",
+      "Khu vực từ cống Sân Bay đến Ngã 3 Tuyên Nhơn",
+      "đường tỉnh 836- ấp Bún Bà Của"
     ]
   },
   "TN-TUYENBINH": {
@@ -3007,7 +3023,9 @@
       "ấp Láng Sen",
       "- Khu vực cặp đường tỉnh 819: Đoạn gần khu vực cầu Cả Nổ",
       "Tổ Hợp Tác Vĩnh Nguyện- Rọc Năng",
-      "Tổ Hợp Tác Trạm Bơm Điện Đê Bao Kênh Tràm Chim 2"
+      "Tổ Hợp Tác Trạm Bơm Điện Đê Bao Kênh Tràm Chim 2",
+      "- Khu vực cặp bờ Đông và bờ Tây Kênh Ngang: Đoạn từ nhà Chú Hai Nguyễn đến nhà Chú Sáu Bé. Ấp Võ Văn Be",
+      "- Khu vực cặp bờ Đông và bờ Tây Kênh Ngang: Đoạn từ nhà Chú Hai On đến khu vực gần cầu 7 Thước. Ấp Võ Văn Be"
     ]
   },
   "TN-CHAU": {
@@ -3071,7 +3089,9 @@
       "Đường đan (đoạn đầu kênh Bảy Na đến đê bao sông Vàm Cỏ Tây) ấp Phước Tân Hưng",
       "Đường TL 827B (đoạn từ trung tâm văn hóa ấp Phú Ngãi Trị đền Công Cầu Vàm) ấp Phú Xuân",
       "Hộ tấp trứng Gia cầm Nguyễn Duy Hiền",
-      "thắp sáng thanh long Lương Thị Thu Vân ấp An Thạnh"
+      "thắp sáng thanh long Lương Thị Thu Vân ấp An Thạnh",
+      "Đường ấp liên ấp 2-5 (khu vực Cầu Chợ Giữa)",
+      "Đường ấp liên ấp 2-5"
     ]
   },
   "TN-THUANMY": {
@@ -3165,7 +3185,9 @@
       "Lê Hoàng Vũ ấp An Thạnh",
       "Đường Cái Đôi",
       "Đường đan (khu vực giáp ranh Rạch Bà Lý)",
-      "Đường Lộ Dừa (đoạn từ đầu đường tiếp giáp với TL 827A đến Cầu Nhất Võng) ấp Vĩnh Bình"
+      "Đường Lộ Dừa (đoạn từ đầu đường tiếp giáp với TL 827A đến Cầu Nhất Võng) ấp Vĩnh Bình",
+      "Đường TL 827A",
+      "(khu vực chợ Hòa Phú) ấp Đa Phú"
     ]
   },
   "TN-DUCLAP": {
