@@ -1735,7 +1735,8 @@
       "Khu vực từ đầu đường Ấp 3 Long Hậu ( ĐT.826C) đến bên phà Long Hậu Tân Kim",
       "Khu vực từ Cầu Rạch Dơi đến Cầu Rạch Dừa đến bến phà Long Hậu Tân Kim",
       "Khu vực từ trạm cấp nước Phước Lại  đến Trường THPT&THCS Nguyễn Thị Một (ĐT.826C)",
-      "Khu vực từ trạm cấp nước Phước Lại  đến Trường THPT&THCS Nguyễn Thị Một đến đường hẻm PLA 05 (ĐT.826C)"
+      "Khu vực từ trạm cấp nước Phước Lại  đến Trường THPT&THCS Nguyễn Thị Một đến đường hẻm PLA 05 (ĐT.826C)",
+      "Khu vực gần trước cổng KCN Tân Kim ( QL50)"
     ]
   },
   "TN-MYLOC": {
@@ -1902,7 +1903,9 @@
       "Đường 817 đoạn Cầu Nội Gọ",
       "Gần Khu Bảo Tồn Dược Liệu",
       "Đường Kinh Bao Ngạn 1",
-      "đoạn Gần Khu Bảo Tồn Dược Liệu"
+      "đoạn Gần Khu Bảo Tồn Dược Liệu",
+      "Đường QL 62 đoạn Km 52",
+      "Đường QL 62 đoạn Cầu 79"
     ]
   },
   "TN-BINHHOA": {
@@ -1947,7 +1950,8 @@
       "Đường 817 đoạn Cầu Bình Phong Thạnh",
       "Đường 817 đoạn TDCVL Bình Hòa Trung",
       "Đường 817 đoạn Gần Bến đò 6 Dòn",
-      "ấp Bình Bình Đông"
+      "ấp Bình Bình Đông",
+      "Đường 817 đoạn Cầu Đường Bàng"
     ]
   },
   "TN-KIENTUONG": {
@@ -2253,7 +2257,9 @@
       "Cơ sở Đất Mới ấp 5",
       "Đường QL1A từ KCN Vĩnh Lộc 2 đến Ngã Ba Phước Lợi",
       "Đường ĐT 830D Ấp 4",
-      "Đường ĐT 830D và QL1A Ấp 1"
+      "Đường ĐT 830D và QL1A Ấp 1",
+      "Đường Mỹ Yên- Thanh Phú",
+      "Cơ sở Cộng Hòa Ấp Chánh"
     ]
   },
   "TN-THANHLOI": {
@@ -2342,7 +2348,8 @@
       "ấp 4 Nhựt Chánh",
       "Đường QL1A từ Ngã Tư Bình Nhựt đến Lộ Cây Điệp ấp 6 Thạnh Đức",
       "ấp 2 Nhựt Chánh",
-      "Đường ấp 6 Bình Đức"
+      "Đường ấp 6 Bình Đức",
+      "Đường Ấp 6 Bà Lư"
     ]
   },
   "TN-TANLAN": {
@@ -2869,7 +2876,8 @@
       "Đường Vĩnh Thuận-Tuyên Bình Tây",
       "Đường Rạch Cà Na (gần Cầu Rạch Cà Na) - ấp Vĩnh Thuận",
       "Đường Nguyễn Thái Bình",
-      "đường Long Khốt"
+      "đường Long Khốt",
+      "Đường Rạch Cà Na (đoạn trong Cầu Rạch Cà Na) - ấp Vĩnh Thuận"
     ]
   },
   "TN-KHANHHUNG": {
@@ -3027,7 +3035,9 @@
       "Tổ Hợp Tác Vĩnh Nguyện- Rọc Năng",
       "Tổ Hợp Tác Trạm Bơm Điện Đê Bao Kênh Tràm Chim 2",
       "- Khu vực cặp bờ Đông và bờ Tây Kênh Ngang: Đoạn từ nhà Chú Hai Nguyễn đến nhà Chú Sáu Bé. Ấp Võ Văn Be",
-      "- Khu vực cặp bờ Đông và bờ Tây Kênh Ngang: Đoạn từ nhà Chú Hai On đến khu vực gần cầu 7 Thước. Ấp Võ Văn Be"
+      "- Khu vực cặp bờ Đông và bờ Tây Kênh Ngang: Đoạn từ nhà Chú Hai On đến khu vực gần cầu 7 Thước. Ấp Võ Văn Be",
+      "- Khu vực cặp kênh 79: Đoạn từ nhà Chú Nô đến hết tuyến dân cư Ấp Cà Dăm cũ. ấp Vĩnh Ân",
+      "Vàm Gừa"
     ]
   },
   "TN-CHAU": {
@@ -3093,7 +3103,10 @@
       "Hộ tấp trứng Gia cầm Nguyễn Duy Hiền",
       "thắp sáng thanh long Lương Thị Thu Vân ấp An Thạnh",
       "Đường ấp liên ấp 2-5 (khu vực Cầu Chợ Giữa)",
-      "Đường ấp liên ấp 2-5"
+      "Đường ấp liên ấp 2-5",
+      "Đường TL 827B",
+      "đường 30/4",
+      "khuvực từ Công Cầu Vàm đến Công Eo Đéc"
     ]
   },
   "TN-THUANMY": {
@@ -3317,7 +3330,10 @@
       "Khu vực",
       "Đường tỉnh 838 từ khoảng Quán Óc Đêm đến cầu Mỹ Bình",
       "Đường đi Giồng Ngang đi Ấp 1 Mỹ Quý Đông (Củ) ấp Mỹ Quý Đông",
-      "Đường dọc kênh Rạch Chùa ra sông vàm cỏ"
+      "Đường dọc kênh Rạch Chùa ra sông vàm cỏ",
+      "Đường 838C từ trường THCS Mỹ Quý đến cầu Đường Xuồng",
+      "đến Sơ Rơ",
+      "Ấp Quéo 3"
     ]
   },
   "TN-VINHTHANH": {
@@ -3464,7 +3480,8 @@
       "thuộc ấp Tân Chánh",
       "Khu vực Chợ Đông Thạnh",
       "Khu vực từ Ngã Tư Đông Thạnh đến đầu đường Tây Bắc",
-      "Khu vực Chợ Núi"
+      "Khu vực Chợ Núi",
+      "Khu vực đường vào Trường THCS Tân Tập"
     ]
   },
   "TN-TUYENTHANH": {
@@ -3784,7 +3801,8 @@
       "Đường kênh Chiếu đấu (khu vực nhà bia Chợ Ông Bái)",
       "Hộ Kho TL Trang Thuận Phát",
       "Đường Kênh T2 (đoạn từ Tổ đường đến hết đường kênh T2 (giáp đường tỉnh 879B tỉnh Đồng Tháp) ấp Long An",
-      "Đường đan Mỹ Xuân"
+      "Đường đan Mỹ Xuân",
+      "Đường Kênh T1"
     ]
   },
   "TN-NINHTHANH-2": {
