@@ -5251,5 +5251,14 @@
       "Phước Thuận"
     ],
     "loai_don_vi": "Xã"
+  },
+  "TN-TANDONG-2": {
+    "ten_phuong": "Tân Dông",
+    "ten_huyen": "Tân Châu",
+    "ma_dien_luc": "PB0504",
+    "khu_pho": [
+      "Ấp Đông Tiến"
+    ],
+    "loai_don_vi": "Xã"
   }
 }
