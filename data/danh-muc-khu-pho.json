@@ -1131,7 +1131,9 @@
       "phạm văn trạch một phần",
       "Bệnh Viện Đa Khoa Long An - Số 211 Nguyễn Thông",
       "Đường Võ Tấn Đồ",
-      "KP An Bình"
+      "KP An Bình",
+      "Dọc theo đường Lộ Tránh từ Nghĩa Trang Liệt Sĩ đến Cầu Tuyến Tránh",
+      "đường TL 827"
     ]
   },
   "TN-MYTHANH": {
@@ -1279,7 +1281,8 @@
       "Khu vực ấp Bình Thạnh 1",
       "Khu vực ấp Tân Thành",
       "- Ấp Nhị Thành 1",
-      "Ấp Thủ Khoa Thừa 1 (đoạn từ Chợ mới đến Cầu Xây)"
+      "Ấp Thủ Khoa Thừa 1 (đoạn từ Chợ mới đến Cầu Xây)",
+      "Khu vực Đường Nguyễn Thị Ba (từ Bách Hoá Xanh đến Hẻm Nhà Thiếu Nhi củ) ấp Thủ Khoa Thừa 2"
     ]
   },
   "TN-TANLONG": {
@@ -1497,7 +1500,9 @@
       "thuộc ấp Phú Ân",
       "Khu vực Ngã Tư Phước Lý ( Đường ĐT 826 ) đến đầu cầu Long Thượng",
       "Khu vực đường Đặng Văn Búp ( Bờ bao Cầu Đen)",
-      "thuộc ấp Trong"
+      "thuộc ấp Trong",
+      "Khu vực từ đầu Chợ Long Thượng đến Cầu Tân Điền",
+      "thuộc ấp Long Thạnh"
     ]
   },
   "TN-CANGIUOC": {
@@ -1854,7 +1859,9 @@
       "Khu vực từ Phòng Khám Đa Khoa Sài Gòn-Long Phụng đến đầu Bờ Đình Chánh Nhứt",
       "thuộc ấp Chánh Nhứt",
       "Khu vực từ đầu đường Kênh Đại Hội (QL.50) đến đầu đường Nguyễn Thị Bài",
-      "thuộc ấp Long An 2"
+      "thuộc ấp Long An 2",
+      "Khu vực từ Trạm 110kV Tân Tập đến Ngã Tư Chợ Trạm ( Đường ĐT.830)",
+      "thuộc ấp Tây Phú"
     ]
   },
   "TN-MOCHOA": {
@@ -1909,7 +1916,9 @@
       "Đường QL 62 đoạn Km 52",
       "Đường QL 62 đoạn Cầu 79",
       "Đường QL 62 đoạn Cầu Song Sắt",
-      "Đường QL 62 đoạn Khu du lịch Sinh Thái"
+      "Đường QL 62 đoạn Khu du lịch Sinh Thái",
+      "Đường QL 62 đoạn Cầu Quảng Dài",
+      "Đường QL 62 đoạn Cầu Quảng Cụt"
     ]
   },
   "TN-BINHHOA": {
@@ -2518,7 +2527,8 @@
       "Đường Nguyễn Trung Trực ấp Long Cang",
       "1 phần",
       "14",
-      "15 KCN Thuận Đạo MR)"
+      "15 KCN Thuận Đạo MR)",
+      "Ấp Long Cang"
     ]
   },
   "TN-TANTRU": {
@@ -2685,7 +2695,8 @@
       "khu CN DNN Tân Phú",
       "ấp An Thuỷ",
       "Đường nội Ô trên khu Dân cự thị trấn Hiệp Hoà",
-      "ấp Văn Hiệp"
+      "ấp Văn Hiệp",
+      "Đường Tân phú Hậu Nghĩa từ sân Banh đến  Kênh Nổi"
     ]
   },
   "TN-ANNINH": {
@@ -3118,7 +3129,8 @@
       "Đường TL 827B",
       "đường 30/4",
       "khuvực từ Công Cầu Vàm đến Công Eo Đéc",
-      "Đường Chùa Thanh Ninh"
+      "Đường Chùa Thanh Ninh",
+      "Đường 30/4 (đoạn vành đai từ Cầu Tầm Vu 2 đến Cầu Tầm Vu 3) ấp Bình Lục"
     ]
   },
   "TN-THUANMY": {
@@ -3257,7 +3269,9 @@
       "1P ấp Bàu Sen",
       "1p",
       "Ấp Nhơn Hòa 1",
-      "1p Ấp Tràm Lạc"
+      "1p Ấp Tràm Lạc",
+      "1 phần ấp Đức Hạnh",
+      "Ấp Đức Hạnh 1"
     ]
   },
   "TN-MYQUY": {
@@ -3378,7 +3392,9 @@
       "ấp Gò Bún",
       "- Khu vực cặp kênh 79: Đoạn khu vực cầu kênh Cái Bát",
       "Tổ hợp tác bơm điện Chín Hùng",
-      "Hộ sản xuất Nguyễn Văn Anh"
+      "Hộ sản xuất Nguyễn Văn Anh",
+      "+ Khu vực cặp kênh Đìa Việt: Đoạn qua cầu Kênh Đìa Việt đến gần khu vực cầu Kênh Cã Trấp. Ấp Hưng Thạnh",
+      "+ Khu vực cặp kênh T35: Đoạn qua khu vực cụm dân cư Hưng Thạnh cũ đến cầu kênh KT35. ấp Gò Gòn"
     ]
   },
   "TN-DONGTHANH": {
@@ -3499,7 +3515,9 @@
       "Khu vực Chợ Đông Thạnh",
       "Khu vực từ Ngã Tư Đông Thạnh đến đầu đường Tây Bắc",
       "Khu vực Chợ Núi",
-      "Khu vực đường vào Trường THCS Tân Tập"
+      "Khu vực đường vào Trường THCS Tân Tập",
+      "thuộc ấp Tân Thành",
+      "thuộc ấp Trung"
     ]
   },
   "TN-TUYENTHANH": {
@@ -3822,7 +3840,10 @@
       "Đường đan Mỹ Xuân",
       "Đường Kênh T1",
       "Đường Vĩnh Xuân A",
-      "B đến giáp Cầu Ông Khói"
+      "B đến giáp Cầu Ông Khói",
+      "Đường kênh Chiến đấu",
+      "khu vực Nhà bia Chợ Ông Bái",
+      "Đường Kênh T.1 (đoạn từ Trường Mẫu Giáo đến đầu đường Kênh Bảy An ) ấp Long Trường"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -4030,7 +4051,8 @@
       "ĐT 826 đoạn từ Cây Xăng Kim Liên đến Ngã 4 Xoài Đôi thuộc ấp Trạch Định (ấp 9 cũ)",
       "Ấp Trạch Thuận",
       "Dọc đường tỉnh 835C",
-      "Ấp Long Sơn"
+      "Ấp Long Sơn",
+      "Ấp Trạch Thuận (ấp 13 cũ)"
     ],
     "loai_don_vi": "Xã"
   },
@@ -5258,6 +5280,25 @@
     "ma_dien_luc": "PB0504",
     "khu_pho": [
       "Ấp Đông Tiến"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-BINHHOADONG": {
+    "ten_phuong": "Bình Hòa Đông",
+    "ten_huyen": "Kiến Tường",
+    "ma_dien_luc": "PB0605",
+    "khu_pho": [
+      "Đường 817 đoạn Trạm Y Tế"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-RACHKIEN-2": {
+    "ten_phuong": "Rạch Kiên",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "DT 835 đoạn từ Ngã 3 đường Long Khê - Phước Vân đến cầu Long Khê thuộc Ấp Long Khê",
+      "Phước Bửu"
     ],
     "loai_don_vi": "Xã"
   }
