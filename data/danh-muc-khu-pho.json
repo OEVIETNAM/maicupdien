@@ -1133,7 +1133,10 @@
       "Đường Võ Tấn Đồ",
       "KP An Bình",
       "Dọc theo đường Lộ Tránh từ Nghĩa Trang Liệt Sĩ đến Cầu Tuyến Tránh",
-      "đường TL 827"
+      "đường TL 827",
+      "Dọc theo đường Lộ Tránh từ Cầu Tuyến Tránh đến đường Lê Văn Kiệt",
+      "đường Quốc Lộ 1A",
+      "Trà Quý Bình"
     ]
   },
   "TN-MYTHANH": {
@@ -1743,7 +1746,9 @@
       "Khu vực từ trạm cấp nước Phước Lại  đến Trường THPT&THCS Nguyễn Thị Một (ĐT.826C)",
       "Khu vực từ trạm cấp nước Phước Lại  đến Trường THPT&THCS Nguyễn Thị Một đến đường hẻm PLA 05 (ĐT.826C)",
       "Khu vực gần trước cổng KCN Tân Kim ( QL50)",
-      "Khu vực từ Nhà hàng Hương Đồng đến Ngã Tư Gia Bảo"
+      "Khu vực từ Nhà hàng Hương Đồng đến Ngã Tư Gia Bảo",
+      "Khu vực từ Trường Mẫu Giáo Phước Lại đến trạm cấp nước Phước Lại (ĐT.826C)",
+      "Khu vực đường Đê Bao Long Bào"
     ]
   },
   "TN-MYLOC": {
@@ -2000,7 +2005,19 @@
       "Đường Lê Lợi Nối Dài đoạn Tiệm Tạp Hóa Ông Hòa",
       "Cụm DCVL Khóm 5",
       "Đường Bờ Tây Kinh Quận",
-      "Đường Lý Thường Kiệt đoạn Bến Xe cũ"
+      "Đường Lý Thường Kiệt đoạn Bến Xe cũ",
+      "Đường QL62 đoạn Nghĩa Trang đến cầu Quảng Cục",
+      "Đường QL62 đoạn Nghĩa Trang",
+      "Đường 62 đoạn Nghĩa Trang",
+      "Đường QL62",
+      "Đường QL62 đoạn Cầu Cửa Đông",
+      "Đường 62 đoạn Cầu Cửa Đông",
+      "Đường Hai Bà Trưng",
+      "Đường 30/4 đoạn từ Bưu Điện đến BCH Biên Phòng củ",
+      "Khu phố 1",
+      "Đường 30/4 đoạn từ Bưu Điện đến Điện lực Kiến Tường",
+      "Đường 30/4",
+      "đường Hùng Vương"
     ]
   },
   "TN-BINHHIEP": {
@@ -2199,7 +2216,8 @@
       "Chiếu sáng 6 ĐT 830",
       "Chiếu sáng 7 ĐT 830",
       "Chiếu sáng 8 ĐT 830",
-      "Chiếu sáng 9 ĐT 830"
+      "Chiếu sáng 9 ĐT 830",
+      "Đường ĐT 830C từ Ngã 5 Tân Bửu đến Cống Ông Cốm Ấp 2"
     ]
   },
   "TN-MYYEN": {
@@ -2278,7 +2296,8 @@
       "Đường ĐT 830D Ấp 4",
       "Đường ĐT 830D và QL1A Ấp 1",
       "Đường Mỹ Yên- Thanh Phú",
-      "Cơ sở Cộng Hòa Ấp Chánh"
+      "Cơ sở Cộng Hòa Ấp Chánh",
+      "ấp 7B"
     ]
   },
   "TN-THANHLOI": {
@@ -2785,7 +2804,8 @@
       "Đường Vô Xóm Đủa từ đầu  đường điện thoại Chí Tường đến nhà trọ Xóm Nhỏ",
       "đến khu Nhà Trọ Minh Thơ",
       "Đường Lộc Thuận đầu đường Lộc Thuận đến cuối đường Ấp Văn Hóa Lộc Thuận đến",
-      "Ấp Lộc Thuận"
+      "Ấp Lộc Thuận",
+      "Đường tỉnh 825 từ Chùa Phước Lộc đến khu vực Chùa Thiên Phước một phần khu vực ấp Lộc Bình"
     ]
   },
   "TN-BINHTHANH": {
@@ -2799,7 +2819,8 @@
       "Ấp Tân Hiệp",
       "Ấp Thuận Hiệp",
       "Khu vực Đường Tuần Tra",
-      "Một phần"
+      "Một phần",
+      "Khu vực ấp Bình Hoà Hưng"
     ]
   },
   "TN-THANHHOA": {
@@ -2898,7 +2919,9 @@
       "Đường Rạch Cà Na (gần Cầu Rạch Cà Na) - ấp Vĩnh Thuận",
       "Đường Nguyễn Thái Bình",
       "đường Long Khốt",
-      "Đường Rạch Cà Na (đoạn trong Cầu Rạch Cà Na) - ấp Vĩnh Thuận"
+      "Đường Rạch Cà Na (đoạn trong Cầu Rạch Cà Na) - ấp Vĩnh Thuận",
+      "Ấp Chiến Thắng (cặp Kênh 28",
+      "Ấp đối diện Nghĩa trang)"
     ]
   },
   "TN-KHANHHUNG": {
@@ -2982,7 +3005,8 @@
       "Tổ hợp tác bơm nước Phan Văn Chúc",
       "Hộ nuôi cá Trần Vũ Linh",
       "Trạm: T41/2 TB THT Lê Văn Cộp và T41/3 TB THT Lê Văn Cộp",
-      "- Khu vực cặp kênh Sông Trăng: Đoạn từ Cầu T7 đến Cầu Kênh T5. ấp Sông Trăng"
+      "- Khu vực cặp kênh Sông Trăng: Đoạn từ Cầu T7 đến Cầu Kênh T5. ấp Sông Trăng",
+      "Ấp Hà Thanh"
     ]
   },
   "TN-TANHUNG": {
@@ -3191,7 +3215,9 @@
       "Đường Ao Sen",
       "đê bao Sông Tra",
       "từ đầu đường Ao Sen đến Công Rạch Tràm ấp Xuân Hòa",
-      "Thanh Vĩnh Đong"
+      "Thanh Vĩnh Đong",
+      "Đường TL 827A",
+      "khu vực từ đầu đường Chùa Trung Thuận đến đầu đường Ao Sen"
     ]
   },
   "TN-VINHCONG": {
@@ -3773,7 +3799,8 @@
       "Đường Kinh Biện Minh - Ấp Giồng Dung",
       "Đường Kinh Lô 300 - Ấp Hậu Thạnh Tây",
       "Đường Kinh Trấp Mắt Cật - Ấp Giồng Dung",
-      "Cụm dân cư Hậu Thạnh Tây - Ấp Hậu Thạnh Tây"
+      "Cụm dân cư Hậu Thạnh Tây - Ấp Hậu Thạnh Tây",
+      "Đường Kinh Quận từ Cầu Kinh Quận đến Kinh Kháng Chiến - Ấp Bắc Hòa"
     ]
   },
   "TN-ANLUCLONG": {
@@ -3843,7 +3870,8 @@
       "B đến giáp Cầu Ông Khói",
       "Đường kênh Chiến đấu",
       "khu vực Nhà bia Chợ Ông Bái",
-      "Đường Kênh T.1 (đoạn từ Trường Mẫu Giáo đến đầu đường Kênh Bảy An ) ấp Long Trường"
+      "Đường Kênh T.1 (đoạn từ Trường Mẫu Giáo đến đầu đường Kênh Bảy An ) ấp Long Trường",
+      ": Đường Trần Văn Giàu (đoạn từ Ngã Ba Huyện củ đến Cống Cầu Đồn)"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -3889,7 +3917,9 @@
       "khu phố hu phố Thanh Đông",
       "Tổ 25",
       "Khu Phố Thanh Phước (trừ tổ 25)",
-      "Khu Phố Thanh Hùng"
+      "Khu Phố Thanh Hùng",
+      "Khu Phố Thanh Sơn",
+      "Khu Phố Thanh Thuận"
     ],
     "loai_don_vi": "Phường"
   },
@@ -4120,7 +4150,11 @@
       "Chợ Mới Tân Thạnh",
       "Cụm dân cư Cầu Vợi - Ấp Kiến Bình",
       "Đường Kinh Đá Biên",
-      "ấp Cá Tôm"
+      "ấp Cá Tôm",
+      "khu vực Kinh Bảy Thước (đoạn từ Cầu Kinh Hậu đến Cầu Thanh Niên)",
+      "Kinh Đạo",
+      "Kinh Quy và Trại giam Thạnh Hòa",
+      "thuộc ấp Kiến Bình"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4161,7 +4195,9 @@
       "Đường Kinh Quận từ Cầu Kinh Quận đến Kinh Kháng Chiến - Ấp 5",
       "Cụm dân cư Nhơn Hòa Lập - Ấp 5",
       "Cụm dân cư Tân Lập và Chợ Tân Lập - Ấp 2",
-      "Cụm dân cư Nhơn Hòa Lập - Ấp 2"
+      "Cụm dân cư Nhơn Hòa Lập - Ấp 2",
+      "các ấp 5",
+      "6 và 7"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4344,7 +4380,9 @@
       "Đường tỉnh 839 từ quán bánh kem Lucky CaKe đến ngã 3 Ủy Ban Bình Thành Củ",
       "đường tỉnh 839 từ trạm 110kv Đức Huệ đến giếng nước 6 Cang",
       "đến Ủy Ban",
-      "Ấp Tân hòa"
+      "Ấp Tân hòa",
+      "Đường tỉnh 839 từ vật liệu xây dựng Chường Chinh đến Đường biên giới",
+      "Ấp ấp Hòa Tây"
     ],
     "loai_don_vi": "Xã"
   },
@@ -5299,6 +5337,24 @@
     "khu_pho": [
       "DT 835 đoạn từ Ngã 3 đường Long Khê - Phước Vân đến cầu Long Khê thuộc Ấp Long Khê",
       "Phước Bửu"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-RACHKIENTHUOCAPLONGKHE": {
+    "ten_phuong": "Rạch Kiến thuộc Ấp Long Khê",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "DT 835 đoạn từ Cống Long Hòa đến UB"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-ANLUCLONG-2": {
+    "ten_phuong": "An lục Long)",
+    "ten_huyen": "Tầm Vu",
+    "ma_dien_luc": "PB0614",
+    "khu_pho": [
+      "Đường Trần Văn Giàu (đoạn từ Chợ Cầu Đồn đến Ủy ban"
     ],
     "loai_don_vi": "Xã"
   }
