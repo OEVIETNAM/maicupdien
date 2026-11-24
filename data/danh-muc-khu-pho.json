@@ -994,7 +994,9 @@
       "đường số 1",
       "đường Số 2 CCn Lợi Bình Nhơn",
       "ccn tú phương đường Nguyễn Văn Quá",
-      "Đường VĐ Tân An"
+      "Đường VĐ Tân An",
+      "kp Nhơn Hậu",
+      "Tường Khánh"
     ]
   },
   "TN-LONGAN": {
@@ -1136,7 +1138,9 @@
       "đường TL 827",
       "Dọc theo đường Lộ Tránh từ Cầu Tuyến Tránh đến đường Lê Văn Kiệt",
       "đường Quốc Lộ 1A",
-      "Trà Quý Bình"
+      "Trà Quý Bình",
+      "Đường Huỳnh Văn Gấm Đường Huỳnh Việt Thanh",
+      "từ đầu đường quốc lộ 62 đến đầu đường Huỳnh Văn Gấm"
     ]
   },
   "TN-MYTHANH": {
@@ -1748,7 +1752,9 @@
       "Khu vực gần trước cổng KCN Tân Kim ( QL50)",
       "Khu vực từ Nhà hàng Hương Đồng đến Ngã Tư Gia Bảo",
       "Khu vực từ Trường Mẫu Giáo Phước Lại đến trạm cấp nước Phước Lại (ĐT.826C)",
-      "Khu vực đường Đê Bao Long Bào"
+      "Khu vực đường Đê Bao Long Bào",
+      "Khu vực từ trạm 110kV Cần Giuộc (QL50) đến Ngã tư Gia Bảo (Đ.T835) đến Vòng Xoay Tân Kim( Đường Tránh QL50 ) đến Trường Tiểu Học Tân Kim đến KCN Tân Kim Mở Rộng",
+      "Khu vực từ Ngã tư Gia Bảo đến Ngã Tư Xoài Đôi( ĐT.835): thuộc ấp Thanh Ba"
     ]
   },
   "TN-MYLOC": {
@@ -2489,7 +2495,9 @@
       "Long Thanh cũ)",
       "1 phần",
       "ĐT 835 đoạn từ Cống Long Hòa đến Ngã 4 Xoài Đôi (Ấp Đồng Tâm",
-      "Minh Thiện cũ)"
+      "Minh Thiện cũ)",
+      "Ấp Long Trạch",
+      "ĐT 827D (Khu vực từ ngã 4 Ngân Hàng đến chùa Long Nghĩa) thuộc ấp Long Hòa"
     ]
   },
   "TN-LONGCANG": {
@@ -2850,7 +2858,9 @@
       "Khu vực từ Kênh Cả Tôm đến Kênh 6 Cục cặp Kênh Bắc Đông: ấp Thuỷ Tây",
       "Khu vực từ Kênh Năm Dề đến Kênh Tư Song cặp Kênh Bắc Đông: ấp Thuỷ Tây",
       "Khu vực từ cống Sân Bay đến Ngã 3 Tuyên Nhơn",
-      "đường tỉnh 836- ấp Bún Bà Của"
+      "đường tỉnh 836- ấp Bún Bà Của",
+      "Khu vực Đường Lê Duẩn",
+      "Khu dân cư Nội ô- ấp Tuyên Nhơn"
     ]
   },
   "TN-TUYENBINH": {
@@ -3645,7 +3655,8 @@
       "7 cũ)",
       "Ấp 10 (ấp 18",
       "Ấp 20. 21 cũ)",
-      "Ấp 6 (ấp 11 cũ)"
+      "Ấp 6 (ấp 11 cũ)",
+      "Ấp 21 cũ)"
     ]
   },
   "TN-THANHPHUOC": {
@@ -4029,7 +4040,9 @@
       "Một phấn Ấp 1",
       "Đường Ấp 2",
       "Tỉnh lộ 834B",
-      "Ấp 3"
+      "Ấp 3",
+      "Đường TL834B",
+      "ẤP 5"
     ],
     "loai_don_vi": "Xã"
   },
@@ -4082,7 +4095,12 @@
       "Ấp Trạch Thuận",
       "Dọc đường tỉnh 835C",
       "Ấp Long Sơn",
-      "Ấp Trạch Thuận (ấp 13 cũ)"
+      "Ấp Trạch Thuận (ấp 13 cũ)",
+      "DT 830 đoạn từ Ngã 4 Chợ Đào đến Cầu Bà Tượng thuộc Ấp Chợ Mỹ",
+      "ĐT 830 đoạn từ Cầu Bà Tượng đến Ngã 3 Năm Ảnh",
+      "ĐH17 đoạn từ Ngã 3 Năm Ảnh đến Bến Đò Long Sơn cũ thuộc ấp Long Sơn",
+      "ấp Ông Mộc",
+      "ĐT 827D Khu vực nhà chú Tư Định thuộc ấp Trạch Định"
     ],
     "loai_don_vi": "Xã"
   },
@@ -5355,6 +5373,42 @@
     "ma_dien_luc": "PB0614",
     "khu_pho": [
       "Đường Trần Văn Giàu (đoạn từ Chợ Cầu Đồn đến Ủy ban"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-ANBINH": {
+    "ten_phuong": "An Bình",
+    "ten_huyen": "Tân An",
+    "ma_dien_luc": "PB0601",
+    "khu_pho": [
+      "Khu vực dọc QL 1A đoạn từ Bến xe Long An đến Cầu Tân Hương thuộc các"
+    ],
+    "loai_don_vi": "Phường"
+  },
+  "TN-LONGANTUBENXELONGANDENKIEMLAMDUONGHOANGHOATHAM": {
+    "ten_phuong": "Long An từ bến xe Long An đến Kiểm Lâm đường hoàng Hòa thám",
+    "ten_huyen": "Tân An",
+    "ma_dien_luc": "PB0601",
+    "khu_pho": [
+      "Một phần"
+    ],
+    "loai_don_vi": "Phường"
+  },
+  "TN-TANXUAN2": {
+    "ten_phuong": "Tân Xuân 2",
+    "ten_huyen": "Tân An",
+    "ma_dien_luc": "PB0601",
+    "khu_pho": [
+      "Dọc QL 62 đoạn từ Bưu điện Long An đến Ngã tư Mỹ Phú thuộc các"
+    ],
+    "loai_don_vi": "Phường"
+  },
+  "TN-LONGHOACUTHUOCAPLONGHOAXARACHKIEN": {
+    "ten_phuong": "Long Hòa cũ) thuộc ấp Long Hòa xã Rạch Kiến",
+    "ten_huyen": "Cần Đước",
+    "ma_dien_luc": "PB0607",
+    "khu_pho": [
+      "ĐT 827D (Khu vực từ ngã 4 Ngân Hàng đến UB"
     ],
     "loai_don_vi": "Xã"
   }
