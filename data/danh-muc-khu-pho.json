@@ -1140,7 +1140,9 @@
       "đường Quốc Lộ 1A",
       "Trà Quý Bình",
       "Đường Huỳnh Văn Gấm Đường Huỳnh Việt Thanh",
-      "từ đầu đường quốc lộ 62 đến đầu đường Huỳnh Văn Gấm"
+      "từ đầu đường quốc lộ 62 đến đầu đường Huỳnh Văn Gấm",
+      "Đường Huỳnh Hữu Thống",
+      "Đoàn Nghệ thuật cải lương Vàm Cỏ - 398A Quốc lộ 1"
     ]
   },
   "TN-MYTHANH": {
@@ -1376,7 +1378,8 @@
       "1p Ấp 4",
       "âp 5",
       "Ấp Hậu Hòa",
-      "1p Ấp Nhơn Hòa 1"
+      "1p Ấp Nhơn Hòa 1",
+      "Ấp Nhơn Hòa"
     ]
   },
   "TN-DUCHOA": {
@@ -2187,7 +2190,8 @@
       "Trạm Chiếu sáng 1 ĐT 830",
       "Trạm Chiếu sáng 2 ĐT 830",
       "Trạm Chiếu sáng 3 ĐT 830",
-      "Trạm Chiếu sáng 4 ĐT 830"
+      "Trạm Chiếu sáng 4 ĐT 830",
+      "1 phần ấp 6 An Thạnh"
     ]
   },
   "TN-LUONGHOA": {
@@ -2860,7 +2864,9 @@
       "Khu vực từ cống Sân Bay đến Ngã 3 Tuyên Nhơn",
       "đường tỉnh 836- ấp Bún Bà Của",
       "Khu vực Đường Lê Duẩn",
-      "Khu dân cư Nội ô- ấp Tuyên Nhơn"
+      "Khu dân cư Nội ô- ấp Tuyên Nhơn",
+      "Khu vực từ Ngã 3 Tuyên Nhơn đến Cầu Kênh 1",
+      "Quốc lộ 62 - ấp Bún Bà Của"
     ]
   },
   "TN-TUYENBINH": {
@@ -2931,7 +2937,8 @@
       "đường Long Khốt",
       "Đường Rạch Cà Na (đoạn trong Cầu Rạch Cà Na) - ấp Vĩnh Thuận",
       "Ấp Chiến Thắng (cặp Kênh 28",
-      "Ấp đối diện Nghĩa trang)"
+      "Ấp đối diện Nghĩa trang)",
+      "Đường Tỉnh 831 gần cầu N1"
     ]
   },
   "TN-KHANHHUNG": {
@@ -3882,7 +3889,10 @@
       "Đường kênh Chiến đấu",
       "khu vực Nhà bia Chợ Ông Bái",
       "Đường Kênh T.1 (đoạn từ Trường Mẫu Giáo đến đầu đường Kênh Bảy An ) ấp Long Trường",
-      ": Đường Trần Văn Giàu (đoạn từ Ngã Ba Huyện củ đến Cống Cầu Đồn)"
+      ": Đường Trần Văn Giàu (đoạn từ Ngã Ba Huyện củ đến Cống Cầu Đồn)",
+      "Đường Kênh T2 (đoạn từ Cửa hàng Vật tư nông nghiệp Năm Còn đến giáp Tỉnh lộ 879D (tỉnh Đồng Tháp))",
+      "T2 (đoạn từ Cửa hàng Vật tư nông nghiệp Năm Còn",
+      "đồn 93 đến giáp Tỉnh lộ 879D (tỉnh Đồng Tháp))"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -4712,7 +4722,8 @@
     "ten_huyen": "Tân An",
     "ma_dien_luc": "PB0601",
     "khu_pho": [
-      "Khu dân cư"
+      "Khu dân cư",
+      "KDC"
     ],
     "loai_don_vi": "Phường"
   },
