@@ -1769,7 +1769,8 @@
       "Khu vực từ Cổng Đình Chánh đến Đầu đường Xóm Lá( đường ĐT.826C) vào đường Long Hậu Tân Kim (200 mét)",
       "Khu vực từ đầu đường Xóm Lá đến Tiệm tạp hóa Xuân Thành( đường ĐT.826C)",
       "Khu vực từ Tiệm tạp hóa Xuân Thành đến Phòng khám bệnh Nội Tổng Quá và Chuẩn đoán Y Khoa Sài Gòn( đường ĐT.826C)",
-      "Khu vực từ Phòng khám bệnh Nội Tổng Quá và Chuẩn đoán Y Khoa Sài Gòn đến Cửa hàng Áo Cưới Anh Em( đường ĐT.826C)"
+      "Khu vực từ Phòng khám bệnh Nội Tổng Quá và Chuẩn đoán Y Khoa Sài Gòn đến Cửa hàng Áo Cưới Anh Em( đường ĐT.826C)",
+      "Khu vực KDC Thái Sơn ( giáp Ranh KCN Long Hậu 3)"
     ]
   },
   "TN-MYLOC": {
@@ -2097,7 +2098,8 @@
       "ấp Bình Hòa Tây 1",
       "Đường Thạnh Trị - Lâm Trường",
       "Đường Kinh Đòn Dông",
-      "ấp Gò Dưa"
+      "ấp Gò Dưa",
+      "Đường QL 62 đoạn Cầu Mộc Hóa đến Ngã 4 Bình Hiệp"
     ]
   },
   "TN-BINHPHONGTHANH": {
@@ -3122,7 +3124,9 @@
       "- Khu vực cặp bờ Đông và bờ Tây Kênh Ngang: Đoạn từ nhà Chú Hai Nguyễn đến nhà Chú Sáu Bé. Ấp Võ Văn Be",
       "- Khu vực cặp bờ Đông và bờ Tây Kênh Ngang: Đoạn từ nhà Chú Hai On đến khu vực gần cầu 7 Thước. Ấp Võ Văn Be",
       "- Khu vực cặp kênh 79: Đoạn từ nhà Chú Nô đến hết tuyến dân cư Ấp Cà Dăm cũ. ấp Vĩnh Ân",
-      "Vàm Gừa"
+      "Vàm Gừa",
+      "Khu vực Đường tỉnh 837B: từ nhà cô Nguyễn Thị Nhành đến nhà chú Ngô Văn Hùng",
+      "ấp Vĩnh Bửu"
     ]
   },
   "TN-CHAU": {
@@ -3612,7 +3616,9 @@
       "ấp Bàu Mua",
       "Đường Tuyên Thạnh - Thạnh Hưng",
       "đoạn Trường Cấp 2 Tuyên Thạnh",
-      "ấp Bắc Chan"
+      "ấp Bắc Chan",
+      "Hộ Nguyễn Văn Biển",
+      "Hộ UBND"
     ]
   },
   "TN-CANDUOC": {
@@ -3915,7 +3921,9 @@
       ": Đường Trần Văn Giàu (đoạn từ Ngã Ba Huyện củ đến Cống Cầu Đồn)",
       "Đường Kênh T2 (đoạn từ Cửa hàng Vật tư nông nghiệp Năm Còn đến giáp Tỉnh lộ 879D (tỉnh Đồng Tháp))",
       "T2 (đoạn từ Cửa hàng Vật tư nông nghiệp Năm Còn",
-      "đồn 93 đến giáp Tỉnh lộ 879D (tỉnh Đồng Tháp))"
+      "đồn 93 đến giáp Tỉnh lộ 879D (tỉnh Đồng Tháp))",
+      "Đường đan (khu vực Cầu 5 Lập đến Đài Nước)",
+      "ấp Sông Tân"
     ]
   },
   "TN-NINHTHANH-2": {
@@ -3964,7 +3972,8 @@
       "Khu Phố Thanh Hùng",
       "Khu Phố Thanh Sơn",
       "Khu Phố Thanh Thuận",
-      "Tổ 9 khu phố Thanh Thuận"
+      "Tổ 9 khu phố Thanh Thuận",
+      "Khu Phố Thanh Thuận (trừ tổ 9)"
     ],
     "loai_don_vi": "Phường"
   },
@@ -5456,5 +5465,16 @@
       "Đường đối điện UB"
     ],
     "loai_don_vi": "Xã"
+  },
+  "TN-LA": {
+    "ten_phuong": "LA",
+    "ten_huyen": "Tân An",
+    "ma_dien_luc": "PB0601",
+    "khu_pho": [
+      "Đường Nguyễn Thị Hạnh",
+      "hẻm 36",
+      "hẻm 29 đường Nguyễn Thị Hạnh"
+    ],
+    "loai_don_vi": "Phường"
   }
 }
