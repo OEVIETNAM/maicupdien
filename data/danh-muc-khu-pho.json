@@ -726,7 +726,8 @@
       "Ấp Thanh An",
       "Ấp Dinh",
       "Ấp Thanh Tân",
-      "ấp Thanh Hòa"
+      "ấp Thanh Hòa",
+      "Ấp Gó Đá"
     ],
     "loai_don_vi": ""
   },
@@ -937,7 +938,8 @@
       "Khu Phố Bình An 1",
       "Đường Trần Văn Hý",
       "khu phố Bình Đông 2",
-      "Đường Nguyễn Văn Trưng"
+      "Đường Nguyễn Văn Trưng",
+      "Toàn bộ đường Châu Văn Bảy"
     ]
   },
   "TN-KHANHHAU": {
@@ -1757,7 +1759,17 @@
       "Khu vực từ Trường Mẫu Giáo Phước Lại đến trạm cấp nước Phước Lại (ĐT.826C)",
       "Khu vực đường Đê Bao Long Bào",
       "Khu vực từ trạm 110kV Cần Giuộc (QL50) đến Ngã tư Gia Bảo (Đ.T835) đến Vòng Xoay Tân Kim( Đường Tránh QL50 ) đến Trường Tiểu Học Tân Kim đến KCN Tân Kim Mở Rộng",
-      "Khu vực từ Ngã tư Gia Bảo đến Ngã Tư Xoài Đôi( ĐT.835): thuộc ấp Thanh Ba"
+      "Khu vực từ Ngã tư Gia Bảo đến Ngã Tư Xoài Đôi( ĐT.835): thuộc ấp Thanh Ba",
+      "Khu vực từ Nhà thuốc Nguyễn Hiền đến trụ Ấp Văn Hóa Phước Thới ( đường ĐT.826C)",
+      "Khu vực từ trụ sở Ấp Văn Hóa Phước Thới đến đầu Đường Đê Ông Sâu ( đường ĐT.826C)",
+      "Khu vực từ đầu Đường Đê Ông Sâu đến Cầu Rạch Dừa ( đường ĐT.826C)",
+      "Khu vực từ Cầu Rạch Dừa đến đầu đường Ấp 1 Long Hậu( đường ĐT.826C)",
+      "Khu vực từ đầu đường Ấp 1 Long Hậu đến gần Trại Hòm Thành Mun( đường ĐT.826C)",
+      "Khu vực gầnTrại Hòm Thành Mun đến Cổng Đình Chánh( đường ĐT.826C)",
+      "Khu vực từ Cổng Đình Chánh đến Đầu đường Xóm Lá( đường ĐT.826C) vào đường Long Hậu Tân Kim (200 mét)",
+      "Khu vực từ đầu đường Xóm Lá đến Tiệm tạp hóa Xuân Thành( đường ĐT.826C)",
+      "Khu vực từ Tiệm tạp hóa Xuân Thành đến Phòng khám bệnh Nội Tổng Quá và Chuẩn đoán Y Khoa Sài Gòn( đường ĐT.826C)",
+      "Khu vực từ Phòng khám bệnh Nội Tổng Quá và Chuẩn đoán Y Khoa Sài Gòn đến Cửa hàng Áo Cưới Anh Em( đường ĐT.826C)"
     ]
   },
   "TN-MYLOC": {
@@ -1840,7 +1852,9 @@
       "Khu vực đối diện đường Phước Lâm Trường Bình",
       "Khu vực đường Đoàn Văn Diệu ( Tư Nhựt)",
       "thuộc ấp Lộc Tiền",
-      "Khu vực trên đường Nguyễn Thị Sáng"
+      "Khu vực trên đường Nguyễn Thị Sáng",
+      "Khu vực trên đường Phước Lâm-Mỹ Lộc ( gần Trường Mẫu Giáo Trường Bình)",
+      "thuộc ấp Kê Mỹ"
     ]
   },
   "TN-PHUOCVINHTAY": {
@@ -1875,7 +1889,8 @@
       "Khu vực từ đầu đường Kênh Đại Hội (QL.50) đến đầu đường Nguyễn Thị Bài",
       "thuộc ấp Long An 2",
       "Khu vực từ Trạm 110kV Tân Tập đến Ngã Tư Chợ Trạm ( Đường ĐT.830)",
-      "thuộc ấp Tây Phú"
+      "thuộc ấp Tây Phú",
+      "Khu vực trên đường Đê Ấp 3A ( gần Đình Thiếc)"
     ]
   },
   "TN-MOCHOA": {
@@ -2026,7 +2041,9 @@
       "Khu phố 1",
       "Đường 30/4 đoạn từ Bưu Điện đến Điện lực Kiến Tường",
       "Đường 30/4",
-      "đường Hùng Vương"
+      "đường Hùng Vương",
+      "Khu Phố 1 và Khu Phố 4",
+      "Đường QL 62 đoàn từ Quán Tứ Diễm  đến Cầu Mộc Hóa"
     ]
   },
   "TN-BINHHIEP": {
@@ -2817,7 +2834,9 @@
       "đến khu Nhà Trọ Minh Thơ",
       "Đường Lộc Thuận đầu đường Lộc Thuận đến cuối đường Ấp Văn Hóa Lộc Thuận đến",
       "Ấp Lộc Thuận",
-      "Đường tỉnh 825 từ Chùa Phước Lộc đến khu vực Chùa Thiên Phước một phần khu vực ấp Lộc Bình"
+      "Đường tỉnh 825 từ Chùa Phước Lộc đến khu vực Chùa Thiên Phước một phần khu vực ấp Lộc Bình",
+      "Đường An Hưng từ Miếu tiên sư nhà Vuông Ấp An Hưng",
+      "vô xóm hầm đất"
     ]
   },
   "TN-BINHTHANH": {
@@ -2866,7 +2885,9 @@
       "Khu vực Đường Lê Duẩn",
       "Khu dân cư Nội ô- ấp Tuyên Nhơn",
       "Khu vực từ Ngã 3 Tuyên Nhơn đến Cầu Kênh 1",
-      "Quốc lộ 62 - ấp Bún Bà Của"
+      "Quốc lộ 62 - ấp Bún Bà Của",
+      "Khu vực từ cầu Kênh 1 đến Cầu Cái Tôm",
+      "Quốc lộ 62 - ấp Thuỷ Tây"
     ]
   },
   "TN-TUYENBINH": {
@@ -2900,7 +2921,8 @@
       "Lộ Bắc Chiên Cả Bản (gần cầu Kênh Bàu Lau)",
       "Đường Kênh Rạch Bay đá (gần cầu bê tông)",
       "Đường bắc Sông Vàm Cỏ Tây (từ qua cầu Kênh Liên kết đến CDC Tuyên Bình Tây và đường Kênh Đầu Sấu ấp Cả Rưng",
-      "Đường 831 gần cầu Bình Châu"
+      "Đường 831 gần cầu Bình Châu",
+      "Cặp Kênh Đầu Sấu - ấp Cả Rưng"
     ]
   },
   "TN-VINHHUNG": {
@@ -3171,7 +3193,8 @@
       "đường 30/4",
       "khuvực từ Công Cầu Vàm đến Công Eo Đéc",
       "Đường Chùa Thanh Ninh",
-      "Đường 30/4 (đoạn vành đai từ Cầu Tầm Vu 2 đến Cầu Tầm Vu 3) ấp Bình Lục"
+      "Đường 30/4 (đoạn vành đai từ Cầu Tầm Vu 2 đến Cầu Tầm Vu 3) ấp Bình Lục",
+      "Hộ Cơ sở Thu mua thanh long Tài Huy"
     ]
   },
   "TN-THUANMY": {
@@ -3940,7 +3963,8 @@
       "Khu Phố Thanh Phước (trừ tổ 25)",
       "Khu Phố Thanh Hùng",
       "Khu Phố Thanh Sơn",
-      "Khu Phố Thanh Thuận"
+      "Khu Phố Thanh Thuận",
+      "Tổ 9 khu phố Thanh Thuận"
     ],
     "loai_don_vi": "Phường"
   },
@@ -4914,7 +4938,8 @@
     "ten_huyen": "Cần Đước",
     "ma_dien_luc": "PB0607",
     "khu_pho": [
-      "- ĐT 827D đoạn từ trạm điện 220 KV Cần Đước đến UB"
+      "- ĐT 827D đoạn từ trạm điện 220 KV Cần Đước đến UB",
+      "- ĐT 827D đoạn từ Trạm điện 220/110KC Cần Đước 2 đến UB"
     ],
     "loai_don_vi": "Xã"
   },
@@ -5420,6 +5445,15 @@
     "ma_dien_luc": "PB0607",
     "khu_pho": [
       "ĐT 827D (Khu vực từ ngã 4 Ngân Hàng đến UB"
+    ],
+    "loai_don_vi": "Xã"
+  },
+  "TN-ANNINHTUDAUTRUONGMAMNONDIVOXOM": {
+    "ten_phuong": "An Ninh từ đầu trường mầm non đi vô xóm",
+    "ten_huyen": "Đức Huệ",
+    "ma_dien_luc": "PB0610",
+    "khu_pho": [
+      "Đường đối điện UB"
     ],
     "loai_don_vi": "Xã"
   }
